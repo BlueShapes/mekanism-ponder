@@ -1,0 +1,188 @@
+{
+  "baseline": "993ed06",
+  "passed": true,
+  "locales": {
+    "ja_jp": {
+      "keys": 199,
+      "changedStrings": 164,
+      "removedFullStops": 292,
+      "retainedCommas": 121,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "en_us": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 305,
+      "retainedCommas": 75,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "hi_in": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 334,
+      "retainedCommas": 56,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "zh_hk": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 308,
+      "retainedCommas": 114,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "zh_tw": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 304,
+      "retainedCommas": 115,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "zh_cn": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 304,
+      "retainedCommas": 115,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "ru_ru": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 327,
+      "retainedCommas": 99,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "pt_br": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 328,
+      "retainedCommas": 66,
+      "retainedDots": 4,
+      "retainedContinuationMarks": 0
+    },
+    "pt_pt": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 324,
+      "retainedCommas": 74,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "es_es": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 327,
+      "retainedCommas": 72,
+      "retainedDots": 4,
+      "retainedContinuationMarks": 0
+    },
+    "fr_fr": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 329,
+      "retainedCommas": 70,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "de_de": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 331,
+      "retainedCommas": 72,
+      "retainedDots": 4,
+      "retainedContinuationMarks": 0
+    },
+    "cs_cz": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 319,
+      "retainedCommas": 78,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "pl_pl": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 316,
+      "retainedCommas": 108,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "ms_my": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 365,
+      "retainedCommas": 76,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "ro_ro": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 318,
+      "retainedCommas": 81,
+      "retainedDots": 4,
+      "retainedContinuationMarks": 0
+    },
+    "ar_sa": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 347,
+      "retainedCommas": 48,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "id_id": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 306,
+      "retainedCommas": 105,
+      "retainedDots": 4,
+      "retainedContinuationMarks": 0
+    },
+    "ko_kr": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 308,
+      "retainedCommas": 59,
+      "retainedDots": 2,
+      "retainedContinuationMarks": 0
+    },
+    "vi_vn": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 307,
+      "retainedCommas": 71,
+      "retainedDots": 4,
+      "retainedContinuationMarks": 0
+    },
+    "tr_tr": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 315,
+      "retainedCommas": 58,
+      "retainedDots": 4,
+      "retainedContinuationMarks": 0
+    },
+    "it_it": {
+      "keys": 199,
+      "changedStrings": 161,
+      "removedFullStops": 326,
+      "retainedCommas": 66,
+      "retainedDots": 4,
+      "retainedContinuationMarks": 0
+    }
+  },
+  "allowedChanges": [
+    "ordinary full stops removed",
+    "tooltip sentence boundaries authored as LF",
+    "unused button label removed",
+    "world-required key renamed to command"
+  ]
+}

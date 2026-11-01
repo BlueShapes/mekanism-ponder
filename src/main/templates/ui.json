@@ -1,0 +1,74 @@
+{
+  "mekanismponder.title": {
+    "ja": "Mekanism Ponder Guide",
+    "en": "Mekanism Ponder Guide"
+  },
+  "mekanismponder.tooltip.hold_for_description": {
+    "ja": "%s を押すと説明を表示します",
+    "en": "Hold %s for a description"
+  },
+  "mekanismponder.command.unknown": {
+    "ja": "教材「%s」が見つかりません",
+    "en": "Unknown lesson: %s"
+  },
+  "mekanismponder.ponder.tag.start": {
+    "ja": "はじめに",
+    "en": "Getting Started"
+  },
+  "mekanismponder.ponder.tag.start.description": {
+    "ja": "電力と最初の材料を準備する工程です",
+    "en": "Power and the first materials"
+  },
+  "mekanismponder.ponder.tag.transport": {
+    "ja": "輸送と側面設定",
+    "en": "Transport"
+  },
+  "mekanismponder.ponder.tag.transport.description": {
+    "ja": "アイテム・液体・化学物質の経路を作ります",
+    "en": "Routes for items, fluids and chemicals"
+  },
+  "mekanismponder.ponder.tag.processing": {
+    "ja": "鉱石と工場",
+    "en": "Processing"
+  },
+  "mekanismponder.ponder.tag.processing.description": {
+    "ja": "鉱石と原鉱の収量、工場化を学びます",
+    "en": "Ore and raw ore yields, and parallel processing in factories"
+  },
+  "mekanismponder.ponder.tag.chemistry": {
+    "ja": "化学処理",
+    "en": "Chemistry"
+  },
+  "mekanismponder.ponder.tag.chemistry.description": {
+    "ja": "電気分解・蒸発濃縮・化学反応をつなぎます",
+    "en": "Electrolysis, evaporation and chemical reactions"
+  },
+  "mekanismponder.ponder.tag.advanced": {
+    "ja": "高度な設備",
+    "en": "Advanced Systems"
+  },
+  "mekanismponder.ponder.tag.advanced.description": {
+    "ja": "大容量蓄電・採掘・QIO・転送を学びます",
+    "en": "Energy storage, mining, QIO and teleportation"
+  },
+  "mekanismponder.ponder.tag.troubleshooting": {
+    "ja": "困ったときは",
+    "en": "Troubleshooting"
+  },
+  "mekanismponder.ponder.tag.troubleshooting.description": {
+    "ja": "電力不足や化学処理の詰まりを切り分けます",
+    "en": "Power shortages and stalled chemical processing"
+  },
+  "mekanismponder.command.unknown_chapter": {
+    "ja": "章「%s」が見つかりません",
+    "en": "Unknown chapter: %s"
+  },
+  "mekanismponder.command.unknown_item": {
+    "ja": "アイテム「%s」に関連する教材が見つかりません",
+    "en": "No lessons found for item: %s"
+  },
+  "mekanismponder.command.requires_world": {
+    "ja": "ワールドに入ってから教材を開いてください",
+    "en": "Enter a world to open the guide"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "source_hash": "db7114edc76fe33908e54eeb0a430457934863bc3ac28f33b0b7d784b7c76166",
+  "policy": "Shared requirements 19, 20, 66 and 67; each newline is an author-reviewed display boundary.",
+  "reviewed_captions_per_locale": {
+    "ru_ru": 113,
+    "cs_cz": 113,
+    "pl_pl": 113,
+    "ms_my": 113,
+    "ro_ro": 113,
+    "ar_sa": 113,
+    "tr_tr": 113
+  },
+  "method": "Read every existing caption against the revised Japanese/English source, preserve each factual condition and quantity, choose full-sentence units, rewrite long clauses instead of font-based fragments.",
+  "continuations": [],
+  "continuation_rationale": "No continuation is necessary in these locales after rewriting. Names and proposed translations use separate complete explanatory sentences where long parenthetical aliases previously bloated a sentence.",
+  "examples": [
+    {
+      "locale": "ru_ru",
+      "key": "mekanismponder.ponder.shared.power_2",
+      "before": "Подключите Универсальный кабель и задайте выходной режим грани куба в настройке сторон. Это также можно сделать Конфигуратором в режиме энергии.",
+      "after": "Подключите Универсальный кабель.\nЗадайте грани куба режим «Выход» в настройке сторон.\nМожно настроить её Конфигуратором в режиме энергии."
+    },
+    {
+      "locale": "ru_ru",
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_0",
+      "before": "Камера химической инъекции использует хлороводород и энергию, чтобы получить четыре железных осколка из одного блока железной руды.",
+      "after": "Подайте хлороводород и энергию в Камеру химической инъекции.\nОдин блок железной руды даёт четыре железных осколка."
+    },
+    {
+      "locale": "ru_ru",
+      "key": "mekanismponder.ponder.shared.diagnose_processing_2",
+      "before": "Химический кристаллизатор обрабатывает шлам партиями по 200 мБ. Частичные объёмы в разных машинах могут не обработаться, даже если их сумма достаточна.",
+      "after": "Химический кристаллизатор обрабатывает шлам партиями по 200 мБ.\nНеполные партии в разных машинах могут остановить обработку.\nДостаточная общая сумма не гарантирует полной партии в каждой машине."
+    },
+    {
+      "locale": "cs_cz",
+      "key": "mekanismponder.ponder.shared.power_2",
+      "before": "Připojte Univerzální Kabel a v konfiguraci stran nastavte stranu kostky na výstup. Můžete také použít Konfigurátor v režimu energie.",
+      "after": "Připojte Univerzální Kabel.\nV konfiguraci stran nastavte stranu kostky na Výstup.\nLze ji nastavit také Konfigurátorem v režimu energie."
+    },
+    {
+      "locale": "cs_cz",
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_0",
+      "before": "Chemická Vstřikovací Komora používá chlorovodík a energii a z jednoho bloku železné rudy vyrobí čtyři Iron Shards (navržený překlad: železné úlomky).",
+      "after": "Chemické Vstřikovací Komoře dodávejte chlorovodík a energii.\nZ jednoho bloku železné rudy vytvoří čtyři Iron Shards.\nNavržený překlad názvu je „železné úlomky“."
+    },
+    {
+      "locale": "cs_cz",
+      "key": "mekanismponder.ponder.shared.diagnose_processing_2",
+      "before": "Chemický Krystalizér zpracovává kal v dávkách po 200 mB. Částečná množství rozdělená mezi stroje se nemusí zpracovat, i když jejich součet stačí.",
+      "after": "Chemický Krystalizér zpracovává kal v dávkách po 200 mB.\nNeúplné dávky rozdělené mezi stroje mohou zastavit zpracování.\nDostatečný součet nezaručuje plnou dávku v každém stroji."
+    },
+    {
+      "locale": "pl_pl",
+      "key": "mekanismponder.ponder.shared.power_2",
+      "before": "Podłącz Uniwersalny kabel i ustaw stronę kostki jako wyjściową w konfiguracji stron. Możesz też użyć Konfiguratora w trybie energii.",
+      "after": "Podłącz Uniwersalny kabel.\nW konfiguracji stron ustaw stronę kostki jako Wyjście.\nMożesz też ustawić ją Konfiguratorem w trybie energii."
+    },
+    {
+      "locale": "pl_pl",
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_0",
+      "before": "Komora wtrysku chemicznego używa chlorowodoru i energii, aby uzyskać cztery odłamki żelaza z jednego bloku rudy żelaza.",
+      "after": "Dostarcz chlorowodór i energię do Komory wtrysku chemicznego.\nZ jednego bloku rudy żelaza uzyskasz cztery odłamki żelaza."
+    },
+    {
+      "locale": "pl_pl",
+      "key": "mekanismponder.ponder.shared.diagnose_processing_2",
+      "before": "Krystalizator chemiczny przetwarza szlam w partiach po 200 mB. Niepełne ilości rozdzielone między maszyny mogą nie zostać przetworzone, nawet jeśli ich suma wystarcza.",
+      "after": "Krystalizator chemiczny przetwarza szlam w partiach po 200 mB.\nNiepełne partie rozdzielone między maszyny mogą zatrzymać przetwarzanie.\nWystarczająca suma nie gwarantuje pełnej partii w każdej maszynie."
+    },
+    {
+      "locale": "ms_my",
+      "key": "mekanismponder.ponder.shared.power_2",
+      "before": "Sambungkan Universal Cable (cadangan terjemahan: Kabel Universal) dan tetapkan permukaan kiub kepada keluaran dalam konfigurasi sisi. Anda juga boleh menggunakan Configurator (cadangan terjemahan: Alat Konfigurasi) dalam mod tenaga.",
+      "after": "Sambungkan Universal Cable.\nNama cadangannya ialah Kabel Universal.\nDalam konfigurasi sisi, tetapkan permukaan kiub kepada Output.\nConfigurator juga boleh menetapkannya dalam mod tenaga.\nNama cadangan alat itu ialah Alat Konfigurasi."
+    },
+    {
+      "locale": "ms_my",
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_0",
+      "before": "Chemical Injection Chamber menggunakan hidrogen klorida dan kuasa untuk menghasilkan empat Iron Shards (cadangan terjemahan: Serpihan Besi) daripada satu blok bijih besi.",
+      "after": "Bekalkan hidrogen klorida dan kuasa ke Chemical Injection Chamber.\nSatu blok bijih besi menghasilkan empat Iron Shards.\nNama cadangan Iron Shards ialah Serpihan Besi."
+    },
+    {
+      "locale": "ms_my",
+      "key": "mekanismponder.ponder.shared.diagnose_processing_2",
+      "before": "Chemical Crystallizer memproses buburan dalam kelompok 200 mB. Jumlah separa yang tersangkut pada mesin berbeza mungkin tidak diproses walaupun jumlah keseluruhannya mencukupi.",
+      "after": "Chemical Crystallizer memproses buburan dalam kelompok 200 mB.\nKelompok separa yang terbahagi antara mesin boleh menghentikan pemprosesan.\nJumlah yang cukup tidak menjamin kelompok penuh bagi setiap mesin."
+    },
+    {
+      "locale": "ro_ro",
+      "key": "mekanismponder.ponder.shared.power_2",
+      "before": "Conectați un cablu universal și setați fața cubului ca ieșire în configurarea laterală. Puteți folosi și Configuratorul în modul energie.",
+      "after": "Conectați un cablu universal.\nÎn configurarea laterală, setați fața cubului ca ieșire.\nO puteți seta și cu Configuratorul în modul energie."
+    },
+    {
+      "locale": "ro_ro",
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_0",
+      "before": "Camera de Injecție Chimică folosește clorură de hidrogen și energie pentru a produce patru Fragmente de Fier dintr-un bloc de minereu de fier.",
+      "after": "Furnizați clorură de hidrogen și energie Camerei de Injecție Chimică.\nUn bloc de minereu de fier produce patru Fragmente de Fier."
+    },
+    {
+      "locale": "ro_ro",
+      "key": "mekanismponder.ponder.shared.diagnose_processing_2",
+      "before": "Cristalizatorul Chimic procesează nămolul în loturi de 200 mB. Cantitățile parțiale blocate în mașini diferite s-ar putea să nu fie procesate, chiar dacă suma lor este suficientă.",
+      "after": "Cristalizatorul Chimic procesează nămolul în loturi de 200 mB.\nLoturile parțiale împărțite între mașini pot opri procesarea.\nO sumă suficientă nu garantează un lot complet pentru fiecare mașină."
+    },
+    {
+      "locale": "ar_sa",
+      "key": "mekanismponder.ponder.shared.power_2",
+      "before": "وصلوا Universal Cable (ترجمة مقترحة: كابل عالمي) واضبطوا وجه المكعب على الإخراج من إعدادات الجوانب. يمكنكم أيضًا استخدام التكوين في وضع الطاقة.",
+      "after": "وصلوا Universal Cable.\nترجمته المقترحة هي «كابل عالمي».\nاضبطوا وجه المكعب على الإخراج من إعدادات الجوانب.\nيمكن للتكوين ضبط هذا الوجه أيضًا في وضع الطاقة."
+    },
+    {
+      "locale": "ar_sa",
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_0",
+      "before": "تستخدم غرفة الحقن الكيميائي كلوريد الهيدروجين والطاقة لإنتاج أربع Iron Shards (الاسم الرسمي: «قطعة حديدية»؛ شظايا الحديد) من كتلة واحدة من خام الحديد.",
+      "after": "زودوا غرفة الحقن الكيميائي بكلوريد الهيدروجين والطاقة.\nتنتج أربع Iron Shards من كتلة واحدة من خام الحديد.\nاسمها الرسمي «قطعة حديدية»، وهي شظايا الحديد."
+    },
+    {
+      "locale": "ar_sa",
+      "key": "mekanismponder.ponder.shared.diagnose_processing_2",
+      "before": "يعالج المبلور الكيميائي الحمأة على دفعات مقدارها 200 mB. قد لا تُعالج الكميات الجزئية الموزعة بين الآلات حتى لو كان مجموعها كافيًا.",
+      "after": "يعالج المبلور الكيميائي الحمأة على دفعات مقدارها 200 mB.\nقد توقف الدفعات الجزئية الموزعة بين الآلات المعالجة.\nالمجموع الكافي لا يضمن دفعة كاملة لكل آلة."
+    },
+    {
+      "locale": "tr_tr",
+      "key": "mekanismponder.ponder.shared.power_2",
+      "before": "Evrensel Kablo'yu bağlayıp yan yapılandırmasında küpün yüzünü çıkış olarak ayarlayın. Enerji modundaki Yapılandırıcı'yı da kullanabilirsiniz.",
+      "after": "Evrensel Kablo'yu bağlayın.\nYan yapılandırmasında küpün yüzünü Çıkış olarak ayarlayın.\nEnerji modundaki Yapılandırıcı da bu yüzü ayarlayabilir."
+    },
+    {
+      "locale": "tr_tr",
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_0",
+      "before": "Kimyasal Enjeksiyon Odası, bir demir cevheri bloğundan dört Demir Kesiti üretmek için hidrojen klorür ve güç kullanır.",
+      "after": "Kimyasal Enjeksiyon Odası'na hidrojen klorür ve güç sağlayın.\nBir demir cevheri bloğundan dört Demir Kesiti üretir."
+    },
+    {
+      "locale": "tr_tr",
+      "key": "mekanismponder.ponder.shared.diagnose_processing_2",
+      "before": "Kimyasal Kristalleştirici bulamacı 200 mB'lik partiler hâlinde işler. Miktarları makineler arasında bölmek, toplam yeterli olsa bile kısmi partileri işlenemez bırakabilir.",
+      "after": "Kimyasal Kristalleştirici bulamacı 200 mB'lik partiler hâlinde işler.\nMakineler arasında bölünmüş kısmi partiler işlemeyi durdurabilir.\nToplam miktarın yetmesi her makinede tam bir partiyi garanti etmez."
+    }
+  ],
+  "font_verification": "Pending primary agent real-font measurement at logical GUI sizes 320x240, 480x320 and 960x640; character length is not an acceptance criterion.",
+  "measured_font_corrections": {
+    "first_run": "180px real-font audit found 12 Russian and 2 Polish complete units over three lines; these units were rewritten as shorter complete sentences.",
+    "examples": [
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.infusion_2",
+        "before": "В настройке сторон для предметов красная пыль использует «Дополнительно», а железо — «Вход».",
+        "after": "В настройке сторон выберите предметы.\nДля красной пыли задайте «Дополнительно».\nДля железа задайте «Вход»."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.cables_3",
+        "before": "Прежде чем улучшать кабель, проверьте выходную грань источника и входную грань машины.",
+        "after": "Перед улучшением кабеля проверьте выход источника.\nПроверьте и входную грань машины."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.chemical_transport_3",
+        "before": "По порядку проверьте извлечение, выходную грань, сеть и заполненность приёмников.",
+        "after": "Сначала проверьте режим извлечения.\nЗатем проверьте выходную грань.\nДалее проверьте содержимое сети.\nНаконец проверьте, не заполнены ли приёмники."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.factories_3",
+        "before": "Проверьте, какие улучшения поддерживает машина, и настройте систему по индикатору энергии.",
+        "after": "Проверьте поддерживаемые машиной улучшения.\nНастройте систему по её индикатору энергии."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.evaporation_1",
+        "before": "Замкните боковые стены, заменив боковые блоки одним контроллером и необходимыми клапанами.",
+        "after": "Замкните боковые стены.\nЗамените боковые блоки одним контроллером и нужными клапанами."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.hydrogen_chloride_2",
+        "before": "Химический наполнитель объединяет его с хлором при наличии энергии, образуя хлороводород.",
+        "after": "Химический наполнитель соединяет водород с хлором.\nДля производства хлороводорода ему нужна энергия."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.sulfuric_acid_1",
+        "before": "Подайте диоксид серы и кислород в Химический наполнитель, чтобы получить триоксид серы.",
+        "after": "Подайте диоксид серы и кислород в Химический наполнитель.\nОн производит триоксид серы."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.ore_quintupling_3",
+        "before": "Передайте кристаллы в Камеру химической инъекции с хлороводородом, чтобы получить осколки.",
+        "after": "Подайте кристаллы в Камеру химической инъекции.\nДля получения осколков ей нужен хлороводород."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.crafting_3",
+        "before": "Расположение ингредиентов, изменение рецепта и заполненный выход могут остановить создание.",
+        "after": "Неверная раскладка ингредиентов может остановить создание.\nСмена рецепта и полный выход тоже могут его остановить."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.diagnose_power_0",
+        "before": "Если она не заряжается, проследите заряд источника, выходную грань и соединения кабелей.",
+        "after": "Если заряд не растёт, проверьте заряд источника.\nПроверьте его выходную грань и соединения кабелей."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.diagnose_power_3",
+        "before": "Заполненный выход или заблокированный побочный продукт тоже останавливают обработку.",
+        "after": "Полный выход может остановить обработку.\nЗаблокированный побочный продукт тоже может её остановить."
+      },
+      {
+        "locale": "ru_ru",
+        "key": "mekanismponder.ponder.shared.diagnose_processing_3",
+        "before": "Датчик выбрасывателя работает с содержимым через поддерживаемые шкалы интерфейса.",
+        "after": "Датчик выбрасывателя перемещает содержимое через шкалы GUI.\nИспользуйте только поддерживаемые шкалы."
+      },
+      {
+        "locale": "pl_pl",
+        "key": "mekanismponder.ponder.shared.factories_2",
+        "before": "Ulepszenia prędkości przyspieszają przetwarzanie, ale zwiększają zapotrzebowanie na energię.",
+        "after": "Ulepszenia prędkości przyspieszają przetwarzanie.\nZwiększają też pobór energii."
+      },
+      {
+        "locale": "pl_pl",
+        "key": "mekanismponder.ponder.shared.ore_quintupling_3",
+        "before": "Prześlij kryształy do Komory wtrysku chemicznego z chlorowodorem, aby uzyskać odłamki.",
+        "after": "Prześlij kryształy do Komory wtrysku chemicznego.\nDoprowadź chlorowodór, aby otrzymać odłamki."
+      }
+    ],
+    "accepted_after_retest": true,
+    "language_review": {
+      "status": "accepted",
+      "units_revised": 14,
+      "locales": {
+        "ru_ru": 12,
+        "pl_pl": 2
+      },
+      "scope": "Bounded review of the 14 measured-font corrections against the revised Japanese and English source; no repeat whole-locale review.",
+      "findings": [],
+      "notes": [
+        "All rewritten units remain grammatically complete and preserve source conditions, causal relationships and sequence.",
+        "Russian plural polite imperatives and Polish standard instructional imperatives remain consistent.",
+        "The four Russian chemical-transport checks explicitly retain extraction, output face, network contents and full receivers, in that order, before checking the selected chemical prior to dumping.",
+        "Russian Gauge Dropper name Датчик выбрасывателя exactly matches item.mekanism.gauge_dropper in pinned Mekanism 1.21.1-10.7.19.85 ru_ru resources; supported GUI gauges and irreversible dumping warnings remain.",
+        "Actual font and glyph acceptance remains pending the primary agent retest; this language review does not mark rendering as passed."
+      ]
+    }
+  },
+  "current_caption_metrics": {
+    "ru_ru": {
+      "content_file_sha256": "02384219c5052aa518df28db268ef1c9e4cf7b8228ffa5090deb24c443678268",
+      "caption_keys": 113,
+      "authored_units": 265,
+      "maximum_unit_characters": 85
+    },
+    "cs_cz": {
+      "content_file_sha256": "aeaeb632f6d0de83ffb24054f9301783f536432fe07c00ac25039a7b52911235",
+      "caption_keys": 113,
+      "authored_units": 257,
+      "maximum_unit_characters": 90
+    },
+    "pl_pl": {
+      "content_file_sha256": "8bdda99d2346050d9b95be6d570a9a96f7c5a02f1fbf801432202a39517fd70a",
+      "caption_keys": 113,
+      "authored_units": 254,
+      "maximum_unit_characters": 91
+    },
+    "ms_my": {
+      "content_file_sha256": "158277cd7d7e573fa0c06d53c986d4afb92b1debb692695b232e9466f39a4343",
+      "caption_keys": 113,
+      "authored_units": 303,
+      "maximum_unit_characters": 91
+    },
+    "ro_ro": {
+      "content_file_sha256": "c9de04384703e4a0dc6c23aebbb62fc2d97a5415ae8ce0c31806ca935d6d8ab3",
+      "caption_keys": 113,
+      "authored_units": 256,
+      "maximum_unit_characters": 91
+    },
+    "ar_sa": {
+      "content_file_sha256": "e13473021ad5ee3581d4e550914777eb5404bb073beeb859268c5d4fb89436a8",
+      "caption_keys": 113,
+      "authored_units": 285,
+      "maximum_unit_characters": 81
+    },
+    "tr_tr": {
+      "content_file_sha256": "adbec5ec3085690592542cc2053c06ff867a62c2dd0c5b1f1547bc25f0097036",
+      "caption_keys": 113,
+      "authored_units": 253,
+      "maximum_unit_characters": 89
+    }
+  },
+  "second_font_corrections": {
+    "evidence": ".work/caption-font-issues-second.json",
+    "reason": "Real-font audit found one remaining four-line Polish tier sentence and one Turkish routing-failure sentence.",
+    "examples": [
+      {
+        "locale": "pl_pl",
+        "key": "mekanismponder.ponder.shared.factories_1",
+        "before": "Poziomy Podstawowy, Zaawansowany, Elitarny i Ostateczny zwiększają równoległość.\nSprawdź automatyczne sortowanie składników między slotami.",
+        "after": "Poziom Podstawowy poprzedza Zaawansowany.\nPotem są Elitarny i Ostateczny, w tej kolejności.\nKażdy kolejny poziom zwiększa równoległość.\nSprawdź automatyczne sortowanie składników między slotami."
+      },
+      {
+        "locale": "tr_tr",
+        "key": "mekanismponder.ponder.shared.item_transport_3",
+        "before": "Geçersiz malzemeler, dolu envanterler ve renk uyuşmazlıkları yönlendirmeyi durdurabilir.\nÖnce tek parçalı basit bir yolu deneyin.",
+        "after": "Geçersiz malzemeler yönlendirmeyi durdurabilir.\nDolu envanterler de yönlendirmeyi durdurabilir.\nRenk uyuşmazlıkları da yönlendirmeyi durdurabilir.\nÖnce tek parçalı basit bir yolu deneyin."
+      }
+    ],
+    "meaning_review": "Polish keeps Basic → Advanced → Elite → Ultimate and increasing parallelism at every tier. Turkish preserves invalid ingredients, full inventories and color mismatches as independent possible routing stops; the simple-path test remains.",
+    "accepted_after_retest": true,
+    "language_review": "Accepted as short complete sentences, with no continuation or omitted condition."
+  },
+  "final_font_acceptance": {
+    "passed": true,
+    "all_locales": 22,
+    "all_authored_units": 5677,
+    "caption_width": 180,
+    "gui_widths": [
+      320,
+      480,
+      960
+    ],
+    "maximum_lines": 3,
+    "evidence": "validation-summary.json",
+    "note": "Current acceptance supersedes pending-font status in the earlier authoring/revision notes."
+  }
+}

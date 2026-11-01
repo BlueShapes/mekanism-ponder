@@ -1,0 +1,55 @@
+{
+  "deployed_at_jst": "2026-10-23T13:25:12.654687+09:00",
+  "instance": "~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test",
+  "mods_directory": "~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test\\minecraft\\mods",
+  "components": {
+    "org.lwjgl3": "3.3.3",
+    "net.minecraft": "1.21.1",
+    "net.neoforged": "21.1.262"
+  },
+  "guide": {
+    "file": "mekanism-ponder-guide-0.1.5-neoforge-1.21.1.jar",
+    "mod_id": "mekanismponder",
+    "sha256": "9ad4dc371c66f44645aaf5d462e16a214b76643cd2f567c155481fb3867652a5"
+  },
+  "old_guide_jars_removed": [
+    "mekanism-ponder-guide-0.1.4-neoforge-1.21.1.jar"
+  ],
+  "other_jars_unchanged": 43,
+  "index_files_unchanged": 32,
+  "dependencies_added": [],
+  "dependencies_reused": [
+    {
+      "file": "flywheel-neoforge-1.21.1-1.0.4.jar",
+      "mod_ids": [
+        "flywheel"
+      ],
+      "sha256": "1e715b19c4936b6766eb77762812e57135db1a542343d8afb9127cd7fe5a3e1e"
+    },
+    {
+      "file": "Mekanism-1.21.1-10.7.19.85.jar",
+      "mod_ids": [
+        "mekanism"
+      ],
+      "sha256": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43"
+    },
+    {
+      "file": "ponder-neoforge-1.0.87+mc1.21.1.jar",
+      "mod_ids": [
+        "ponder"
+      ],
+      "sha256": "d6b7fdf94359f73dc1fee730eded898d51b3bf0d626710753253becd8e4e6bef"
+    }
+  ],
+  "validation_result_sha256": "aecf7700ab509ec43fc36c1994d86052f024308d40d39b10f014b92ad4148557",
+  "shared_baseline": {
+    "path": "~\\dev\\minecraft\\mods\\ponder-series\\work\\item-coverage-20261023\\before.json",
+    "sha256": "5a0bc4f6a8a780b404fc5ec354eafcfb9ce16ac182438a1f1e3875e2a73667a4",
+    "files": 46,
+    "index": 32
+  },
+  "instance_was_running": false,
+  "restart_required": false,
+  "third_party_mods_added": [],
+  "addon_scope": "Core only; no new addon requested"
+}

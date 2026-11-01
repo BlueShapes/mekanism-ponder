@@ -1,0 +1,4515 @@
+[
+  {
+    "id": "power",
+    "chapter": "start",
+    "title": {
+      "ja": "電力とエネルギーキューブ",
+      "en": "Power and energy cubes"
+    },
+    "summary": {
+      "ja": "電力を蓄え、出力面から機械へ送ります",
+      "en": "An output face connects stored power to a machine"
+    },
+    "icon": "mekanism:basic_energy_cube",
+    "components": [
+      "mekanism:basic_energy_cube",
+      "mekanism:advanced_energy_cube",
+      "mekanism:elite_energy_cube",
+      "mekanism:ultimate_energy_cube",
+      "mekanism:creative_energy_cube"
+    ],
+    "nodes": [
+      {
+        "id": "cube",
+        "block": "mekanism:basic_energy_cube",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "wire",
+        "block": "mekanism:basic_universal_cable",
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "nbt": "{connections:0b,acceptors:48b,connection:[I;0,0,0,0,0,0]}"
+      },
+      {
+        "id": "machine",
+        "block": "mekanism:metallurgic_infuser",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "エネルギーキューブは電力を蓄えます\n初期の充電には左の放電スロットへ赤石を入れられます\n入力面へ対応する電源をつなぐ方法もあります",
+          "en": "An energy cube stores power\nCharge it initially with redstone in the left discharge slot\nYou can also connect a compatible power source to an input face"
+        },
+        "show": [
+          "cube"
+        ],
+        "focus": [
+          "cube"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:redstone",
+            "anchor": "cube"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "機械には電力が必要です\nここでは冶金吹込機をキューブの隣に置きます",
+          "en": "Machines need power\nHere, a Metallurgic Infuser sits beside the cube"
+        },
+        "show": [
+          "machine"
+        ],
+        "focus": [
+          "machine"
+        ]
+      },
+      {
+        "text": {
+          "ja": "ユニバーサルケーブルでつなぎ、キューブの側面設定で接続面を出力にすると電力が流れます\n電力モードのコンフィギュレーターでも変更できます",
+          "en": "Universal Cables connect the machines\nA face set to Output in side configuration sends the cube's power\nThe Configurator can also set this face in energy mode"
+        },
+        "show": [
+          "wire"
+        ],
+        "focus": [
+          "wire"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:configurator",
+            "anchor": "cube",
+            "action": "right_click",
+            "sneak": true
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "蓄電量が空ならキューブからは送れません\n模型の線は接続経路を示し、実際の電力や処理速度を再現するものではありません",
+          "en": "An empty cube cannot supply power\nThe model shows a connection path\nIt simulates neither power nor processing speed"
+        },
+        "focus": [
+          "cube",
+          "machine"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "infusion",
+    "chapter": "start",
+    "title": {
+      "ja": "最初の吹込合金",
+      "en": "Your first infused alloy"
+    },
+    "summary": {
+      "ja": "冶金吹込機では赤石と鉄を別々の入力へ供給します",
+      "en": "Redstone and iron enter different slots in the Metallurgic Infuser"
+    },
+    "icon": "mekanism:metallurgic_infuser",
+    "components": [
+      "mekanism:metallurgic_infuser",
+      "mekanism:alloy_infused",
+      "mekanism:basic_control_circuit",
+      "mekanism:basic_infusing_factory",
+      "mekanism:advanced_infusing_factory",
+      "mekanism:elite_infusing_factory",
+      "mekanism:ultimate_infusing_factory"
+    ],
+    "nodes": [
+      {
+        "id": "infuser",
+        "block": "mekanism:metallurgic_infuser",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "redstone",
+        "block": "minecraft:chest",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "iron",
+        "block": "minecraft:chest",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "冶金吹込機は、電力・加工するアイテム・吹込素材を使います\nここでは赤石が吹込素材になります",
+          "en": "The Metallurgic Infuser uses power, an item input and an infusion material\nRedstone supplies the infusion material"
+        },
+        "show": [
+          "infuser"
+        ],
+        "focus": [
+          "infuser"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:redstone",
+            "anchor": "infuser"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "鉄インゴットを加工用スロットに入れると、赤石を消費して吹込合金になります",
+          "en": "Iron ingots go in the processing slot\nRedstone infusion turns them into Infused Alloys"
+        },
+        "show": [
+          "iron"
+        ],
+        "focus": [
+          "infuser"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ingot",
+            "anchor": "infuser"
+          }
+        ],
+        "flow": {
+          "from": "iron",
+          "to": "infuser",
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      {
+        "text": {
+          "ja": "アイテムの側面設定では、赤石用は「追加」、鉄用は「入力」です\n自動化では二つの入力に別々の面を割り当てます",
+          "en": "In item side configuration, redstone uses Extra and iron uses Input\nFor automation, the two inputs use separate faces"
+        },
+        "show": [
+          "redstone"
+        ],
+        "focus": [
+          "infuser"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:alloy_infused",
+            "anchor": "infuser"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "濃縮室で作る濃縮レッドストーンは、赤石より多くの吹込量を補給できます\n対応レシピとタンクの残量を確認してください",
+          "en": "Enriched Redstone supplies more infusion than redstone dust\nCheck the recipe and the amount remaining in the infusion tank"
+        },
+        "focus": [
+          "infuser"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:enriched_redstone",
+            "anchor": "infuser"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "steel",
+    "chapter": "start",
+    "title": {
+      "ja": "鋼鉄を作る",
+      "en": "Making steel"
+    },
+    "summary": {
+      "ja": "炭素の吹込を二回行い、鋼鉄の粉を精錬します",
+      "en": "Two carbon infusions make Steel Dust, which smelts into Steel Ingots"
+    },
+    "icon": "mekanism:enriched_iron",
+    "components": [
+      "mekanism:enriched_iron",
+      "mekanism:dust_steel",
+      "mekanism:ingot_steel"
+    ],
+    "nodes": [
+      {
+        "id": "infuser",
+        "block": "mekanism:metallurgic_infuser",
+        "pos": [
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "smelter",
+        "block": "mekanism:energized_smelter",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "石炭や木炭を冶金吹込機へ入れると、炭素が補給されます\nすでに別種の吹込素材が残っていないかも確認します",
+          "en": "Coal or charcoal supplies carbon to the Metallurgic Infuser\nCheck that another infusion type is not left in the tank"
+        },
+        "show": [
+          "infuser"
+        ],
+        "focus": [
+          "infuser"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:coal",
+            "anchor": "infuser"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "鉄インゴットへ炭素を吹き込むと、濃縮鉄になります\nまだ鋼鉄インゴットではありません",
+          "en": "Infusing iron ingots with carbon produces Enriched Iron\nThis is not yet a steel ingot"
+        },
+        "focus": [
+          "infuser"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ingot",
+            "anchor": "infuser"
+          },
+          {
+            "item": "mekanism:enriched_iron",
+            "anchor": "infuser"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "濃縮鉄にもう一度炭素を吹き込む工程です\n二回目の吹込で鋼鉄の粉になります",
+          "en": "A second carbon infusion processes Enriched Iron\nIt produces Steel Dust"
+        },
+        "focus": [
+          "infuser"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:dust_steel",
+            "anchor": "infuser"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "鋼鉄の粉をかまどや電動精錬機で精錬すると、鋼鉄インゴットになります\n自動化の経路にも二回の吹込が必要です",
+          "en": "Smelting Steel Dust in a furnace or Energized Smelter produces Steel Ingots\nAn automated line includes both infusion passes"
+        },
+        "show": [
+          "smelter"
+        ],
+        "focus": [
+          "smelter"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:ingot_steel",
+            "anchor": "smelter"
+          }
+        ],
+        "flow": {
+          "from": "infuser",
+          "to": "smelter",
+          "item": "mekanism:dust_steel"
+        }
+      }
+    ]
+  },
+  {
+    "id": "side_configuration",
+    "chapter": "transport",
+    "title": {
+      "ja": "側面設定と自動搬出",
+      "en": "Side configuration and auto-eject"
+    },
+    "summary": {
+      "ja": "アイテム・液体・化学物質・電力の接続面を区別します",
+      "en": "Each resource type has its own face configuration"
+    },
+    "icon": "mekanism:configurator",
+    "components": [
+      "mekanism:configurator"
+    ],
+    "nodes": [
+      {
+        "id": "source",
+        "block": "minecraft:chest",
+        "pos": [
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "machine",
+        "block": "mekanism:enrichment_chamber",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "target",
+        "block": "minecraft:chest",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "機械の側面設定では、先にアイテム・電力などの種類を選びます\n同じ面でも種類ごとに設定が異なります",
+          "en": "The selected resource type determines the side settings\nA face can have different settings for items, energy and other resources"
+        },
+        "show": [
+          "machine"
+        ],
+        "focus": [
+          "machine"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:configurator",
+            "anchor": "machine"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "入力に設定した面から材料を受け入れます\n設定図の面は機械の正面を基準に読むため、機械の向きも確認します",
+          "en": "Materials enter through a face set to Input\nThe diagram is relative to the machine front, so check the machine orientation"
+        },
+        "show": [
+          "source"
+        ],
+        "focus": [
+          "machine"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:raw_iron",
+            "anchor": "machine"
+          }
+        ],
+        "flow": {
+          "from": "source",
+          "to": "machine",
+          "item": "minecraft:raw_iron"
+        }
+      },
+      {
+        "text": {
+          "ja": "完成品の面を出力にし、アイテムの自動搬出を有効にすると、対応する隣の搬送先へ送り出せます",
+          "en": "Products leave through a face set to Output\nItem auto-eject sends them out automatically\nThey enter a compatible adjacent destination"
+        },
+        "show": [
+          "target"
+        ],
+        "focus": [
+          "machine",
+          "target"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:dust_iron",
+            "anchor": "target"
+          }
+        ],
+        "flow": {
+          "from": "machine",
+          "to": "target",
+          "item": "mekanism:dust_iron"
+        }
+      },
+      {
+        "text": {
+          "ja": "入力・出力・追加を取り違えると材料が入りません\n搬送側の引き出し設定と、搬送先の空きも合わせて確認してください",
+          "en": "Confusing Input, Output and Extra prevents insertion\nAlso check extraction at the source and free space at the destination"
+        },
+        "focus": [
+          "source",
+          "machine",
+          "target"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "cables",
+    "chapter": "transport",
+    "title": {
+      "ja": "ケーブルと接続モード",
+      "en": "Cables and connection modes"
+    },
+    "summary": {
+      "ja": "コンフィギュレーターで面ごとの接続を切り替えます",
+      "en": "The Configurator changes connections on individual faces"
+    },
+    "icon": "mekanism:basic_universal_cable",
+    "components": [
+      "mekanism:basic_universal_cable",
+      "mekanism:advanced_universal_cable",
+      "mekanism:elite_universal_cable",
+      "mekanism:ultimate_universal_cable"
+    ],
+    "nodes": [
+      {
+        "id": "cube",
+        "block": "mekanism:basic_energy_cube",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "a",
+        "block": "mekanism:basic_universal_cable",
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "nbt": "{connections:32b,acceptors:16b,connection:[I;0,0,0,0,0,0]}"
+      },
+      {
+        "id": "b",
+        "block": "mekanism:basic_universal_cable",
+        "pos": [
+          4,
+          1,
+          4
+        ],
+        "nbt": "{connections:16b,acceptors:32b,connection:[I;0,0,0,0,0,0]}"
+      },
+      {
+        "id": "machine",
+        "block": "mekanism:energized_smelter",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "ユニバーサルケーブルは電力を運びます\n同じ種類のケーブルで、電源から機械まで経路をつなぎます",
+          "en": "Universal Cables carry energy\nMatching cable types link a power source to a machine"
+        },
+        "show": [
+          "cube",
+          "a",
+          "b",
+          "machine"
+        ],
+        "focus": [
+          "a",
+          "b"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_universal_cable",
+            "anchor": "a"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "コンフィギュレーターは対象に対応する設定モードを使います\nスニークしながら接続部を右クリックすると、面のモードが切り替わります",
+          "en": "The Configurator uses a matching configuration mode\nSneak-right-clicking a connection cycles its face mode"
+        },
+        "focus": [
+          "a"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:configurator",
+            "anchor": "a",
+            "action": "right_click",
+            "sneak": true
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "接続なしにすると、その面の経路が切れます\n機械との間に線が見えていても、無効な接続では転送できません",
+          "en": "The None mode disconnects that face\nA disabled connection cannot transfer resources"
+        },
+        "focus": [
+          "a",
+          "b"
+        ],
+        "warning": true,
+        "nbt": {
+          "a": "{connections:0b,acceptors:16b,connection:[I;0,0,0,0,0,3]}",
+          "b": "{connections:0b,acceptors:32b,connection:[I;0,0,0,0,3,0]}"
+        }
+      },
+      {
+        "text": {
+          "ja": "通常接続へ戻して経路を復旧します\n上位のケーブルを使う前に、電源の出力面と機械の入力面を確認してください",
+          "en": "Restoring normal connections reopens the path\nBefore upgrading the cable tier, check the source output face and machine input face"
+        },
+        "focus": [
+          "a",
+          "b"
+        ],
+        "nbt": {
+          "a": "{connections:32b,acceptors:16b,connection:[I;0,0,0,0,0,0]}",
+          "b": "{connections:16b,acceptors:32b,connection:[I;0,0,0,0,0,0]}"
+        }
+      }
+    ]
+  },
+  {
+    "id": "fluid_transport",
+    "chapter": "transport",
+    "title": {
+      "ja": "液体のくみ上げと輸送",
+      "en": "Pumping and transporting fluids"
+    },
+    "summary": {
+      "ja": "電動ポンプとメカニカルパイプで液体を供給します",
+      "en": "An Electric Pump and Mechanical Pipes supply liquids"
+    },
+    "icon": "mekanism:basic_mechanical_pipe",
+    "components": [
+      "mekanism:basic_mechanical_pipe",
+      "mekanism:advanced_mechanical_pipe",
+      "mekanism:elite_mechanical_pipe",
+      "mekanism:ultimate_mechanical_pipe",
+      "mekanism:electric_pump",
+      "mekanism:basic_fluid_tank",
+      "mekanism:advanced_fluid_tank",
+      "mekanism:elite_fluid_tank",
+      "mekanism:ultimate_fluid_tank",
+      "mekanism:creative_fluid_tank"
+    ],
+    "nodes": [
+      {
+        "id": "water",
+        "block": "minecraft:water",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "pump",
+        "block": "mekanism:electric_pump",
+        "pos": [
+          2,
+          2,
+          4
+        ]
+      },
+      {
+        "id": "pipe",
+        "block": "mekanism:basic_mechanical_pipe",
+        "pos": [
+          2,
+          3,
+          4
+        ],
+        "nbt": "{connections:32b,acceptors:1b,connection:[I;0,0,0,0,0,0]}"
+      },
+      {
+        "id": "extension",
+        "block": "mekanism:basic_mechanical_pipe",
+        "pos": [
+          3,
+          3,
+          4
+        ],
+        "nbt": "{connections:16b,acceptors:32b,connection:[I;0,0,0,0,0,0]}"
+      },
+      {
+        "id": "tank",
+        "block": "mekanism:basic_fluid_tank",
+        "pos": [
+          4,
+          3,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "電動ポンプは水源の上に置き、電力で動かします\n水の供給はポンプ側のくみ上げ条件にも依存します",
+          "en": "The Electric Pump sits above a water source and uses power\nPumping also depends on a valid source beneath the pump"
+        },
+        "show": [
+          "water",
+          "pump"
+        ],
+        "focus": [
+          "pump"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:electric_pump",
+            "anchor": "pump"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "電動ポンプは上面へ液体を出力します\n真上から伸ばすメカニカルパイプが、タンクや機械の液体入力につながります",
+          "en": "The Electric Pump outputs fluid through its top\nMechanical Pipes run from its top to a tank or machine fluid input"
+        },
+        "show": [
+          "pipe",
+          "extension",
+          "tank"
+        ],
+        "focus": [
+          "pipe"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:water_bucket",
+            "anchor": "tank"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "タンクから引き出すときは、タンク側の接続を引き出しに設定するか、送り出し機能を使います\n経路だけでは自動的に引き出せない場合があります",
+          "en": "A tank connection on Pull, or the tank's own output, extracts fluid\nA connection alone may not extract fluid"
+        },
+        "focus": [
+          "pipe",
+          "tank"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:configurator",
+            "anchor": "pipe",
+            "action": "right_click",
+            "sneak": true
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "加圧チューブは液体用ではありません\n水を送れないときは、パイプの種類・入力面・空き容量を確認してください",
+          "en": "Pressurized Tubes cannot carry fluids\nIf water does not move, check the pipe type, input face and available capacity"
+        },
+        "focus": [
+          "pipe",
+          "tank"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "chemical_transport",
+    "chapter": "transport",
+    "title": {
+      "ja": "化学物質の輸送",
+      "en": "Transporting chemicals"
+    },
+    "summary": {
+      "ja": "加圧チューブと化学タンクを使い、液体と区別します",
+      "en": "Pressurized Tubes and Chemical Tanks handle chemicals separately from fluids"
+    },
+    "icon": "mekanism:basic_pressurized_tube",
+    "components": [
+      "mekanism:basic_pressurized_tube",
+      "mekanism:advanced_pressurized_tube",
+      "mekanism:elite_pressurized_tube",
+      "mekanism:ultimate_pressurized_tube",
+      "mekanism:basic_chemical_tank",
+      "mekanism:advanced_chemical_tank",
+      "mekanism:elite_chemical_tank",
+      "mekanism:ultimate_chemical_tank",
+      "mekanism:creative_chemical_tank"
+    ],
+    "nodes": [
+      {
+        "id": "separator",
+        "block": "mekanism:electrolytic_separator",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "tube",
+        "block": "mekanism:basic_pressurized_tube",
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "nbt": "{connections:0b,acceptors:48b,connection:[I;0,0,0,0,0,0]}"
+      },
+      {
+        "id": "tank",
+        "block": "mekanism:basic_chemical_tank",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "1.21.1版のMekanismでは、化学物質の系統が統合されています\n酸素・水素・吹込素材・スラリーなどが対象です\n液体は別の系統です",
+          "en": "In 1.21.1, Mekanism uses one chemical system\nIt includes oxygen, hydrogen, infusion materials and slurries\nFluids remain separate"
+        },
+        "show": [
+          "separator"
+        ],
+        "focus": [
+          "separator"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:electrolytic_separator",
+            "anchor": "separator"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "加圧チューブで化学物質を運び、化学タンクへ蓄えます\n機械側では化学物質の出力面を確認してください",
+          "en": "Pressurized Tubes carry chemicals to Chemical Tanks\nCheck the machine chemical output face"
+        },
+        "show": [
+          "tube",
+          "tank"
+        ],
+        "focus": [
+          "tube",
+          "tank"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_chemical_tank",
+            "anchor": "tank"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "種類の異なる化学物質は、同じタンクや経路に混ぜて保管できません\n電解分離機の水素と酸素には別々の経路を用意します",
+          "en": "Different chemicals cannot share one tank or network\nHydrogen and oxygen from the separator use separate routes"
+        },
+        "focus": [
+          "tank"
+        ],
+        "warning": true
+      },
+      {
+        "text": {
+          "ja": "引き出し設定・出力面・内容物・満杯の搬送先を順に確認してください\n不要な物質を捨てる設定は、対象を確かめてから使います",
+          "en": "Check extraction, output face, network contents and full destinations in order\nVerify the selected chemical before using any dumping setting"
+        },
+        "focus": [
+          "separator",
+          "tube"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:configurator",
+            "anchor": "tube",
+            "action": "right_click",
+            "sneak": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "item_transport",
+    "chapter": "transport",
+    "title": {
+      "ja": "アイテムの搬送",
+      "en": "Transporting items"
+    },
+    "summary": {
+      "ja": "物流トランスポーターでチェストから機械へ送ります",
+      "en": "Logistical Transporters move items from inventories to machines"
+    },
+    "icon": "mekanism:basic_logistical_transporter",
+    "components": [
+      "mekanism:basic_logistical_transporter",
+      "mekanism:advanced_logistical_transporter",
+      "mekanism:elite_logistical_transporter",
+      "mekanism:ultimate_logistical_transporter",
+      "mekanism:restrictive_transporter",
+      "mekanism:diversion_transporter"
+    ],
+    "nodes": [
+      {
+        "id": "chest",
+        "block": "minecraft:chest",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "pipe",
+        "block": "mekanism:basic_logistical_transporter",
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "nbt": "{connections:0b,acceptors:48b,connection:[I;0,0,0,0,2,0]}"
+      },
+      {
+        "id": "machine",
+        "block": "mekanism:enrichment_chamber",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "物流トランスポーターが収納と機械をつなぎます\n機械側の接続先はアイテムの入力面です",
+          "en": "A Logistical Transporter links an inventory to a machine item input"
+        },
+        "show": [
+          "chest",
+          "pipe",
+          "machine"
+        ],
+        "focus": [
+          "pipe"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_logistical_transporter",
+            "anchor": "pipe"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "チェスト側の接続を引き出しにすると、経路へアイテムを取り出します\n機械の自動搬出を使って経路へ送り出す方法もあります",
+          "en": "A chest connection set to Pull draws items into the network\nMachines can also send items into the network using auto-eject"
+        },
+        "focus": [
+          "pipe"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:configurator",
+            "anchor": "pipe",
+            "action": "right_click",
+            "sneak": true
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "搬送先が受け入れられるアイテムだけが送られます\n鉄鉱石を濃縮室へ送る経路を例として示します",
+          "en": "Items need a destination that accepts them\nThis example shows iron ore travelling to an Enrichment Chamber"
+        },
+        "focus": [
+          "machine"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ore",
+            "anchor": "machine"
+          }
+        ],
+        "flow": {
+          "from": "chest",
+          "to": "machine",
+          "item": "minecraft:iron_ore"
+        }
+      },
+      {
+        "text": {
+          "ja": "入力できない材料、満杯の収納、色指定の不一致は停止の原因になります\nまず単純な一本の経路で確認してください",
+          "en": "Invalid ingredients, full inventories and color mismatches can stop routing\nStart by testing a simple single path"
+        },
+        "focus": [
+          "chest",
+          "pipe",
+          "machine"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "sorting",
+    "chapter": "transport",
+    "title": {
+      "ja": "物流ソーターと色分け",
+      "en": "Sorting and color routing"
+    },
+    "summary": {
+      "ja": "収納にソーターを付け、フィルターと搬送色を設定します",
+      "en": "An inventory-mounted sorter routes materials using filters and colors"
+    },
+    "icon": "mekanism:logistical_sorter",
+    "components": [
+      "mekanism:logistical_sorter"
+    ],
+    "nodes": [
+      {
+        "id": "chest",
+        "block": "minecraft:chest",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "sorter",
+        "block": "mekanism:logistical_sorter",
+        "pos": [
+          3,
+          1,
+          4
+        ],
+        "state": {
+          "facing": "east"
+        }
+      },
+      {
+        "id": "pipe",
+        "block": "mekanism:basic_logistical_transporter",
+        "pos": [
+          4,
+          1,
+          4
+        ],
+        "nbt": "{connections:0b,acceptors:48b,connection:[I;0,0,0,0,0,0]}"
+      },
+      {
+        "id": "target",
+        "block": "minecraft:chest",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "物流ソーターは送り元の収納に取り付けます\nソーターが参照する収納と、前方の搬送経路を確認します",
+          "en": "The Logistical Sorter attaches to the source inventory\nCheck the inventory behind it and the route in front"
+        },
+        "show": [
+          "chest",
+          "sorter"
+        ],
+        "focus": [
+          "sorter"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:logistical_sorter",
+            "anchor": "sorter"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "フィルターに指定したアイテムやタグが、搬送する材料を決めます\n追加の条件で、その対象を絞り込みます",
+          "en": "An item or tag filter selects the material to route\nFurther conditions narrow that selection"
+        },
+        "focus": [
+          "sorter"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ore",
+            "anchor": "sorter"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "フィルターの色と経路の色を合わせると、搬送先を分けられます\n色なしの区間は共有経路として使えます",
+          "en": "Matching filter and route colors separate destinations\nUncolored segments can form shared routes"
+        },
+        "show": [
+          "pipe",
+          "target"
+        ],
+        "focus": [
+          "pipe"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:configurator",
+            "anchor": "pipe",
+            "action": "right_click",
+            "sneak": true
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "フィルター外のアイテムを送るかどうかは自動排出設定で変わります\n意図しない材料が流れたときは、既定色とフィルターも確認してください",
+          "en": "Auto-eject determines whether items outside the filters are sent\nIf unexpected items move, also check the default color and filters"
+        },
+        "focus": [
+          "sorter",
+          "target"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "enrichment",
+    "chapter": "processing",
+    "title": {
+      "ja": "鉱石と原鉱の濃縮",
+      "en": "Enriching ore and raw ore"
+    },
+    "summary": {
+      "ja": "鉱石ブロックと原鉱では加工後の収量が異なります",
+      "en": "Ore blocks and raw ore have different processing yields"
+    },
+    "icon": "mekanism:enrichment_chamber",
+    "components": [
+      "mekanism:enrichment_chamber",
+      "mekanism:energized_smelter",
+      "mekanism:dust_iron",
+      "mekanism:dust_copper",
+      "mekanism:dust_gold",
+      "mekanism:dust_lead",
+      "mekanism:dust_osmium",
+      "mekanism:dust_tin",
+      "mekanism:dust_uranium",
+      "mekanism:basic_smelting_factory",
+      "mekanism:basic_enriching_factory",
+      "mekanism:advanced_smelting_factory",
+      "mekanism:advanced_enriching_factory",
+      "mekanism:elite_smelting_factory",
+      "mekanism:elite_enriching_factory",
+      "mekanism:ultimate_smelting_factory",
+      "mekanism:ultimate_enriching_factory"
+    ],
+    "nodes": [
+      {
+        "id": "enrich",
+        "block": "mekanism:enrichment_chamber",
+        "pos": [
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "smelter",
+        "block": "mekanism:energized_smelter",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "濃縮室に電力と鉄鉱石ブロックを供給します\n標準レシピでは鉱石ブロック一個から鉄の粉二個を作れます",
+          "en": "The Enrichment Chamber uses power and an iron ore block\nThe default recipe gives two Iron Dust per ore block"
+        },
+        "show": [
+          "enrich"
+        ],
+        "focus": [
+          "enrich"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ore",
+            "anchor": "enrich"
+          },
+          {
+            "item": "mekanism:dust_iron",
+            "anchor": "enrich"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "鉄の原石は別のレシピです\n鉄の原石三個から鉄の粉四個になり、原鉱一個を二倍にする工程ではありません",
+          "en": "Raw Iron has a different recipe: three Raw Iron produce four Iron Dust\nThis is not a twofold yield per raw item"
+        },
+        "focus": [
+          "enrich"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:raw_iron",
+            "anchor": "enrich"
+          }
+        ],
+        "warning": true
+      },
+      {
+        "text": {
+          "ja": "電動精錬機は、送られてきた鉄の粉を一個ずつインゴットへ精錬します\n濃縮と精錬の両方に電力が必要です",
+          "en": "The Energized Smelter turns the dust into ingots\nEach dust smelts into one ingot, and both machines require power"
+        },
+        "show": [
+          "smelter"
+        ],
+        "focus": [
+          "smelter"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ingot",
+            "anchor": "smelter"
+          }
+        ],
+        "flow": {
+          "from": "enrich",
+          "to": "smelter",
+          "item": "mekanism:dust_iron"
+        }
+      },
+      {
+        "text": {
+          "ja": "MODパックでレシピは変更できます\n対象の鉱石・原鉱・原鉱ブロックを取り違えず、現在のレシピを確認してください",
+          "en": "Modpacks can change these recipes\nCheck the current recipe for your ore block, raw ore or raw ore block"
+        },
+        "focus": [
+          "enrich",
+          "smelter"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "factories",
+    "chapter": "processing",
+    "title": {
+      "ja": "工場化とアップグレード",
+      "en": "Factories and upgrades"
+    },
+    "summary": {
+      "ja": "並列処理と電力消費の関係を確認します",
+      "en": "Factories add parallel processing with corresponding energy demand"
+    },
+    "icon": "mekanism:basic_enriching_factory",
+    "components": [
+      "mekanism:basic_enriching_factory",
+      "mekanism:advanced_enriching_factory",
+      "mekanism:elite_enriching_factory",
+      "mekanism:ultimate_enriching_factory",
+      "mekanism:upgrade_speed",
+      "mekanism:upgrade_energy",
+      "mekanism:basic_tier_installer",
+      "mekanism:advanced_tier_installer",
+      "mekanism:elite_tier_installer",
+      "mekanism:ultimate_tier_installer",
+      "mekanism:advanced_combining_factory",
+      "mekanism:advanced_compressing_factory",
+      "mekanism:advanced_crushing_factory",
+      "mekanism:advanced_infusing_factory",
+      "mekanism:advanced_injecting_factory",
+      "mekanism:advanced_purifying_factory",
+      "mekanism:advanced_sawing_factory",
+      "mekanism:advanced_smelting_factory",
+      "mekanism:basic_combining_factory",
+      "mekanism:basic_compressing_factory",
+      "mekanism:basic_crushing_factory",
+      "mekanism:basic_infusing_factory",
+      "mekanism:basic_injecting_factory",
+      "mekanism:basic_purifying_factory",
+      "mekanism:basic_sawing_factory",
+      "mekanism:basic_smelting_factory",
+      "mekanism:elite_combining_factory",
+      "mekanism:elite_compressing_factory",
+      "mekanism:elite_crushing_factory",
+      "mekanism:elite_infusing_factory",
+      "mekanism:elite_injecting_factory",
+      "mekanism:elite_purifying_factory",
+      "mekanism:elite_sawing_factory",
+      "mekanism:elite_smelting_factory",
+      "mekanism:ultimate_combining_factory",
+      "mekanism:ultimate_compressing_factory",
+      "mekanism:ultimate_crushing_factory",
+      "mekanism:ultimate_infusing_factory",
+      "mekanism:ultimate_injecting_factory",
+      "mekanism:ultimate_purifying_factory",
+      "mekanism:ultimate_sawing_factory",
+      "mekanism:ultimate_smelting_factory"
+    ],
+    "nodes": [
+      {
+        "id": "machine",
+        "block": "mekanism:enrichment_chamber",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "factory",
+        "block": "mekanism:basic_enriching_factory",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "cube",
+        "block": "mekanism:basic_energy_cube",
+        "pos": [
+          5,
+          1,
+          6
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "対応する単体機械は工場へ更新できます\n濃縮工場は複数の加工スロットで同じ種類の処理を並列に進めます",
+          "en": "Supported machines can be upgraded to factories\nAn Enriching Factory runs the same process in several parallel slots"
+        },
+        "show": [
+          "machine",
+          "factory"
+        ],
+        "focus": [
+          "factory"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_tier_installer",
+            "anchor": "machine"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "基本・発展・精鋭・究極の順に並列数が増えます\n自動振り分けで素材を各スロットへ分けられます",
+          "en": "Basic, Advanced, Elite and Ultimate tiers offer increasing parallelism\nAutomatic sorting can distribute ingredients across slots"
+        },
+        "focus": [
+          "factory"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:ultimate_enriching_factory",
+            "anchor": "factory"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "スピードアップグレードは処理を速めますが、必要電力も増えます\n先に電源と搬送が追い付くか確認してください",
+          "en": "Speed Upgrades accelerate processing but increase energy demand\nCheck that power and transport can keep up"
+        },
+        "show": [
+          "cube"
+        ],
+        "focus": [
+          "factory",
+          "cube"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:upgrade_speed",
+            "anchor": "factory"
+          }
+        ],
+        "warning": true
+      },
+      {
+        "text": {
+          "ja": "エネルギーアップグレードで効率を改善できます\n機械ごとの対応アップグレードとGUIの消費表示を見て調整してください",
+          "en": "Energy Upgrades improve efficiency\nCheck which upgrades the machine supports and tune the setup using its energy display"
+        },
+        "focus": [
+          "factory"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:upgrade_energy",
+            "anchor": "factory"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "electrolysis",
+    "chapter": "chemistry",
+    "title": {
+      "ja": "水を水素と酸素へ",
+      "en": "Separating water into hydrogen and oxygen"
+    },
+    "summary": {
+      "ja": "電解分離機の二つの出力を管理します",
+      "en": "The Electrolytic Separator has two chemical outputs to manage"
+    },
+    "icon": "mekanism:electrolytic_separator",
+    "components": [
+      "mekanism:electrolytic_separator"
+    ],
+    "nodes": [
+      {
+        "id": "water",
+        "block": "mekanism:basic_fluid_tank",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "separator",
+        "block": "mekanism:electrolytic_separator",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "hydrogen",
+        "block": "mekanism:basic_chemical_tank",
+        "pos": [
+          6,
+          1,
+          3
+        ]
+      },
+      {
+        "id": "oxygen",
+        "block": "mekanism:basic_chemical_tank",
+        "pos": [
+          6,
+          1,
+          5
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "電解分離機は水と電力を使います\n水2 mBから水素2 mBと酸素1 mBを同時に作ります",
+          "en": "The Electrolytic Separator uses water and power\nIt converts 2 mB of water into 2 mB of hydrogen and 1 mB of oxygen"
+        },
+        "show": [
+          "water",
+          "separator"
+        ],
+        "focus": [
+          "separator"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:water_bucket",
+            "anchor": "separator"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "二つの化学物質は別々の出力面から、それぞれのタンクや利用先へ送ります",
+          "en": "Separate chemical output faces keep the products apart\nEach product goes to its own tank or consumer"
+        },
+        "show": [
+          "hydrogen",
+          "oxygen"
+        ],
+        "focus": [
+          "hydrogen",
+          "oxygen"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_chemical_tank",
+            "anchor": "hydrogen"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "酸素は浄化室へ、水素は化学混成などへ使えます\nどちらかの出力が満杯になると、もう一方の生産も止まります",
+          "en": "Oxygen can feed purification\nHydrogen can feed chemical infusing\nIf either output fills up, production of both stops"
+        },
+        "focus": [
+          "separator"
+        ],
+        "warning": true
+      },
+      {
+        "text": {
+          "ja": "使わない出力には、必要に応じて余剰排出を設定できます\n常時排出との違いを読み、残したい化学物質を捨てないでください",
+          "en": "Dumping Excess can discard an unused output when appropriate\nRead how it differs from Dumping so that needed chemicals are retained"
+        },
+        "focus": [
+          "separator"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:configurator",
+            "anchor": "separator"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "evaporation",
+    "chapter": "chemistry",
+    "title": {
+      "ja": "加温蒸発濃縮塔",
+      "en": "Thermal evaporation towers"
+    },
+    "summary": {
+      "ja": "4×4の塔を作り、水を塩水へ濃縮します",
+      "en": "A 4×4 tower concentrates water into brine"
+    },
+    "icon": "mekanism:thermal_evaporation_controller",
+    "components": [
+      "mekanism:thermal_evaporation_controller",
+      "mekanism:thermal_evaporation_block",
+      "mekanism:thermal_evaporation_valve",
+      "mekanism:resistive_heater",
+      "mekanism:fuelwood_heater"
+    ],
+    "nodes": [
+      {
+        "id": "e2_1_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "e2_1_3",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          1,
+          3
+        ]
+      },
+      {
+        "id": "e2_1_4",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "e2_1_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "e3_1_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          3,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "e3_1_3",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          3,
+          1,
+          3
+        ]
+      },
+      {
+        "id": "e3_1_4",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "e3_1_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          3,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "e4_1_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          4,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "e4_1_3",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          4,
+          1,
+          3
+        ]
+      },
+      {
+        "id": "e4_1_4",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "e4_1_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          4,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "e5_1_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "e5_1_3",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          1,
+          3
+        ]
+      },
+      {
+        "id": "e5_1_4",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "e5_1_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "e2_2_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "id": "e2_2_3",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "e2_2_4",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          2,
+          4
+        ]
+      },
+      {
+        "id": "e2_2_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          2,
+          5
+        ]
+      },
+      {
+        "id": "e3_2_2",
+        "block": "mekanism:thermal_evaporation_valve",
+        "pos": [
+          3,
+          2,
+          2
+        ]
+      },
+      {
+        "id": "e3_2_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          3,
+          2,
+          5
+        ]
+      },
+      {
+        "id": "e4_2_2",
+        "block": "mekanism:thermal_evaporation_valve",
+        "pos": [
+          4,
+          2,
+          2
+        ]
+      },
+      {
+        "id": "e4_2_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          4,
+          2,
+          5
+        ]
+      },
+      {
+        "id": "e5_2_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          2,
+          2
+        ]
+      },
+      {
+        "id": "e5_2_3",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "e5_2_4",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          2,
+          4
+        ]
+      },
+      {
+        "id": "e5_2_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          2,
+          5
+        ]
+      },
+      {
+        "id": "e2_3_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          3,
+          2
+        ]
+      },
+      {
+        "id": "e2_3_3",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          3,
+          3
+        ]
+      },
+      {
+        "id": "e2_3_4",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "id": "e2_3_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          3,
+          5
+        ]
+      },
+      {
+        "id": "e3_3_2",
+        "block": "mekanism:thermal_evaporation_controller",
+        "pos": [
+          3,
+          3,
+          2
+        ]
+      },
+      {
+        "id": "e3_3_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          3,
+          3,
+          5
+        ]
+      },
+      {
+        "id": "e4_3_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          4,
+          3,
+          2
+        ]
+      },
+      {
+        "id": "e4_3_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          4,
+          3,
+          5
+        ]
+      },
+      {
+        "id": "e5_3_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          3,
+          2
+        ]
+      },
+      {
+        "id": "e5_3_3",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          3,
+          3
+        ]
+      },
+      {
+        "id": "e5_3_4",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          3,
+          4
+        ]
+      },
+      {
+        "id": "e5_3_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          3,
+          5
+        ]
+      },
+      {
+        "id": "e2_4_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          4,
+          2
+        ]
+      },
+      {
+        "id": "e2_4_3",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          4,
+          3
+        ]
+      },
+      {
+        "id": "e2_4_4",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          4,
+          4
+        ]
+      },
+      {
+        "id": "e2_4_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          2,
+          4,
+          5
+        ]
+      },
+      {
+        "id": "e3_4_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          3,
+          4,
+          2
+        ]
+      },
+      {
+        "id": "e3_4_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": "e4_4_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          4,
+          4,
+          2
+        ]
+      },
+      {
+        "id": "e4_4_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "id": "e5_4_2",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          4,
+          2
+        ]
+      },
+      {
+        "id": "e5_4_3",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          4,
+          3
+        ]
+      },
+      {
+        "id": "e5_4_4",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          4,
+          4
+        ]
+      },
+      {
+        "id": "e5_4_5",
+        "block": "mekanism:thermal_evaporation_block",
+        "pos": [
+          5,
+          4,
+          5
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "加温蒸発濃縮塔の外寸は4×4、高さは3〜18です\nまず床と四隅の柱を作ります\nここでは高さ4の例を示します",
+          "en": "A Thermal Evaporation Plant is 4×4 wide and 3–18 blocks tall\nIts floor and corner columns form the base\nThis model is four blocks tall"
+        },
+        "show": [
+          "e2_1_2",
+          "e2_1_3",
+          "e2_1_4",
+          "e2_1_5",
+          "e3_1_2",
+          "e3_1_3",
+          "e3_1_4",
+          "e3_1_5",
+          "e4_1_2",
+          "e4_1_3",
+          "e4_1_4",
+          "e4_1_5",
+          "e5_1_2",
+          "e5_1_3",
+          "e5_1_4",
+          "e5_1_5",
+          "e2_2_2",
+          "e2_2_5",
+          "e5_2_2",
+          "e5_2_5",
+          "e2_3_2",
+          "e2_3_5",
+          "e5_3_2",
+          "e5_3_5",
+          "e2_4_2",
+          "e2_4_5",
+          "e5_4_2",
+          "e5_4_5"
+        ],
+        "focus": [
+          "e2_1_2"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:thermal_evaporation_block",
+            "anchor": "e2_1_2"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "側面を囲い、一個のコントローラーと必要なバルブを側面へ組み込みます\n内側の上部は空の構造です",
+          "en": "The sides contain one controller and the required valves\nThe upper interior stays empty"
+        },
+        "show": [
+          "e2_2_3",
+          "e2_2_4",
+          "e3_2_2",
+          "e3_2_5",
+          "e4_2_2",
+          "e4_2_5",
+          "e5_2_3",
+          "e5_2_4",
+          "e2_3_3",
+          "e2_3_4",
+          "e3_3_2",
+          "e3_3_5",
+          "e4_3_2",
+          "e4_3_5",
+          "e5_3_3",
+          "e5_3_4",
+          "e2_4_3",
+          "e2_4_4",
+          "e3_4_2",
+          "e3_4_5",
+          "e4_4_2",
+          "e4_4_5",
+          "e5_4_3",
+          "e5_4_4"
+        ],
+        "focus": [
+          "e3_3_2"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:thermal_evaporation_controller",
+            "anchor": "e3_3_2"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "バルブへ水を入れ、別のバルブから塩水を取り出します\n温度が生産速度に影響し、抵抗型発熱器などから熱を供給できます",
+          "en": "Water enters through a valve, and brine leaves through another\nTemperature affects production\nHeaters such as the Resistive Heater can supply heat"
+        },
+        "focus": [
+          "e3_2_2",
+          "e4_2_2"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:water_bucket",
+            "anchor": "e3_2_2"
+          },
+          {
+            "item": "mekanism:resistive_heater",
+            "anchor": "e4_2_2"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "標準レシピは水10 mBから塩水1 mBです\n塩水を別の塔で蒸発濃縮すると、液体リチウムになります\n塔の成立と温度をGUIで確認してください",
+          "en": "The default recipe converts 10 mB of water to 1 mB of brine\nA separate plant converts brine into Liquid Lithium\nCheck formation and temperature in the controller"
+        },
+        "focus": [
+          "e3_3_2"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "hydrogen_chloride",
+    "chapter": "chemistry",
+    "title": {
+      "ja": "塩水から塩化水素へ",
+      "en": "From brine to hydrogen chloride"
+    },
+    "summary": {
+      "ja": "塩素と水素を化学混成機で合わせます",
+      "en": "A Chemical Infuser combines chlorine and hydrogen"
+    },
+    "icon": "mekanism:chemical_infuser",
+    "components": [
+      "mekanism:chemical_infuser"
+    ],
+    "nodes": [
+      {
+        "id": "brine",
+        "block": "mekanism:electrolytic_separator",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "hydrogen",
+        "block": "mekanism:basic_chemical_tank",
+        "pos": [
+          4,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "infuse",
+        "block": "mekanism:chemical_infuser",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "inject",
+        "block": "mekanism:chemical_injection_chamber",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "蒸発濃縮塔で作った塩水を電解分離機へ供給します\n塩水は液体なので、メカニカルパイプで運びます",
+          "en": "Brine from an evaporation plant feeds an Electrolytic Separator\nBrine travels through Mechanical Pipes as a fluid"
+        },
+        "show": [
+          "brine"
+        ],
+        "focus": [
+          "brine"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:electrolytic_separator",
+            "anchor": "brine"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "塩水の電気分解でナトリウムと塩素ができます\n塩素を化学混成機へ送り、もう一方の出力も管理する工程です",
+          "en": "Electrolyzing brine produces sodium and chlorine\nChlorine goes to the Chemical Infuser, while the other output is managed too"
+        },
+        "show": [
+          "infuse"
+        ],
+        "focus": [
+          "infuse"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_pressurized_tube",
+            "anchor": "infuse"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "別の経路から水素を供給すると、塩素と合わせて塩化水素を作れます\n化学混成機にも電力が必要です",
+          "en": "Hydrogen enters through a separate route\nThe powered Chemical Infuser combines it with chlorine to make hydrogen chloride"
+        },
+        "show": [
+          "hydrogen"
+        ],
+        "focus": [
+          "hydrogen",
+          "infuse"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_chemical_tank",
+            "anchor": "hydrogen"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "塩化水素は化学注入室へ送られます\n水素・塩素・塩化水素には、それぞれ別の経路を使います",
+          "en": "Hydrogen chloride feeds the Chemical Injection Chamber\nHydrogen, chlorine and hydrogen chloride use separate networks"
+        },
+        "show": [
+          "inject"
+        ],
+        "focus": [
+          "inject"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:chemical_injection_chamber",
+            "anchor": "inject"
+          }
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "sulfuric_acid",
+    "chapter": "chemistry",
+    "title": {
+      "ja": "硫黄から硫酸へ",
+      "en": "From sulfur to sulfuric acid"
+    },
+    "summary": {
+      "ja": "酸化・化学混成で溶解工程に使う硫酸を作ります",
+      "en": "Oxidation and chemical infusing produce sulfuric acid for dissolution"
+    },
+    "icon": "mekanism:chemical_oxidizer",
+    "components": [
+      "mekanism:chemical_oxidizer",
+      "mekanism:rotary_condensentrator",
+      "mekanism:dust_sulfur"
+    ],
+    "nodes": [
+      {
+        "id": "oxidizer",
+        "block": "mekanism:chemical_oxidizer",
+        "pos": [
+          1,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "infuser",
+        "block": "mekanism:chemical_infuser",
+        "pos": [
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "rotary",
+        "block": "mekanism:rotary_condensentrator",
+        "pos": [
+          3,
+          1,
+          6
+        ]
+      },
+      {
+        "id": "acid",
+        "block": "mekanism:chemical_infuser",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "dissolve",
+        "block": "mekanism:chemical_dissolution_chamber",
+        "pos": [
+          7,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "硫黄の粉を化学酸化機で加工し、二酸化硫黄を作ります\nこの工程の各機械には電力が必要です",
+          "en": "Processing Sulfur Dust in a Chemical Oxidizer produces sulfur dioxide\nEvery machine in this line needs power"
+        },
+        "show": [
+          "oxidizer"
+        ],
+        "focus": [
+          "oxidizer"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:dust_sulfur",
+            "anchor": "oxidizer"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "二酸化硫黄と酸素を化学混成機へ供給すると、三酸化硫黄になります",
+          "en": "Combining sulfur dioxide and oxygen in a Chemical Infuser makes sulfur trioxide"
+        },
+        "show": [
+          "infuser"
+        ],
+        "focus": [
+          "infuser"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:chemical_infuser",
+            "anchor": "infuser"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "回転式流体凝縮器が液体を化学物質へ変換する向きで、水を水蒸気にします",
+          "en": "The Rotary Condensentrator converts fluids into chemicals in this mode\nHere, it turns water into water vapor"
+        },
+        "show": [
+          "rotary"
+        ],
+        "focus": [
+          "rotary"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:water_bucket",
+            "anchor": "rotary"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "三酸化硫黄と水蒸気を、もう一台の化学混成機で合わせると硫酸になります\n硫酸は化学物質として加圧チューブで送ります",
+          "en": "Another Chemical Infuser combines sulfur trioxide and water vapor\nIt produces sulfuric acid\nPressurized Tubes carry the acid as a chemical"
+        },
+        "show": [
+          "acid",
+          "dissolve"
+        ],
+        "focus": [
+          "acid",
+          "dissolve"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:chemical_dissolution_chamber",
+            "anchor": "dissolve"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ethylene",
+    "chapter": "chemistry",
+    "title": {
+      "ja": "バイオ燃料とエチレン",
+      "en": "Bio Fuel and ethylene"
+    },
+    "summary": {
+      "ja": "加圧反応室へ固体・液体・化学物質を供給します",
+      "en": "The Pressurized Reaction Chamber combines items, fluids and chemicals"
+    },
+    "icon": "mekanism:pressurized_reaction_chamber",
+    "components": [
+      "mekanism:pressurized_reaction_chamber",
+      "mekanism:bio_fuel",
+      "mekanism:substrate"
+    ],
+    "nodes": [
+      {
+        "id": "crusher",
+        "block": "mekanism:crusher",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "prc",
+        "block": "mekanism:pressurized_reaction_chamber",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "tank",
+        "block": "mekanism:basic_chemical_tank",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "粉砕機は対応する作物などからバイオ燃料を作ります\n素材によって生産量が異なります",
+          "en": "Crushing supported crops or other ingredients produces Bio Fuel\nThe amount depends on the ingredient"
+        },
+        "show": [
+          "crusher"
+        ],
+        "focus": [
+          "crusher"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:wheat",
+            "anchor": "crusher"
+          },
+          {
+            "item": "mekanism:bio_fuel",
+            "anchor": "crusher"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "加圧反応室へバイオ燃料・水・水素・電力を供給します\n固体・液体・化学物質には、それぞれの入力面設定があります",
+          "en": "The Pressurized Reaction Chamber uses Bio Fuel, water, hydrogen and power\nItem, fluid and chemical inputs each have separate face settings"
+        },
+        "show": [
+          "prc"
+        ],
+        "focus": [
+          "prc"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:bio_fuel",
+            "anchor": "prc"
+          }
+        ],
+        "flow": {
+          "from": "crusher",
+          "to": "prc",
+          "item": "mekanism:bio_fuel"
+        }
+      },
+      {
+        "text": {
+          "ja": "この反応では基質とエチレンができます\nアイテム出力と化学物質出力の両方に搬出が必要です",
+          "en": "This reaction produces Substrate and ethylene\nBoth the item and chemical outputs need extraction"
+        },
+        "show": [
+          "tank"
+        ],
+        "focus": [
+          "prc",
+          "tank"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:substrate",
+            "anchor": "prc"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "どちらかの出力が満杯になると反応が止まります\n蓄えたエチレンは追加の加工に使います",
+          "en": "The reaction stops if either output fills up\nStored ethylene is available for further processing"
+        },
+        "focus": [
+          "prc",
+          "tank"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "hdpe",
+    "chapter": "chemistry",
+    "title": {
+      "ja": "HDPEペレットを作る",
+      "en": "Making HDPE Pellets"
+    },
+    "summary": {
+      "ja": "エチレンを液化し、基質と酸素を反応させます",
+      "en": "Liquefied ethylene reacts with Substrate and oxygen"
+    },
+    "icon": "mekanism:hdpe_pellet",
+    "components": [
+      "mekanism:hdpe_pellet",
+      "mekanism:hdpe_sheet",
+      "mekanism:hdpe_rod",
+      "mekanism:rotary_condensentrator"
+    ],
+    "nodes": [
+      {
+        "id": "rotary",
+        "block": "mekanism:rotary_condensentrator",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "prc",
+        "block": "mekanism:pressurized_reaction_chamber",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "前の反応で得たエチレンを回転式流体凝縮器へ供給します\n今度は化学物質を液体へ変換する向きで使います",
+          "en": "Ethylene feeds a Rotary Condensentrator\nIn this direction, it converts chemicals into fluids"
+        },
+        "show": [
+          "rotary"
+        ],
+        "focus": [
+          "rotary"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:rotary_condensentrator",
+            "anchor": "rotary"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "できた液体エチレンはメカニカルパイプで運びます\n加圧チューブでは液体エチレンを送れません",
+          "en": "Mechanical Pipes carry Liquid Ethylene\nPressurized Tubes cannot carry the liquid"
+        },
+        "focus": [
+          "rotary"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_mechanical_pipe",
+            "anchor": "rotary"
+          }
+        ],
+        "warning": true
+      },
+      {
+        "text": {
+          "ja": "加圧反応室へ基質・液体エチレン・酸素・電力を供給すると、HDPEペレットを作れます",
+          "en": "The reaction chamber uses Substrate, Liquid Ethylene, oxygen and power\nThe Pressurized Reaction Chamber produces HDPE Pellets"
+        },
+        "show": [
+          "prc"
+        ],
+        "focus": [
+          "prc"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:substrate",
+            "anchor": "prc"
+          },
+          {
+            "item": "mekanism:hdpe_pellet",
+            "anchor": "prc"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "ペレットの搬出で出力スロットの空きを保てます\nこのレシピには化学物質の副産物はありません\n別の反応とは出力条件が異なります",
+          "en": "Extracting pellets keeps the output slot clear\nThis recipe has no chemical byproduct\nOther reactions have different output conditions"
+        },
+        "focus": [
+          "prc"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:hdpe_pellet",
+            "anchor": "prc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ore_tripling",
+    "chapter": "processing",
+    "title": {
+      "ja": "酸素を使う鉱石処理",
+      "en": "Ore processing with oxygen"
+    },
+    "summary": {
+      "ja": "浄化室・粉砕機・濃縮室・精錬を順につなぎます",
+      "en": "Purification, crushing, enrichment and smelting form the tripling line"
+    },
+    "icon": "mekanism:purification_chamber",
+    "components": [
+      "mekanism:purification_chamber",
+      "mekanism:crusher",
+      "mekanism:clump_iron",
+      "mekanism:dirty_dust_iron",
+      "mekanism:clump_copper",
+      "mekanism:clump_gold",
+      "mekanism:clump_lead",
+      "mekanism:clump_osmium",
+      "mekanism:clump_tin",
+      "mekanism:clump_uranium",
+      "mekanism:dirty_dust_copper",
+      "mekanism:dirty_dust_gold",
+      "mekanism:dirty_dust_lead",
+      "mekanism:dirty_dust_osmium",
+      "mekanism:dirty_dust_tin",
+      "mekanism:dirty_dust_uranium",
+      "mekanism:basic_crushing_factory",
+      "mekanism:basic_purifying_factory",
+      "mekanism:advanced_crushing_factory",
+      "mekanism:advanced_purifying_factory",
+      "mekanism:elite_crushing_factory",
+      "mekanism:elite_purifying_factory",
+      "mekanism:ultimate_crushing_factory",
+      "mekanism:ultimate_purifying_factory"
+    ],
+    "nodes": [
+      {
+        "id": "purify",
+        "block": "mekanism:purification_chamber",
+        "pos": [
+          1,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "crush",
+        "block": "mekanism:crusher",
+        "pos": [
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "enrich",
+        "block": "mekanism:enrichment_chamber",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "smelt",
+        "block": "mekanism:energized_smelter",
+        "pos": [
+          7,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "浄化室は酸素と電力を使います\n鉄鉱石ブロック一個から鉄の凝塊三個、鉄の原石一個からは二個を作ります",
+          "en": "The Purification Chamber uses oxygen and power\nOne iron ore block gives three Iron Clumps\nOne Raw Iron gives two Iron Clumps"
+        },
+        "show": [
+          "purify"
+        ],
+        "focus": [
+          "purify"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ore",
+            "anchor": "purify"
+          },
+          {
+            "item": "mekanism:clump_iron",
+            "anchor": "purify"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "鉄の凝塊を粉砕機へ送り、汚れた鉄の粉にします\n各加工は一対一で進みます",
+          "en": "Crushing the clumps produces Dirty Iron Dust\nEach downstream conversion is one-to-one"
+        },
+        "show": [
+          "crush"
+        ],
+        "focus": [
+          "crush"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:dirty_dust_iron",
+            "anchor": "crush"
+          }
+        ],
+        "flow": {
+          "from": "purify",
+          "to": "crush",
+          "item": "mekanism:clump_iron"
+        }
+      },
+      {
+        "text": {
+          "ja": "濃縮室で汚れた鉄の粉が鉄の粉になり、その後は電動精錬機へ送られます",
+          "en": "Dirty Iron Dust is enriched into Iron Dust, then sent to the Energized Smelter"
+        },
+        "show": [
+          "enrich",
+          "smelt"
+        ],
+        "focus": [
+          "enrich",
+          "smelt"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:dust_iron",
+            "anchor": "enrich"
+          }
+        ],
+        "flow": {
+          "from": "crush",
+          "to": "enrich",
+          "item": "mekanism:dirty_dust_iron"
+        }
+      },
+      {
+        "text": {
+          "ja": "鉱石ブロックは三倍、鉄の原石は二倍の収量です\n酸素切れや中間製品の詰まりは、上流から順に確認してください",
+          "en": "The default yield is three ingots per ore block or two per Raw Iron\nTrace oxygen shortages and blocked intermediates from upstream to downstream"
+        },
+        "focus": [
+          "purify",
+          "smelt"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ingot",
+            "anchor": "smelt"
+          }
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "ore_quadrupling",
+    "chapter": "processing",
+    "title": {
+      "ja": "塩化水素を使う鉱石処理",
+      "en": "Ore processing with hydrogen chloride"
+    },
+    "summary": {
+      "ja": "化学注入室を浄化工程の前に追加します",
+      "en": "Chemical injection precedes purification in the quadrupling line"
+    },
+    "icon": "mekanism:chemical_injection_chamber",
+    "components": [
+      "mekanism:chemical_injection_chamber",
+      "mekanism:shard_iron",
+      "mekanism:shard_copper",
+      "mekanism:shard_gold",
+      "mekanism:shard_lead",
+      "mekanism:shard_osmium",
+      "mekanism:shard_tin",
+      "mekanism:shard_uranium",
+      "mekanism:basic_injecting_factory",
+      "mekanism:advanced_injecting_factory",
+      "mekanism:elite_injecting_factory",
+      "mekanism:ultimate_injecting_factory"
+    ],
+    "nodes": [
+      {
+        "id": "inject",
+        "block": "mekanism:chemical_injection_chamber",
+        "pos": [
+          1,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "purify",
+        "block": "mekanism:purification_chamber",
+        "pos": [
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "crush",
+        "block": "mekanism:crusher",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "enrich",
+        "block": "mekanism:enrichment_chamber",
+        "pos": [
+          7,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "smelt",
+        "block": "mekanism:energized_smelter",
+        "pos": [
+          7,
+          1,
+          6
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "化学注入室は塩化水素と電力を使い、鉄鉱石ブロック一個から鉄の欠片四個を作ります",
+          "en": "The Chemical Injection Chamber uses hydrogen chloride and power\nIt makes four Iron Shards from one iron ore block"
+        },
+        "show": [
+          "inject"
+        ],
+        "focus": [
+          "inject"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:shard_iron",
+            "anchor": "inject"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "鉄の原石は三個から欠片八個です\n鉱石ブロックの四倍という収量は、原鉱には当てはまりません",
+          "en": "Three Raw Iron produce eight shards\nThe fourfold ore-block yield does not apply to raw ore"
+        },
+        "focus": [
+          "inject"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:raw_iron",
+            "anchor": "inject"
+          }
+        ],
+        "warning": true
+      },
+      {
+        "text": {
+          "ja": "欠片を酸素のある浄化室へ送り、凝塊に変えます\n塩化水素と酸素は、別々の化学物質経路から供給します",
+          "en": "Shards pass through an oxygen-fed Purification Chamber\nHydrogen chloride and oxygen arrive through separate chemical networks"
+        },
+        "show": [
+          "purify"
+        ],
+        "focus": [
+          "purify"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:clump_iron",
+            "anchor": "purify"
+          }
+        ],
+        "flow": {
+          "from": "inject",
+          "to": "purify",
+          "item": "mekanism:shard_iron"
+        }
+      },
+      {
+        "text": {
+          "ja": "凝塊からは粉砕・濃縮・精錬を一回ずつ行います\n各機械の出力面を設定すると、中間製品が次の工程へ進みます",
+          "en": "Crushing, enrichment and smelting complete the line\nConfigured output faces pass intermediates between machines"
+        },
+        "show": [
+          "crush",
+          "enrich",
+          "smelt"
+        ],
+        "focus": [
+          "crush",
+          "enrich",
+          "smelt"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ingot",
+            "anchor": "smelt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ore_quintupling",
+    "chapter": "processing",
+    "title": {
+      "ja": "スラリーからの鉱石処理",
+      "en": "Processing ore through slurry"
+    },
+    "summary": {
+      "ja": "溶解・洗浄・結晶化を行い、化学注入工程へ接続します",
+      "en": "Dissolution, washing and crystallization precede chemical injection"
+    },
+    "icon": "mekanism:chemical_dissolution_chamber",
+    "components": [
+      "mekanism:chemical_dissolution_chamber",
+      "mekanism:chemical_washer",
+      "mekanism:chemical_crystallizer",
+      "mekanism:crystal_iron",
+      "mekanism:crystal_copper",
+      "mekanism:crystal_gold",
+      "mekanism:crystal_lead",
+      "mekanism:crystal_osmium",
+      "mekanism:crystal_tin",
+      "mekanism:crystal_uranium"
+    ],
+    "nodes": [
+      {
+        "id": "dissolve",
+        "block": "mekanism:chemical_dissolution_chamber",
+        "pos": [
+          1,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "wash",
+        "block": "mekanism:chemical_washer",
+        "pos": [
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "crystal",
+        "block": "mekanism:chemical_crystallizer",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "inject",
+        "block": "mekanism:chemical_injection_chamber",
+        "pos": [
+          7,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "化学溶解室は硫酸を使います\n標準レシピでは鉄鉱石一個から汚れたスラリー1000 mB、鉄の原石三個から2000 mBを作ります",
+          "en": "The Chemical Dissolution Chamber uses sulfuric acid\nOne iron ore block gives 1,000 mB of dirty slurry\nThree Raw Iron give 2,000 mB of dirty slurry"
+        },
+        "show": [
+          "dissolve"
+        ],
+        "focus": [
+          "dissolve"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ore",
+            "anchor": "dissolve"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "化学洗浄機へ汚れたスラリーと水を供給します\nスラリー1 mBにつき水5 mBを使い、同量のきれいなスラリーになります",
+          "en": "Dirty slurry and water feed the Chemical Washer\nIt uses 5 mB of water per 1 mB of slurry and preserves the slurry amount"
+        },
+        "show": [
+          "wash"
+        ],
+        "focus": [
+          "wash"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:water_bucket",
+            "anchor": "wash"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "化学結晶化装置は、きれいなスラリー200 mBから結晶一個を作ります\n複数機へ分散するときは端数の滞留に注意してください",
+          "en": "The Chemical Crystallizer makes one crystal from 200 mB of clean slurry\nSplitting slurry among machines can strand partial batches"
+        },
+        "show": [
+          "crystal"
+        ],
+        "focus": [
+          "crystal"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:crystal_iron",
+            "anchor": "crystal"
+          }
+        ],
+        "warning": true
+      },
+      {
+        "text": {
+          "ja": "結晶を塩化水素のある化学注入室へ送り、欠片にします\nその先は浄化・粉砕・濃縮・精錬の順です",
+          "en": "Crystals enter a hydrogen-chloride-fed Chemical Injection Chamber to make shards\nPurification, crushing, enrichment and smelting follow"
+        },
+        "show": [
+          "inject"
+        ],
+        "focus": [
+          "inject"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:shard_iron",
+            "anchor": "inject"
+          }
+        ],
+        "flow": {
+          "from": "crystal",
+          "to": "inject",
+          "item": "mekanism:crystal_iron"
+        }
+      },
+      {
+        "text": {
+          "ja": "結果は鉱石ブロック一個から五インゴット、鉄の原石三個から十インゴットです\n鉱石ごとにスラリーの種類が違うため、混線を避けてください",
+          "en": "The yield is five ingots per ore block or ten per three Raw Iron\nEach ore has its own slurry, so its network stays separate"
+        },
+        "focus": [
+          "wash",
+          "crystal"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "induction",
+    "chapter": "advanced",
+    "title": {
+      "ja": "インダクションマトリックス",
+      "en": "Induction matrices"
+    },
+    "summary": {
+      "ja": "セルの容量とプロバイダーの転送量を分けて考えます",
+      "en": "Cells set energy capacity; providers limit transfer"
+    },
+    "icon": "mekanism:induction_casing",
+    "components": [
+      "mekanism:induction_casing",
+      "mekanism:induction_port",
+      "mekanism:basic_induction_cell",
+      "mekanism:advanced_induction_cell",
+      "mekanism:elite_induction_cell",
+      "mekanism:ultimate_induction_cell",
+      "mekanism:basic_induction_provider",
+      "mekanism:advanced_induction_provider",
+      "mekanism:elite_induction_provider",
+      "mekanism:ultimate_induction_provider"
+    ],
+    "nodes": [
+      {
+        "id": "i3_1_3",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          1,
+          3
+        ]
+      },
+      {
+        "id": "i3_1_4",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "i3_1_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "i3_2_3",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "i3_2_4",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          2,
+          4
+        ]
+      },
+      {
+        "id": "i3_2_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          2,
+          5
+        ]
+      },
+      {
+        "id": "i3_3_3",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "id": "i3_3_4",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          3,
+          4
+        ]
+      },
+      {
+        "id": "i3_3_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          3,
+          5
+        ]
+      },
+      {
+        "id": "i3_4_3",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          4,
+          3
+        ]
+      },
+      {
+        "id": "i3_4_4",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "id": "i3_4_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "id": "i4_1_3",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          4,
+          1,
+          3
+        ]
+      },
+      {
+        "id": "i4_1_4",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "i4_1_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          4,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "i4_2_3",
+        "block": "mekanism:induction_port",
+        "pos": [
+          4,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "i4_2_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          4,
+          2,
+          5
+        ]
+      },
+      {
+        "id": "i4_3_3",
+        "block": "mekanism:induction_port",
+        "pos": [
+          4,
+          3,
+          3
+        ]
+      },
+      {
+        "id": "i4_3_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          4,
+          3,
+          5
+        ]
+      },
+      {
+        "id": "i4_4_3",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          4,
+          4,
+          3
+        ]
+      },
+      {
+        "id": "i4_4_4",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "id": "i4_4_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "id": "i5_1_3",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          1,
+          3
+        ]
+      },
+      {
+        "id": "i5_1_4",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "i5_1_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          1,
+          5
+        ]
+      },
+      {
+        "id": "i5_2_3",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          2,
+          3
+        ]
+      },
+      {
+        "id": "i5_2_4",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          2,
+          4
+        ]
+      },
+      {
+        "id": "i5_2_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          2,
+          5
+        ]
+      },
+      {
+        "id": "i5_3_3",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          3,
+          3
+        ]
+      },
+      {
+        "id": "i5_3_4",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          3,
+          4
+        ]
+      },
+      {
+        "id": "i5_3_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          3,
+          5
+        ]
+      },
+      {
+        "id": "i5_4_3",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          4,
+          3
+        ]
+      },
+      {
+        "id": "i5_4_4",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          4,
+          4
+        ]
+      },
+      {
+        "id": "i5_4_5",
+        "block": "mekanism:induction_casing",
+        "pos": [
+          5,
+          4,
+          5
+        ]
+      },
+      {
+        "id": "cell",
+        "block": "mekanism:basic_induction_cell",
+        "pos": [
+          4,
+          2,
+          4
+        ]
+      },
+      {
+        "id": "provider",
+        "block": "mekanism:basic_induction_provider",
+        "pos": [
+          4,
+          3,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "インダクションケーシングで直方体の枠を作ります\n外寸は各方向3〜18です\nここでは内部二マスを持つ3×4×3の例を示します",
+          "en": "Induction Casings form a cuboid frame, 3–18 blocks along each dimension\nThis 3×4×3 example has two interior spaces"
+        },
+        "show": [
+          "i3_1_3",
+          "i3_1_4",
+          "i3_1_5",
+          "i3_2_3",
+          "i3_2_5",
+          "i3_3_3",
+          "i3_3_5",
+          "i3_4_3",
+          "i3_4_4",
+          "i3_4_5",
+          "i4_1_3",
+          "i4_1_5",
+          "i4_4_3",
+          "i4_4_5",
+          "i5_1_3",
+          "i5_1_4",
+          "i5_1_5",
+          "i5_2_3",
+          "i5_2_5",
+          "i5_3_3",
+          "i5_3_5",
+          "i5_4_3",
+          "i5_4_4",
+          "i5_4_5"
+        ],
+        "focus": [
+          "i3_1_3"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:induction_casing",
+            "anchor": "i3_1_3"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "手前の枠を一時的に外した断面です\n内部にセルとプロバイダが入ります\nセルが蓄電容量、プロバイダが入出力の上限を受け持ちます",
+          "en": "This cutaway temporarily removes the front frame\nA cell and provider sit inside\nCells set capacity, while providers set the transfer limit"
+        },
+        "show": [
+          "cell",
+          "provider"
+        ],
+        "focus": [
+          "cell",
+          "provider"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_induction_cell",
+            "anchor": "cell"
+          },
+          {
+            "item": "mekanism:basic_induction_provider",
+            "anchor": "provider"
+          }
+        ],
+        "hide": [
+          "i3_1_3",
+          "i3_2_3",
+          "i3_3_3",
+          "i3_4_3",
+          "i4_1_3",
+          "i4_4_3",
+          "i5_1_3",
+          "i5_2_3",
+          "i5_3_3",
+          "i5_4_3"
+        ]
+      },
+      {
+        "text": {
+          "ja": "外した枠を戻して面を閉じ、面の内側にポートを設けます\n枠の辺と角はケーシングです",
+          "en": "Restoring the front frame and closing the faces completes the shell\nPorts sit within the faces, with casing edges and corners"
+        },
+        "show": [
+          "i3_1_3",
+          "i3_2_3",
+          "i3_3_3",
+          "i3_4_3",
+          "i4_1_3",
+          "i4_4_3",
+          "i5_1_3",
+          "i5_2_3",
+          "i5_3_3",
+          "i5_4_3",
+          "i3_2_4",
+          "i3_3_4",
+          "i4_1_4",
+          "i4_2_3",
+          "i4_2_5",
+          "i4_3_3",
+          "i4_3_5",
+          "i4_4_4",
+          "i5_2_4",
+          "i5_3_4"
+        ],
+        "focus": [
+          "i4_2_3",
+          "i4_3_3"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:induction_port",
+            "anchor": "i4_2_3"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "ポートを入力用と出力用に設定します\n容量が残っていても、プロバイダーやケーブルの転送上限を超えては送れません",
+          "en": "Ports have separate input and output modes\nStored energy cannot bypass the transfer limits of providers or cables"
+        },
+        "focus": [
+          "i4_2_3",
+          "i4_3_3"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:configurator",
+            "anchor": "i4_3_3",
+            "action": "right_click",
+            "sneak": true
+          }
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "digital_miner",
+    "chapter": "advanced",
+    "title": {
+      "ja": "デジタルマイナー",
+      "en": "The Digital Miner"
+    },
+    "summary": {
+      "ja": "採掘範囲・フィルター・搬出先を確認してから起動します",
+      "en": "Mining starts after the area, filters and output are checked"
+    },
+    "icon": "mekanism:digital_miner",
+    "components": [
+      "mekanism:digital_miner"
+    ],
+    "nodes": [
+      {
+        "id": "miner",
+        "block": "mekanism:digital_miner",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "ore",
+        "block": "minecraft:iron_ore",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "chest",
+        "block": "minecraft:chest",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "デジタルマイナーは指定範囲の対象ブロックを採掘します\n電力を供給し、半径と高さの範囲を設定してから起動します",
+          "en": "The Digital Miner mines matching blocks within its configured area\nPower is supplied and the radius and height range are set before mining starts"
+        },
+        "show": [
+          "miner",
+          "ore"
+        ],
+        "focus": [
+          "miner"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:digital_miner",
+            "anchor": "miner"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "アイテムやタグのフィルターで対象を指定し、検索結果を確認します\n逆フィルターは対象が大きく変わるため慎重に使ってください",
+          "en": "Item or tag filters define the targets shown in the search result\nInverse mode changes the selection substantially, so use it carefully"
+        },
+        "focus": [
+          "miner",
+          "ore"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ore",
+            "anchor": "miner"
+          }
+        ],
+        "warning": true
+      },
+      {
+        "text": {
+          "ja": "採掘したアイテムの収納先を用意し、自動搬出などを設定します\n収納が満杯になれば採掘が進まなくなります",
+          "en": "Storage and an output method, such as auto-eject, receive the mined items\nA full output inventory prevents further mining"
+        },
+        "show": [
+          "chest"
+        ],
+        "focus": [
+          "chest"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:chest",
+            "anchor": "chest"
+          }
+        ],
+        "flow": {
+          "from": "miner",
+          "to": "chest",
+          "item": "minecraft:raw_iron"
+        }
+      },
+      {
+        "text": {
+          "ja": "シルクタッチ・置換・自動搬入の設定も、目的に応じて確認してください\nこの場面は模型であり、実ワールドのブロックは採掘しません",
+          "en": "Silk Touch, replacement and auto-pull settings adapt mining to the task\nThis scene is a model and does not mine blocks in your real world"
+        },
+        "focus": [
+          "miner"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "qio",
+    "chapter": "advanced",
+    "title": {
+      "ja": "QIOの収納と転送",
+      "en": "QIO storage and transfer"
+    },
+    "summary": {
+      "ja": "周波数を合わせ、ドライブと端末を接続します",
+      "en": "Matching frequencies link QIO drives and terminals"
+    },
+    "icon": "mekanism:qio_drive_array",
+    "components": [
+      "mekanism:qio_drive_array",
+      "mekanism:qio_dashboard",
+      "mekanism:portable_qio_dashboard",
+      "mekanism:qio_importer",
+      "mekanism:qio_exporter",
+      "mekanism:qio_redstone_adapter",
+      "mekanism:qio_drive_base",
+      "mekanism:qio_drive_hyper_dense",
+      "mekanism:qio_drive_time_dilating",
+      "mekanism:qio_drive_supermassive"
+    ],
+    "nodes": [
+      {
+        "id": "array",
+        "block": "mekanism:qio_drive_array",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "dashboard",
+        "block": "mekanism:qio_dashboard",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "chest",
+        "block": "minecraft:chest",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "importer",
+        "block": "mekanism:qio_importer",
+        "pos": [
+          6,
+          1,
+          5
+        ],
+        "state": {
+          "facing": "south"
+        }
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "QIOドライブ配列にドライブを入れ、新規または既存の周波数を選びます\nドライブにはアイテム総数と種類数の上限があります",
+          "en": "A drive goes into the QIO Drive Array on a new or existing frequency\nDrives have limits for both item count and item types"
+        },
+        "show": [
+          "array"
+        ],
+        "focus": [
+          "array"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:qio_drive_base",
+            "anchor": "array"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "QIOダッシュボードを同じ周波数に合わせると、収納へアクセスできます\n周波数の公開範囲と所有者にも注意してください",
+          "en": "A QIO Dashboard accesses storage on the same frequency\nCheck frequency visibility and ownership"
+        },
+        "show": [
+          "dashboard"
+        ],
+        "focus": [
+          "dashboard"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:portable_qio_dashboard",
+            "anchor": "dashboard"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "QIOインポーターは隣の収納からQIOへ取り込み、エクスポーターはQIOから隣の収納へ送ります\n転送する対象は周波数とフィルターで決まります",
+          "en": "A QIO Importer moves items from an adjacent inventory into QIO\nA QIO Exporter moves them out\nFrequency and filters determine the transfers"
+        },
+        "show": [
+          "chest",
+          "importer"
+        ],
+        "focus": [
+          "importer"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:qio_importer",
+            "anchor": "importer"
+          },
+          {
+            "item": "mekanism:qio_exporter",
+            "anchor": "importer"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "機器のあるチャンクが読み込まれていないと転送が進みません\n取り込めないときは周波数・ドライブの空き・種類数上限も確認してください",
+          "en": "Devices must be in loaded chunks to transfer items\nIf imports stop, also check the frequency, free capacity and type limit"
+        },
+        "focus": [
+          "array",
+          "importer"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "teleporters",
+    "chapter": "advanced",
+    "title": {
+      "ja": "テレポーターと周波数",
+      "en": "Teleporters and frequencies"
+    },
+    "summary": {
+      "ja": "フレーム・電力・周波数の条件を揃えます",
+      "en": "Teleportation depends on the frame, power and frequency"
+    },
+    "icon": "mekanism:teleporter",
+    "components": [
+      "mekanism:teleporter",
+      "mekanism:teleporter_frame",
+      "mekanism:portable_teleporter"
+    ],
+    "nodes": [
+      {
+        "id": "pad",
+        "block": "mekanism:teleporter",
+        "pos": [
+          3,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "target",
+        "block": "mekanism:teleporter",
+        "pos": [
+          7,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "f2_1",
+        "block": "mekanism:teleporter_frame",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "f4_1",
+        "block": "mekanism:teleporter_frame",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "f2_2",
+        "block": "mekanism:teleporter_frame",
+        "pos": [
+          2,
+          2,
+          4
+        ]
+      },
+      {
+        "id": "f4_2",
+        "block": "mekanism:teleporter_frame",
+        "pos": [
+          4,
+          2,
+          4
+        ]
+      },
+      {
+        "id": "f2_3",
+        "block": "mekanism:teleporter_frame",
+        "pos": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "id": "f4_3",
+        "block": "mekanism:teleporter_frame",
+        "pos": [
+          4,
+          3,
+          4
+        ]
+      },
+      {
+        "id": "f2_4",
+        "block": "mekanism:teleporter_frame",
+        "pos": [
+          2,
+          4,
+          4
+        ]
+      },
+      {
+        "id": "f3_4",
+        "block": "mekanism:teleporter_frame",
+        "pos": [
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "id": "f4_4",
+        "block": "mekanism:teleporter_frame",
+        "pos": [
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "床中央のテレポーターを、左右の柱と上辺のテレポーターフレームで囲います\nフレームの内側には入れる空間が残ります",
+          "en": "The Teleporter sits at the bottom center\nTeleporter Frame pillars stand at its sides\nThe top joins the pillars, with space left inside"
+        },
+        "show": [
+          "pad",
+          "f2_1",
+          "f4_1",
+          "f2_2",
+          "f4_2",
+          "f2_3",
+          "f4_3",
+          "f2_4",
+          "f3_4",
+          "f4_4"
+        ],
+        "focus": [
+          "pad"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:teleporter_frame",
+            "anchor": "f2_2"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "転送元と転送先を同じ周波数に合わせます\n相手側にも正しいフレームが必要です\n離して置いたブロックは転送先を表す目印です",
+          "en": "The source and destination share a frequency\nThe destination also needs a valid frame\nThe separate block marks that destination"
+        },
+        "show": [
+          "target"
+        ],
+        "focus": [
+          "target"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:teleporter",
+            "anchor": "target"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "電力を供給したテレポーターのGUIで、フレームと転送先の状態が分かります\n距離や次元間の移動は必要電力に影響します",
+          "en": "The GUI shows the powered Teleporter's frame and destination status\nDistance and dimension changes affect energy cost"
+        },
+        "focus": [
+          "pad"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_universal_cable",
+            "anchor": "pad"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "携帯テレポーターからも対応する周波数を選べます\n転送先のチャンク読み込みと、携帯側の充電を確認してください",
+          "en": "A Portable Teleporter can select a compatible frequency too\nCheck that the destination chunk is loaded and the portable unit is charged"
+        },
+        "focus": [
+          "target"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:portable_teleporter",
+            "anchor": "target"
+          }
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "crafting",
+    "chapter": "advanced",
+    "title": {
+      "ja": "定式組立機の自動クラフト",
+      "en": "Automatic crafting with formulas"
+    },
+    "summary": {
+      "ja": "クラフト定式と材料の搬入・完成品の搬出を分けます",
+      "en": "An encoded formula needs ingredients and output storage"
+    },
+    "icon": "mekanism:formulaic_assemblicator",
+    "components": [
+      "mekanism:formulaic_assemblicator",
+      "mekanism:crafting_formula"
+    ],
+    "nodes": [
+      {
+        "id": "input",
+        "block": "minecraft:chest",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "crafter",
+        "block": "mekanism:formulaic_assemblicator",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "output",
+        "block": "minecraft:chest",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "定式組立機は電力を使ってクラフトを行います\nレシピを記録したクラフト定式を機械にセットします",
+          "en": "The Formulaic Assemblicator uses power to craft items\nA Crafting Formula stores the recipe installed in the machine"
+        },
+        "show": [
+          "crafter"
+        ],
+        "focus": [
+          "crafter"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:crafting_formula",
+            "anchor": "crafter"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "必要な材料を収納から供給します\n定式があっても、材料そのものが無ければクラフトできません",
+          "en": "Ingredients arrive from storage\nA formula describes the recipe but does not provide its materials"
+        },
+        "show": [
+          "input"
+        ],
+        "focus": [
+          "input",
+          "crafter"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ingot",
+            "anchor": "input"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "在庫管理と自動クラフトの設定が、機械の動作を決めます\n完成品は出力に設定した面から取り出せます",
+          "en": "Stock control and automatic crafting govern production\nFinished products can be extracted through a face set to Output"
+        },
+        "show": [
+          "output"
+        ],
+        "focus": [
+          "crafter",
+          "output"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:formulaic_assemblicator",
+            "anchor": "crafter"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "材料の配置やレシピの変更、満杯の出力は停止の原因です\n現在のレシピと定式の内容が一致するか確認してください",
+          "en": "Ingredient layout, recipe changes and a full output can stop crafting\nCheck that the formula still matches the current recipe"
+        },
+        "focus": [
+          "crafter"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "nuclear_waste",
+    "chapter": "advanced",
+    "title": {
+      "ja": "放射性物質の取り扱い",
+      "en": "Handling radioactive chemicals"
+    },
+    "summary": {
+      "ja": "核廃棄物の保管と処理設備の条件を確認します",
+      "en": "Waste storage supports equipment with different processing requirements"
+    },
+    "icon": "mekanism:radioactive_waste_barrel",
+    "components": [
+      "mekanism:radioactive_waste_barrel",
+      "mekanism:solar_neutron_activator",
+      "mekanism:isotopic_centrifuge",
+      "mekanism:antiprotonic_nucleosynthesizer"
+    ],
+    "nodes": [
+      {
+        "id": "barrel",
+        "block": "mekanism:radioactive_waste_barrel",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "solar",
+        "block": "mekanism:solar_neutron_activator",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "centrifuge",
+        "block": "mekanism:isotopic_centrifuge",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "放射性廃棄物バレルは核廃棄物などの保管に使います\n核分裂炉は別MODのMekanism: Generatorsに含まれます",
+          "en": "Radioactive Waste Barrels store chemicals such as nuclear waste\nFission reactors belong to the separate Mekanism: Generators mod"
+        },
+        "show": [
+          "barrel"
+        ],
+        "focus": [
+          "barrel"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:radioactive_waste_barrel",
+            "anchor": "barrel"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "核廃棄物は太陽中性子反応機でポロニウムへ加工できます\n同位体遠心分離機ではプルトニウムへ加工できます\n各設備には稼働条件と出力経路が必要です",
+          "en": "A Solar Neutron Activator processes nuclear waste into polonium\nAn Isotopic Centrifuge processes it into plutonium\nEach machine needs its operating conditions and an output route"
+        },
+        "show": [
+          "solar",
+          "centrifuge"
+        ],
+        "focus": [
+          "solar",
+          "centrifuge"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:solar_neutron_activator",
+            "anchor": "solar"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "太陽中性子反応機は日光に依存します\n夜間の停止や悪天候時の減速には、廃棄物の保管容量で備えられます",
+          "en": "The Solar Neutron Activator depends on sunlight\nExtra storage covers nighttime downtime and slower production in bad weather"
+        },
+        "focus": [
+          "solar",
+          "barrel"
+        ],
+        "warning": true
+      },
+      {
+        "text": {
+          "ja": "放射性物質が入った機器や経路を壊すと放射線を放出する場合があります\n撤去前に内容物を安全な処理先へ移し、GUIで空を確認してください",
+          "en": "Breaking equipment or pipes containing radioactive chemicals can release radiation\nRoute the contents to safe processing\nVerify that the containers are empty before dismantling"
+        },
+        "focus": [
+          "barrel",
+          "solar",
+          "centrifuge"
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "diagnose_power",
+    "chapter": "troubleshooting",
+    "title": {
+      "ja": "動かない機械の切り分け",
+      "en": "Diagnosing an idle machine"
+    },
+    "summary": {
+      "ja": "電力・レッドストーン・入力・出力を順に確認します",
+      "en": "Check power, redstone control, ingredients and outputs"
+    },
+    "icon": "mekanism:energy_tablet",
+    "components": [
+      "mekanism:energy_tablet"
+    ],
+    "nodes": [
+      {
+        "id": "cube",
+        "block": "mekanism:basic_energy_cube",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "machine",
+        "block": "mekanism:metallurgic_infuser",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "output",
+        "block": "minecraft:chest",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "最初に機械の電力表示を確認します\n蓄電量が増えない場合は、電源の残量・出力面・ケーブルの接続をたどってください",
+          "en": "Check the machine energy display first\nIf it is not charging, trace the source charge, output face and cable connections"
+        },
+        "show": [
+          "cube",
+          "machine"
+        ],
+        "focus": [
+          "cube",
+          "machine"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:energy_tablet",
+            "anchor": "machine"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "電力があるのに動かない場合は、レッドストーン制御を確認してください\n要求する信号条件を満たさないと加工は止まります",
+          "en": "If power is available, check redstone control\nProcessing stops when its selected signal condition is not met"
+        },
+        "focus": [
+          "machine"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:redstone",
+            "anchor": "machine"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "材料の種類・個数と、液体や化学物質の種類・必要量を確認します\n吹込素材が別種のまま残っている場合もあります",
+          "en": "Check ingredient types and counts, plus required fluid and chemical types and amounts\nAn incompatible infusion material may still be in the tank"
+        },
+        "focus": [
+          "machine"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:iron_ingot",
+            "anchor": "machine"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "出力先の満杯や、取り出せない副産物も停止原因です\n機械一台ずつを確認し、正常になってから全体へ広げてください",
+          "en": "A full output or blocked byproduct can also stop processing\nCheck one machine at a time before testing the whole line"
+        },
+        "show": [
+          "output"
+        ],
+        "focus": [
+          "output"
+        ],
+        "callouts": [
+          {
+            "item": "minecraft:chest",
+            "anchor": "output"
+          }
+        ],
+        "warning": true
+      }
+    ]
+  },
+  {
+    "id": "diagnose_processing",
+    "chapter": "troubleshooting",
+    "title": {
+      "ja": "化学処理が詰まったとき",
+      "en": "Diagnosing a stalled chemical line"
+    },
+    "summary": {
+      "ja": "残量・副産物・種類の混線・小分けの端数を確認します",
+      "en": "Check amounts, byproducts, mixed networks and partial batches"
+    },
+    "icon": "mekanism:gauge_dropper",
+    "components": [
+      "mekanism:gauge_dropper"
+    ],
+    "nodes": [
+      {
+        "id": "separator",
+        "block": "mekanism:electrolytic_separator",
+        "pos": [
+          2,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "tank",
+        "block": "mekanism:basic_chemical_tank",
+        "pos": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "id": "crystal",
+        "block": "mekanism:chemical_crystallizer",
+        "pos": [
+          6,
+          1,
+          4
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "text": {
+          "ja": "複数の出力がある機械は、使わない側が満杯でも停止します\n電解分離機では水素と酸素の両方を確認してください",
+          "en": "Machines with multiple outputs stop when an unused output fills too\nCheck both hydrogen and oxygen in an Electrolytic Separator"
+        },
+        "show": [
+          "separator"
+        ],
+        "focus": [
+          "separator"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:electrolytic_separator",
+            "anchor": "separator"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "タンクやチューブに別種の化学物質が残ると、必要な物質を入れられません\n液体と化学物質の搬送部材も区別してください",
+          "en": "A different chemical remaining in a tank or tube blocks insertion\nAlso distinguish fluid pipes from chemical tubes"
+        },
+        "show": [
+          "tank"
+        ],
+        "focus": [
+          "tank"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:basic_pressurized_tube",
+            "anchor": "tank"
+          }
+        ]
+      },
+      {
+        "text": {
+          "ja": "化学結晶化装置はスラリー200 mB単位で動きます\n複数台へ分散した端数が各機に残ると、全体の合計が足りても処理できない場合があります",
+          "en": "A Chemical Crystallizer processes slurry in 200 mB batches\nPartial batches split among machines may stop processing\nEnough slurry in total does not guarantee a full batch per machine"
+        },
+        "show": [
+          "crystal"
+        ],
+        "focus": [
+          "crystal"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:chemical_crystallizer",
+            "anchor": "crystal"
+          }
+        ],
+        "warning": true
+      },
+      {
+        "text": {
+          "ja": "ゲージドロッパーは対応するGUIのゲージから内容物を扱えます\n捨てる操作は取り消せないため、物質名と放射性の注意を確認してください",
+          "en": "A Gauge Dropper can handle contents through supported GUI gauges\nDumping cannot be undone, so check the chemical name and radiation warnings first"
+        },
+        "focus": [
+          "tank",
+          "crystal"
+        ],
+        "callouts": [
+          {
+            "item": "mekanism:gauge_dropper",
+            "anchor": "tank"
+          }
+        ],
+        "warning": true
+      }
+    ]
+  }
+]

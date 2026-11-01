@@ -1,0 +1,734 @@
+[
+  {
+    "id": "infused_alloy",
+    "items": [
+      "mekanism:alloy_infused"
+    ],
+    "text": {
+      "ja": "冶金吹込機で鉄へ赤石を吹き込んで作る中間素材です\n機械や上位合金の材料になります",
+      "en": "An intermediate material made by infusing iron with redstone\nUsed for machines and higher alloy tiers"
+    }
+  },
+  {
+    "id": "reinforced_alloy",
+    "items": [
+      "mekanism:alloy_reinforced"
+    ],
+    "text": {
+      "ja": "吹込合金へダイヤモンドを吹き込んで作ります\n濃縮ダイヤモンドを使うと、吹込素材を効率よく補給できます",
+      "en": "Made by infusing Infused Alloy with diamond\nEnriched Diamond provides infusion material more efficiently"
+    }
+  },
+  {
+    "id": "atomic_alloy",
+    "items": [
+      "mekanism:alloy_atomic"
+    ],
+    "text": {
+      "ja": "強化合金へ精製黒曜石を吹き込んで作る上位素材です\n精製黒曜石の粉と、吹込用の濃縮黒曜石は別の素材です",
+      "en": "Infusing Reinforced Alloy with refined obsidian makes this higher tier material\nRefined Obsidian Dust differs from the Enriched Obsidian used for infusion"
+    }
+  },
+  {
+    "id": "enriched_materials",
+    "items": [
+      "mekanism:enriched_carbon",
+      "mekanism:enriched_redstone",
+      "mekanism:enriched_diamond",
+      "mekanism:enriched_refined_obsidian",
+      "mekanism:enriched_gold",
+      "mekanism:enriched_tin"
+    ],
+    "text": {
+      "ja": "冶金吹込機へ補給する濃縮済みの吹込素材です\n加工対象のアイテム入力ではなく「追加」側へ供給します\n素材ごとの対応する吹込種類を確認してください",
+      "en": "Concentrated infusion material for a Metallurgic Infuser\nIn item side configuration, supply it to Extra\nCheck the infusion type required by the recipe"
+    }
+  },
+  {
+    "id": "control_circuits",
+    "items": [
+      "mekanism:basic_control_circuit",
+      "mekanism:advanced_control_circuit",
+      "mekanism:elite_control_circuit",
+      "mekanism:ultimate_control_circuit"
+    ],
+    "text": {
+      "ja": "機械や設備のクラフトに使う制御回路です\n必要な段階の回路と素材は、現在の環境のレシピで確認してください",
+      "en": "Control circuits used to craft machines and equipment\nCheck the current recipes for the required circuit tier and ingredients"
+    }
+  },
+  {
+    "id": "structural_glass",
+    "items": [
+      "mekanism:structural_glass"
+    ],
+    "text": {
+      "ja": "対応するマルチブロックの面に使うガラスです\nすべての設備や枠の辺に使えるわけではないため、設備ごとの構造条件を確認してください",
+      "en": "Glass for the faces of supported multiblocks\nIt is not valid for every structure or frame edge; check the specific structure requirements"
+    }
+  },
+  {
+    "id": "hdpe_materials",
+    "items": [
+      "mekanism:hdpe_sheet",
+      "mekanism:hdpe_rod"
+    ],
+    "text": {
+      "ja": "HDPEペレットから加工する素材です\n設備のクラフトや装飾用の部材などに使います",
+      "en": "Materials crafted from HDPE Pellets, used in equipment recipes and decorative components"
+    }
+  },
+  {
+    "id": "fuelwood_heat",
+    "items": [
+      "mekanism:fuelwood_heater"
+    ],
+    "text": {
+      "ja": "燃料を使って熱を供給します\n電力を発電する装置ではありません\n熱伝導経路を通して利用先へ熱を伝えます",
+      "en": "Burning fuel supplies heat\nIt does not generate electricity\nA heat transfer path carries the heat to the equipment"
+    }
+  },
+  {
+    "id": "speed_upgrade",
+    "items": [
+      "mekanism:upgrade_speed"
+    ],
+    "text": {
+      "ja": "対応する機械の処理速度を上げますが、必要電力も増えます\n供給電力とエネルギーアップグレードを合わせて調整してください",
+      "en": "Speeds up supported machines while increasing energy demand\nPlan power supply and Energy Upgrades together"
+    }
+  },
+  {
+    "id": "energy_upgrade",
+    "items": [
+      "mekanism:upgrade_energy"
+    ],
+    "text": {
+      "ja": "対応する機械のエネルギー効率などを改善します\n効果と取り付け可能数は機械のGUIで確認してください",
+      "en": "Improves energy efficiency and related properties in supported machines\nCheck the machine GUI for its effects and installation limit"
+    }
+  },
+  {
+    "id": "sps",
+    "items": [
+      "mekanism:sps_casing",
+      "mekanism:sps_port",
+      "mekanism:supercharged_coil"
+    ],
+    "text": {
+      "ja": "SPSは専用の7×7×7形状で、ポートの直内側に過充電コイルを取り付けます\nポロニウムと大量の電力から反物質を作ります\n単なる立方体の外殻では成立しません",
+      "en": "The SPS uses a specific 7×7×7 shape with Supercharged Coils directly inside ports\nIt converts polonium and large amounts of power into antimatter\nA simple cuboid shell is not valid"
+    }
+  },
+  {
+    "id": "radioactive_pellets",
+    "items": [
+      "mekanism:pellet_polonium",
+      "mekanism:pellet_plutonium",
+      "mekanism:pellet_antimatter"
+    ],
+    "text": {
+      "ja": "高度な設備のクラフトに使うペレットです\n製造途中の放射性化学物質は、内容物を残したまま機器やチューブを撤去しないでください",
+      "en": "Pellets used for advanced equipment\nDuring production, do not dismantle equipment or tubes while they still contain radioactive chemicals"
+    }
+  },
+  {
+    "id": "coverage_creative_storage",
+    "items": [
+      "mekanism:creative_energy_cube",
+      "mekanism:creative_fluid_tank",
+      "mekanism:creative_chemical_tank",
+      "mekanism:creative_bin"
+    ],
+    "text": {
+      "ja": "クリエイティブ用の無限供給・受け入れ機能を持つ収納です\n通常のTierとは容量や内容物の扱いが異なります",
+      "en": "Creative storage provides unlimited supply or acceptance\nIts contents and capacity behave differently from normal tiers"
+    }
+  },
+  {
+    "id": "coverage_bins",
+    "items": [
+      "mekanism:basic_bin",
+      "mekanism:advanced_bin",
+      "mekanism:elite_bin",
+      "mekanism:ultimate_bin"
+    ],
+    "text": {
+      "ja": "同じ種類のアイテムを大量に保管する収納です\nロックすると、空でも保管する種類を維持します",
+      "en": "Stores a large quantity of one item type\nLocking keeps that type assigned even when empty"
+    }
+  },
+  {
+    "id": "coverage_quantum",
+    "items": [
+      "mekanism:quantum_entangloporter"
+    ],
+    "text": {
+      "ja": "同じ周波数の装置間で、物資やエネルギーを共有します\n周波数と面の入出力設定が転送先を決めます",
+      "en": "Shares resources and energy between devices on one frequency\nFrequency and side settings determine transfer"
+    }
+  },
+  {
+    "id": "coverage_dynamic_tank",
+    "items": [
+      "mekanism:dynamic_tank",
+      "mekanism:dynamic_valve"
+    ],
+    "text": {
+      "ja": "液体または化学物質を蓄えるマルチブロックです\n外部との入出力にはバルブを使います",
+      "en": "Stores either fluid or chemicals in a valid multiblock shell\nValves provide external input and output"
+    }
+  },
+  {
+    "id": "coverage_boiler",
+    "items": [
+      "mekanism:boiler_casing",
+      "mekanism:boiler_valve",
+      "mekanism:pressure_disperser",
+      "mekanism:superheating_element"
+    ],
+    "text": {
+      "ja": "ボイラーは熱で水を蒸気に変えるマルチブロックです\n内部の分散器と過熱素子にも配置条件があります",
+      "en": "A multiblock boiler uses heat to turn water into steam\nDispersers and heating elements have placement requirements"
+    }
+  },
+  {
+    "id": "coverage_lasers",
+    "items": [
+      "mekanism:laser",
+      "mekanism:laser_amplifier",
+      "mekanism:laser_tractor_beam"
+    ],
+    "text": {
+      "ja": "レーザーは電力をビームとして送り、増幅器で蓄積します\nレーザートラクタービームは、ビームで壊れたブロックのアイテムを回収します",
+      "en": "Lasers send energy as beams; amplifiers store beam energy\nTractor beams collect items from laser-broken blocks"
+    }
+  },
+  {
+    "id": "coverage_pigments",
+    "items": [
+      "mekanism:pigment_extractor",
+      "mekanism:pigment_mixer",
+      "mekanism:painting_machine",
+      "mekanism:dye_base"
+    ],
+    "text": {
+      "ja": "色素抽出機で色素を作り、混合機で混ぜます\n塗装機は対応するアイテムを色素で着色します",
+      "en": "Extractors produce pigment and mixers blend it\nPainting machines apply pigment to supported items"
+    }
+  },
+  {
+    "id": "coverage_nutrition",
+    "items": [
+      "mekanism:nutritional_liquifier",
+      "mekanism:canteen"
+    ],
+    "text": {
+      "ja": "栄養液化機は食料を栄養ペーストに変えます\n水筒に入れた栄養ペーストは食料として使えます",
+      "en": "The liquifier turns food into nutritional paste\nPaste stored in a canteen can be consumed as food"
+    }
+  },
+  {
+    "id": "coverage_stabilizer",
+    "items": [
+      "mekanism:dimensional_stabilizer",
+      "mekanism:upgrade_anchor"
+    ],
+    "text": {
+      "ja": "対応する装置の周囲のチャンクを読み込んだ状態に保ちます\n読み込み範囲や電力の条件は装置ごとに異なります",
+      "en": "Keeps chunks around supported devices loaded\nLoading range and energy requirements depend on the device"
+    }
+  },
+  {
+    "id": "coverage_security",
+    "items": [
+      "mekanism:security_desk"
+    ],
+    "text": {
+      "ja": "所有者の設備に対するアクセス権を管理します\n設備側のセキュリティ設定と合わせて使います",
+      "en": "Manages access permissions for an owner\nUse it together with the security settings on each device"
+    }
+  },
+  {
+    "id": "coverage_personal_storage",
+    "items": [
+      "mekanism:personal_chest",
+      "mekanism:personal_barrel"
+    ],
+    "text": {
+      "ja": "所有者とアクセス権を持つアイテム収納です\n回収後も内容物を保持します",
+      "en": "Item storage with ownership and access permissions\nContents are retained when picked up"
+    }
+  },
+  {
+    "id": "coverage_cardboard",
+    "items": [
+      "mekanism:cardboard_box"
+    ],
+    "text": {
+      "ja": "対応するブロックを内容物ごと包んで運べます\n保護されたブロックや対象外のブロックには使えません",
+      "en": "Packs supported blocks with their contents for transport\nProtected or unsupported blocks cannot be packed"
+    }
+  },
+  {
+    "id": "coverage_chargepad",
+    "items": [
+      "mekanism:chargepad"
+    ],
+    "text": {
+      "ja": "電力を受け取り、上にいるプレイヤーの対応装備を充電します\nロビットの帰還先にもなります",
+      "en": "Uses supplied power to charge supported gear worn on the pad\nAlso serves as a home for a Robit"
+    }
+  },
+  {
+    "id": "coverage_plenisher",
+    "items": [
+      "mekanism:fluidic_plenisher"
+    ],
+    "text": {
+      "ja": "供給された液体をワールドへ配置する装置です\n液体を容器内で保管するタンクとは用途が異なります",
+      "en": "Places supplied fluid into the world\nIt fills an area rather than storing fluid inside a tank"
+    }
+  },
+  {
+    "id": "coverage_oredictionificator",
+    "items": [
+      "mekanism:oredictionificator"
+    ],
+    "text": {
+      "ja": "設定したアイテムタグを使い、対応する素材を統一します\n同じタグに属する変換先をフィルターで指定します",
+      "en": "Unifies supported materials using configured item tags\nFilters select the output within the same tag"
+    }
+  },
+  {
+    "id": "coverage_alarm",
+    "items": [
+      "mekanism:industrial_alarm"
+    ],
+    "text": {
+      "ja": "レッドストーン信号を受けると、光と音で知らせます",
+      "en": "Signals with light and sound while powered by redstone"
+    }
+  },
+  {
+    "id": "coverage_seismic",
+    "items": [
+      "mekanism:seismic_vibrator",
+      "mekanism:seismic_reader"
+    ],
+    "text": {
+      "ja": "地震振動機を稼働させると、読取機で地下のブロックを調べられます",
+      "en": "A running seismic vibrator lets a seismic reader inspect underground blocks"
+    }
+  },
+  {
+    "id": "coverage_heat_conductors",
+    "items": [
+      "mekanism:basic_thermodynamic_conductor",
+      "mekanism:advanced_thermodynamic_conductor",
+      "mekanism:elite_thermodynamic_conductor",
+      "mekanism:ultimate_thermodynamic_conductor"
+    ],
+    "text": {
+      "ja": "接続した装置間で熱を伝えます\n電力ケーブルとは異なり、周囲への熱損失もあります",
+      "en": "Transfers heat between connected devices\nUnlike power cables, it also loses heat to the surroundings"
+    }
+  },
+  {
+    "id": "coverage_configuration_card",
+    "items": [
+      "mekanism:configuration_card"
+    ],
+    "text": {
+      "ja": "スニークしながら装置を使うと、対応する設定をカードへ保存します\n保存した設定は互換性のある装置へ適用できます",
+      "en": "Sneak-use on a device to copy supported settings to the card\nSaved settings can be applied to compatible devices"
+    }
+  },
+  {
+    "id": "coverage_dictionary",
+    "items": [
+      "mekanism:dictionary"
+    ],
+    "text": {
+      "ja": "アイテムやブロックなどに付いたタグを調べます\nタグを使うフィルターの設定に役立ちます",
+      "en": "Inspects tags attached to items, blocks and other targets\nUseful when setting up tag filters"
+    }
+  },
+  {
+    "id": "coverage_network_reader",
+    "items": [
+      "mekanism:network_reader"
+    ],
+    "text": {
+      "ja": "電力を使い、接続した輸送ネットワークの状態を調べます",
+      "en": "Uses energy to inspect the connected transmitter network"
+    }
+  },
+  {
+    "id": "coverage_geiger",
+    "items": [
+      "mekanism:geiger_counter"
+    ],
+    "text": {
+      "ja": "周囲の放射線量を測定します\nプレイヤー自身の被ばく量とは区別して確認します",
+      "en": "Measures radiation in the surroundings\nThis differs from the radiation dose on the player"
+    }
+  },
+  {
+    "id": "coverage_dosimeter",
+    "items": [
+      "mekanism:dosimeter"
+    ],
+    "text": {
+      "ja": "プレイヤー自身の放射線被ばく量を測定します\n周囲の放射線量を測る道具とは役割が異なります",
+      "en": "Measures the radiation dose on the player\nIt does not measure radiation in the surroundings"
+    }
+  },
+  {
+    "id": "coverage_robit",
+    "items": [
+      "mekanism:robit"
+    ],
+    "text": {
+      "ja": "充電台を帰還先にする、電力で動くロボットです\n追従やアイテム回収、内部の精錬機能を備えます",
+      "en": "An energy-powered robot with a chargepad as its home\nIt can follow, collect items and smelt internally"
+    }
+  },
+  {
+    "id": "coverage_disassembler",
+    "items": [
+      "mekanism:atomic_disassembler"
+    ],
+    "text": {
+      "ja": "電力を使う採掘道具です\n選択したモードで採掘速度や対象範囲が変わります",
+      "en": "A mining tool powered by energy\nIts selected mode changes mining speed or the affected area"
+    }
+  },
+  {
+    "id": "coverage_bow",
+    "items": [
+      "mekanism:electric_bow"
+    ],
+    "text": {
+      "ja": "電力と矢を使う弓です\n火炎モードでは必要電力が増えます",
+      "en": "A bow that uses energy and arrows\nFire mode increases its energy cost"
+    }
+  },
+  {
+    "id": "coverage_flamethrower",
+    "items": [
+      "mekanism:flamethrower"
+    ],
+    "text": {
+      "ja": "水素を燃料にする火炎放射器です\nモードによってブロックへの作用が変わります",
+      "en": "Uses hydrogen as fuel to project flames\nIts mode changes how flames affect blocks"
+    }
+  },
+  {
+    "id": "coverage_runners",
+    "items": [
+      "mekanism:free_runners",
+      "mekanism:free_runners_armored"
+    ],
+    "text": {
+      "ja": "電力を使い、段差の移動や落下時の保護を補助します\nモードと残りの電力が動作に影響します",
+      "en": "Uses energy to assist stepping up and protect against falls\nOperation depends on mode and available energy"
+    }
+  },
+  {
+    "id": "coverage_jetpacks",
+    "items": [
+      "mekanism:jetpack",
+      "mekanism:jetpack_armored"
+    ],
+    "text": {
+      "ja": "水素を使って飛行する装備です\n通常飛行とホバーモードを切り替えられます",
+      "en": "Equipment that uses hydrogen for flight\nSupports normal flight and hover mode"
+    }
+  },
+  {
+    "id": "coverage_scuba",
+    "items": [
+      "mekanism:scuba_mask",
+      "mekanism:scuba_tank"
+    ],
+    "text": {
+      "ja": "酸素タンクの供給を有効にすると、マスクと併用して水中の呼吸を補助します",
+      "en": "With oxygen flow enabled, a tank and mask support underwater breathing"
+    }
+  },
+  {
+    "id": "coverage_hazmat",
+    "items": [
+      "mekanism:hazmat_mask",
+      "mekanism:hazmat_gown",
+      "mekanism:hazmat_pants",
+      "mekanism:hazmat_boots"
+    ],
+    "text": {
+      "ja": "放射線を完全に防ぐには、一式すべての着用が必要です\nすでに受けた被ばくを取り除く装備ではありません",
+      "en": "Full radiation protection requires wearing the complete set\nIt does not remove an existing radiation dose"
+    }
+  },
+  {
+    "id": "coverage_meka_tool",
+    "items": [
+      "mekanism:meka_tool"
+    ],
+    "text": {
+      "ja": "電力を使い、取り付けたモジュールで機能を変える道具です\n対応するモジュールを改造ステーションで取り付けます",
+      "en": "An energy-powered tool whose modules determine its functions\nInstall supported modules at a modification station"
+    }
+  },
+  {
+    "id": "coverage_meka_suit",
+    "items": [
+      "mekanism:mekasuit_helmet",
+      "mekanism:mekasuit_bodyarmor",
+      "mekanism:mekasuit_pants",
+      "mekanism:mekasuit_boots"
+    ],
+    "text": {
+      "ja": "電力で防護し、モジュールで機能を追加する装備です\n取り付けられるモジュールは部位ごとに異なります",
+      "en": "Energy-powered armor with functions added by modules\nSupported modules differ between armor pieces"
+    }
+  },
+  {
+    "id": "coverage_elytra",
+    "items": [
+      "mekanism:hdpe_elytra"
+    ],
+    "text": {
+      "ja": "HDPEで補強した滑空用の装備です\n耐久値を消費するため、状態を確認して使います",
+      "en": "Gliding equipment reinforced with HDPE\nUse depends on its remaining durability"
+    }
+  },
+  {
+    "id": "coverage_base_module",
+    "items": [
+      "mekanism:module_base"
+    ],
+    "text": {
+      "ja": "装備用モジュールをクラフトする中間部品です\nこの部品自体には装備へ追加する機能がありません",
+      "en": "A crafting component for equipment modules\nThis base component adds no equipment function by itself"
+    }
+  },
+  {
+    "id": "coverage_machine_parts",
+    "items": [
+      "mekanism:steel_casing",
+      "mekanism:electrolytic_core",
+      "mekanism:teleportation_core"
+    ],
+    "text": {
+      "ja": "機械や設備のクラフトに使う部品です\n部品だけを置いても、完成した機械としては動きません",
+      "en": "Components used to craft machines and equipment\nA component alone does not operate as a finished machine"
+    }
+  },
+  {
+    "id": "coverage_metals",
+    "items": [
+      "mekanism:ingot_bronze",
+      "mekanism:ingot_lead",
+      "mekanism:ingot_osmium",
+      "mekanism:ingot_refined_glowstone",
+      "mekanism:ingot_refined_obsidian",
+      "mekanism:ingot_tin",
+      "mekanism:ingot_uranium",
+      "mekanism:nugget_bronze",
+      "mekanism:nugget_lead",
+      "mekanism:nugget_osmium",
+      "mekanism:nugget_refined_glowstone",
+      "mekanism:nugget_refined_obsidian",
+      "mekanism:nugget_steel",
+      "mekanism:nugget_tin",
+      "mekanism:nugget_uranium"
+    ],
+    "text": {
+      "ja": "クラフトや加工に使う金属素材です\n素材の種類と必要な形は、現在のレシピで確認できます",
+      "en": "Metal materials used in crafting and processing\nCurrent recipes specify the required metal and form"
+    }
+  },
+  {
+    "id": "coverage_raw_ores",
+    "items": [
+      "mekanism:raw_osmium",
+      "mekanism:raw_tin",
+      "mekanism:raw_lead",
+      "mekanism:raw_uranium",
+      "mekanism:block_raw_osmium",
+      "mekanism:block_raw_tin",
+      "mekanism:block_raw_lead",
+      "mekanism:block_raw_uranium"
+    ],
+    "text": {
+      "ja": "原石と、その保管用ブロックです\n鉱石ブロックとは別のアイテムで、処理レシピも異なります",
+      "en": "Raw ores and their storage blocks\nThey differ from ore blocks and use different processing recipes"
+    }
+  },
+  {
+    "id": "coverage_ore_blocks",
+    "items": [
+      "mekanism:deepslate_fluorite_ore",
+      "mekanism:deepslate_lead_ore",
+      "mekanism:deepslate_osmium_ore",
+      "mekanism:deepslate_tin_ore",
+      "mekanism:deepslate_uranium_ore",
+      "mekanism:fluorite_ore",
+      "mekanism:lead_ore",
+      "mekanism:osmium_ore",
+      "mekanism:tin_ore",
+      "mekanism:uranium_ore"
+    ],
+    "text": {
+      "ja": "ワールドで採掘する鉱石ブロックです\n鉱石ブロックと、採掘で得る原石や宝石は処理時に区別します",
+      "en": "Ore blocks mined in the world\nProcessing distinguishes ore blocks from raw ores or gems obtained by mining"
+    }
+  },
+  {
+    "id": "coverage_storage_blocks",
+    "items": [
+      "mekanism:block_bio_fuel",
+      "mekanism:block_bronze",
+      "mekanism:block_charcoal",
+      "mekanism:block_fluorite",
+      "mekanism:block_lead",
+      "mekanism:block_osmium",
+      "mekanism:block_refined_glowstone",
+      "mekanism:block_refined_obsidian",
+      "mekanism:block_salt",
+      "mekanism:block_steel",
+      "mekanism:block_tin",
+      "mekanism:block_uranium"
+    ],
+    "text": {
+      "ja": "素材をまとめた保管用ブロックです\n対応する素材への分解や加工は、現在のレシピに従います",
+      "en": "Storage blocks made from compacted materials\nCurrent recipes define unpacking and processing"
+    }
+  },
+  {
+    "id": "coverage_dusts",
+    "items": [
+      "mekanism:dust_bronze",
+      "mekanism:dust_charcoal",
+      "mekanism:dust_coal",
+      "mekanism:dust_diamond",
+      "mekanism:dust_emerald",
+      "mekanism:dust_fluorite",
+      "mekanism:dust_lapis_lazuli",
+      "mekanism:dust_lithium",
+      "mekanism:dust_netherite",
+      "mekanism:dust_obsidian",
+      "mekanism:dust_quartz",
+      "mekanism:dust_refined_obsidian"
+    ],
+    "text": {
+      "ja": "クラフトや加工に使う粉末素材です\n吹込素材に使える種類や加工先は、レシピごとに異なります",
+      "en": "Powdered materials used in crafting and processing\nInfusion uses and processing outputs depend on the recipe"
+    }
+  },
+  {
+    "id": "coverage_other_materials",
+    "items": [
+      "mekanism:salt",
+      "mekanism:fluorite_gem",
+      "mekanism:sawdust",
+      "mekanism:dirty_netherite_scrap",
+      "mekanism:hdpe_stick"
+    ],
+    "text": {
+      "ja": "クラフトや機械加工に使う素材です\n用途と必要な形は、現在の環境のレシピで確認できます",
+      "en": "Materials used in crafting or machine processing\nCurrent recipes show their uses and required forms"
+    }
+  },
+  {
+    "id": "coverage_fissile_materials",
+    "items": [
+      "mekanism:yellow_cake_uranium",
+      "mekanism:reprocessed_fissile_fragment"
+    ],
+    "text": {
+      "ja": "核燃料の加工工程で使う素材です\n放射性化学物質を扱う工程では、放射線への対策も必要です",
+      "en": "Materials used in nuclear fuel processing\nRadiation precautions are needed for radioactive processing stages"
+    }
+  },
+  {
+    "id": "coverage_compressor",
+    "items": [
+      "mekanism:osmium_compressor",
+      "mekanism:basic_compressing_factory",
+      "mekanism:advanced_compressing_factory",
+      "mekanism:elite_compressing_factory",
+      "mekanism:ultimate_compressing_factory"
+    ],
+    "text": {
+      "ja": "オスミウムを使って、対応する粉末をインゴットへ加工します\n電力と、レシピに対応した材料が必要です",
+      "en": "Uses osmium to process supported dusts into ingots\nRequires energy and the ingredients specified by the recipe"
+    }
+  },
+  {
+    "id": "coverage_combiner",
+    "items": [
+      "mekanism:combiner",
+      "mekanism:basic_combining_factory",
+      "mekanism:advanced_combining_factory",
+      "mekanism:elite_combining_factory",
+      "mekanism:ultimate_combining_factory"
+    ],
+    "text": {
+      "ja": "複数のアイテムを組み合わせる機械です\n対応する原石と石材から鉱石ブロックを再構成するレシピもあります",
+      "en": "Combines multiple item inputs\nSome recipes rebuild ore blocks from raw ores and stone materials"
+    }
+  },
+  {
+    "id": "coverage_sawmill",
+    "items": [
+      "mekanism:precision_sawmill",
+      "mekanism:basic_sawing_factory",
+      "mekanism:advanced_sawing_factory",
+      "mekanism:elite_sawing_factory",
+      "mekanism:ultimate_sawing_factory"
+    ],
+    "text": {
+      "ja": "木材などを加工する機械です\nレシピによって、おがくずなどの副産物も得られます",
+      "en": "Processes wood and other supported items\nSome recipes also produce byproducts such as sawdust"
+    }
+  },
+  {
+    "id": "coverage_modification",
+    "items": [
+      "mekanism:modification_station"
+    ],
+    "text": {
+      "ja": "対応する装備へモジュールを取り付けたり、取り外したりします\n装備ごとの対応種類と競合条件を確認してください",
+      "en": "Installs or removes modules on supported equipment\nCheck supported module types and conflicts for each item"
+    }
+  },
+  {
+    "id": "coverage_fluid_buckets",
+    "items": [
+      "mekanism:brine_bucket",
+      "mekanism:chlorine_bucket",
+      "mekanism:ethene_bucket",
+      "mekanism:heavy_water_bucket",
+      "mekanism:hydrofluoric_acid_bucket",
+      "mekanism:hydrogen_bucket",
+      "mekanism:hydrogen_chloride_bucket",
+      "mekanism:lithium_bucket",
+      "mekanism:nutritional_paste_bucket",
+      "mekanism:oxygen_bucket",
+      "mekanism:sodium_bucket",
+      "mekanism:steam_bucket",
+      "mekanism:sulfur_dioxide_bucket",
+      "mekanism:sulfur_trioxide_bucket",
+      "mekanism:sulfuric_acid_bucket",
+      "mekanism:superheated_sodium_bucket",
+      "mekanism:uranium_hexafluoride_bucket",
+      "mekanism:uranium_oxide_bucket"
+    ],
+    "text": {
+      "ja": "流体をバケツに入れて運べます\n液体用の配管やタンクと、化学物質用のチューブやタンクは区別します",
+      "en": "Carries fluid in a bucket\nFluid pipes and tanks differ from chemical tubes and tanks"
+    }
+  }
+]

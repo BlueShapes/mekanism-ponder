@@ -1,0 +1,370 @@
+{
+  "source_hash": "db7114edc76fe33908e54eeb0a430457934863bc3ac28f33b0b7d784b7c76166",
+  "scope": "All 113 lesson caption keys in each of the six assigned locales; 678 captions reviewed against the revised Japanese and English source. Other content keys retained.",
+  "display_unit_format": "A literal newline is an authored display boundary. Each unit is one complete sentence. No sentence-width, word-count or line-count segmentation is authored by a runtime heuristic.",
+  "review_criteria": [
+    "One complete grammatical sentence per display unit; punctuation inside a version or number remains untouched.",
+    "Preserved target machines, item identity, recipes, amounts, conditions, causal relations and order; retained official item names, including awkward upstream pt_pt terms.",
+    "Separated combined operations and explanatory clauses into independently readable complete sentences.",
+    "Retained ore-block/raw-ore distinctions, unified chemical system in 1.21.1 and radiation precautions.",
+    "No English fallback and no font-size reduction or omission."
+  ],
+  "continuation_policy": {
+    "used": false,
+    "reason": "These captions can be rewritten as short complete sentences without an authored clause continuation. No ellipsis markers were added merely to fit the box. Runtime continuation validation is owned by the primary implementation."
+  },
+  "multi_sentence_units": {
+    "count": 0,
+    "exceptions": []
+  },
+  "locales": {
+    "es_es": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 265,
+      "max_unit_characters": 98,
+      "content_keys": 185,
+      "sha256": "c9dcb58ba930b78f94ece45f2fcbdf0c5e6d3060b87b4b1a23bbc468c74cf786"
+    },
+    "fr_fr": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 267,
+      "max_unit_characters": 97,
+      "content_keys": 185,
+      "sha256": "dfbee563b3741af2a54eff7b633d77e07563ca3f00e76dc0304d30d1d805d5c8"
+    },
+    "de_de": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 269,
+      "max_unit_characters": 94,
+      "content_keys": 185,
+      "sha256": "308d8c10df3cf8bf8c9157ebf08ddcfc163ad3149a8149c8d5b9642d8ce44b23"
+    },
+    "pt_br": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 266,
+      "max_unit_characters": 97,
+      "content_keys": 185,
+      "sha256": "2bf9ea44f25801d2cb14b3235422d6698f32a40a06e6fd8f5e064ca0bff86fd5"
+    },
+    "pt_pt": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 262,
+      "max_unit_characters": 95,
+      "content_keys": 185,
+      "sha256": "29739734145bdfcb3e36416a65e703a328944861ecc4355e32de09edb749f85f"
+    },
+    "it_it": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 264,
+      "max_unit_characters": 98,
+      "content_keys": 185,
+      "sha256": "7afa8b0b19f2cc354aa00edab3c6617f137bca1b01d0491220207c02bfcd8d3d"
+    }
+  },
+  "examples": [
+    {
+      "locale": "es_es",
+      "key": "mekanismponder.ponder.shared.side_configuration_2",
+      "before": "Configura como Output la cara del producto y activa la expulsión automática de objetos para enviarlos a un destino adyacente compatible.",
+      "after_units": [
+        "Configura como Output la cara del producto.",
+        "Activa la expulsión automática de objetos.",
+        "Los productos van a un destino adyacente compatible."
+      ],
+      "reason": "Separates output setting, auto-eject and its adjacent-target effect without dropping compatibility."
+    },
+    {
+      "locale": "fr_fr",
+      "key": "mekanismponder.ponder.shared.nuclear_waste_3",
+      "before": "Briser un appareil ou un tuyau contenant des produits chimiques radioactifs peut libérer des radiations. Avant le démontage, dirige le contenu vers un traitement sûr et vérifie dans l’interface que tout est vide.",
+      "after_units": [
+        "Les appareils et tuyaux peuvent contenir des produits chimiques radioactifs.",
+        "Les briser dans cet état peut libérer des radiations.",
+        "Dirige le contenu vers un traitement sûr.",
+        "Avant le démontage, vérifie dans l’interface que les récipients sont vides."
+      ],
+      "reason": "Keeps radioactive chemical contents and release risk, then gives safe processing and empty-container checks before dismantling."
+    },
+    {
+      "locale": "de_de",
+      "key": "mekanismponder.ponder.shared.chemical_transport_0",
+      "before": "In Minecraft 1.21.1 verwenden Sauerstoff, Wasserstoff, Infusionsmaterialien und Schlämme das vereinheitlichte Chemikaliensystem. Flüssigkeiten bleiben getrennt.",
+      "after_units": [
+        "In Mekanism 1.21.1 gibt es ein einheitliches Chemikaliensystem.",
+        "Es umfasst Sauerstoff, Wasserstoff, Infusionsmaterialien und Schlämme.",
+        "Flüssigkeiten bleiben getrennt."
+      ],
+      "reason": "Explains the unified chemical system, its members and the separate fluid system as three complete statements."
+    },
+    {
+      "locale": "pt_br",
+      "key": "mekanismponder.ponder.shared.ore_quintupling_0",
+      "before": "A Câmara de Dissolução Química usa ácido sulfúrico. Um bloco de minério de ferro produz 1.000 mB de lama suja; três Ferros Brutos produzem 2.000 mB.",
+      "after_units": [
+        "A Câmara de Dissolução Química usa ácido sulfúrico.",
+        "Um bloco de minério de ferro produz 1.000 mB de lama suja.",
+        "Três Ferros Brutos produzem 2.000 mB de lama suja."
+      ],
+      "reason": "States ore-block and Raw Iron slurry yields separately while preserving 1.000/2.000 mB."
+    },
+    {
+      "locale": "pt_pt",
+      "key": "mekanismponder.ponder.shared.induction_1",
+      "before": "Este corte remove temporariamente a armação da frente. Coloca lá dentro uma célula e um fornecedor: as células definem a capacidade de energia e os fornecedores, o limite de transferência.",
+      "after_units": [
+        "Este corte remove temporariamente a armação da frente.",
+        "Coloca lá dentro uma célula e um fornecedor.",
+        "As células definem a capacidade de energia.",
+        "Os fornecedores definem o limite de transferência."
+      ],
+      "reason": "Separates the cutaway, placement and distinct cell/provider roles into complete sentences."
+    },
+    {
+      "locale": "it_it",
+      "key": "mekanismponder.ponder.shared.diagnose_processing_2",
+      "before": "Il Cristallizzatore chimico lavora fanghiglia in lotti da 200 mB. Quantità parziali distribuite tra più macchine possono restare inutilizzate anche se il totale basta.",
+      "after_units": [
+        "Il Cristallizzatore chimico lavora fanghiglia in lotti da 200 mB.",
+        "Lotti parziali divisi tra macchine possono bloccare la lavorazione.",
+        "Un totale sufficiente non garantisce un lotto completo per macchina."
+      ],
+      "reason": "Distinguishes total slurry amount from a complete 200 mB batch per machine."
+    }
+  ],
+  "verification_scope": {
+    "performed": "Parsed all six JSON files; checked exact source key set, all 113 caption keys, nonempty authored units, complete sentence punctuation, unchanged non-caption content, absence of accidental sentence joins and continuation markers.",
+    "pending": "Primary agent will perform measured-font and playback validation at the required GUI sizes; this record does not claim a runtime or Prism startup pass."
+  },
+  "first_font_audit_corrections": {
+    "source": ".work/caption-font-issues-first.json",
+    "native_width": 180,
+    "reported_units": 18,
+    "measured_line_count": 4,
+    "correction": "Rewrote only the 18 reported units into 36 shorter, complete authored sentences. Conditions, targets and causal relations are retained. No automatic cuts or continuation marks.",
+    "revised_units": [
+      {
+        "locale": "pt_br",
+        "key": "mekanismponder.ponder.shared.fluid_transport_2",
+        "old_unit": "Para extrair de um tanque, configure a conexão dele como Puxar ou use a função de saída do tanque.",
+        "new_units": [
+          "Para extrair do tanque, defina sua conexão como Puxar.",
+          "Você também pode usar a função de saída do tanque."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "pt_br",
+        "key": "mekanismponder.ponder.shared.item_transport_3",
+        "old_unit": "Ingredientes incompatíveis, inventários cheios e cores diferentes podem interromper o transporte.",
+        "new_units": [
+          "Ingredientes incompatíveis podem interromper o transporte.",
+          "Inventários cheios ou cores diferentes também podem pará-lo."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "pt_br",
+        "key": "mekanismponder.ponder.shared.induction_3",
+        "old_unit": "A energia armazenada não ultrapassa os limites de transferência dos provedores ou dos cabos.",
+        "new_units": [
+          "A energia armazenada respeita os limites de transferência.",
+          "Valem tanto os limites dos provedores quanto os dos cabos."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "pt_pt",
+        "key": "mekanismponder.ponder.shared.induction_3",
+        "old_unit": "A energia armazenada não contorna os limites de transferência dos fornecedores ou dos cabos.",
+        "new_units": [
+          "A energia armazenada respeita os limites de transferência.",
+          "Aplicam-se os limites dos fornecedores e dos cabos."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "es_es",
+        "key": "mekanismponder.ponder.shared.item_transport_0",
+        "old_unit": "Conecta un Transportador Logístico entre un inventario y la entrada de objetos de una máquina.",
+        "new_units": [
+          "Conecta un Transportador Logístico al inventario.",
+          "Une su ruta con la entrada de objetos de la máquina."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "es_es",
+        "key": "mekanismponder.ponder.shared.item_transport_3",
+        "old_unit": "Ingredientes no válidos, inventarios llenos o colores incompatibles detienen el transporte.",
+        "new_units": [
+          "Los ingredientes no válidos pueden detener el transporte.",
+          "Inventarios llenos o colores incompatibles también pueden detenerlo."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "es_es",
+        "key": "mekanismponder.ponder.shared.induction_3",
+        "old_unit": "La energía almacenada no puede superar los límites de transferencia de los proveedores o los cables.",
+        "new_units": [
+          "La energía almacenada respeta los límites de transferencia.",
+          "Se aplican los de los proveedores y también los de los cables."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "es_es",
+        "key": "mekanismponder.ponder.shared.nuclear_waste_0",
+        "old_unit": "Los Barriles de Residuos Radiactivos almacenan sustancias químicas como los residuos nucleares.",
+        "new_units": [
+          "Los Barriles de Residuos Radiactivos almacenan sustancias químicas.",
+          "Entre ellas están los residuos nucleares."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "fr_fr",
+        "key": "mekanismponder.ponder.shared.side_configuration_0",
+        "old_unit": "Une face peut avoir des réglages différents pour les objets, l’énergie et les autres ressources.",
+        "new_units": [
+          "Les réglages d’une face peuvent varier selon la ressource.",
+          "Cela vaut pour les objets, l’énergie et les autres ressources."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "fr_fr",
+        "key": "mekanismponder.ponder.shared.hydrogen_chloride_2",
+        "old_unit": "L’Infuseur chimique alimenté combine l’hydrogène et le chlore pour produire du chlorure d’hydrogène.",
+        "new_units": [
+          "L’Infuseur chimique combine l’hydrogène et le chlore.",
+          "Il lui faut de l’énergie pour produire du chlorure d’hydrogène."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "fr_fr",
+        "key": "mekanismponder.ponder.shared.nuclear_waste_3",
+        "old_unit": "Briser des appareils ou tuyaux avec des produits chimiques radioactifs peut libérer des radiations.",
+        "new_units": [
+          "Les appareils et tuyaux peuvent contenir des produits chimiques radioactifs.",
+          "Les briser dans cet état peut libérer des radiations."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "de_de",
+        "key": "mekanismponder.ponder.shared.infusion_0",
+        "old_unit": "Die Metallurgische Infusionsanlage braucht Energie, einen Gegenstandseingang und Infusionsmaterial.",
+        "new_units": [
+          "Die Metallurgische Infusionsanlage braucht Energie.",
+          "Sie braucht auch einen Gegenstandseingang und Infusionsmaterial."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "de_de",
+        "key": "mekanismponder.ponder.shared.sulfuric_acid_1",
+        "old_unit": "Führe Schwefeldioxid und Sauerstoff einem Chemischen Injektor zu, um Schwefeltrioxid herzustellen.",
+        "new_units": [
+          "Führe Schwefeldioxid und Sauerstoff einem Chemischen Injektor zu.",
+          "Er stellt daraus Schwefeltrioxid her."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "de_de",
+        "key": "mekanismponder.ponder.shared.ethylene_1",
+        "old_unit": "Versorge die Druckreaktionskammer mit Biokraftstoff, Wasser, Wasserstoff und Energie.",
+        "new_units": [
+          "Versorge die Druckreaktionskammer mit Biokraftstoff und Wasser.",
+          "Führe ihr auch Wasserstoff und Energie zu."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "de_de",
+        "key": "mekanismponder.ponder.shared.induction_3",
+        "old_unit": "Gespeicherte Energie kann die Übertragungsgrenzen von Anbietern oder Kabeln nicht umgehen.",
+        "new_units": [
+          "Gespeicherte Energie umgeht keine Übertragungsgrenzen.",
+          "Es gelten die Grenzen von Anbietern und Kabeln."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "de_de",
+        "key": "mekanismponder.ponder.shared.digital_miner_3",
+        "old_unit": "Prüfe je nach Bedarf die Einstellungen für Behutsamkeit, Ersetzung und automatisches Abziehen.",
+        "new_units": [
+          "Prüfe die Einstellung für Behutsamkeit für deine Aufgabe.",
+          "Prüfe auch Ersetzung und automatisches Abziehen."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "de_de",
+        "key": "mekanismponder.ponder.shared.crafting_3",
+        "old_unit": "Zutatenanordnung, Rezeptänderungen und eine volle Ausgabe können die Herstellung stoppen.",
+        "new_units": [
+          "Falsch angeordnete Zutaten können die Herstellung stoppen.",
+          "Auch Rezeptänderungen und eine volle Ausgabe können sie stoppen."
+        ],
+        "first_measured_lines": 4
+      },
+      {
+        "locale": "de_de",
+        "key": "mekanismponder.ponder.shared.nuclear_waste_2",
+        "old_unit": "Plane Lagerraum für nächtliche Stillstände und geringere Produktion bei schlechtem Wetter ein.",
+        "new_units": [
+          "Plane Lagerraum für nächtliche Stillstände ein.",
+          "Berücksichtige auch die geringere Produktion bei schlechtem Wetter."
+        ],
+        "first_measured_lines": 4
+      }
+    ],
+    "status": "Authoring lint passed for all 678 captions. Repeated real-font measurement remains the primary agent’s next step; no font or runtime pass is claimed here."
+  },
+  "second_font_audit_corrections": {
+    "source": ".work/caption-font-issues-second.json",
+    "native_width": 180,
+    "reported_owned_units": 2,
+    "revised_units": [
+      {
+        "locale": "pt_br",
+        "key": "mekanismponder.ponder.shared.cables_3",
+        "old_unit": "Antes de trocar por um cabo de categoria superior, confira a saída da fonte e a entrada da máquina.",
+        "new_units": [
+          "Antes de subir a categoria do cabo, confira a saída da fonte.",
+          "Confira também a entrada da máquina antes dessa troca."
+        ],
+        "second_measured_lines": 4
+      },
+      {
+        "locale": "fr_fr",
+        "key": "mekanismponder.ponder.shared.steel_0",
+        "old_unit": "Fournis du charbon ou du charbon de bois à l’Infuseur métallurgique pour obtenir du carbone.",
+        "new_units": [
+          "L’Infuseur métallurgique a besoin de carbone.",
+          "Fournis-lui du charbon ou du charbon de bois."
+        ],
+        "second_measured_lines": 4
+      }
+    ],
+    "status": "Both revised captions pass authoring lint. Final real-font acceptance remains pending; no runtime pass is claimed."
+  },
+  "final_font_acceptance": {
+    "passed": true,
+    "all_locales": 22,
+    "all_authored_units": 5677,
+    "caption_width": 180,
+    "gui_widths": [
+      320,
+      480,
+      960
+    ],
+    "maximum_lines": 3,
+    "evidence": "validation-summary.json",
+    "note": "Current acceptance supersedes pending-font status in the earlier authoring/revision notes."
+  }
+}

@@ -1,0 +1,15 @@
+def guideResources = tasks.register('generateGuideResources', Exec) {
+    inputs.dir('src/main/resources/assets/mekanismponder/guide')
+    inputs.file('src/main/templates/ui.json')
+    inputs.dir('src/main/translations')
+    inputs.file('tools/guide_data.py')
+    inputs.file('tools/caption_units.py')
+    outputs.dir(layout.buildDirectory.dir('generated/guideResources'))
+    commandLine providers.gradleProperty('python').getOrElse('python'), 'tools/guide_data.py', 'generate',
+            layout.buildDirectory.dir('generated/guideResources').get().asFile.absolutePath
+}
+sourceSets.main.resources.srcDir(guideResources)
+tasks.register('testGuideData', Exec) {
+    commandLine providers.gradleProperty('python').getOrElse('python'), '-m', 'unittest', 'discover', '-s', 'tools', '-p', 'test_*.py'
+}
+tasks.named('check').configure { dependsOn guideResources, 'testGuideData' }

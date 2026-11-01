@@ -1,0 +1,1388 @@
+{
+  "baseline": "2a05f83",
+  "passed": true,
+  "reviewed_source_keys": 199,
+  "changed_source_keys": 112,
+  "geometry_and_identity_unchanged": true,
+  "quantities_and_named_mechanisms_preserved": true,
+  "source_hash": "f2fd1f80f7dc66f9624c036808b8610ca55a15ec282ca6da6f25ff9c859022a5",
+  "nomenclature_correction": {
+    "locale": "ja_jp",
+    "key": "mekanismponder.ponder.shared.nuclear_waste_1",
+    "before": "太陽中性子照射装置",
+    "after": "太陽中性子反応機",
+    "registry_key": "block.mekanism.solar_neutron_activator",
+    "evidence": "Mekanism 10.7.19.85 assets/mekanism/lang/ja_jp.json; same underlying machine ID"
+  },
+  "translations": {
+    "hi_in": {
+      "reviewed_keys": 199,
+      "changed_keys": 109,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "zh_hk": {
+      "reviewed_keys": 199,
+      "changed_keys": 109,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "zh_tw": {
+      "reviewed_keys": 199,
+      "changed_keys": 109,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "zh_cn": {
+      "reviewed_keys": 199,
+      "changed_keys": 109,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "ru_ru": {
+      "reviewed_keys": 199,
+      "changed_keys": 111,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "pt_br": {
+      "reviewed_keys": 199,
+      "changed_keys": 113,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "pt_pt": {
+      "reviewed_keys": 199,
+      "changed_keys": 113,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "es_es": {
+      "reviewed_keys": 199,
+      "changed_keys": 113,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "fr_fr": {
+      "reviewed_keys": 199,
+      "changed_keys": 111,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "de_de": {
+      "reviewed_keys": 199,
+      "changed_keys": 112,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "cs_cz": {
+      "reviewed_keys": 199,
+      "changed_keys": 112,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "pl_pl": {
+      "reviewed_keys": 199,
+      "changed_keys": 110,
+      "boundary_changes": [
+        "mekanismponder.ponder.shared.nuclear_waste_2"
+      ],
+      "quantities_and_identifiers_preserved": true
+    },
+    "ms_my": {
+      "reviewed_keys": 199,
+      "changed_keys": 111,
+      "boundary_changes": [
+        "mekanismponder.ponder.shared.nuclear_waste_2"
+      ],
+      "quantities_and_identifiers_preserved": true
+    },
+    "ro_ro": {
+      "reviewed_keys": 199,
+      "changed_keys": 110,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "ar_sa": {
+      "reviewed_keys": 199,
+      "changed_keys": 110,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "id_id": {
+      "reviewed_keys": 199,
+      "changed_keys": 111,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "ko_kr": {
+      "reviewed_keys": 199,
+      "changed_keys": 110,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "vi_vn": {
+      "reviewed_keys": 199,
+      "changed_keys": 110,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "tr_tr": {
+      "reviewed_keys": 199,
+      "changed_keys": 111,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    },
+    "it_it": {
+      "reviewed_keys": 199,
+      "changed_keys": 111,
+      "boundary_changes": [],
+      "quantities_and_identifiers_preserved": true
+    }
+  },
+  "addon_audit": {
+    "lessons": 28,
+    "optional_lessons": 0,
+    "chapters": 6,
+    "namespaces": [
+      "mekanism",
+      "minecraft"
+    ],
+    "new_third_party_mods": [],
+    "scope": "Core Mekanism only; Generators is mentioned as a separate mod, not taught"
+  },
+  "changes": [
+    {
+      "key": "mekanismponder.ponder.tag.start.description",
+      "before": {
+        "ja": "電力と最初の材料を準備します",
+        "en": "Prepare power and your first materials"
+      },
+      "after": {
+        "ja": "電力と最初の材料を準備する工程です",
+        "en": "Power and the first materials"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.tag.transport.description",
+      "before": {
+        "ja": "アイテム・液体・化学物質の経路を作ります",
+        "en": "Build routes for items, fluids and chemicals"
+      },
+      "after": {
+        "ja": "アイテム・液体・化学物質の経路を作ります",
+        "en": "Routes for items, fluids and chemicals"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.tag.processing.description",
+      "before": {
+        "ja": "鉱石と原鉱の収量、工場化を学びます",
+        "en": "Compare ore and raw ore yields and upgrade to factories"
+      },
+      "after": {
+        "ja": "鉱石と原鉱の収量、工場化を学びます",
+        "en": "Ore and raw ore yields, and parallel processing in factories"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.tag.chemistry.description",
+      "before": {
+        "ja": "電気分解・蒸発濃縮・化学反応をつなぎます",
+        "en": "Connect electrolysis, evaporation and chemical reactions"
+      },
+      "after": {
+        "ja": "電気分解・蒸発濃縮・化学反応をつなぎます",
+        "en": "Electrolysis, evaporation and chemical reactions"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.tag.advanced.description",
+      "before": {
+        "ja": "大容量蓄電・採掘・QIO・転送を学びます",
+        "en": "Explore energy storage, mining, QIO and teleportation"
+      },
+      "after": {
+        "ja": "大容量蓄電・採掘・QIO・転送を学びます",
+        "en": "Energy storage, mining, QIO and teleportation"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.tag.troubleshooting.description",
+      "before": {
+        "ja": "電力不足や化学処理の詰まりを切り分けます",
+        "en": "Diagnose power shortages and stalled chemical processing"
+      },
+      "after": {
+        "ja": "電力不足や化学処理の詰まりを切り分けます",
+        "en": "Power shortages and stalled chemical processing"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.power.summary",
+      "before": {
+        "ja": "電力を蓄え、出力面から機械へ送ります",
+        "en": "Store power and connect an output face to a machine"
+      },
+      "after": {
+        "ja": "電力を蓄え、出力面から機械へ送ります",
+        "en": "An output face connects stored power to a machine"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.power_1",
+      "before": {
+        "ja": "機械には電力が必要です\nここでは冶金吹込機をキューブの隣に置きます",
+        "en": "Machines need power\nPlace a Metallurgic Infuser beside the cube"
+      },
+      "after": {
+        "ja": "機械には電力が必要です\nここでは冶金吹込機をキューブの隣に置きます",
+        "en": "Machines need power\nHere, a Metallurgic Infuser sits beside the cube"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.power_2",
+      "before": {
+        "ja": "ユニバーサルケーブルで接続し、キューブの側面設定で接続面を出力にしてください\n電力モードのコンフィギュレーターでも変更できます",
+        "en": "Connect a Universal Cable\nSet its cube face to Output in side configuration\nThe Configurator can also set this face in energy mode"
+      },
+      "after": {
+        "ja": "ユニバーサルケーブルでつなぎ、キューブの側面設定で接続面を出力にすると電力が流れます\n電力モードのコンフィギュレーターでも変更できます",
+        "en": "Universal Cables connect the machines\nA face set to Output in side configuration sends the cube's power\nThe Configurator can also set this face in energy mode"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.infusion.summary",
+      "before": {
+        "ja": "赤石と鉄を使い、冶金吹込機の二種類の入力を学びます",
+        "en": "Use redstone and iron to learn the two infuser inputs"
+      },
+      "after": {
+        "ja": "冶金吹込機では赤石と鉄を別々の入力へ供給します",
+        "en": "Redstone and iron enter different slots in the Metallurgic Infuser"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.infusion_0",
+      "before": {
+        "ja": "冶金吹込機は、電力・加工するアイテム・吹込素材を使います\n赤石を吹込素材として補給してください",
+        "en": "The Metallurgic Infuser uses power, an item input and an infusion material\nSupply redstone as the infusion material"
+      },
+      "after": {
+        "ja": "冶金吹込機は、電力・加工するアイテム・吹込素材を使います\nここでは赤石が吹込素材になります",
+        "en": "The Metallurgic Infuser uses power, an item input and an infusion material\nRedstone supplies the infusion material"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.infusion_1",
+      "before": {
+        "ja": "鉄インゴットを加工用スロットに入れると、赤石を消費して吹込合金になります",
+        "en": "Put iron ingots in the processing slot\nRedstone infusion turns them into Infused Alloys"
+      },
+      "after": {
+        "ja": "鉄インゴットを加工用スロットに入れると、赤石を消費して吹込合金になります",
+        "en": "Iron ingots go in the processing slot\nRedstone infusion turns them into Infused Alloys"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.infusion_2",
+      "before": {
+        "ja": "アイテムの側面設定では、赤石用は「追加」、鉄用は「入力」です\n自動化では別々の面を設定してください",
+        "en": "In item side configuration, redstone uses Extra and iron uses Input\nConfigure separate faces when automating them"
+      },
+      "after": {
+        "ja": "アイテムの側面設定では、赤石用は「追加」、鉄用は「入力」です\n自動化では二つの入力に別々の面を割り当てます",
+        "en": "In item side configuration, redstone uses Extra and iron uses Input\nFor automation, the two inputs use separate faces"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.steel.summary",
+      "before": {
+        "ja": "炭素の吹込を二回行い、鋼鉄の粉を精錬します",
+        "en": "Infuse carbon twice, then smelt the steel dust"
+      },
+      "after": {
+        "ja": "炭素の吹込を二回行い、鋼鉄の粉を精錬します",
+        "en": "Two carbon infusions make Steel Dust, which smelts into Steel Ingots"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.steel_0",
+      "before": {
+        "ja": "冶金吹込機へ石炭または木炭を補給し、炭素を用意してください\nすでに別種の吹込素材が残っていないかも確認します",
+        "en": "Supply coal or charcoal to the Metallurgic Infuser for carbon\nCheck that another infusion type is not left in the tank"
+      },
+      "after": {
+        "ja": "石炭や木炭を冶金吹込機へ入れると、炭素が補給されます\nすでに別種の吹込素材が残っていないかも確認します",
+        "en": "Coal or charcoal supplies carbon to the Metallurgic Infuser\nCheck that another infusion type is not left in the tank"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.steel_2",
+      "before": {
+        "ja": "濃縮鉄をもう一度、炭素で加工してください\n二回目の吹込で鋼鉄の粉になります",
+        "en": "Process the Enriched Iron with carbon again\nThe second infusion produces Steel Dust"
+      },
+      "after": {
+        "ja": "濃縮鉄にもう一度炭素を吹き込む工程です\n二回目の吹込で鋼鉄の粉になります",
+        "en": "A second carbon infusion processes Enriched Iron\nIt produces Steel Dust"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.steel_3",
+      "before": {
+        "ja": "鋼鉄の粉をかまどや電動精錬機で精錬すると、鋼鉄インゴットになります\n自動化では二回目の吹込まで通す経路を用意してください",
+        "en": "Smelt Steel Dust in a furnace or Energized Smelter for Steel Ingots\nAn automated line must include both infusion passes"
+      },
+      "after": {
+        "ja": "鋼鉄の粉をかまどや電動精錬機で精錬すると、鋼鉄インゴットになります\n自動化の経路にも二回の吹込が必要です",
+        "en": "Smelting Steel Dust in a furnace or Energized Smelter produces Steel Ingots\nAn automated line includes both infusion passes"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.side_configuration.summary",
+      "before": {
+        "ja": "アイテム・液体・化学物質・電力の接続面を区別します",
+        "en": "Configure separate faces for items, fluids, chemicals and energy"
+      },
+      "after": {
+        "ja": "アイテム・液体・化学物質・電力の接続面を区別します",
+        "en": "Each resource type has its own face configuration"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.side_configuration_0",
+      "before": {
+        "ja": "機械の側面設定では、先にアイテム・電力などの種類を選びます\n同じ面でも種類ごとに設定が異なります",
+        "en": "Choose the resource type first in side configuration\nA face can have different settings for items, energy and other resources"
+      },
+      "after": {
+        "ja": "機械の側面設定では、先にアイテム・電力などの種類を選びます\n同じ面でも種類ごとに設定が異なります",
+        "en": "The selected resource type determines the side settings\nA face can have different settings for items, energy and other resources"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.side_configuration_1",
+      "before": {
+        "ja": "材料を入れる面を入力に設定してください\n設定図の面は機械の正面を基準に読むため、機械の向きも確認します",
+        "en": "Set the material face to Input\nThe diagram is relative to the machine front, so check the machine orientation"
+      },
+      "after": {
+        "ja": "入力に設定した面から材料を受け入れます\n設定図の面は機械の正面を基準に読むため、機械の向きも確認します",
+        "en": "Materials enter through a face set to Input\nThe diagram is relative to the machine front, so check the machine orientation"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.side_configuration_2",
+      "before": {
+        "ja": "完成品の面を出力にし、アイテムの自動搬出を有効にすると、対応する隣の搬送先へ送り出せます",
+        "en": "Set the product face to Output\nEnable item auto-eject\nProducts go to a compatible adjacent destination"
+      },
+      "after": {
+        "ja": "完成品の面を出力にし、アイテムの自動搬出を有効にすると、対応する隣の搬送先へ送り出せます",
+        "en": "Products leave through a face set to Output\nItem auto-eject sends them out automatically\nThey enter a compatible adjacent destination"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.cables.summary",
+      "before": {
+        "ja": "コンフィギュレーターで面ごとの接続を切り替えます",
+        "en": "Change connections on individual faces with the Configurator"
+      },
+      "after": {
+        "ja": "コンフィギュレーターで面ごとの接続を切り替えます",
+        "en": "The Configurator changes connections on individual faces"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.cables_0",
+      "before": {
+        "ja": "ユニバーサルケーブルは電力を運びます\n同じ種類のケーブルをつなぎ、電源から機械まで経路を作ってください",
+        "en": "Universal Cables carry energy\nJoin cables of the same type to connect a power source to a machine"
+      },
+      "after": {
+        "ja": "ユニバーサルケーブルは電力を運びます\n同じ種類のケーブルで、電源から機械まで経路をつなぎます",
+        "en": "Universal Cables carry energy\nMatching cable types link a power source to a machine"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.cables_1",
+      "before": {
+        "ja": "コンフィギュレーターを対応する設定モードにしてください\nスニークしながら接続部を右クリックすると、面のモードが切り替わります",
+        "en": "Select the Configurator's matching configuration mode\nSneak-right-click a connection to cycle its face mode"
+      },
+      "after": {
+        "ja": "コンフィギュレーターは対象に対応する設定モードを使います\nスニークしながら接続部を右クリックすると、面のモードが切り替わります",
+        "en": "The Configurator uses a matching configuration mode\nSneak-right-clicking a connection cycles its face mode"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.cables_3",
+      "before": {
+        "ja": "通常接続へ戻して経路を復旧します\n上位のケーブルを使う前に、電源の出力面と機械の入力面を確認してください",
+        "en": "Restore the normal connections\nBefore upgrading the cable tier, check the source output face and machine input face"
+      },
+      "after": {
+        "ja": "通常接続へ戻して経路を復旧します\n上位のケーブルを使う前に、電源の出力面と機械の入力面を確認してください",
+        "en": "Restoring normal connections reopens the path\nBefore upgrading the cable tier, check the source output face and machine input face"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.fluid_transport.summary",
+      "before": {
+        "ja": "電動ポンプとメカニカルパイプで液体を供給します",
+        "en": "Supply liquids using an Electric Pump and Mechanical Pipes"
+      },
+      "after": {
+        "ja": "電動ポンプとメカニカルパイプで液体を供給します",
+        "en": "An Electric Pump and Mechanical Pipes supply liquids"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.fluid_transport_0",
+      "before": {
+        "ja": "電動ポンプを水源の上に置き、電力を供給してください\n水の供給はポンプ側のくみ上げ条件にも依存します",
+        "en": "Place an Electric Pump above a water source and supply power\nPumping also depends on a valid source beneath the pump"
+      },
+      "after": {
+        "ja": "電動ポンプは水源の上に置き、電力で動かします\n水の供給はポンプ側のくみ上げ条件にも依存します",
+        "en": "The Electric Pump sits above a water source and uses power\nPumping also depends on a valid source beneath the pump"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.fluid_transport_1",
+      "before": {
+        "ja": "電動ポンプは上面へ液体を出力します\n真上からメカニカルパイプを伸ばし、タンクや機械の液体入力へ接続してください",
+        "en": "The Electric Pump outputs fluid through its top\nRun Mechanical Pipes from directly above it to a tank or machine fluid input"
+      },
+      "after": {
+        "ja": "電動ポンプは上面へ液体を出力します\n真上から伸ばすメカニカルパイプが、タンクや機械の液体入力につながります",
+        "en": "The Electric Pump outputs fluid through its top\nMechanical Pipes run from its top to a tank or machine fluid input"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.fluid_transport_2",
+      "before": {
+        "ja": "タンクから引き出すときは、タンク側の接続を引き出しに設定するか、送り出し機能を使います\n経路だけでは自動的に引き出せない場合があります",
+        "en": "To extract from a tank, set the tank connection to Pull or use the tank output feature\nA connection alone may not extract fluid"
+      },
+      "after": {
+        "ja": "タンクから引き出すときは、タンク側の接続を引き出しに設定するか、送り出し機能を使います\n経路だけでは自動的に引き出せない場合があります",
+        "en": "A tank connection on Pull, or the tank's own output, extracts fluid\nA connection alone may not extract fluid"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.fluid_transport_3",
+      "before": {
+        "ja": "加圧チューブは液体用ではありません\n水を送れないときは、パイプの種類・入力面・空き容量を確認してください",
+        "en": "Pressurized Tubes are not fluid pipes\nIf water does not move, check the pipe type, input face and available capacity"
+      },
+      "after": {
+        "ja": "加圧チューブは液体用ではありません\n水を送れないときは、パイプの種類・入力面・空き容量を確認してください",
+        "en": "Pressurized Tubes cannot carry fluids\nIf water does not move, check the pipe type, input face and available capacity"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.chemical_transport.summary",
+      "before": {
+        "ja": "加圧チューブと化学タンクを使い、液体と区別します",
+        "en": "Use Pressurized Tubes and Chemical Tanks, separately from fluids"
+      },
+      "after": {
+        "ja": "加圧チューブと化学タンクを使い、液体と区別します",
+        "en": "Pressurized Tubes and Chemical Tanks handle chemicals separately from fluids"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.chemical_transport_1",
+      "before": {
+        "ja": "加圧チューブで化学物質を運び、化学タンクへ蓄えます\n機械側では化学物質の出力面を確認してください",
+        "en": "Carry chemicals through Pressurized Tubes and store them in Chemical Tanks\nCheck the machine chemical output face"
+      },
+      "after": {
+        "ja": "加圧チューブで化学物質を運び、化学タンクへ蓄えます\n機械側では化学物質の出力面を確認してください",
+        "en": "Pressurized Tubes carry chemicals to Chemical Tanks\nCheck the machine chemical output face"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.chemical_transport_2",
+      "before": {
+        "ja": "種類の異なる化学物質は、同じタンクや経路に混ぜて保管できません\n電解分離機の水素と酸素には別々の経路を用意します",
+        "en": "Different chemicals cannot share one tank or network\nGive hydrogen and oxygen from the separator separate routes"
+      },
+      "after": {
+        "ja": "種類の異なる化学物質は、同じタンクや経路に混ぜて保管できません\n電解分離機の水素と酸素には別々の経路を用意します",
+        "en": "Different chemicals cannot share one tank or network\nHydrogen and oxygen from the separator use separate routes"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.item_transport.summary",
+      "before": {
+        "ja": "物流トランスポーターでチェストから機械へ送ります",
+        "en": "Move items from inventories to machines with Logistical Transporters"
+      },
+      "after": {
+        "ja": "物流トランスポーターでチェストから機械へ送ります",
+        "en": "Logistical Transporters move items from inventories to machines"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.item_transport_0",
+      "before": {
+        "ja": "物流トランスポーターを収納と機械の間につなぎます\n機械側はアイテムの入力面に接続してください",
+        "en": "Connect a Logistical Transporter between an inventory and a machine item input"
+      },
+      "after": {
+        "ja": "物流トランスポーターが収納と機械をつなぎます\n機械側の接続先はアイテムの入力面です",
+        "en": "A Logistical Transporter links an inventory to a machine item input"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.item_transport_1",
+      "before": {
+        "ja": "チェスト側の接続を引き出しに設定してください\n機械の自動搬出を使って経路へ送り出す方法もあります",
+        "en": "Set the chest connection to Pull\nMachines can also send items into the network using auto-eject"
+      },
+      "after": {
+        "ja": "チェスト側の接続を引き出しにすると、経路へアイテムを取り出します\n機械の自動搬出を使って経路へ送り出す方法もあります",
+        "en": "A chest connection set to Pull draws items into the network\nMachines can also send items into the network using auto-eject"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.sorting.summary",
+      "before": {
+        "ja": "収納にソーターを付け、フィルターと搬送色を設定します",
+        "en": "Attach a sorter, then configure filters and routing colors"
+      },
+      "after": {
+        "ja": "収納にソーターを付け、フィルターと搬送色を設定します",
+        "en": "An inventory-mounted sorter routes materials using filters and colors"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.sorting_0",
+      "before": {
+        "ja": "物流ソーターを送り元の収納に付けてください\nソーターが参照する収納と、前方の搬送経路を確認します",
+        "en": "Attach a Logistical Sorter to the source inventory\nCheck the inventory behind it and the route in front"
+      },
+      "after": {
+        "ja": "物流ソーターは送り元の収納に取り付けます\nソーターが参照する収納と、前方の搬送経路を確認します",
+        "en": "The Logistical Sorter attaches to the source inventory\nCheck the inventory behind it and the route in front"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.sorting_1",
+      "before": {
+        "ja": "フィルターに対象のアイテムやタグを指定します\n搬送したい材料を先に決めてから、必要な条件を追加してください",
+        "en": "Create a filter for an item or tag\nChoose the material you want to route before adding further conditions"
+      },
+      "after": {
+        "ja": "フィルターに指定したアイテムやタグが、搬送する材料を決めます\n追加の条件で、その対象を絞り込みます",
+        "en": "An item or tag filter selects the material to route\nFurther conditions narrow that selection"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.sorting_2",
+      "before": {
+        "ja": "フィルターの色と経路の色を合わせると、搬送先を分けられます\n色なしの区間は共有経路として使えます",
+        "en": "Match a filter color with the route color to separate destinations\nUncolored segments can form shared routes"
+      },
+      "after": {
+        "ja": "フィルターの色と経路の色を合わせると、搬送先を分けられます\n色なしの区間は共有経路として使えます",
+        "en": "Matching filter and route colors separate destinations\nUncolored segments can form shared routes"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.enrichment.summary",
+      "before": {
+        "ja": "鉱石ブロックと原鉱の収量の違いを学びます",
+        "en": "Compare the yields from ore blocks and raw ore"
+      },
+      "after": {
+        "ja": "鉱石ブロックと原鉱では加工後の収量が異なります",
+        "en": "Ore blocks and raw ore have different processing yields"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.enrichment_0",
+      "before": {
+        "ja": "濃縮室に電力と鉄鉱石ブロックを供給します\n標準レシピでは鉱石ブロック一個から鉄の粉二個を作れます",
+        "en": "Supply power and an iron ore block to the Enrichment Chamber\nThe default recipe gives two Iron Dust per ore block"
+      },
+      "after": {
+        "ja": "濃縮室に電力と鉄鉱石ブロックを供給します\n標準レシピでは鉱石ブロック一個から鉄の粉二個を作れます",
+        "en": "The Enrichment Chamber uses power and an iron ore block\nThe default recipe gives two Iron Dust per ore block"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.enrichment_2",
+      "before": {
+        "ja": "粉を電動精錬機へ送り、一個ずつインゴットへ精錬してください\n濃縮と精錬の両方に電力が必要です",
+        "en": "Send the dust to an Energized Smelter\nEach dust smelts into one ingot, and both machines require power"
+      },
+      "after": {
+        "ja": "電動精錬機は、送られてきた鉄の粉を一個ずつインゴットへ精錬します\n濃縮と精錬の両方に電力が必要です",
+        "en": "The Energized Smelter turns the dust into ingots\nEach dust smelts into one ingot, and both machines require power"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.factories.summary",
+      "before": {
+        "ja": "並列処理と電力消費の関係を確認します",
+        "en": "Add parallel processing while planning for energy demand"
+      },
+      "after": {
+        "ja": "並列処理と電力消費の関係を確認します",
+        "en": "Factories add parallel processing with corresponding energy demand"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.factories_1",
+      "before": {
+        "ja": "基本・発展・精鋭・究極の順に並列数が増えます\n素材を各スロットに分ける自動振り分けも確認してください",
+        "en": "Basic, Advanced, Elite and Ultimate tiers offer increasing parallelism\nCheck automatic sorting to distribute ingredients across slots"
+      },
+      "after": {
+        "ja": "基本・発展・精鋭・究極の順に並列数が増えます\n自動振り分けで素材を各スロットへ分けられます",
+        "en": "Basic, Advanced, Elite and Ultimate tiers offer increasing parallelism\nAutomatic sorting can distribute ingredients across slots"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.electrolysis.summary",
+      "before": {
+        "ja": "電解分離機の二つの出力を管理します",
+        "en": "Manage the two chemical outputs of the Electrolytic Separator"
+      },
+      "after": {
+        "ja": "電解分離機の二つの出力を管理します",
+        "en": "The Electrolytic Separator has two chemical outputs to manage"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.electrolysis_0",
+      "before": {
+        "ja": "電解分離機へ水と電力を供給してください\n水2 mBから水素2 mBと酸素1 mBを同時に作ります",
+        "en": "Supply water and power to the Electrolytic Separator\nIt converts 2 mB of water into 2 mB of hydrogen and 1 mB of oxygen"
+      },
+      "after": {
+        "ja": "電解分離機は水と電力を使います\n水2 mBから水素2 mBと酸素1 mBを同時に作ります",
+        "en": "The Electrolytic Separator uses water and power\nIt converts 2 mB of water into 2 mB of hydrogen and 1 mB of oxygen"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.electrolysis_1",
+      "before": {
+        "ja": "二つの化学物質の出力面を分け、別々のタンクや利用先へつないでください",
+        "en": "Assign separate chemical output faces\nConnect each product to its own tank or consumer"
+      },
+      "after": {
+        "ja": "二つの化学物質は別々の出力面から、それぞれのタンクや利用先へ送ります",
+        "en": "Separate chemical output faces keep the products apart\nEach product goes to its own tank or consumer"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.electrolysis_3",
+      "before": {
+        "ja": "使わない出力には、必要に応じて余剰排出を設定できます\n常時排出との違いを読み、残したい化学物質を捨てないでください",
+        "en": "Use Dumping Excess for an unused output when appropriate\nRead how it differs from Dumping so that needed chemicals are retained"
+      },
+      "after": {
+        "ja": "使わない出力には、必要に応じて余剰排出を設定できます\n常時排出との違いを読み、残したい化学物質を捨てないでください",
+        "en": "Dumping Excess can discard an unused output when appropriate\nRead how it differs from Dumping so that needed chemicals are retained"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.evaporation.summary",
+      "before": {
+        "ja": "4×4の塔を作り、水を塩水へ濃縮します",
+        "en": "Build a 4×4 tower to concentrate water into brine"
+      },
+      "after": {
+        "ja": "4×4の塔を作り、水を塩水へ濃縮します",
+        "en": "A 4×4 tower concentrates water into brine"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.evaporation_0",
+      "before": {
+        "ja": "加温蒸発濃縮塔の外寸は4×4、高さは3〜18です\nまず床と四隅の柱を作ります\nここでは高さ4の例を示します",
+        "en": "A Thermal Evaporation Plant is 4×4 wide and 3–18 blocks tall\nStart with its floor and corner columns\nThis model is four blocks tall"
+      },
+      "after": {
+        "ja": "加温蒸発濃縮塔の外寸は4×4、高さは3〜18です\nまず床と四隅の柱を作ります\nここでは高さ4の例を示します",
+        "en": "A Thermal Evaporation Plant is 4×4 wide and 3–18 blocks tall\nIts floor and corner columns form the base\nThis model is four blocks tall"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.evaporation_1",
+      "before": {
+        "ja": "側面を囲い、側面の一部をコントローラー一個と必要なバルブへ置き換えます\n内側の上部は空けてください",
+        "en": "Complete the sides, replacing side blocks with one controller and the required valves\nKeep the upper interior empty"
+      },
+      "after": {
+        "ja": "側面を囲い、一個のコントローラーと必要なバルブを側面へ組み込みます\n内側の上部は空の構造です",
+        "en": "The sides contain one controller and the required valves\nThe upper interior stays empty"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.evaporation_2",
+      "before": {
+        "ja": "バルブへ水を入れ、別のバルブから塩水を取り出します\n温度が生産速度に影響し、抵抗型発熱器などから熱を供給できます",
+        "en": "Feed water through a valve and extract brine through another\nTemperature affects production\nHeaters such as the Resistive Heater can supply heat"
+      },
+      "after": {
+        "ja": "バルブへ水を入れ、別のバルブから塩水を取り出します\n温度が生産速度に影響し、抵抗型発熱器などから熱を供給できます",
+        "en": "Water enters through a valve, and brine leaves through another\nTemperature affects production\nHeaters such as the Resistive Heater can supply heat"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.hydrogen_chloride.summary",
+      "before": {
+        "ja": "塩素と水素を化学混成機で合わせます",
+        "en": "Combine chlorine and hydrogen in a Chemical Infuser"
+      },
+      "after": {
+        "ja": "塩素と水素を化学混成機で合わせます",
+        "en": "A Chemical Infuser combines chlorine and hydrogen"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.hydrogen_chloride_0",
+      "before": {
+        "ja": "蒸発濃縮塔で作った塩水を電解分離機へ供給します\n塩水は液体のため、メカニカルパイプを使ってください",
+        "en": "Feed brine from an evaporation plant into an Electrolytic Separator\nBrine is a fluid, so use Mechanical Pipes"
+      },
+      "after": {
+        "ja": "蒸発濃縮塔で作った塩水を電解分離機へ供給します\n塩水は液体なので、メカニカルパイプで運びます",
+        "en": "Brine from an evaporation plant feeds an Electrolytic Separator\nBrine travels through Mechanical Pipes as a fluid"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.hydrogen_chloride_1",
+      "before": {
+        "ja": "塩水の電気分解でナトリウムと塩素ができます\n塩素側を化学混成機へ接続し、もう一方の出力も管理してください",
+        "en": "Electrolyzing brine produces sodium and chlorine\nRoute chlorine to the Chemical Infuser and manage the other output too"
+      },
+      "after": {
+        "ja": "塩水の電気分解でナトリウムと塩素ができます\n塩素を化学混成機へ送り、もう一方の出力も管理する工程です",
+        "en": "Electrolyzing brine produces sodium and chlorine\nChlorine goes to the Chemical Infuser, while the other output is managed too"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.hydrogen_chloride_2",
+      "before": {
+        "ja": "別の経路から水素を供給すると、塩素と合わせて塩化水素を作れます\n化学混成機にも電力が必要です",
+        "en": "Supply hydrogen through a separate route\nThe powered Chemical Infuser combines it with chlorine to make hydrogen chloride"
+      },
+      "after": {
+        "ja": "別の経路から水素を供給すると、塩素と合わせて塩化水素を作れます\n化学混成機にも電力が必要です",
+        "en": "Hydrogen enters through a separate route\nThe powered Chemical Infuser combines it with chlorine to make hydrogen chloride"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.hydrogen_chloride_3",
+      "before": {
+        "ja": "塩化水素を化学注入室へ送ってください\n水素・塩素・塩化水素のチューブを混線させないようにします",
+        "en": "Send hydrogen chloride to the Chemical Injection Chamber\nKeep hydrogen, chlorine and hydrogen chloride networks separate"
+      },
+      "after": {
+        "ja": "塩化水素は化学注入室へ送られます\n水素・塩素・塩化水素には、それぞれ別の経路を使います",
+        "en": "Hydrogen chloride feeds the Chemical Injection Chamber\nHydrogen, chlorine and hydrogen chloride use separate networks"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.sulfuric_acid.summary",
+      "before": {
+        "ja": "酸化・化学混成で溶解工程に使う硫酸を作ります",
+        "en": "Oxidize and infuse chemicals to make sulfuric acid for dissolution"
+      },
+      "after": {
+        "ja": "酸化・化学混成で溶解工程に使う硫酸を作ります",
+        "en": "Oxidation and chemical infusing produce sulfuric acid for dissolution"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.sulfuric_acid_0",
+      "before": {
+        "ja": "硫黄の粉を化学酸化機で加工し、二酸化硫黄を作ります\nすべての機械へ必要な電力を供給してください",
+        "en": "Process Sulfur Dust in a Chemical Oxidizer to produce sulfur dioxide\nSupply the required power to every machine"
+      },
+      "after": {
+        "ja": "硫黄の粉を化学酸化機で加工し、二酸化硫黄を作ります\nこの工程の各機械には電力が必要です",
+        "en": "Processing Sulfur Dust in a Chemical Oxidizer produces sulfur dioxide\nEvery machine in this line needs power"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.sulfuric_acid_1",
+      "before": {
+        "ja": "二酸化硫黄と酸素を化学混成機へ供給すると、三酸化硫黄になります",
+        "en": "Feed sulfur dioxide and oxygen into a Chemical Infuser to make sulfur trioxide"
+      },
+      "after": {
+        "ja": "二酸化硫黄と酸素を化学混成機へ供給すると、三酸化硫黄になります",
+        "en": "Combining sulfur dioxide and oxygen in a Chemical Infuser makes sulfur trioxide"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.sulfuric_acid_2",
+      "before": {
+        "ja": "回転式流体凝縮器を液体から化学物質へ変換する向きで使い、水から水蒸気を作ってください",
+        "en": "Set the Rotary Condensentrator to convert fluids into chemicals\nUse it to turn water into water vapor"
+      },
+      "after": {
+        "ja": "回転式流体凝縮器が液体を化学物質へ変換する向きで、水を水蒸気にします",
+        "en": "The Rotary Condensentrator converts fluids into chemicals in this mode\nHere, it turns water into water vapor"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.sulfuric_acid_3",
+      "before": {
+        "ja": "三酸化硫黄と水蒸気を、もう一台の化学混成機で合わせると硫酸になります\n硫酸は化学物質として加圧チューブで送ります",
+        "en": "Feed sulfur trioxide and water vapor to another Chemical Infuser\nIt produces sulfuric acid\nCarry the acid through Pressurized Tubes as a chemical"
+      },
+      "after": {
+        "ja": "三酸化硫黄と水蒸気を、もう一台の化学混成機で合わせると硫酸になります\n硫酸は化学物質として加圧チューブで送ります",
+        "en": "Another Chemical Infuser combines sulfur trioxide and water vapor\nIt produces sulfuric acid\nPressurized Tubes carry the acid as a chemical"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.ethylene.summary",
+      "before": {
+        "ja": "加圧反応室へ固体・液体・化学物質を供給します",
+        "en": "Feed items, fluids and chemicals into a Pressurized Reaction Chamber"
+      },
+      "after": {
+        "ja": "加圧反応室へ固体・液体・化学物質を供給します",
+        "en": "The Pressurized Reaction Chamber combines items, fluids and chemicals"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ethylene_0",
+      "before": {
+        "ja": "粉砕機で対応する作物などを加工し、バイオ燃料を用意してください\n素材によって生産量が異なります",
+        "en": "Crush supported crops or other ingredients into Bio Fuel\nThe amount depends on the ingredient"
+      },
+      "after": {
+        "ja": "粉砕機は対応する作物などからバイオ燃料を作ります\n素材によって生産量が異なります",
+        "en": "Crushing supported crops or other ingredients produces Bio Fuel\nThe amount depends on the ingredient"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ethylene_1",
+      "before": {
+        "ja": "加圧反応室へバイオ燃料・水・水素・電力を供給します\n固体・液体・化学物質の入力面をそれぞれ設定してください",
+        "en": "Supply Bio Fuel, water, hydrogen and power to the Pressurized Reaction Chamber\nConfigure the item, fluid and chemical input faces separately"
+      },
+      "after": {
+        "ja": "加圧反応室へバイオ燃料・水・水素・電力を供給します\n固体・液体・化学物質には、それぞれの入力面設定があります",
+        "en": "The Pressurized Reaction Chamber uses Bio Fuel, water, hydrogen and power\nItem, fluid and chemical inputs each have separate face settings"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ethylene_2",
+      "before": {
+        "ja": "この反応では基質とエチレンができます\nアイテム出力と化学物質出力の両方を取り出してください",
+        "en": "This reaction produces Substrate and ethylene\nExtract both the item output and the chemical output"
+      },
+      "after": {
+        "ja": "この反応では基質とエチレンができます\nアイテム出力と化学物質出力の両方に搬出が必要です",
+        "en": "This reaction produces Substrate and ethylene\nBoth the item and chemical outputs need extraction"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ethylene_3",
+      "before": {
+        "ja": "どちらかの出力が満杯になると反応が止まります\nエチレンは追加の加工に使えるため、必要な量を蓄えてください",
+        "en": "The reaction stops if either output fills up\nStore ethylene for further processing"
+      },
+      "after": {
+        "ja": "どちらかの出力が満杯になると反応が止まります\n蓄えたエチレンは追加の加工に使います",
+        "en": "The reaction stops if either output fills up\nStored ethylene is available for further processing"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.hdpe.summary",
+      "before": {
+        "ja": "エチレンを液化し、基質と酸素を反応させます",
+        "en": "Liquefy ethylene, then react it with Substrate and oxygen"
+      },
+      "after": {
+        "ja": "エチレンを液化し、基質と酸素を反応させます",
+        "en": "Liquefied ethylene reacts with Substrate and oxygen"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.hdpe_0",
+      "before": {
+        "ja": "前の反応で得たエチレンを回転式流体凝縮器へ供給します\n今度は化学物質から液体へ変換する向きを選んでください",
+        "en": "Feed ethylene into a Rotary Condensentrator\nThis time, select conversion from chemicals into fluids"
+      },
+      "after": {
+        "ja": "前の反応で得たエチレンを回転式流体凝縮器へ供給します\n今度は化学物質を液体へ変換する向きで使います",
+        "en": "Ethylene feeds a Rotary Condensentrator\nIn this direction, it converts chemicals into fluids"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.hdpe_1",
+      "before": {
+        "ja": "できた液体エチレンはメカニカルパイプで運びます\n加圧チューブでは液体エチレンを送れません",
+        "en": "Transport Liquid Ethylene with Mechanical Pipes\nPressurized Tubes cannot carry the liquid"
+      },
+      "after": {
+        "ja": "できた液体エチレンはメカニカルパイプで運びます\n加圧チューブでは液体エチレンを送れません",
+        "en": "Mechanical Pipes carry Liquid Ethylene\nPressurized Tubes cannot carry the liquid"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.hdpe_2",
+      "before": {
+        "ja": "加圧反応室へ基質・液体エチレン・酸素・電力を供給すると、HDPEペレットを作れます",
+        "en": "Supply Substrate, Liquid Ethylene, oxygen and power to the reaction chamber\nThe Pressurized Reaction Chamber produces HDPE Pellets"
+      },
+      "after": {
+        "ja": "加圧反応室へ基質・液体エチレン・酸素・電力を供給すると、HDPEペレットを作れます",
+        "en": "The reaction chamber uses Substrate, Liquid Ethylene, oxygen and power\nThe Pressurized Reaction Chamber produces HDPE Pellets"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.hdpe_3",
+      "before": {
+        "ja": "ペレットが出力スロットに詰まらないように搬出してください\nこのレシピには化学物質の副産物はありません\n別の反応の出力条件と区別します",
+        "en": "Extract the pellets so the output slot stays clear\nThis recipe has no chemical byproduct\nDistinguish it from the other reactions"
+      },
+      "after": {
+        "ja": "ペレットの搬出で出力スロットの空きを保てます\nこのレシピには化学物質の副産物はありません\n別の反応とは出力条件が異なります",
+        "en": "Extracting pellets keeps the output slot clear\nThis recipe has no chemical byproduct\nOther reactions have different output conditions"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.ore_tripling.summary",
+      "before": {
+        "ja": "浄化室・粉砕機・濃縮室・精錬を順につなぎます",
+        "en": "Connect purification, crushing, enrichment and smelting"
+      },
+      "after": {
+        "ja": "浄化室・粉砕機・濃縮室・精錬を順につなぎます",
+        "en": "Purification, crushing, enrichment and smelting form the tripling line"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ore_tripling_1",
+      "before": {
+        "ja": "鉄の凝塊を粉砕機へ送り、汚れた鉄の粉にします\n各加工は一対一で進みます",
+        "en": "Crush the clumps into Dirty Iron Dust\nEach downstream conversion is one-to-one"
+      },
+      "after": {
+        "ja": "鉄の凝塊を粉砕機へ送り、汚れた鉄の粉にします\n各加工は一対一で進みます",
+        "en": "Crushing the clumps produces Dirty Iron Dust\nEach downstream conversion is one-to-one"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ore_tripling_2",
+      "before": {
+        "ja": "汚れた鉄の粉を濃縮室で鉄の粉にしてから、電動精錬機へ送ってください",
+        "en": "Enrich Dirty Iron Dust into Iron Dust, then send it to the Energized Smelter"
+      },
+      "after": {
+        "ja": "濃縮室で汚れた鉄の粉が鉄の粉になり、その後は電動精錬機へ送られます",
+        "en": "Dirty Iron Dust is enriched into Iron Dust, then sent to the Energized Smelter"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.ore_quadrupling.summary",
+      "before": {
+        "ja": "化学注入室を浄化工程の前に追加します",
+        "en": "Add chemical injection before the purification line"
+      },
+      "after": {
+        "ja": "化学注入室を浄化工程の前に追加します",
+        "en": "Chemical injection precedes purification in the quadrupling line"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_0",
+      "before": {
+        "ja": "化学注入室は塩化水素と電力を使い、鉄鉱石ブロック一個から鉄の欠片四個を作ります",
+        "en": "Supply hydrogen chloride and power to the Chemical Injection Chamber\nIt makes four Iron Shards from one iron ore block"
+      },
+      "after": {
+        "ja": "化学注入室は塩化水素と電力を使い、鉄鉱石ブロック一個から鉄の欠片四個を作ります",
+        "en": "The Chemical Injection Chamber uses hydrogen chloride and power\nIt makes four Iron Shards from one iron ore block"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_1",
+      "before": {
+        "ja": "鉄の原石は三個から欠片八個です\n鉱石ブロックの四倍という呼び方を、そのまま原鉱へ当てはめないでください",
+        "en": "Three Raw Iron produce eight shards\nThe fourfold ore-block yield does not apply to raw ore"
+      },
+      "after": {
+        "ja": "鉄の原石は三個から欠片八個です\n鉱石ブロックの四倍という収量は、原鉱には当てはまりません",
+        "en": "Three Raw Iron produce eight shards\nThe fourfold ore-block yield does not apply to raw ore"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_2",
+      "before": {
+        "ja": "欠片を酸素のある浄化室へ送り、凝塊に変えます\n塩化水素と酸素は別の化学物質の経路で供給してください",
+        "en": "Send shards to a Purification Chamber supplied with oxygen\nSupply hydrogen chloride and oxygen through separate chemical networks"
+      },
+      "after": {
+        "ja": "欠片を酸素のある浄化室へ送り、凝塊に変えます\n塩化水素と酸素は、別々の化学物質経路から供給します",
+        "en": "Shards pass through an oxygen-fed Purification Chamber\nHydrogen chloride and oxygen arrive through separate chemical networks"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ore_quadrupling_3",
+      "before": {
+        "ja": "凝塊からは粉砕・濃縮・精錬を一回ずつ行います\n完成品を取り出せるよう、全機械の出力面を揃えてください",
+        "en": "Continue with crushing, enrichment and smelting\nConfigure every output face so the intermediates can move through the line"
+      },
+      "after": {
+        "ja": "凝塊からは粉砕・濃縮・精錬を一回ずつ行います\n各機械の出力面を設定すると、中間製品が次の工程へ進みます",
+        "en": "Crushing, enrichment and smelting complete the line\nConfigured output faces pass intermediates between machines"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.ore_quintupling.summary",
+      "before": {
+        "ja": "溶解・洗浄・結晶化を行い、化学注入工程へ接続します",
+        "en": "Dissolve, wash and crystallize ore before chemical injection"
+      },
+      "after": {
+        "ja": "溶解・洗浄・結晶化を行い、化学注入工程へ接続します",
+        "en": "Dissolution, washing and crystallization precede chemical injection"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ore_quintupling_1",
+      "before": {
+        "ja": "化学洗浄機へ汚れたスラリーと水を供給します\nスラリー1 mBにつき水5 mBを使い、同量のきれいなスラリーになります",
+        "en": "Supply dirty slurry and water to a Chemical Washer\nIt uses 5 mB of water per 1 mB of slurry and preserves the slurry amount"
+      },
+      "after": {
+        "ja": "化学洗浄機へ汚れたスラリーと水を供給します\nスラリー1 mBにつき水5 mBを使い、同量のきれいなスラリーになります",
+        "en": "Dirty slurry and water feed the Chemical Washer\nIt uses 5 mB of water per 1 mB of slurry and preserves the slurry amount"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ore_quintupling_3",
+      "before": {
+        "ja": "結晶を塩化水素のある化学注入室へ送り、欠片にします\nその先は浄化・粉砕・濃縮・精錬の順です",
+        "en": "Send crystals to a Chemical Injection Chamber with hydrogen chloride to make shards\nContinue with purification, crushing, enrichment and smelting"
+      },
+      "after": {
+        "ja": "結晶を塩化水素のある化学注入室へ送り、欠片にします\nその先は浄化・粉砕・濃縮・精錬の順です",
+        "en": "Crystals enter a hydrogen-chloride-fed Chemical Injection Chamber to make shards\nPurification, crushing, enrichment and smelting follow"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ore_quintupling_4",
+      "before": {
+        "ja": "結果は鉱石ブロック一個から五インゴット、鉄の原石三個から十インゴットです\n鉱石ごとにスラリーの種類が違うため、混線を避けてください",
+        "en": "The yield is five ingots per ore block or ten per three Raw Iron\nEach ore has its own slurry type, so avoid mixing their networks"
+      },
+      "after": {
+        "ja": "結果は鉱石ブロック一個から五インゴット、鉄の原石三個から十インゴットです\n鉱石ごとにスラリーの種類が違うため、混線を避けてください",
+        "en": "The yield is five ingots per ore block or ten per three Raw Iron\nEach ore has its own slurry, so its network stays separate"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.induction.summary",
+      "before": {
+        "ja": "セルの容量とプロバイダーの転送量を分けて考えます",
+        "en": "Separate energy capacity from transfer capacity"
+      },
+      "after": {
+        "ja": "セルの容量とプロバイダーの転送量を分けて考えます",
+        "en": "Cells set energy capacity; providers limit transfer"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.induction_0",
+      "before": {
+        "ja": "インダクションケーシングで直方体の枠を作ります\n外寸は各方向3〜18です\nここでは内部二マスを持つ3×4×3の例を示します",
+        "en": "Build a cuboid frame of Induction Casings, 3–18 blocks along each dimension\nThis 3×4×3 example has two interior spaces"
+      },
+      "after": {
+        "ja": "インダクションケーシングで直方体の枠を作ります\n外寸は各方向3〜18です\nここでは内部二マスを持つ3×4×3の例を示します",
+        "en": "Induction Casings form a cuboid frame, 3–18 blocks along each dimension\nThis 3×4×3 example has two interior spaces"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.induction_1",
+      "before": {
+        "ja": "手前の枠を一時的に外した断面です\n内部へセルとプロバイダを入れてください\nセルが蓄電容量、プロバイダが入出力の上限を受け持ちます",
+        "en": "This cutaway temporarily removes the front frame\nPlace a cell and provider inside\nCells set capacity, while providers set the transfer limit"
+      },
+      "after": {
+        "ja": "手前の枠を一時的に外した断面です\n内部にセルとプロバイダが入ります\nセルが蓄電容量、プロバイダが入出力の上限を受け持ちます",
+        "en": "This cutaway temporarily removes the front frame\nA cell and provider sit inside\nCells set capacity, while providers set the transfer limit"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.induction_2",
+      "before": {
+        "ja": "外した枠を戻して面を閉じ、面の内側にポートを設けます\n枠の辺と角はケーシングを使ってください",
+        "en": "Restore the front frame and close the faces, with ports within the faces\nKeep edges and corners as casings"
+      },
+      "after": {
+        "ja": "外した枠を戻して面を閉じ、面の内側にポートを設けます\n枠の辺と角はケーシングです",
+        "en": "Restoring the front frame and closing the faces completes the shell\nPorts sit within the faces, with casing edges and corners"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.induction_3",
+      "before": {
+        "ja": "ポートを入力用と出力用に設定します\n容量が残っていても、プロバイダーやケーブルの転送上限を超えては送れません",
+        "en": "Configure input and output ports\nStored energy cannot bypass the transfer limits of providers or cables"
+      },
+      "after": {
+        "ja": "ポートを入力用と出力用に設定します\n容量が残っていても、プロバイダーやケーブルの転送上限を超えては送れません",
+        "en": "Ports have separate input and output modes\nStored energy cannot bypass the transfer limits of providers or cables"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.digital_miner.summary",
+      "before": {
+        "ja": "採掘範囲・フィルター・搬出先を確認してから起動します",
+        "en": "Check the area, filters and output before mining"
+      },
+      "after": {
+        "ja": "採掘範囲・フィルター・搬出先を確認してから起動します",
+        "en": "Mining starts after the area, filters and output are checked"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.digital_miner_0",
+      "before": {
+        "ja": "デジタルマイナーは指定範囲の対象ブロックを採掘します\n起動前に電力を供給し、半径と高さの範囲を設定してください",
+        "en": "The Digital Miner mines matching blocks within its configured area\nSupply power and set the radius and height range before starting"
+      },
+      "after": {
+        "ja": "デジタルマイナーは指定範囲の対象ブロックを採掘します\n電力を供給し、半径と高さの範囲を設定してから起動します",
+        "en": "The Digital Miner mines matching blocks within its configured area\nPower is supplied and the radius and height range are set before mining starts"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.digital_miner_1",
+      "before": {
+        "ja": "アイテムやタグのフィルターで対象を指定し、検索結果を確認します\n逆フィルターは対象が大きく変わるため慎重に使ってください",
+        "en": "Choose targets with item or tag filters and inspect the search result\nInverse mode changes the selection substantially, so use it carefully"
+      },
+      "after": {
+        "ja": "アイテムやタグのフィルターで対象を指定し、検索結果を確認します\n逆フィルターは対象が大きく変わるため慎重に使ってください",
+        "en": "Item or tag filters define the targets shown in the search result\nInverse mode changes the selection substantially, so use it carefully"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.digital_miner_2",
+      "before": {
+        "ja": "採掘したアイテムの収納先を用意し、自動搬出などを設定します\n収納が満杯になれば採掘が進まなくなります",
+        "en": "Provide storage and configure output, such as auto-eject\nA full output inventory prevents further mining"
+      },
+      "after": {
+        "ja": "採掘したアイテムの収納先を用意し、自動搬出などを設定します\n収納が満杯になれば採掘が進まなくなります",
+        "en": "Storage and an output method, such as auto-eject, receive the mined items\nA full output inventory prevents further mining"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.digital_miner_3",
+      "before": {
+        "ja": "シルクタッチ・置換・自動搬入の設定も、目的に応じて確認してください\nこの場面は模型であり、実ワールドのブロックは採掘しません",
+        "en": "Review Silk Touch, replacement and auto-pull settings for your task\nThis scene is a model and does not mine blocks in your real world"
+      },
+      "after": {
+        "ja": "シルクタッチ・置換・自動搬入の設定も、目的に応じて確認してください\nこの場面は模型であり、実ワールドのブロックは採掘しません",
+        "en": "Silk Touch, replacement and auto-pull settings adapt mining to the task\nThis scene is a model and does not mine blocks in your real world"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.qio.summary",
+      "before": {
+        "ja": "周波数を合わせ、ドライブと端末を接続します",
+        "en": "Use matching frequencies to connect drives and terminals"
+      },
+      "after": {
+        "ja": "周波数を合わせ、ドライブと端末を接続します",
+        "en": "Matching frequencies link QIO drives and terminals"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.qio_0",
+      "before": {
+        "ja": "QIOドライブ配列へドライブを入れ、周波数を作成または選択してください\nドライブにはアイテム総数と種類数の上限があります",
+        "en": "Insert a drive into a QIO Drive Array and create or select a frequency\nDrives have limits for both item count and item types"
+      },
+      "after": {
+        "ja": "QIOドライブ配列にドライブを入れ、新規または既存の周波数を選びます\nドライブにはアイテム総数と種類数の上限があります",
+        "en": "A drive goes into the QIO Drive Array on a new or existing frequency\nDrives have limits for both item count and item types"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.qio_1",
+      "before": {
+        "ja": "QIOダッシュボードを同じ周波数に合わせると、収納へアクセスできます\n周波数の公開範囲と所有者にも注意してください",
+        "en": "Set a QIO Dashboard to the same frequency to access storage\nCheck frequency visibility and ownership"
+      },
+      "after": {
+        "ja": "QIOダッシュボードを同じ周波数に合わせると、収納へアクセスできます\n周波数の公開範囲と所有者にも注意してください",
+        "en": "A QIO Dashboard accesses storage on the same frequency\nCheck frequency visibility and ownership"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.qio_2",
+      "before": {
+        "ja": "QIOインポーターは隣の収納からQIOへ取り込み、エクスポーターはQIOから隣の収納へ送ります\n対象周波数とフィルターを設定してください",
+        "en": "A QIO Importer moves items from an adjacent inventory into QIO\nA QIO Exporter moves them out\nConfigure their frequency and filters"
+      },
+      "after": {
+        "ja": "QIOインポーターは隣の収納からQIOへ取り込み、エクスポーターはQIOから隣の収納へ送ります\n転送する対象は周波数とフィルターで決まります",
+        "en": "A QIO Importer moves items from an adjacent inventory into QIO\nA QIO Exporter moves them out\nFrequency and filters determine the transfers"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.teleporters.summary",
+      "before": {
+        "ja": "フレーム・電力・周波数の条件を揃えます",
+        "en": "Match the frame, power and frequency requirements"
+      },
+      "after": {
+        "ja": "フレーム・電力・周波数の条件を揃えます",
+        "en": "Teleportation depends on the frame, power and frequency"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.teleporters_0",
+      "before": {
+        "ja": "テレポーターを床の中央に置き、左右の柱と上辺をテレポーターフレームで囲います\nフレーム内に入れる空間を空けてください",
+        "en": "Place the Teleporter at the bottom center\nBuild Teleporter Frame pillars at its sides\nJoin the pillars across the top, leaving space inside"
+      },
+      "after": {
+        "ja": "床中央のテレポーターを、左右の柱と上辺のテレポーターフレームで囲います\nフレームの内側には入れる空間が残ります",
+        "en": "The Teleporter sits at the bottom center\nTeleporter Frame pillars stand at its sides\nThe top joins the pillars, with space left inside"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.teleporters_1",
+      "before": {
+        "ja": "転送元と転送先を同じ周波数に合わせます\n相手側にも正しいフレームを作ってください\n離して置いたブロックは転送先を表す目印です",
+        "en": "Set source and destination to the same frequency\nBuild a valid destination frame too\nThe separate block marks that destination"
+      },
+      "after": {
+        "ja": "転送元と転送先を同じ周波数に合わせます\n相手側にも正しいフレームが必要です\n離して置いたブロックは転送先を表す目印です",
+        "en": "The source and destination share a frequency\nThe destination also needs a valid frame\nThe separate block marks that destination"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.teleporters_2",
+      "before": {
+        "ja": "テレポーターへ電力を供給し、GUIでフレームと転送先の状態を確認してください\n距離や次元間の移動は必要電力に影響します",
+        "en": "Supply power and check the frame and destination status in the GUI\nDistance and dimension changes affect energy cost"
+      },
+      "after": {
+        "ja": "電力を供給したテレポーターのGUIで、フレームと転送先の状態が分かります\n距離や次元間の移動は必要電力に影響します",
+        "en": "The GUI shows the powered Teleporter's frame and destination status\nDistance and dimension changes affect energy cost"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.crafting.summary",
+      "before": {
+        "ja": "クラフト定式と材料の搬入・完成品の搬出を分けます",
+        "en": "Encode a formula and supply its ingredients and output storage"
+      },
+      "after": {
+        "ja": "クラフト定式と材料の搬入・完成品の搬出を分けます",
+        "en": "An encoded formula needs ingredients and output storage"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.crafting_0",
+      "before": {
+        "ja": "定式組立機は電力を使ってクラフトを行います\nクラフト定式へレシピを記録し、機械にセットしてください",
+        "en": "The Formulaic Assemblicator uses power to craft items\nEncode a recipe in a Crafting Formula and install it"
+      },
+      "after": {
+        "ja": "定式組立機は電力を使ってクラフトを行います\nレシピを記録したクラフト定式を機械にセットします",
+        "en": "The Formulaic Assemblicator uses power to craft items\nA Crafting Formula stores the recipe installed in the machine"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.crafting_1",
+      "before": {
+        "ja": "必要な材料を収納から供給します\n定式があっても、材料そのものが無ければクラフトできません",
+        "en": "Supply the ingredients from storage\nA formula describes the recipe but does not provide its materials"
+      },
+      "after": {
+        "ja": "必要な材料を収納から供給します\n定式があっても、材料そのものが無ければクラフトできません",
+        "en": "Ingredients arrive from storage\nA formula describes the recipe but does not provide its materials"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.crafting_2",
+      "before": {
+        "ja": "在庫管理と自動クラフトの設定を確認し、完成品を出力面から取り出せるようにしてください",
+        "en": "Review stock control and automatic crafting\nSet an output face for finished products"
+      },
+      "after": {
+        "ja": "在庫管理と自動クラフトの設定が、機械の動作を決めます\n完成品は出力に設定した面から取り出せます",
+        "en": "Stock control and automatic crafting govern production\nFinished products can be extracted through a face set to Output"
+      }
+    },
+    {
+      "key": "mekanismponder.lesson.nuclear_waste.summary",
+      "before": {
+        "ja": "核廃棄物の保管と処理設備の条件を確認します",
+        "en": "Understand waste storage and the requirements of processing equipment"
+      },
+      "after": {
+        "ja": "核廃棄物の保管と処理設備の条件を確認します",
+        "en": "Waste storage supports equipment with different processing requirements"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.nuclear_waste_1",
+      "before": {
+        "ja": "核廃棄物は太陽中性子照射装置でポロニウムへ加工できます\n同位体遠心分離機ではプルトニウムへ加工できます\nそれぞれの稼働条件と出力経路を用意してください",
+        "en": "A Solar Neutron Activator processes nuclear waste into polonium\nAn Isotopic Centrifuge processes it into plutonium\nProvide their operating conditions and output routes"
+      },
+      "after": {
+        "ja": "核廃棄物は太陽中性子反応機でポロニウムへ加工できます\n同位体遠心分離機ではプルトニウムへ加工できます\n各設備には稼働条件と出力経路が必要です",
+        "en": "A Solar Neutron Activator processes nuclear waste into polonium\nAn Isotopic Centrifuge processes it into plutonium\nEach machine needs its operating conditions and an output route"
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.nuclear_waste_2",
+      "before": {
+        "ja": "太陽中性子反応機は日光に依存します\n夜間の停止や悪天候時の減速に備え、廃棄物の保管容量を確保してください",
+        "en": "The Solar Neutron Activator depends on sunlight\nPlan storage for nighttime downtime and reduced production in bad weather"
+      },
+      "after": {
+        "ja": "太陽中性子反応機は日光に依存します\n夜間の停止や悪天候時の減速には、廃棄物の保管容量で備えられます",
+        "en": "The Solar Neutron Activator depends on sunlight\nExtra storage covers nighttime downtime and slower production in bad weather"
+      }
+    },
+    {
+      "key": "mekanismponder.description.atomic_alloy",
+      "before": {
+        "ja": "強化合金へ精製黒曜石を吹き込んで作る上位素材です\n精製黒曜石の粉と、吹込に使う濃縮黒曜石を区別してください",
+        "en": "A higher tier material made by infusing Reinforced Alloy with refined obsidian\nDistinguish Refined Obsidian Dust from Enriched Obsidian used for infusion"
+      },
+      "after": {
+        "ja": "強化合金へ精製黒曜石を吹き込んで作る上位素材です\n精製黒曜石の粉と、吹込用の濃縮黒曜石は別の素材です",
+        "en": "Infusing Reinforced Alloy with refined obsidian makes this higher tier material\nRefined Obsidian Dust differs from the Enriched Obsidian used for infusion"
+      }
+    },
+    {
+      "key": "mekanismponder.description.fuelwood_heat",
+      "before": {
+        "ja": "燃料を使って熱を供給します\n電力を発電する装置ではありません\n熱の利用先へ熱伝導経路をつないでください",
+        "en": "Burns fuel to supply heat\nIt does not generate electricity\nConnect a heat transfer path to the equipment that needs heat"
+      },
+      "after": {
+        "ja": "燃料を使って熱を供給します\n電力を発電する装置ではありません\n熱伝導経路を通して利用先へ熱を伝えます",
+        "en": "Burning fuel supplies heat\nIt does not generate electricity\nA heat transfer path carries the heat to the equipment"
+      }
+    }
+  ]
+}

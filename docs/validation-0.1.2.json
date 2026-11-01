@@ -1,0 +1,108 @@
+{
+  "verified_on_jst": "2026-10-20",
+  "configuration": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.256",
+    "java": 21,
+    "mekanism": "1.21.1-10.7.19.85",
+    "ponder": "1.0.87+mc1.21.1",
+    "flywheel": "1.0.4"
+  },
+  "unit_tests": {
+    "passed": 53,
+    "failed": 0
+  },
+  "release": {
+    "file": "mekanism-ponder-guide-0.1.2-neoforge-1.21.1.jar",
+    "sha256": "8e4e99ff820a0f58ec927b5c1579a794399ec984eb6a5e8cec07a3616f1b55a3",
+    "locale_keys": 200,
+    "locales": 22,
+    "java_21_classes": 33,
+    "content_check_passed": true
+  },
+  "selected_lessons": [
+    "power",
+    "cables",
+    "chemical_transport",
+    "evaporation",
+    "ore_quintupling",
+    "nuclear_waste"
+  ],
+  "runtime": {
+    "transmitterModelData": true,
+    "callouts": 17,
+    "captionGuiWidths": [
+      320,
+      480,
+      960
+    ],
+    "factoryBoundaries": true,
+    "captionGuiWidthChecks": 17031,
+    "nativeNavigation": true,
+    "tagPagination": true,
+    "captionPagesChecked": 5677,
+    "replay": true,
+    "englishFallback": true,
+    "glyphsChecked": 4357,
+    "navigationOnly": false,
+    "locales": [
+      "ja_jp",
+      "en_us",
+      "hi_in",
+      "zh_hk",
+      "zh_tw",
+      "zh_cn",
+      "ru_ru",
+      "pt_br",
+      "pt_pt",
+      "es_es",
+      "fr_fr",
+      "de_de",
+      "cs_cz",
+      "pl_pl",
+      "ms_my",
+      "ro_ro",
+      "ar_sa",
+      "id_id",
+      "ko_kr",
+      "vi_vn",
+      "tr_tr",
+      "it_it"
+    ],
+    "rendered": 6,
+    "captionUnitsChecked": 5677,
+    "passed": true,
+    "captionWindowWidthsVerified": true,
+    "nativeTagIndex": true,
+    "maximumCaptionLines": 3,
+    "lessons": 6
+  },
+  "font_layout": {
+    "windowWidthsVerified": true,
+    "guiWidths": [
+      320,
+      480,
+      960
+    ],
+    "guiWidthChecks": 17031,
+    "passed": true,
+    "maximumLines": 3,
+    "unitsChecked": 5677,
+    "nativeCaptionWidth": 180
+  },
+  "virtual_block_entity_render_errors": 0,
+  "all_28_model_data_unchanged_from": "d907dc5",
+  "evidence_sha256": {
+    "build/validation-run/validation-result.json": "396b965683cc5a7659b8e3dc6af1a495222f87592ce567cb0011211d7ccf50ba",
+    "build/validation-run/caption-overflow.json": "734da3ab55413a9723a610be94a0cbdd6c0b1eec03ee7250dae8d90e1c50381d",
+    ".work/caption-validation.log": "58e0527e89e21a8b31fc95d9772b193fc874c95e3b323a448cf1cf8e13bb7e4f",
+    ".work/caption-data-tests.log": "7780962363bba030856c37fa60b43334e030c0404027d958af19c56c41920c52"
+  },
+  "screenshots_saved": 74,
+  "limits": [
+    "Current playback/replay/rendering is the six selected lessons, not all 28.",
+    "Screen dimensions were reinitialized at 320x240 and 480x320; the physical desktop window was not resized.",
+    "Physical W-key hold was not synthesized; its native Ponder factory path was tested.",
+    "No server connection without the guide, all-eight-guide runtime coexistence, or destination Prism instance startup was tested."
+  ]
+}

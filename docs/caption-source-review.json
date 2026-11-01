@@ -1,0 +1,109 @@
+{
+  "source_hash": "db7114edc76fe33908e54eeb0a430457934863bc3ac28f33b0b7d784b7c76166",
+  "caption_keys_reviewed": 113,
+  "locales": [
+    "ja_jp",
+    "en_us"
+  ],
+  "authored_units": {
+    "ja_jp": 226,
+    "en_us": 243
+  },
+  "review_criteria": [
+    "Preserve targets, ingredients, quantities, constraints, causal relations and logical teaching order.",
+    "One complete short sentence per explicit newline unit.",
+    "No width- or line-based truncation, no automatic sentence merge.",
+    "Continuation format is supported; these source captions need no exception after concise rewriting."
+  ],
+  "examples": [
+    {
+      "key": "mekanismponder.ponder.shared.side_configuration_2",
+      "before": {
+        "ja": "完成品の面を出力にし、アイテムの自動搬出を有効にすると、対応する隣の搬送先へ送り出せます。",
+        "en": "Set the product face to Output and enable item auto-eject to send products into a compatible adjacent destination."
+      },
+      "after": {
+        "ja": "完成品の面を出力にし、アイテムの自動搬出を有効にすると、対応する隣の搬送先へ送り出せます。",
+        "en": "Set the product face to Output.\nEnable item auto-eject.\nProducts go to a compatible adjacent destination."
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.cables_1",
+      "before": {
+        "ja": "コンフィギュレーターを対応する設定モードにし、スニークしながら接続部分を右クリックして面のモードを切り替えます。",
+        "en": "Select the relevant configuration mode on the Configurator, then sneak-right-click a connection to cycle its face mode."
+      },
+      "after": {
+        "ja": "コンフィギュレーターを対応する設定モードにしてください。\nスニークしながら接続部を右クリックすると、面のモードが切り替わります。",
+        "en": "Select the Configurator's matching configuration mode.\nSneak-right-click a connection to cycle its face mode."
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.chemical_transport_0",
+      "before": {
+        "ja": "Minecraft 1.21.1版では、酸素・水素・吹込素材・スラリーなどは統合された化学物質として扱われます。液体とは別の系統です。",
+        "en": "In the 1.21.1 version, oxygen, hydrogen, infusion materials and slurries use the unified chemical system. Fluids remain separate."
+      },
+      "after": {
+        "ja": "1.21.1版のMekanismでは、化学物質の系統が統合されています。\n酸素・水素・吹込素材・スラリーなどが対象です。\n液体は別の系統です。",
+        "en": "In 1.21.1, Mekanism uses one chemical system.\nIt includes oxygen, hydrogen, infusion materials and slurries.\nFluids remain separate."
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.sulfuric_acid_2",
+      "before": {
+        "ja": "回転式流体凝縮器を液体から化学物質へ変換する向きで使い、水から水蒸気を作ってください。",
+        "en": "Set the Rotary Condensentrator to convert fluids into chemicals and use it to make water vapor from water."
+      },
+      "after": {
+        "ja": "回転式流体凝縮器を液体から化学物質へ変換する向きで使い、水から水蒸気を作ってください。",
+        "en": "Set the Rotary Condensentrator to convert fluids into chemicals.\nUse it to turn water into water vapor."
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.hdpe_2",
+      "before": {
+        "ja": "加圧反応室へ基質・液体エチレン・酸素・電力を供給すると、HDPEペレットを作れます。",
+        "en": "Supply Substrate, Liquid Ethylene, oxygen and power to a Pressurized Reaction Chamber to make HDPE Pellets."
+      },
+      "after": {
+        "ja": "加圧反応室へ基質・液体エチレン・酸素・電力を供給すると、HDPEペレットを作れます。",
+        "en": "Supply Substrate, Liquid Ethylene, oxygen and power to the reaction chamber.\nThe Pressurized Reaction Chamber produces HDPE Pellets."
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.ore_quintupling_0",
+      "before": {
+        "ja": "化学溶解室は硫酸を使います。標準レシピでは鉄鉱石一個から汚れたスラリー1000 mB、鉄の原石三個から2000 mBを作ります。",
+        "en": "The Chemical Dissolution Chamber uses sulfuric acid. One iron ore block gives 1,000 mB of dirty slurry; three Raw Iron give 2,000 mB."
+      },
+      "after": {
+        "ja": "化学溶解室は硫酸を使います。\n標準レシピでは鉄鉱石一個から汚れたスラリー1000 mB、鉄の原石三個から2000 mBを作ります。",
+        "en": "The Chemical Dissolution Chamber uses sulfuric acid.\nOne iron ore block gives 1,000 mB of dirty slurry.\nThree Raw Iron give 2,000 mB of dirty slurry."
+      }
+    },
+    {
+      "key": "mekanismponder.ponder.shared.nuclear_waste_3",
+      "before": {
+        "ja": "放射性物質が入った機器や経路を壊すと放射線を放出する場合があります。撤去前に内容物を安全な処理先へ移し、GUIで空を確認してください。",
+        "en": "Breaking equipment or pipes containing radioactive chemicals can release radiation. Route the contents to safe processing and verify that the containers are empty before dismantling."
+      },
+      "after": {
+        "ja": "放射性物質が入った機器や経路を壊すと放射線を放出する場合があります。\n撤去前に内容物を安全な処理先へ移し、GUIで空を確認してください。",
+        "en": "Breaking equipment or pipes containing radioactive chemicals can release radiation.\nRoute the contents to safe processing.\nVerify that the containers are empty before dismantling."
+      }
+    }
+  ],
+  "regression_evidence": {
+    "red_checkpoint": "a8e180e",
+    "red": "Nine production-method regressions failed with the old font-based splitter.",
+    "green": "53 authoring, production-boundary/search/reflow and data tests passed.",
+    "additional_review_reproducer": "Adjacent CJK/danda sentences bypassed the original diagnostic; regression added and fixed before release."
+  },
+  "final_font_acceptance": {
+    "passed": true,
+    "authored_units_all_22": 5677,
+    "maximum_lines": 3,
+    "evidence": "validation-summary.json"
+  }
+}

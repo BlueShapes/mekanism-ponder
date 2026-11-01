@@ -1,0 +1,13 @@
+.gradle/
+build/
+run/
+.work/
+.idea/
+*.iml
+*.log
+__pycache__/
+*.pyc
+
+# Historical evidence with machine-local metadata stays local.
+/docs/item-coverage-report.json.gz
+/docs/language-runtime-20261030.json.gz

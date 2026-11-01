@@ -1,0 +1,1061 @@
+{
+  "source_hash": "db7114edc76fe33908e54eeb0a430457934863bc3ac28f33b0b7d784b7c76166",
+  "reviewed_source_languages": [
+    "ja",
+    "en"
+  ],
+  "scope": "All 113 caption keys in each of the seven locales were read against the revised Japanese/English sources. The other 72 source keys are unchanged in this source revision.",
+  "display_boundary": "Each literal newline is an author-reviewed display boundary. Natural font wrapping stays inside that unit. No width/word/line-count page cuts are authored.",
+  "sentence_policy": "Every unit is a complete concise sentence or complete instruction. Contrastive clauses within a sentence preserve a single comparison, such as cell capacity versus provider throughput.",
+  "multiple_sentence_units": [],
+  "continuations": [],
+  "continuation_rationale": "No clause-continuation exception was needed for these revised locale captions at the intended 180 px authoring width; measured-font validation remains the primary agent responsibility.",
+  "locales": {
+    "hi_in": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 273,
+      "content_keys_preserved": 185,
+      "english_field_fallback_used": false,
+      "file_sha256": "fdc5dd4aab02283affa821888b621607bf660757bb27a7fcc07625b3f3f3cdfa"
+    },
+    "zh_hk": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 247,
+      "content_keys_preserved": 185,
+      "english_field_fallback_used": false,
+      "file_sha256": "1ff55ed0d870a2331da5a16abc81b605a4fdbd61cc084f02c82dee4811fc79d1"
+    },
+    "zh_tw": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 243,
+      "content_keys_preserved": 185,
+      "english_field_fallback_used": false,
+      "file_sha256": "15ed82487c6833f17ef9040d33b8f7bc835acfc04b94a8faad54c76f35b2a079"
+    },
+    "zh_cn": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 243,
+      "content_keys_preserved": 185,
+      "english_field_fallback_used": false,
+      "file_sha256": "7f9d5e4608989cb4308afdc70df813936adeafe0ebc8f0d795955884e2f34d69"
+    },
+    "ko_kr": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 245,
+      "content_keys_preserved": 185,
+      "english_field_fallback_used": false,
+      "file_sha256": "5443b062cdc53f011875ffec4324c8fd016e30a979f7d0a28e60c20c4dde3862"
+    },
+    "vi_vn": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 246,
+      "content_keys_preserved": 185,
+      "english_field_fallback_used": false,
+      "file_sha256": "9d9306959985f35f8c857288a3be9e38b9971e36bf16a9cadffdeca7775dfea8"
+    },
+    "id_id": {
+      "caption_keys_reviewed": 113,
+      "authored_units": 245,
+      "content_keys_preserved": 185,
+      "english_field_fallback_used": false,
+      "file_sha256": "d8d2a3a91dfed49fc3e3796c8d5f812e40d9092481c8bddef84ae8e7bf73f4cf"
+    }
+  },
+  "examples": [
+    {
+      "locale": "hi_in",
+      "key": "mekanismponder.ponder.shared.ore_quintupling_2",
+      "before": "Chemical Crystallizer（अस्थायी अनुवाद：रासायनिक क्रिस्टलकार） हर 200 mB clean slurry（अस्थायी अनुवाद：स्वच्छ घोल） से एक क्रिस्टल बनाता है। मशीनों में बाँटी गई अधूरी मात्रा अगले बैच के लिए अटक सकती है।",
+      "after_units": [
+        "Chemical Crystallizer का अस्थायी नाम रासायनिक क्रिस्टलकार है।",
+        "यह स्वच्छ घोल से क्रिस्टल बनाता है।",
+        "हर क्रिस्टल के लिए 200 mB clean slurry (अस्थायी: स्वच्छ घोल) चाहिए।",
+        "मशीनों में बाँटी गई अधूरी मात्रा अगले बैच के लिए अटक सकती है।"
+      ],
+      "review": "Separate the machine action, the 200 mB clean-slurry requirement, and the partial-batch warning into complete sentences; retain both English identities and marked proposals."
+    },
+    {
+      "locale": "zh_hk",
+      "key": "mekanismponder.ponder.shared.sulfuric_acid_0",
+      "before": "在Chemical Oxidizer（暫譯：化學氧化機）中加工Sulfur Dust（暫譯：硫粉）以生成二氧化硫。為每台機器提供所需電能。",
+      "after_units": [
+        "Chemical Oxidizer（暫譯：化學氧化機）會把硫粉製成二氧化硫。",
+        "請輸入 Sulfur Dust（暫譯：硫粉）。",
+        "為每台機器提供所需電能。"
+      ],
+      "review": "State the oxidizer action and the named input separately to avoid one overloaded sentence containing two English/proposed labels."
+    },
+    {
+      "locale": "zh_tw",
+      "key": "mekanismponder.ponder.shared.ore_tripling_0",
+      "before": "淨化室需要氧氣和電力。一個鐵礦石方塊產出 3 個鐵團，一份鐵原礦產出 2 個。",
+      "after_units": [
+        "淨化倉需要氧氣和電力。",
+        "一個鐵礦石方塊產出 3 個鐵碎塊。",
+        "一份鐵原礦產出 2 個鐵碎塊。"
+      ],
+      "review": "State the ore-block and Raw Iron yields separately, preserving 3 versus 2 and the item distinction."
+    },
+    {
+      "locale": "zh_cn",
+      "key": "mekanismponder.ponder.shared.chemical_transport_0",
+      "before": "在 1.21.1 版本中，氧气、氢气、灌注材料和浆液使用统一化学品系统。流体仍是独立系统。",
+      "after_units": [
+        "Mekanism 1.21.1 使用统一的化学品系统。",
+        "氧气、氢气、灌注材料和浆液都属于该系统。",
+        "流体仍是独立系统。"
+      ],
+      "review": "Introduce the 1.21.1 unified system, list its included resources, and distinguish fluids in three complete sentences."
+    },
+    {
+      "locale": "ko_kr",
+      "key": "mekanismponder.ponder.shared.nuclear_waste_3",
+      "before": "방사성 화학 물질이 든 기계나 파이프를 부수면 방사선이 방출될 수 있습니다. 철거 전에 안전한 처리 경로로 보내고 GUI에서 비었는지 확인하세요.",
+      "after_units": [
+        "방사성 화학 물질이 든 기계나 파이프를 부수면 방사선이 방출될 수 있습니다.",
+        "내용물을 안전한 처리 경로로 보내세요.",
+        "철거 전에 GUI에서 용기가 비었는지 확인하세요."
+      ],
+      "review": "Retain the radiation consequence, safe processing, and empty-container check before dismantling as three complete sentences."
+    },
+    {
+      "locale": "vi_vn",
+      "key": "mekanismponder.ponder.shared.ore_tripling_0",
+      "before": "Khoang tinh lọc cần oxy và điện. Một khối quặng sắt cho 3 Iron Shard（bản dịch tạm：Mảnh sắt）; một Sắt thô cho 2.",
+      "after_units": [
+        "Khoang thanh lọc cần oxy và điện.",
+        "Một khối quặng sắt cho 3 Iron Clump (dịch tạm: Cục sắt).",
+        "Một Sắt thô cho 2 Cục sắt."
+      ],
+      "review": "Correct Iron Clump identity (previously mislabeled Iron Shard) and state both yields in complete units."
+    },
+    {
+      "locale": "id_id",
+      "key": "mekanismponder.ponder.shared.teleporters_0",
+      "before": "Letakkan Alat Teleportasi di tengah bagian bawah. Bangun pilar Bingkai Teleportasi di kedua sisinya dan sambungkan bagian atas, sisakan ruang di dalam.",
+      "after_units": [
+        "Letakkan Alat Teleportasi di tengah bagian bawah.",
+        "Bangun pilar Bingkai Teleportasi di kedua sisinya.",
+        "Sambungkan pilar di atas dan sisakan ruang di dalam."
+      ],
+      "review": "Give the bottom-center position, side pillars, and top connection/interior gap as three complete instructions."
+    }
+  ],
+  "terminology": {
+    "source": "Mekanism 1.21.1-10.7.19.85 main release JAR; en_us resource followed by locale resource, with English fallback for absent keys.",
+    "jar_sha256": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43",
+    "corrections": {
+      "zh_tw": [
+        {
+          "language_key": "block.mekanism.energized_smelter",
+          "registry_id": "mekanism:energized_smelter",
+          "resolved_name": "充能冶煉爐",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_infuser",
+          "registry_id": "mekanism:chemical_infuser",
+          "resolved_name": "化學灌注器",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_injection_chamber",
+          "registry_id": "mekanism:chemical_injection_chamber",
+          "resolved_name": "化學壓射室",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.rotary_condensentrator",
+          "registry_id": "mekanism:rotary_condensentrator",
+          "resolved_name": "回旋式氣液轉換機",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.purification_chamber",
+          "registry_id": "mekanism:purification_chamber",
+          "resolved_name": "淨化倉",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.solar_neutron_activator",
+          "registry_id": "mekanism:solar_neutron_activator",
+          "resolved_name": "太陽能中子活化器",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.formulaic_assemblicator",
+          "registry_id": "mekanism:formulaic_assemblicator",
+          "resolved_name": "公式裝配器",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.resistive_heater",
+          "registry_id": "mekanism:resistive_heater",
+          "resolved_name": "電阻加熱器",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_dashboard",
+          "registry_id": "mekanism:qio_dashboard",
+          "resolved_name": "QIO 儀表板",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_importer",
+          "registry_id": "mekanism:qio_importer",
+          "resolved_name": "QIO 輸入端口",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_exporter",
+          "registry_id": "mekanism:qio_exporter",
+          "resolved_name": "QIO 輸出端口",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.induction_casing",
+          "registry_id": "mekanism:induction_casing",
+          "resolved_name": "輸導外殼",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.digital_miner",
+          "registry_id": "mekanism:digital_miner",
+          "resolved_name": "數位採礦機",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.teleporter_frame",
+          "registry_id": "mekanism:teleporter_frame",
+          "resolved_name": "傳送框架",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.alloy_infused",
+          "registry_id": "mekanism:alloy_infused",
+          "resolved_name": "富集合金",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.configurator",
+          "registry_id": "mekanism:configurator",
+          "resolved_name": "調整器",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.dust_steel",
+          "registry_id": "mekanism:dust_steel",
+          "resolved_name": "鋼粉",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.clump_iron",
+          "registry_id": "mekanism:clump_iron",
+          "resolved_name": "鐵碎塊",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.dirty_dust_iron",
+          "registry_id": "mekanism:dirty_dust_iron",
+          "resolved_name": "汙濁的鐵粉",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.substrate",
+          "registry_id": "mekanism:substrate",
+          "resolved_name": "基片",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.hdpe_pellet",
+          "registry_id": "mekanism:hdpe_pellet",
+          "resolved_name": "HDPE顆粒",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.crafting_formula",
+          "registry_id": "mekanism:crafting_formula",
+          "resolved_name": "合成配方",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.gauge_dropper",
+          "registry_id": "mekanism:gauge_dropper",
+          "resolved_name": "滴量器",
+          "locale_key_present": true
+        }
+      ],
+      "zh_cn": [
+        {
+          "language_key": "block.mekanism.energized_smelter",
+          "registry_id": "mekanism:energized_smelter",
+          "resolved_name": "电力熔炼炉",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_infuser",
+          "registry_id": "mekanism:chemical_infuser",
+          "resolved_name": "化学灌注器",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_injection_chamber",
+          "registry_id": "mekanism:chemical_injection_chamber",
+          "resolved_name": "化学压射室",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.rotary_condensentrator",
+          "registry_id": "mekanism:rotary_condensentrator",
+          "resolved_name": "回旋式气液转换机",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.purification_chamber",
+          "registry_id": "mekanism:purification_chamber",
+          "resolved_name": "提纯仓",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.solar_neutron_activator",
+          "registry_id": "mekanism:solar_neutron_activator",
+          "resolved_name": "太阳能中子活化器",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.formulaic_assemblicator",
+          "registry_id": "mekanism:formulaic_assemblicator",
+          "resolved_name": "公式装配器",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.resistive_heater",
+          "registry_id": "mekanism:resistive_heater",
+          "resolved_name": "电阻型加热器",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_drive_array",
+          "registry_id": "mekanism:qio_drive_array",
+          "resolved_name": "QIO驱动器阵列",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_dashboard",
+          "registry_id": "mekanism:qio_dashboard",
+          "resolved_name": "QIO仪表板",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_importer",
+          "registry_id": "mekanism:qio_importer",
+          "resolved_name": "QIO输入端口",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_exporter",
+          "registry_id": "mekanism:qio_exporter",
+          "resolved_name": "QIO输出端口",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.dust_steel",
+          "registry_id": "mekanism:dust_steel",
+          "resolved_name": "钢粉",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.clump_iron",
+          "registry_id": "mekanism:clump_iron",
+          "resolved_name": "铁碎块",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.substrate",
+          "registry_id": "mekanism:substrate",
+          "resolved_name": "基片",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.hdpe_pellet",
+          "registry_id": "mekanism:hdpe_pellet",
+          "resolved_name": "高密度聚乙烯球",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.crafting_formula",
+          "registry_id": "mekanism:crafting_formula",
+          "resolved_name": "合成配方",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.gauge_dropper",
+          "registry_id": "mekanism:gauge_dropper",
+          "resolved_name": "滴管",
+          "locale_key_present": true
+        }
+      ],
+      "ko_kr": [
+        {
+          "language_key": "block.mekanism.energized_smelter",
+          "registry_id": "mekanism:energized_smelter",
+          "resolved_name": "전동 제련기",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_infuser",
+          "registry_id": "mekanism:chemical_infuser",
+          "resolved_name": "화학적 반응 장치",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_injection_chamber",
+          "registry_id": "mekanism:chemical_injection_chamber",
+          "resolved_name": "화학적 투입 장치",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_dissolution_chamber",
+          "registry_id": "mekanism:chemical_dissolution_chamber",
+          "resolved_name": "화학적 용해 장치",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_washer",
+          "registry_id": "mekanism:chemical_washer",
+          "resolved_name": "화학적 세척 장치",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_oxidizer",
+          "registry_id": "mekanism:chemical_oxidizer",
+          "resolved_name": "화학적 산화 장치",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.rotary_condensentrator",
+          "registry_id": "mekanism:rotary_condensentrator",
+          "resolved_name": "회전 콘덴서",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.purification_chamber",
+          "registry_id": "mekanism:purification_chamber",
+          "resolved_name": "정화기",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.pressurized_reaction_chamber",
+          "registry_id": "mekanism:pressurized_reaction_chamber",
+          "resolved_name": "가압 반응 장치",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.solar_neutron_activator",
+          "registry_id": "mekanism:solar_neutron_activator",
+          "resolved_name": "태양열 중성자 활성기",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.resistive_heater",
+          "registry_id": "mekanism:resistive_heater",
+          "resolved_name": "전기 저항 가열기",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_drive_array",
+          "registry_id": "mekanism:qio_drive_array",
+          "resolved_name": "QIO 드라이브 저장소",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_importer",
+          "registry_id": "mekanism:qio_importer",
+          "resolved_name": "QIO 투입기",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_exporter",
+          "registry_id": "mekanism:qio_exporter",
+          "resolved_name": "QIO 방출기",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.dust_steel",
+          "registry_id": "mekanism:dust_steel",
+          "resolved_name": "강철 가루",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.clump_iron",
+          "registry_id": "mekanism:clump_iron",
+          "resolved_name": "철 덩어리",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.shard_iron",
+          "registry_id": "mekanism:shard_iron",
+          "resolved_name": "철 파편",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.dirty_dust_iron",
+          "registry_id": "mekanism:dirty_dust_iron",
+          "resolved_name": "불순물이 섞인 철 가루",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.hdpe_pellet",
+          "registry_id": "mekanism:hdpe_pellet",
+          "resolved_name": "HDPE 알갱이",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.gauge_dropper",
+          "registry_id": "mekanism:gauge_dropper",
+          "resolved_name": "스포이트",
+          "locale_key_present": true
+        }
+      ],
+      "vi_vn": [
+        {
+          "language_key": "block.mekanism.energized_smelter",
+          "registry_id": "mekanism:energized_smelter",
+          "resolved_name": "Lò nung điện",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_infuser",
+          "registry_id": "mekanism:chemical_infuser",
+          "resolved_name": "Máy luyện hoá chất",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_injection_chamber",
+          "registry_id": "mekanism:chemical_injection_chamber",
+          "resolved_name": "Máy phun hoá chất",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_dissolution_chamber",
+          "registry_id": "mekanism:chemical_dissolution_chamber",
+          "resolved_name": "Máy hoà tan hoá chất",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_washer",
+          "registry_id": "mekanism:chemical_washer",
+          "resolved_name": "Máy rửa hoá chất",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_oxidizer",
+          "registry_id": "mekanism:chemical_oxidizer",
+          "resolved_name": "Máy oxy-hoá hoá chất",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.rotary_condensentrator",
+          "registry_id": "mekanism:rotary_condensentrator",
+          "resolved_name": "Máy ngưng tụ ly tâm",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.purification_chamber",
+          "registry_id": "mekanism:purification_chamber",
+          "resolved_name": "Khoang thanh lọc",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.pressurized_reaction_chamber",
+          "registry_id": "mekanism:pressurized_reaction_chamber",
+          "resolved_name": "Khoang phản ứng được áp suất",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.solar_neutron_activator",
+          "registry_id": "mekanism:solar_neutron_activator",
+          "resolved_name": "Máy kích hoạt neutron quang năng",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.resistive_heater",
+          "registry_id": "mekanism:resistive_heater",
+          "resolved_name": "Máy điện trở nhiệt",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.radioactive_waste_barrel",
+          "registry_id": "mekanism:radioactive_waste_barrel",
+          "resolved_name": "Thùng Chưa Chất Phóng Xạ",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_drive_array",
+          "registry_id": "mekanism:qio_drive_array",
+          "resolved_name": "Mảng ổ Đĩa QIO",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_dashboard",
+          "registry_id": "mekanism:qio_dashboard",
+          "resolved_name": "Bảng Điều Khiển QIO",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_importer",
+          "registry_id": "mekanism:qio_importer",
+          "resolved_name": "Máy Nhập QIO",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_exporter",
+          "registry_id": "mekanism:qio_exporter",
+          "resolved_name": "Máy Xuất QIO",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.alloy_infused",
+          "registry_id": "mekanism:alloy_infused",
+          "resolved_name": "Hợp kim đá đỏ",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.ingot_steel",
+          "registry_id": "mekanism:ingot_steel",
+          "resolved_name": "Phôi thép",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.hdpe_pellet",
+          "registry_id": "mekanism:hdpe_pellet",
+          "resolved_name": "Viên nhựa Pôlyetylen đặc",
+          "locale_key_present": true
+        }
+      ],
+      "id_id": [
+        {
+          "language_key": "block.mekanism.energized_smelter",
+          "registry_id": "mekanism:energized_smelter",
+          "resolved_name": "Pelebur Berenergi",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_injection_chamber",
+          "registry_id": "mekanism:chemical_injection_chamber",
+          "resolved_name": "Tabung Injeksi Kimia",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_dissolution_chamber",
+          "registry_id": "mekanism:chemical_dissolution_chamber",
+          "resolved_name": "Tabung Peleburan Kimia",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.chemical_washer",
+          "registry_id": "mekanism:chemical_washer",
+          "resolved_name": "Pembersih Kimia",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.rotary_condensentrator",
+          "registry_id": "mekanism:rotary_condensentrator",
+          "resolved_name": "Kondensentrator Berputar",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.induction_casing",
+          "registry_id": "mekanism:induction_casing",
+          "resolved_name": "Kerangka Induksi",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.isotopic_centrifuge",
+          "registry_id": "mekanism:isotopic_centrifuge",
+          "resolved_name": "Mesin Sentrifugal Isotop",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "block.mekanism.qio_exporter",
+          "registry_id": "mekanism:qio_exporter",
+          "resolved_name": "Pengekspor OBK",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.alloy_infused",
+          "registry_id": "mekanism:alloy_infused",
+          "resolved_name": "Infus Logam campuran",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.dust_steel",
+          "registry_id": "mekanism:dust_steel",
+          "resolved_name": "Debu Baja",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.ingot_steel",
+          "registry_id": "mekanism:ingot_steel",
+          "resolved_name": "Batangan Baja",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.dust_iron",
+          "registry_id": "mekanism:dust_iron",
+          "resolved_name": "Debu Besi",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.shard_iron",
+          "registry_id": "mekanism:shard_iron",
+          "resolved_name": "Belingan Besi",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.dirty_dust_iron",
+          "registry_id": "mekanism:dirty_dust_iron",
+          "resolved_name": "Debu Besi Kotor",
+          "locale_key_present": true
+        },
+        {
+          "language_key": "item.mekanism.portable_teleporter",
+          "registry_id": "mekanism:portable_teleporter",
+          "resolved_name": "Teleporter Portabel",
+          "locale_key_present": true
+        }
+      ]
+    },
+    "identity_correction": {
+      "locale": "vi_vn",
+      "caption": "mekanismponder.ponder.shared.ore_tripling_0",
+      "registry_id": "mekanism:clump_iron",
+      "language_key": "item.mekanism.clump_iron",
+      "english": "Iron Clump",
+      "locale_key_present": false,
+      "before": "Iron Shard（bản dịch tạm：Mảnh sắt）",
+      "after": "Iron Clump (dịch tạm: Cục sắt)",
+      "evidence": "The source specifies clumps from purification, and the pinned release key item.mekanism.clump_iron resolves to Iron Clump; shard_iron belongs to chemical injection."
+    },
+    "proposed_labels": "For untranslated release keys, existing English identities are retained or restored at first caption use and the concise local proposal is explicitly marked (अस्थायी, 暫譯, dịch tạm, sementara). These are guide proposals, not claims of official upstream localization."
+  },
+  "verification_limits": "This record is authoring/semantic review, JSON coverage, terminal punctuation and preservation evidence. It does not claim actual font, GUI, Minecraft playback or Prism simultaneous-instance testing.",
+  "font_authoring_revision": {
+    "input_report": ".work/caption-font-issues-first.json",
+    "reported_units": 23,
+    "reported_locales": {
+      "hi_in": 20,
+      "id_id": 2,
+      "vi_vn": 1
+    },
+    "action": "Revised the 21 affected caption keys into shorter complete sentences. Where English names plus proposed labels overloaded an action sentence, identify the proposed name in its own complete sentence, followed by the complete role or instruction. No clause-continuation exception or font-based cut was used. Retained ore quantities, chemical identities, operating conditions, ordered checks and alternative tank extraction methods.",
+    "status": "Authoring corrections complete; actual-font rerun pending. This does not claim the 23 units now pass real-font validation.",
+    "revised": [
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.fluid_transport_2",
+        "previous_unit": "टैंक से निकालने के लिए टैंक कनेक्शन को Pull पर सेट करें या टैंक का आउटपुट विकल्प इस्तेमाल करें।",
+        "previous_line_count": 4,
+        "after_units": [
+          "टैंक से निकालने के लिए कनेक्शन को Pull पर रखें।",
+          "वैकल्पिक रूप से टैंक का आउटपुट विकल्प इस्तेमाल करें।",
+          "केवल कनेक्शन से तरल शायद न निकले।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.chemical_transport_3",
+        "previous_unit": "इसी क्रम में निष्कर्षण मोड, आउटपुट फलक, नेटवर्क की सामग्री और भरे हुए लक्ष्य जाँचें।",
+        "previous_line_count": 4,
+        "after_units": [
+          "पहले निष्कर्षण मोड और फिर आउटपुट फलक जाँचें।",
+          "फिर नेटवर्क की सामग्री और अंत में भरे हुए लक्ष्य जाँचें।",
+          "कुछ भी डंप करने से पहले चुना हुआ रसायन सत्यापित करें।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.factories_0",
+        "previous_unit": "Enriching Factory（अस्थायी अनुवाद：संवर्धन कारखाना） कई समानांतर स्लॉट में वही प्रक्रिया चलाती है।",
+        "previous_line_count": 4,
+        "after_units": [
+          "समर्थित मशीनों को फैक्ट्री में अपग्रेड किया जा सकता है।",
+          "Enriching Factory का अस्थायी नाम संवर्धन कारखाना है।",
+          "यह कई समानांतर स्लॉट में वही प्रक्रिया चलाता है।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.factories_2",
+        "previous_unit": "Speed Upgrades（अस्थायी अनुवाद：गति उन्नयन） प्रसंस्करण तेज़ करते हैं, पर ऊर्जा की माँग भी बढ़ाते हैं।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Speed Upgrade का अस्थायी नाम गति उन्नयन है।",
+          "यह प्रसंस्करण तेज़ करता है।",
+          "इससे ऊर्जा की माँग भी बढ़ती है।",
+          "सुनिश्चित करें कि ऊर्जा और परिवहन साथ दे सकें।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.factories_3",
+        "previous_unit": "मशीन पर कौन-से अपग्रेड लगते हैं जाँचें और ऊर्जा डिस्प्ले के अनुसार व्यवस्था समायोजित करें।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Energy Upgrades（अस्थायी अनुवाद：ऊर्जा उन्नयन） दक्षता बढ़ाते हैं।",
+          "मशीन के समर्थित अपग्रेड जाँचें।",
+          "ऊर्जा डिस्प्ले के अनुसार व्यवस्था समायोजित करें।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.hydrogen_chloride_3",
+        "previous_unit": "हाइड्रोजन क्लोराइड को Chemical Injection Chamber（अस्थायी अनुवाद：रासायनिक अंतःक्षेप कक्ष） तक भेजें।",
+        "previous_line_count": 5,
+        "after_units": [
+          "Chemical Injection Chamber का अस्थायी नाम अंतःक्षेप कक्ष है।",
+          "हाइड्रोजन क्लोराइड को इस कक्ष तक भेजें।",
+          "हाइड्रोजन, क्लोरीन और हाइड्रोजन क्लोराइड के नेटवर्क अलग रखें।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.sulfuric_acid_0",
+        "previous_unit": "Chemical Oxidizer (अस्थायी: रासायनिक ऑक्सीकारक) गंधक चूर्ण से सल्फर डाइऑक्साइड बनाता है।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Chemical Oxidizer का अस्थायी नाम रासायनिक ऑक्सीकारक है।",
+          "इसमें गंधक चूर्ण से सल्फर डाइऑक्साइड बनता है।",
+          "इसमें Sulfur Dust (अस्थायी: गंधक चूर्ण) दें।",
+          "हर मशीन को जरूरी ऊर्जा दें।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.ethylene_1",
+        "previous_unit": "Pressurized Reaction Chamber (अस्थायी: दाबित अभिक्रिया कक्ष) को जैव ईंधन, पानी, हाइड्रोजन और ऊर्जा दें।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Pressurized Reaction Chamber का अस्थायी नाम दाबित अभिक्रिया कक्ष है।",
+          "इसे जैव ईंधन, पानी, हाइड्रोजन और ऊर्जा दें।",
+          "आइटम, तरल और रासायनिक इनपुट फलक अलग-अलग कॉन्फ़िगर करें।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.ethylene_2",
+        "previous_unit": "इस अभिक्रिया से Substrate（अस्थायी अनुवाद：आधार पदार्थ） और ethylene बनते हैं।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Substrate का अस्थायी नाम आधार पदार्थ है।",
+          "इस अभिक्रिया से आधार पदार्थ और ethylene बनते हैं।",
+          "आइटम आउटपुट और रासायनिक आउटपुट दोनों निकालें।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.ore_quintupling_0",
+        "previous_unit": "Chemical Dissolution Chamber (अस्थायी: रासायनिक घुलन कक्ष) में सल्फ्यूरिक अम्ल लगता है।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Chemical Dissolution Chamber का अस्थायी नाम रासायनिक घुलन कक्ष है।",
+          "इसमें सल्फ्यूरिक अम्ल लगता है।",
+          "एक लौह अयस्क ब्लॉक से 1,000 mB dirty slurry (अस्थायी: गंदा घोल) बनता है।",
+          "कच्चे लोहे की 3 इकाइयों से 2,000 mB गंदा घोल बनता है।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.ore_quintupling_2",
+        "previous_unit": "Chemical Crystallizer (अस्थायी: रासायनिक क्रिस्टलकार) स्वच्छ घोल से क्रिस्टल बनाता है।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Chemical Crystallizer का अस्थायी नाम रासायनिक क्रिस्टलकार है।",
+          "यह स्वच्छ घोल से क्रिस्टल बनाता है।",
+          "हर क्रिस्टल के लिए 200 mB clean slurry (अस्थायी: स्वच्छ घोल) चाहिए।",
+          "मशीनों में बाँटी गई अधूरी मात्रा अगले बैच के लिए अटक सकती है।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.ore_quintupling_3",
+        "previous_unit": "क्रिस्टल को हाइड्रोजन क्लोराइड वाले रासायनिक अंतःक्षेप कक्ष में भेजकर लौह खंड बनाएँ।",
+        "previous_line_count": 4,
+        "after_units": [
+          "अंतःक्षेप कक्ष को क्रिस्टल और हाइड्रोजन क्लोराइड दें।",
+          "इससे लौह खंड बनते हैं।",
+          "फिर शुद्धिकरण, कुचलना, समृद्धिकरण और गलाना जारी रखें।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.induction_0",
+        "previous_unit": "हर आयाम में 3–18 ब्लॉक वाला Induction Casings（अस्थायी अनुवाद：प्रेरण आवरण） का घनाभ ढाँचा बनाएँ।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Induction Casing का अस्थायी नाम प्रेरण आवरण है।",
+          "इनसे हर आयाम में 3–18 ब्लॉक का घनाभ ढाँचा बनाएँ।",
+          "इस 3×4×3 उदाहरण में अंदर दो खाली स्थान हैं।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.qio_0",
+        "previous_unit": "QIO Drive Array（अस्थायी अनुवाद：QIO ड्राइव समूह） में ड्राइव डालें और आवृत्ति बनाएँ या चुनें।",
+        "previous_line_count": 4,
+        "after_units": [
+          "QIO Drive Array का अस्थायी नाम QIO ड्राइव समूह है।",
+          "इसमें ड्राइव डालें और आवृत्ति बनाएँ या चुनें।",
+          "ड्राइव में आइटमों की संख्या और प्रकारों, दोनों की सीमा होती है।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.qio_1",
+        "previous_unit": "भंडारण तक पहुँचने के लिए QIO Dashboard（अस्थायी अनुवाद：QIO डैशबोर्ड） को उसी आवृत्ति पर सेट करें।",
+        "previous_line_count": 4,
+        "after_units": [
+          "QIO Dashboard का अस्थायी नाम QIO डैशबोर्ड है।",
+          "भंडारण तक पहुँचने के लिए इसे उसी आवृत्ति पर सेट करें।",
+          "आवृत्ति की दृश्यता और स्वामित्व जाँचें।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.crafting_0",
+        "previous_unit": "Formulaic Assemblicator（अस्थायी अनुवाद：सूत्र-आधारित संयोजक） ऊर्जा से आइटम बनाता है।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Formulaic Assemblicator का अस्थायी नाम सूत्र-आधारित संयोजक है।",
+          "यह ऊर्जा से आइटम बनाता है।",
+          "Crafting Formula का अस्थायी नाम निर्माण सूत्र है।",
+          "इसमें रेसिपी दर्ज करें और इसे मशीन में लगाएँ।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.crafting_0",
+        "previous_unit": "Crafting Formula（अस्थायी अनुवाद：निर्माण सूत्र） में रेसिपी दर्ज करके उसे मशीन में लगाएँ।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Formulaic Assemblicator का अस्थायी नाम सूत्र-आधारित संयोजक है।",
+          "यह ऊर्जा से आइटम बनाता है।",
+          "Crafting Formula का अस्थायी नाम निर्माण सूत्र है।",
+          "इसमें रेसिपी दर्ज करें और इसे मशीन में लगाएँ।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.nuclear_waste_0",
+        "previous_unit": "Radioactive Waste Barrel (अस्थायी: रेडियोधर्मी अपशिष्ट पीपा) nuclear waste जैसे रसायन रखता है।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Radioactive Waste Barrel का अस्थायी नाम रेडियोधर्मी अपशिष्ट पीपा है।",
+          "यह nuclear waste जैसे रसायन रखता है।",
+          "विखंडन रिएक्टर अलग Mekanism: Generators मॉड में आते हैं।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.nuclear_waste_1",
+        "previous_unit": "Solar Neutron Activator (अस्थायी: सौर न्यूट्रॉन सक्रियक) परमाणु अपशिष्ट से पोलोनियम बनाता है।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Solar Neutron Activator का अस्थायी नाम सौर न्यूट्रॉन सक्रियक है।",
+          "यह परमाणु अपशिष्ट से पोलोनियम बनाता है।",
+          "Isotopic Centrifuge का अस्थायी नाम समस्थानिक अपकेंद्रित्र है।",
+          "यह परमाणु अपशिष्ट से प्लूटोनियम बनाता है।",
+          "उनकी परिचालन शर्तें और आउटपुट मार्ग तैयार करें।"
+        ]
+      },
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.nuclear_waste_1",
+        "previous_unit": "Isotopic Centrifuge (अस्थायी: समस्थानिक अपकेंद्रित्र) परमाणु अपशिष्ट से प्लूटोनियम बनाता है।",
+        "previous_line_count": 4,
+        "after_units": [
+          "Solar Neutron Activator का अस्थायी नाम सौर न्यूट्रॉन सक्रियक है।",
+          "यह परमाणु अपशिष्ट से पोलोनियम बनाता है।",
+          "Isotopic Centrifuge का अस्थायी नाम समस्थानिक अपकेंद्रित्र है।",
+          "यह परमाणु अपशिष्ट से प्लूटोनियम बनाता है।",
+          "उनकी परिचालन शर्तें और आउटपुट मार्ग तैयार करें।"
+        ]
+      },
+      {
+        "locale": "vi_vn",
+        "key": "mekanismponder.ponder.shared.sulfuric_acid_0",
+        "previous_unit": "Xử lý Sulfur Dust（bản dịch tạm：Bột lưu huỳnh） trong Máy oxy-hoá hoá chất để tạo sulfur dioxide.",
+        "previous_line_count": 4,
+        "after_units": [
+          "Sulfur Dust tạm dịch là Bột lưu huỳnh.",
+          "Máy oxy-hoá hoá chất đổi Bột lưu huỳnh thành sulfur dioxide.",
+          "Cấp đủ điện cho từng máy."
+        ]
+      },
+      {
+        "locale": "id_id",
+        "key": "mekanismponder.ponder.shared.factories_1",
+        "previous_unit": "Tingkat Basic, Advanced, Elite, dan Ultimate menawarkan jumlah pemrosesan paralel yang semakin besar.",
+        "previous_line_count": 4,
+        "after_units": [
+          "Paralelisme meningkat dari Basic, Advanced, Elite, hingga Ultimate.",
+          "Periksa penyortiran otomatis agar bahan dibagi ke slot."
+        ]
+      },
+      {
+        "locale": "id_id",
+        "key": "mekanismponder.ponder.shared.ore_quintupling_2",
+        "previous_unit": "Alat Pengkristal Kimia memproses satu kristal dari 200 mB clean slurry（terjemahan sementara：bubur bersih）.",
+        "previous_line_count": 4,
+        "after_units": [
+          "Bubur bersih adalah terjemahan sementara untuk clean slurry.",
+          "Alat Pengkristal Kimia membuat satu kristal dari 200 mB bubur bersih.",
+          "Membagi bubur ke beberapa mesin dapat menyisakan jumlah yang belum cukup untuk satu batch."
+        ]
+      }
+    ]
+  },
+  "second_font_authoring_revision": {
+    "input_report": ".work/caption-font-issues-second.json",
+    "reported_owned_units": 2,
+    "revised": [
+      {
+        "locale": "hi_in",
+        "key": "mekanismponder.ponder.shared.sulfuric_acid_2",
+        "before": "Rotary Condensentrator (अस्थायी: घूर्णी संघनित्र) को तरल से रसायन बनाने पर सेट करें।\nइससे पानी को जलवाष्प में बदलें।",
+        "after_units": [
+          "Rotary Condensentrator का अस्थायी नाम घूर्णी संघनित्र है।",
+          "इसे तरल से रसायन बनाने पर सेट करें।",
+          "इससे पानी को जलवाष्प में बदलें।"
+        ],
+        "review": "Separate a complete explicit proposed-name identification from complete operation sentences; preserve conversion direction and water-vapor target, or speed/energy tradeoff and power/transport capacity condition."
+      },
+      {
+        "locale": "vi_vn",
+        "key": "mekanismponder.ponder.shared.factories_2",
+        "before": "Speed Upgrade（bản dịch tạm：Nâng cấp tốc độ） tăng tốc xử lý nhưng cũng làm tăng nhu cầu điện.\nHãy bảo đảm nguồn điện và vận chuyển đáp ứng kịp.",
+        "after_units": [
+          "Speed Upgrade tạm dịch là Nâng cấp tốc độ.",
+          "Nó tăng tốc xử lý nhưng cũng tăng nhu cầu điện.",
+          "Hãy bảo đảm nguồn điện và vận chuyển đáp ứng kịp."
+        ],
+        "review": "Separate a complete explicit proposed-name identification from complete operation sentences; preserve conversion direction and water-vapor target, or speed/energy tradeoff and power/transport capacity condition."
+      }
+    ],
+    "status": "Authoring corrections complete; final actual-font validation pending. No acceptance claim, automatic font-width split or continuation markers added."
+  },
+  "final_font_acceptance": {
+    "passed": true,
+    "all_locales": 22,
+    "all_authored_units": 5677,
+    "caption_width": 180,
+    "gui_widths": [
+      320,
+      480,
+      960
+    ],
+    "maximum_lines": 3,
+    "evidence": "validation-summary.json",
+    "note": "Current acceptance supersedes pending-font status in the earlier authoring/revision notes."
+  }
+}

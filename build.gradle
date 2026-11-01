@@ -1,0 +1,126 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+group = 'dev.mekanismponder'
+version = mod_version
+base.archivesName = 'mekanism-ponder-guide'
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.createmod.net' }
+    maven { url = 'https://modmaven.dev' }
+}
+
+sourceSets {
+    validation {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+
+neoForge {
+    version = neo_version
+    runs {
+        client { client() }
+        validationClient {
+            client()
+            sourceSet = sourceSets.validation
+            gameDirectory = layout.buildDirectory.dir('validation-run').get().asFile
+            systemProperty 'mekanismponder.validate', 'true'
+            systemProperty 'mekanismponder.validateNavigation', project.hasProperty('validateNavigation').toString()
+            systemProperty 'mekanismponder.validateCoverage', project.hasProperty('validateCoverage').toString()
+            systemProperty 'mekanismponder.validationCoverageExpectations',
+                    project.findProperty('validationCoverageExpectations') ?: rootProject.file('docs/item-coverage-expectations.json').absolutePath
+            systemProperty 'mekanismponder.validationDescriptions', project.findProperty('validationDescriptions') ?: ''
+            systemProperty 'mekanismponder.validationCaptions', project.findProperty('validationCaptions') ?: ''
+            systemProperty 'mekanismponder.validateRepresentativeGui', project.hasProperty('validateRepresentativeGui').toString()
+            systemProperty 'mekanismponder.validationLessons', project.findProperty('validationLessons') ?: ''
+            systemProperty 'mekanismponder.validationLocales', project.findProperty('validationLocales') ?: ''
+            programArguments.addAll '--width', '960', '--height', '640'
+        }
+    }
+    mods {
+        mekanismponder {
+            sourceSet sourceSets.main
+            if (project.hasProperty('validateGuide')) sourceSet sourceSets.validation
+        }
+    }
+}
+
+dependencies {
+    implementation "net.createmod.ponder:ponder-neoforge:${ponder_version}"
+    runtimeOnly "mekanism:Mekanism:${mekanism_version}"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+apply from: 'gradle/guide-resources.gradle'
+
+processResources {
+    from('LICENSE')
+    from('THIRD_PARTY_NOTICES.md')
+    from('LICENSES') { into 'LICENSES' }
+    inputs.property 'version', project.version
+    filesMatching('META-INF/neoforge.mods.toml') { expand version: project.version }
+}
+
+tasks.named('jar', Jar) { archiveClassifier = 'neoforge-1.21.1' }
+tasks.named('wrapper', Wrapper).configure { gradleVersion = '8.14.3' }
+
+tasks.matching { it.name == 'runValidationClient' }.configureEach {
+    def resultFile = layout.buildDirectory.file('validation-run/validation-result.json')
+    doFirst {
+        if (!project.hasProperty('validateGuide')) throw new GradleException('Use -PvalidateGuide')
+        def validationDescriptions = project.findProperty('validationDescriptions')?.toString()?.trim()
+        def validationCaptions = project.findProperty('validationCaptions')?.toString()?.trim()
+        if (project.hasProperty('validationDescriptions') && !project.hasProperty('validateCoverage'))
+            throw new GradleException('validationDescriptions requires -PvalidateCoverage')
+        if (project.hasProperty('validationCaptions') && !project.hasProperty('validateCoverage'))
+            throw new GradleException('validationCaptions requires -PvalidateCoverage')
+        if (project.hasProperty('validateCoverage')) {
+            def hasDescriptionFilter = project.hasProperty('validationDescriptions')
+            def hasCaptionFilter = project.hasProperty('validationCaptions')
+            if (hasDescriptionFilter != hasCaptionFilter)
+                throw new GradleException('validationDescriptions and validationCaptions must be supplied together')
+            if (hasDescriptionFilter) {
+                def expectedDescriptions = ['coverage_ore_blocks', 'coverage_lasers', 'coverage_fissile_materials'] as Set
+                def requestedDescriptions = validationDescriptions ? validationDescriptions.split(',', -1).collect { it.trim() } : []
+                if (requestedDescriptions.size() != expectedDescriptions.size()
+                        || requestedDescriptions.any { !it } || requestedDescriptions.toSet() != expectedDescriptions)
+                    throw new GradleException('Coverage validation requires exactly -PvalidationDescriptions=coverage_ore_blocks,coverage_lasers,coverage_fissile_materials')
+                def expectedCaptions = ['power_2', 'diagnose_processing_3'] as Set
+                def requestedCaptions = validationCaptions ? validationCaptions.split(',', -1).collect { it.trim() } : []
+                if (requestedCaptions.size() != expectedCaptions.size()
+                        || requestedCaptions.any { !it } || requestedCaptions.toSet() != expectedCaptions)
+                    throw new GradleException('Coverage validation requires exactly -PvalidationCaptions=power_2,diagnose_processing_3')
+            }
+        }
+        java.nio.file.Files.deleteIfExists(resultFile.get().asFile.toPath())
+        java.nio.file.Files.deleteIfExists(resultFile.get().asFile.toPath().resolveSibling('validation-failure.txt'))
+        if (project.hasProperty('validateCoverage'))
+            java.nio.file.Files.deleteIfExists(resultFile.get().asFile.toPath().resolveSibling('item-coverage-report.json'))
+    }
+    doLast {
+        def result = resultFile.get().asFile
+        if (!result.isFile() || new groovy.json.JsonSlurper().parse(result, 'UTF-8').passed != true)
+            throw new GradleException("Guide validation failed; inspect ${result.parent}/validation-failure.txt")
+        // Ponder catches virtual BER exceptions and continues. A running scene alone is insufficient.
+        def log = new File(result.parentFile, 'logs/latest.log')
+        def rendererErrors = log.isFile() ? log.readLines('UTF-8').findAll {
+            it.contains('could not be rendered virtually')
+        } : ['Missing current client log']
+        if (rendererErrors) {
+            def summary = new groovy.json.JsonSlurper().parse(result, 'UTF-8')
+            summary.passed = false
+            summary.rendererErrors = rendererErrors.unique()
+            result.setText(groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(summary)), 'UTF-8')
+            throw new GradleException("Virtual block entity rendering failed: ${rendererErrors.unique().join('; ')}")
+        }
+    }
+}

@@ -1,0 +1,3490 @@
+{
+  "date": "2026-10-30",
+  "auditCompleted": true,
+  "allRequirementsFullyRuntimeVerified": false,
+  "project": "mekanism-ponder",
+  "changedProduct": true,
+  "artifact": {
+    "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\build\\libs\\mekanism-ponder-guide-0.1.6-neoforge-1.21.1.jar",
+    "version": "0.1.6",
+    "sha256": "b5b28a13bbfcd492d98907aa21186d28edae480369e293e833efda0bd6e52208"
+  },
+  "configuration": {
+    "minecraft": "1.21.1",
+    "loader": "NeoForge",
+    "java": 21,
+    "mekanism": "1.21.1-10.7.19.85",
+    "developmentNeoForge": "21.1.256",
+    "prismNeoForge": "21.1.262",
+    "ponder": "1.0.87+mc1.21.1",
+    "flywheel": "1.0.4"
+  },
+  "maintainedLocales": [
+    "ja_jp",
+    "en_us",
+    "hi_in",
+    "zh_hk",
+    "zh_tw",
+    "zh_cn",
+    "ru_ru",
+    "pt_br",
+    "pt_pt",
+    "es_es",
+    "fr_fr",
+    "de_de",
+    "cs_cz",
+    "pl_pl",
+    "ms_my",
+    "ro_ro",
+    "ar_sa",
+    "id_id",
+    "ko_kr",
+    "vi_vn",
+    "tr_tr",
+    "it_it"
+  ],
+  "artifactBinding": {
+    "passed": true,
+    "date": "2026-10-30",
+    "artifact": {
+      "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\build\\libs\\mekanism-ponder-guide-0.1.6-neoforge-1.21.1.jar",
+      "version": "0.1.6",
+      "sha256": "b5b28a13bbfcd492d98907aa21186d28edae480369e293e833efda0bd6e52208"
+    },
+    "checkedLanguages": [
+      "ja_jp",
+      "en_us"
+    ],
+    "maintainedLocales": [
+      "ja_jp",
+      "en_us",
+      "hi_in",
+      "zh_hk",
+      "zh_tw",
+      "zh_cn",
+      "ru_ru",
+      "pt_br",
+      "pt_pt",
+      "es_es",
+      "fr_fr",
+      "de_de",
+      "cs_cz",
+      "pl_pl",
+      "ms_my",
+      "ro_ro",
+      "ar_sa",
+      "id_id",
+      "ko_kr",
+      "vi_vn",
+      "tr_tr",
+      "it_it"
+    ],
+    "changedProduct": true,
+    "sourceHash": "b84bc48f2810844bb2366b262b57ba5d8afe9c37cf863cc6015cda9da6656c19",
+    "counts": {
+      "ja_jp": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 227,
+        "descriptionKeys": 60,
+        "descriptionUnits": 119,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "d05322d5b3eb3610a3d6051dd12f9ae1f48c06fd8a9e617bec00bdb07c3b1d90",
+        "presentationTextHash": "50845635182455740f79489f4f89958aeeeb77f4fa2c10a7a69946bf22109175",
+        "intentUnits": {
+          "NORMAL": 255,
+          "HINT": 54,
+          "WARNING": 37
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1038,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 2,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "26e182f736ea590b71ffc087e88a2e7ac47b140510d7ae66398b170f4c40d78a"
+      },
+      "en_us": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 243,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "8a0f7c62d6eb631bc9fa5d6c7b2efbcb88d9735cdca713d77e964fd460a1ca4a",
+        "presentationTextHash": "0e405abd2d62497a70e2a32785e5d3bbd362bea03b029c37e5e53540e8d88748",
+        "intentUnits": {
+          "NORMAL": 268,
+          "HINT": 55,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1083,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "f05e9066692cce3aee39b3eda3c1a41d42a0dda5e892be5f35af436f2e3bb374"
+      },
+      "hi_in": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 273,
+        "descriptionKeys": 60,
+        "descriptionUnits": 123,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.description.atomic_alloy",
+          "mekanismponder.description.sps",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "69acc437bcf523eb5a8cac8e3984b9c75647d50fc590ef455905f8c940ef6ba9",
+        "presentationTextHash": "baea2797f09eade421c1b883c0c73b844afa43ac23e70ec2f8b682f13d1c60df",
+        "intentUnits": {
+          "NORMAL": 299,
+          "HINT": 59,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1188,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "95e3a4c1a76d3f0e5f0315a59651b931bca76233a287d936d3da9025970fbf54"
+      },
+      "zh_hk": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 247,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "a9e91c409670cf2c12269fb1f9cf59df66a0e805d2c04337aff4bfb932c00019",
+        "presentationTextHash": "efacf4fccfd61e942f642bade4253edeaef0a468aa4e8ad2975bf6955873f70a",
+        "intentUnits": {
+          "NORMAL": 272,
+          "HINT": 55,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1095,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "bcc0793fd47fcc93fe0eae09e5fa9e787311758e8032c2ef883fef0a8bf10821"
+      },
+      "zh_tw": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 243,
+        "descriptionKeys": 60,
+        "descriptionUnits": 117,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "bed4398346247831313c161dd85a5bdbb5129232a770c0fecca59b7088b1da05",
+        "presentationTextHash": "6c01396ae0af0a2d76565bbd0cce0b1181210dfcc058afb26ac3b9d2f1e88102",
+        "intentUnits": {
+          "NORMAL": 267,
+          "HINT": 55,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1080,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 1,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "4adb9bec758c7f45d7075006b8c53d075dd0b12792c8775f2fcc00133fa98a78"
+      },
+      "zh_cn": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 243,
+        "descriptionKeys": 60,
+        "descriptionUnits": 117,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "dd8aa81c4cb935f15a938409878289f72b08ddb5c1ba1a12fbdb4f6ba83fc9c5",
+        "presentationTextHash": "a2c66fc1cfa0b43901331f3981e2a56941cc465b7e5178e90c78a8c99eb6107a",
+        "intentUnits": {
+          "NORMAL": 267,
+          "HINT": 55,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1080,
+        "captionMaximumLines": 2,
+        "tooltipMaximumLines": 1,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "b67b1eac499c39dd74bb69b479301112c4eb3b2859fd86e6d18750163fe8aa49"
+      },
+      "ru_ru": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 265,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "2c66fc6235c226f868ab62f58d436aa816c40e524783572daf215c877af742e7",
+        "presentationTextHash": "393058c6ef758d08ec18a16047b0477ca7f400957fcbd7697c5169a333ea97e6",
+        "intentUnits": {
+          "NORMAL": 279,
+          "HINT": 64,
+          "WARNING": 40
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1149,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "e4d1f81df8e4cd2e1db7313800776b7c455e8583a4e00a201492be034c4408c2"
+      },
+      "pt_br": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 266,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "3d2e9b1edabebbb36ba5340f8330b8d272614dc0237376458a9d53e14c277619",
+        "presentationTextHash": "47764df97bb3f9c42e5e592e2e2f83b12040036016f2d0cd65edd6c92762e98f",
+        "intentUnits": {
+          "NORMAL": 281,
+          "HINT": 63,
+          "WARNING": 40
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1152,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "799862089aab7b89f4fc4816a457ccddd4528964f3b8cc2a379c0c0a7936ef4e"
+      },
+      "pt_pt": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 262,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.ponder.shared.diagnose_processing_3",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "f458c3c6269dd54820a4d289e67c6c7ed5fd524d90a9a8c35e02b787afee5f21",
+        "presentationTextHash": "197194f2bfbcbc008b5c25f6e8cc427ac3d3f2eb0a7b4cc3244375d6edf557ca",
+        "intentUnits": {
+          "NORMAL": 280,
+          "HINT": 61,
+          "WARNING": 39
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1140,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "cb6e938343fcd85019bec4ee1974faa2c73fc2ecfd647a8eaae9b4a643d4295d"
+      },
+      "es_es": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 265,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "936b0092a56eb4fc18d885b32aee5acb50e710ae0451491c15d59a9321b412db",
+        "presentationTextHash": "00c656c07e4011c64665fc93861a17e5505f973633b939b8d4f0925a31bc96e5",
+        "intentUnits": {
+          "NORMAL": 283,
+          "HINT": 60,
+          "WARNING": 40
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1149,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "671bd357ae3a476b1bd7641af069f9c163690ac524451a563f684182b8ce9f51"
+      },
+      "fr_fr": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 267,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "9bb7bb2d843629ef5de166471bbd7afbaea78a025179edac998578835c47073e",
+        "presentationTextHash": "b652a563d3def4cbc47f79bd7d5fd209e8f6e511bbc45c47fecf721977925911",
+        "intentUnits": {
+          "NORMAL": 285,
+          "HINT": 61,
+          "WARNING": 39
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1155,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.ponder.tag.transport",
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "056fb2f9d0823d34684d8de05fcd5ec38c83289ab3cb5443cc698dbabd0a976f"
+      },
+      "de_de": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 269,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "073adb541d4c5234b7721f3994e8731f54d3aa42397d508226347677f792e898",
+        "presentationTextHash": "de71a30a9e9da1c5007cc7b79779e5588090a5090c1f7086fb803e7a13f2f855",
+        "intentUnits": {
+          "NORMAL": 284,
+          "HINT": 63,
+          "WARNING": 40
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1161,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.ponder.tag.transport",
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "61a7ee6eb474b79db2afc8f7495459d55f0d1bcb7e8913e876ede0ba162647e0"
+      },
+      "cs_cz": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 257,
+        "descriptionKeys": 60,
+        "descriptionUnits": 119,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.atomic_alloy",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "da67080065cca47d9f649ec04b9f71ac696ba831f08bcb48c9407357e913ba5e",
+        "presentationTextHash": "ed445bfa3931d51c251bdda0f4e93cc333d4e830559196127f493b76f89cbeec",
+        "intentUnits": {
+          "NORMAL": 280,
+          "HINT": 58,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1128,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "3c56955f0c22a74d06fefc2342ae43c81248086b8d2165e773fc26162aa97b36"
+      },
+      "pl_pl": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 255,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "4fccfd7a4f40d8dc73550048bb5402c7f079db2148f2432dfa0441becc310aed",
+        "presentationTextHash": "e3b67a9a602c757d7f7daedc40e40b5744fd085dc013dac00606489a639fd8e4",
+        "intentUnits": {
+          "NORMAL": 276,
+          "HINT": 59,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1119,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.ponder.tag.transport"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "38ba81c828c3a6cac5d16d89874ce6b045537b6879ca7483c37b73d8583aade6"
+      },
+      "ms_my": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 304,
+        "descriptionKeys": 60,
+        "descriptionUnits": 122,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.atomic_alloy",
+          "mekanismponder.description.sps",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "bbb2b582e3674d7228213b9b21f89e8d5d3ddfc26dbb8a57c163942a5dafe439",
+        "presentationTextHash": "597d2c7fdb637b377d7dfecb09b8c481ef368c91eed6f1a5d79117c31c2839fb",
+        "intentUnits": {
+          "NORMAL": 328,
+          "HINT": 60,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1278,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "0e94c532b0fa113e94757838850b07846b18785e2774a7c493ddafcc27d8a105"
+      },
+      "ro_ro": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 256,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "392dd6a4ab2c17b4c5aa998a0e44c6d8a7ea289d28e7783569f3ff1031d92ad4",
+        "presentationTextHash": "7b8fb17ceeae4fafd1c11692737f39b5d12d6bd0b7ae8869f0df34ab40e993b1",
+        "intentUnits": {
+          "NORMAL": 279,
+          "HINT": 57,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1122,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.ponder.tag.transport"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "38ccd9923ea7b915882e3ba6ca859e711b8bb53849bc2ab1e5c05bbc88f5e107"
+      },
+      "ar_sa": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 285,
+        "descriptionKeys": 60,
+        "descriptionUnits": 119,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.description.atomic_alloy",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "e99fe44da2bac4f85c909734052888f5293f281e7c02dcdc22a41782c6f1cba0",
+        "presentationTextHash": "0d2493852227da4c809685d1e4dcaf4616e3c5abb1b130507059b0d61f3d6820",
+        "intentUnits": {
+          "NORMAL": 307,
+          "HINT": 59,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1212,
+        "captionMaximumLines": 2,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "e284acfb6f8c80aa60e3ea34dfc597f9ff009b9e3e3cd918947a5d2fc2ca0635"
+      },
+      "id_id": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 245,
+        "descriptionKeys": 60,
+        "descriptionUnits": 117,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "8857db5dfca6f0efb4dfb4d63a98a29b3e33af961c6e22b833c0b2d3c9a6c3ff",
+        "presentationTextHash": "c69c9d9d4d68946f35a2ccef5547e956833ee2760ecde38e63754bd6f276bc6d",
+        "intentUnits": {
+          "NORMAL": 269,
+          "HINT": 55,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1086,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "286e3307a599f636bf604004bfa70acea1641e5b6a1b51886809094d027c6512"
+      },
+      "ko_kr": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 245,
+        "descriptionKeys": 60,
+        "descriptionUnits": 119,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "7efd30be6c2f474797c4472bbd5ee460e5e4b614ec12409eeb7a9d1bb59c9527",
+        "presentationTextHash": "5e55252da4da47f9615951328e2e93881a6f0b6342f0173d8e046e6c783c621e",
+        "intentUnits": {
+          "NORMAL": 271,
+          "HINT": 55,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1092,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 2,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "b82f919deb795990682ab6659e5d941a48d63b8b8ef6b5472bb976c928428e2c"
+      },
+      "vi_vn": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 246,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "a2c51b59d1f3919a0582caeb20ba53ab48cbcd18d8fa9210282241320d6dbb77",
+        "presentationTextHash": "62b799f5c3d91f7afc9deec6f863cf3d58a2a1a2ea1a9ed14c112c9de2794fae",
+        "intentUnits": {
+          "NORMAL": 270,
+          "HINT": 56,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1092,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 2,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "fe322ce6f26da1de5da2353ddc5145389c9c7c0cd7cd45b7ab585b33310247d8"
+      },
+      "tr_tr": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 253,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks"
+        ],
+        "languageSha256": "d98fbfbfdcf5f1d9a16dd2ec4d683236cf6f83ff56bd27716f816bf37b9c4b55",
+        "presentationTextHash": "690d2d9da7a0a39d046759598a424342b199cc072a8ba5b6eb812ff2fb4137b5",
+        "intentUnits": {
+          "NORMAL": 272,
+          "HINT": 59,
+          "WARNING": 40
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1113,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "7ef1cbb9e91595bfd0adc160da55ac9480895fb2e5bd3203a344af4d7a20dc41"
+      },
+      "it_it": {
+        "keys": 247,
+        "titles": 28,
+        "summaries": 28,
+        "captionKeys": 113,
+        "captionUnits": 264,
+        "descriptionKeys": 60,
+        "descriptionUnits": 118,
+        "chapterTitles": 6,
+        "chapterDescriptions": 6,
+        "expandedHint": 1,
+        "errors": 4,
+        "brandLabel": 1,
+        "searchCorpusKeys": 169,
+        "addonLessons": 0,
+        "guidePages": 0,
+        "changedKeys": [
+          "mekanismponder.ponder.shared.power_2",
+          "mekanismponder.ponder.shared.diagnose_processing_3",
+          "mekanismponder.description.coverage_lasers",
+          "mekanismponder.description.coverage_ore_blocks",
+          "mekanismponder.description.coverage_fissile_materials"
+        ],
+        "languageSha256": "96db67745d40f9f64b7a2ea4fb7755d406a0c2b3fa98f9a19ba8da8dd5a59272",
+        "presentationTextHash": "30454b99f5eb9ec1c3d3d642d317835bfd58abff26dfe65955cc8a4ff4e68477",
+        "intentUnits": {
+          "NORMAL": 282,
+          "HINT": 62,
+          "WARNING": 38
+        },
+        "continuationUnits": 0,
+        "fontChecks": 1146,
+        "captionMaximumLines": 3,
+        "tooltipMaximumLines": 3,
+        "exactEnglishMatches": [
+          "mekanismponder.title"
+        ],
+        "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+        "jarLanguageEntrySha256": "064bb43f973b39d63a46bb45638fd7643f4c79712db5be747f2f7dea15f8fe0a"
+      }
+    },
+    "fontEvidence": {
+      "expectedCurrentPositions": 24858,
+      "matchedCurrentPositions": 24858,
+      "missingPositions": 0,
+      "sourceCounts": {
+        "0.1.4 captions": 16653,
+        "2026-10-30 captions": 387,
+        "0.1.5 descriptions": 5676,
+        "2026-10-30 descriptions": 2142
+      },
+      "maximumLines": 3,
+      "guiWidths": [
+        320,
+        480,
+        960
+      ],
+      "captionWidth": 180,
+      "tooltipWidth": 240,
+      "matchingRule": "Exact locale, key, authored unit index, current text and GUI width; latest successful current scope takes precedence",
+      "currentCaptionKeys": [
+        "power_2",
+        "diagnose_processing_3"
+      ],
+      "currentDescriptionTypes": 15,
+      "oldUnmeasuredDescriptionsClosed": 12
+    },
+    "mainClasses": {
+      "dev/mekanismponder/client/GuideBook$Callout.class": "476cecd4480eea4f26426dce9f97f553ec851604c39abd39643611366a34b4d9",
+      "dev/mekanismponder/client/GuideBook$Flow.class": "e939c824697f0f9445761e377b259297175768d57e8975425b1e914b2ff8747e",
+      "dev/mekanismponder/client/GuideBook$Holder.class": "3cd088f32e528e410375abfedb40cbbc0b134359501904af94e4895498d22d5c",
+      "dev/mekanismponder/client/GuideBook$Lesson.class": "33fad49b4fb2617efdb7ad02f2d5b8abbdb50592aee6a34f23a163b19bf8504b",
+      "dev/mekanismponder/client/GuideBook$Localized.class": "6d222a46a7240ae33ddb3e0e19489f2adb47a20120c0bab057376f835f68d603",
+      "dev/mekanismponder/client/GuideBook$Node.class": "443cc2f5c3e120952062450ba3fd498ecede34c20500044f8055e67f39b0b610",
+      "dev/mekanismponder/client/GuideBook$Step.class": "7b38a0cf4c0ba97a011589e746069e34e8af90b0a63607e355268a77df280f9a",
+      "dev/mekanismponder/client/GuideBook.class": "a05d93a71d3442677890482bb3a3442e446cd0a5d484f752a89fdd6f2d0000b5",
+      "dev/mekanismponder/client/GuideChapter.class": "8bca259af5d9b2c603ccb894aee02f3f9454c021c9520b96c73990158a195e26",
+      "dev/mekanismponder/client/GuideClient.class": "f47ac357ab86c27d53748fa4ee0f59eaf002ecf764f5a3d2bce5582b2f043df0",
+      "dev/mekanismponder/client/GuideClientEvents.class": "817108f1cd9641f13f37ef6222609610c422555e7644c75da7674b15602abd34",
+      "dev/mekanismponder/client/GuideCommands$ResolvedLesson.class": "c5b9b84654f16075e4dc9f2465d1a4792fcfa19ed34aa347e2f9e0f04a22c642",
+      "dev/mekanismponder/client/GuideCommands.class": "221fc7b144b6e315e2ad73f31a9c3bbd175a19c53b716227614ddb8b25431310",
+      "dev/mekanismponder/client/GuideItemDescriptions$Entry.class": "44c533d8039623c98290b5d59e303cf4677d755c129e0e9bc86468b5815690a5",
+      "dev/mekanismponder/client/GuideItemDescriptions$Holder.class": "d54d351172738cdd79e4ca62aab6632175d9afbbec632c6666942718b34d3bd2",
+      "dev/mekanismponder/client/GuideItemDescriptions$Index.class": "064bdba52960131673a9b00c4101b3c1aa9f844b78ecd842742f89b09f3aab93",
+      "dev/mekanismponder/client/GuideItemDescriptions.class": "9ae1c1dbb509cb5659d004418dfffe0b30f01b37fcb48739e986f954dac2f5c7",
+      "dev/mekanismponder/client/GuidePlugin.class": "c31f13b27ba4f73ac71abf8b60a114245064ff4d2134f8db49e643c507282144",
+      "dev/mekanismponder/client/GuidePonderScreen.class": "93c140c0c6edd0c6fbebcb608e81449c974b2d6e8e71c6492d884a5afd441a7d",
+      "dev/mekanismponder/client/GuidePresentation$Data.class": "22bbf9ccd46be6d88f0d3070cf26c1e41d7707142774f08d9869ec8d7227d0b0",
+      "dev/mekanismponder/client/GuidePresentation$Holder.class": "a854e261676071116d82a9ee2c48ea246e94ec224b0e19f8d06c8a39d621f8a5",
+      "dev/mekanismponder/client/GuidePresentation$Intent.class": "85adbd6af6b0024e2439a427c5c0b6e5ef911cc998f6aa19400a8afa2356c209",
+      "dev/mekanismponder/client/GuidePresentation$Unit.class": "575d30f4ca6898717d3b70e3f63d34070ef04c0e42c9182d2e670f0f9dea6d92",
+      "dev/mekanismponder/client/GuidePresentation.class": "cd052b5e19156cb49360089e9bc00d9c5f5628897ab2df35b6e083735db9e67e",
+      "dev/mekanismponder/client/GuideProgress.class": "4fde24f1b726624bee38b88018b9e178aac5c0624193441ed4f733b807ba548b",
+      "dev/mekanismponder/client/GuideScenes.class": "8f94a2bc638a2fb0e286a83b1b1c1450ccc93b6a322f28f4fe151b655858541e",
+      "dev/mekanismponder/client/GuideSearchText.class": "0ce03fc04b524822556134aa7ba4d90ef0fc76df2eec4c2af074757ea13558e2",
+      "dev/mekanismponder/client/GuideTextLayout.class": "bb3f439f4924e896a0a060753a322069d745603da5f0dcd1194af572607b6d2b",
+      "dev/mekanismponder/client/PonderRenderGuard.class": "6b3ccd9bcb76a1436540f359bc9e343e565125d0c8d1f29dc8163667ebc0c1cb",
+      "dev/mekanismponder/GuideResources.class": "6f50fb031131a6f15257d77b6ff2ca9a8fe1c6ab7a31b8f698b5ebd00c9b7939",
+      "dev/mekanismponder/MekanismPonder.class": "282a86221663fad7b79fd5010b63f9713a384c1766399f01407331752e9068f5",
+      "dev/mekanismponder/mixin/PonderBlockEntityRenderMixin.class": "c6550145c7da3265babb16cf9b5e344e554c918ede15977b2ac10675bb9f479f",
+      "dev/mekanismponder/mixin/PonderLevelModelDataMixin.class": "eadbc4c03dac8fdcdaf7fe5deddc4701c331627272d4ca8b14b4d04332a45b50",
+      "dev/mekanismponder/mixin/PonderTagLayoutMixin.class": "320bdf163465dd68928bebd70a19e07eec270da5803faf1bf18561bcf640f3fd",
+      "dev/mekanismponder/mixin/PonderTextWidthMixin.class": "6bbb84156cd3827f0cccffabc07581b7f811c665664b6b1209f04067dc96bc69",
+      "dev/mekanismponder/mixin/PonderTextWindowAccessor.class": "3e9ac4d0269f28db1c19b4c84113f8204255539c801158080ef26ff1ffd9f0ee",
+      "dev/mekanismponder/mixin/PonderUIAccessor.class": "66272e1805329fc233610194415dea6b4b3f27efe0e4527b94e7a25589ddc227",
+      "dev/mekanismponder/mixin/PonderUIFactoryMixin.class": "7d6c45df453da15f29eed28b48793013a6abed518841b5f4b8d3f5cb7e1349ee",
+      "dev/mekanismponder/mixin/PonderUIHistoryMixin.class": "f0f83b510ac285048defa443df26c89904f2bcbf43b105e7887e4ef6fbf8c373"
+    },
+    "unchangedRenderingClassCount": 37,
+    "geometry": {
+      "baseline": "993ed06",
+      "allLessons": 28,
+      "same": true,
+      "sha256": "eb965448864de30b6ccbcfa237dec904d136c14a63266348593a7c88793e704a",
+      "reusedRenderedLessons": [
+        "power",
+        "cables",
+        "chemical_transport",
+        "evaporation",
+        "ore_quintupling",
+        "nuclear_waste"
+      ]
+    },
+    "inputSha256": {
+      "src\\main\\resources\\mekanismponder.mixins.json": "17ce78ea24b10a1675b88ffc6a8587a1d27f207489dd5eb931f237e6189b4fc1",
+      "src\\main\\resources\\pack.mcmeta": "c46de4d625e33d310c65c67f1b842af8e17024c15beed8231ce41e1a6b869bf6",
+      "src\\main\\templates\\ui.json": "d95b865ac1cf4f693dc241221b660e56be2b164b6aebe958a56afd4e549d8c4e",
+      "src\\main\\translations\\languages.json": "435567a129aa711fbb3a83cf9db5c7d368af4c5fb9a3ebe36f9447578140baf8",
+      "src\\main\\translations\\navigation.json": "31d0b727c4b612d4da6feb82f12cb66c4561a415f725e5a73719981b1b08d192",
+      "src\\main\\translations\\content\\ar_sa.json": "71f74853db0963fe89d2e673ce313ef14f29d457c754af49deebc1e381adc12c",
+      "src\\main\\translations\\content\\cs_cz.json": "31d0088dbb1460c5878d484aab14ac22bb0752c4ced46c1c46e13f41fd31aa4f",
+      "src\\main\\translations\\content\\de_de.json": "1cc34a55b6e1fa67df8a3ef49d7e003a97d70eb45383054f1defef0cd947b0d9",
+      "src\\main\\translations\\content\\es_es.json": "26c99d975a5ebf4dbfc674c27576819b173916cc849b6430dea380b7af327c08",
+      "src\\main\\translations\\content\\fr_fr.json": "67d8ac6d73d28187cf82c2d8d680f28cffce59d594930c3b3e6b78c1d4a8ea28",
+      "src\\main\\translations\\content\\hi_in.json": "3c5be12a2f2ee5fdbf6b8319053b15d0eb494ac9f5bc7de417e78d05d4f1a6b0",
+      "src\\main\\translations\\content\\id_id.json": "6e2b27758e9778fa979cf12aa7092126c3431c6cc2bf5ec987fdfed729087373",
+      "src\\main\\translations\\content\\it_it.json": "30efeb24212805c2f1474eb398b3cb5a38178464739547e5c9370aeceece7777",
+      "src\\main\\translations\\content\\ko_kr.json": "92e748dafcef3b31bbb33437d49fc090aef0c5172dae54b183c736c43b2fc419",
+      "src\\main\\translations\\content\\ms_my.json": "e905548db51516b1f719a9ea65fcb00969f602e84a713737c3d57ad27b45a537",
+      "src\\main\\translations\\content\\pl_pl.json": "1619bcbb322ddb63447715f2b9267d8086f3d8ce26601f7ee26a7d4cb94b4f83",
+      "src\\main\\translations\\content\\pt_br.json": "ce1d61428c2147de7e913810634447457bc3aaa8a91ac2762fe4a7ece98040af",
+      "src\\main\\translations\\content\\pt_pt.json": "918ccaf6006e2c0b0887562b2806c8b457e90827fbc1cde5e2e2281b19969f2b",
+      "src\\main\\translations\\content\\ro_ro.json": "4fac2a1d53faa7cddf8b820fa64d4fc288174636338371458984e778c3fd6482",
+      "src\\main\\translations\\content\\ru_ru.json": "3749480229b9be2ca3b4ded5c71abb84b5fec0466ad36ca895ad4855e74d1790",
+      "src\\main\\translations\\content\\tr_tr.json": "473c4595a0782764fa16ec32aab910cbe13708cd2ec7e575ba41880fe0cefa81",
+      "src\\main\\translations\\content\\vi_vn.json": "c815ae3568b5f5822eec292f6fed3f774ff1b0438032b0f3ec92c833a3fd9a4e",
+      "src\\main\\translations\\content\\zh_cn.json": "74f123356084132e355bd1f92c46319bf911d53a6664c1c99fc72f24c020cf43",
+      "src\\main\\translations\\content\\zh_hk.json": "096a561a4e9fb772466d1d707d11f0e0b0b5ef1e3b476fce6cc712cff2749007",
+      "src\\main\\translations\\content\\zh_tw.json": "3d4f26a685c883a6a1f48e75dab67d2811291702555c565be76704b6784cab6d",
+      "src\\main\\translations\\presentation\\ar_sa.json": "21e34903a155859d9876c567a3215aab5577c97413dbd2759f7cb82101c27813",
+      "src\\main\\translations\\presentation\\cs_cz.json": "fc79cdbf9c1715c0c47876ade13b882fde7433822d89345de11a0e7483f26b78",
+      "src\\main\\translations\\presentation\\de_de.json": "e0518f02f048b6c194aa751681e6e72a21db0e9684426f02c19925302b82eb8f",
+      "src\\main\\translations\\presentation\\en_us.json": "faca08e48cc771dad8ca78b9ad8b2953a2d08c9025250d13e14e5481bae2985e",
+      "src\\main\\translations\\presentation\\es_es.json": "7574b8bba9b8e0b68c6a338aeed542007eb2020b78a60ea6f485b9b70e302510",
+      "src\\main\\translations\\presentation\\fr_fr.json": "09f6dfeb9ee83c02d396e93ab620c776f864369b4253068481765a14b20ad374",
+      "src\\main\\translations\\presentation\\hi_in.json": "6a0151dc6b96f9be4fd26ec992afa5d6722554f836df76a662e85beb1417b7a1",
+      "src\\main\\translations\\presentation\\id_id.json": "e4e695984cd1ba38725193ed4ea7d060ec4c104874bc69078590a259673cafc8",
+      "src\\main\\translations\\presentation\\it_it.json": "b6c2e1fdb166859e9760d4d5285132a3151c16b51ab60123e602a15107204335",
+      "src\\main\\translations\\presentation\\ja_jp.json": "22628e11be5140be7bc2ea2aec9ab93bcf53738d6722b7a80ca63cde11c14eb5",
+      "src\\main\\translations\\presentation\\ko_kr.json": "f456f44e3b807d3a54d723b13af1b60f430a527b9e5ff8d7bb9467af0aeb2bf3",
+      "src\\main\\translations\\presentation\\ms_my.json": "15ba44da6b8a8d0d490e6ce02c1d48383ff2a13f848b7fb10126707b430b6229",
+      "src\\main\\translations\\presentation\\pl_pl.json": "deac660500ffeb50d3ca1436788cfb37c99877c581772f77fbd5a42e8fd63762",
+      "src\\main\\translations\\presentation\\pt_br.json": "674e89749b0f1bfb740608f0bb763cdccf7e724dca8d12b286fccb52d73d52d4",
+      "src\\main\\translations\\presentation\\pt_pt.json": "aa16c9e2ee66afe9638392c44d5a6d85cad02f44a0df5991fe133e2356255982",
+      "src\\main\\translations\\presentation\\ro_ro.json": "3292c02d5548cf92bbac9eb7fa0979497462f4260c602632802ca42a957a14bb",
+      "src\\main\\translations\\presentation\\ru_ru.json": "53a995254ca39e3f89513c45687585f6c640958ddaf0ceb3a6a9fa92408f0267",
+      "src\\main\\translations\\presentation\\tr_tr.json": "15e1c3f2e7a98fa28397794bdfbbe67b06f0f214076c327c8b1ff4a111290ab1",
+      "src\\main\\translations\\presentation\\vi_vn.json": "00fc32350dcb84d7b8661e88238f8bfe9c86c3412e5db58205102d7bfd68c3b3",
+      "src\\main\\translations\\presentation\\zh_cn.json": "9c1066e036db95557e530c822b753cd85aace90c3aecbaafa93c08c213d48bfe",
+      "src\\main\\translations\\presentation\\zh_hk.json": "29d20a50ffd7d84548bcda31f44f7a1f1b8ae8209446e80c4f00e4cca7a9c3bf",
+      "src\\main\\translations\\presentation\\zh_tw.json": "5595e40d65a32bbced9795ad07068089657b8de14be467135e685d04899b27ff",
+      "src\\main\\resources\\META-INF\\neoforge.mods.toml": "268fd808f44b5b08595fc2f315d53a5a58dd5043f32623041ca5876d1f12e042",
+      "src\\main\\resources\\assets\\mekanismponder\\guide\\item_descriptions.json": "5e348df3bb3b5a12928b13c35b1dda1b0ea2dffef2843982c3caea3a67878edc",
+      "src\\main\\resources\\assets\\mekanismponder\\guide\\lessons.json": "edc4e52bc589eaaea83e05f808d43f060bd188b4fed02070ac6ae1b83f1c361a",
+      "src\\main\\java\\dev\\mekanismponder\\GuideResources.java": "097bb008c32a08366a340127d3b02d076046735ef98b17536b43dbabe9449078",
+      "src\\main\\java\\dev\\mekanismponder\\MekanismPonder.java": "ed008a2873c3f0538fb794b0c206537ce824a9b070d521f65c3ecd48eaa08543",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuideBook.java": "486b4e2475d135c5490c34df20cf9251ce0d9b57d7d49f0a4ce7648f5c6c5ce9",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuideChapter.java": "963133cc97b18c2a3b93bd5fca93c3f534a02eb36e9dbccc33f3f59375de3c22",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuideClient.java": "edda268038382d38d3758d1b9161269b244c36a9f0c5f443c77cb718cb0a8509",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuideClientEvents.java": "ee719b881e078e64adcec37ba45964f4f70f9ce6f864b5fdf0a6ec8e6569ba49",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuideCommands.java": "74abd1cb88867bed9ee3975543ce35e7c97a3824c717096b156ae11bae074328",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuideItemDescriptions.java": "1dd1e6b8751af5a2aa40e02cccef96aa6bd3179554a310708ecd61cb5debac45",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuidePlugin.java": "69bfd0276fec5abbc3173ce5a4d1f14110e3a1fbf7a6deeb312d96df1b1a7acd",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuidePonderScreen.java": "b374b9fd7792552e0a5028a6fcece085e5b58e2c303ad5d18bd6a05e466150f7",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuidePresentation.java": "dc7e79b7e44b65e9db599f17c04da6dbed2d20c60c350a9336d739dcb859bb13",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuideProgress.java": "c1173823e6077832e2ae4ec9844928686b963a2d633118a1bfe62ac4ae0575bc",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuideScenes.java": "402df553944b7b649c7b093677ac88b2ce55ee9d35f10100975e6bf7d4feaee9",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuideSearchText.java": "24a55604e8faa0e651cccb6f13fe356ddb0a16fde81b22047fed4f88d40595d2",
+      "src\\main\\java\\dev\\mekanismponder\\client\\GuideTextLayout.java": "5257e15d7b4c41002cf8b1b44d5ea42af75842373e5e66663ed8cf8e76bb9c2b",
+      "src\\main\\java\\dev\\mekanismponder\\client\\PonderRenderGuard.java": "9ef57a550c18104b8df1daed49e4f2ba1ab12619522f6011e3cd602097897cd6",
+      "src\\main\\java\\dev\\mekanismponder\\mixin\\PonderBlockEntityRenderMixin.java": "96ca998378ccaf24dcedc7df22129f451e80101e795c9487e409ae85315d1147",
+      "src\\main\\java\\dev\\mekanismponder\\mixin\\PonderLevelModelDataMixin.java": "480641177816e4ec80eb490ed0e20fe94caa676fd897bf1fcc6f90472223e222",
+      "src\\main\\java\\dev\\mekanismponder\\mixin\\PonderTagLayoutMixin.java": "118b261c9966f05408be50a6947ebe1b51b7c95da0ab9eefcab947722869b43e",
+      "src\\main\\java\\dev\\mekanismponder\\mixin\\PonderTextWidthMixin.java": "e4cfd25412538b39d8d2ee99901674dbd71dd07fb1d1971e5e6f94cefcbf1d88",
+      "src\\main\\java\\dev\\mekanismponder\\mixin\\PonderTextWindowAccessor.java": "5e7e2354ade72298068e8788e6905fcbdee91e6e6c5bc1371f0234ec60856614",
+      "src\\main\\java\\dev\\mekanismponder\\mixin\\PonderUIAccessor.java": "a0a590e4483a1419a5d02e572f21c200fff21e832aebbf8c4ea50116233841f8",
+      "src\\main\\java\\dev\\mekanismponder\\mixin\\PonderUIFactoryMixin.java": "87fab2b5ab46c3614cd1b68c22717121fdbaf5087c07d571c482c9310cde2ec5",
+      "src\\main\\java\\dev\\mekanismponder\\mixin\\PonderUIHistoryMixin.java": "47419d1ae6dad6b01b49142e836d9c1b1e563ae265176e25002f485c4156e204",
+      "gradle.properties": "7f0ed75db24e22ff480376cbb17e8d0159a53286496016389136168294eb8a40",
+      "build.gradle": "39d3cf1f873bf701d831b83f1288579b1eeb1d052f76f022ebc021aca94a901b",
+      "gradle\\guide-resources.gradle": "e2672e2bb7e2aad39caa2de022e9b2c68ecddc6db18b4c1b74926e6cefb0ac3c"
+    },
+    "runtimeEvidence": {
+      "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\docs\\language-runtime-20261030.json.gz",
+      "sha256": "3d98b9bfe3404f353a6f244c87f4d2c3562b9d63fe1834170e77e6a281c97dc3",
+      "scope": "Fresh scoped font/color, registry and ItemStack copies; native UI/navigation and full scene replay are reused separately"
+    },
+    "currentRuntimeSummary": {
+      "transmitterModelData": false,
+      "callouts": 0,
+      "captionGuiWidths": [
+        320,
+        480,
+        960
+      ],
+      "factoryBoundaries": false,
+      "nativeNavigation": false,
+      "tagPagination": false,
+      "historyLocaleGuard": false,
+      "playbackTag": false,
+      "tooltipPalettes": false,
+      "navigationOnly": true,
+      "ordinaryGuideButtonsAbsent": false,
+      "passed": true,
+      "captionWindowWidthsVerified": true,
+      "validationCoverage": true,
+      "arabicFontRechecked": false,
+      "maximumCaptionLines": 3,
+      "representativeGui": false,
+      "captionGuiWidthChecks": 387,
+      "captionPagesChecked": 129,
+      "replay": false,
+      "componentFactory": false,
+      "englishFallback": false,
+      "glyphsChecked": 4740,
+      "locales": [
+        "ja_jp",
+        "en_us",
+        "hi_in",
+        "zh_hk",
+        "zh_tw",
+        "zh_cn",
+        "ru_ru",
+        "pt_br",
+        "pt_pt",
+        "es_es",
+        "fr_fr",
+        "de_de",
+        "cs_cz",
+        "pl_pl",
+        "ms_my",
+        "ro_ro",
+        "ar_sa",
+        "id_id",
+        "ko_kr",
+        "vi_vn",
+        "tr_tr",
+        "it_it"
+      ],
+      "captionPalettes": false,
+      "rendered": 0,
+      "captionUnitsChecked": 129,
+      "chapterBoundary": false,
+      "historyTypeGuard": false,
+      "nativeTagIndex": false,
+      "englishPresentationFallback": false,
+      "lessons": 28
+    },
+    "searchRegression": {
+      "cases": 16,
+      "legacyCanonicalMismatchReproduced": true,
+      "form": "NFC before and after locale lowercase",
+      "source": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\src\\main\\java\\dev\\mekanismponder\\client\\GuideSearchText.java",
+      "sourceSha256": "24a55604e8faa0e651cccb6f13fe356ddb0a16fde81b22047fed4f88d40595d2",
+      "testSha256": "189741226d94596d522f36c7bd359f077925ee0bc51571235dcf252b88078347",
+      "classSha256": "0ce03fc04b524822556134aa7ba4d90ef0fc76df2eec4c2af074757ea13558e2"
+    }
+  },
+  "evidence": {
+    "current-runtime": {
+      "path": "docs/language-runtime-20261030.json.gz",
+      "sha256": "3d98b9bfe3404f353a6f244c87f4d2c3562b9d63fe1834170e77e6a281c97dc3",
+      "scope": "22 locales; 15 description groups and 2 caption keys; real font width, glyphs, authored unit roles and actual appended tooltip colors; current registry/copy checks",
+      "currentInputBinding": "Raw report compiledMainFiles equals current compiled classes; all main JAR classes and generated bytes equal runtime inputs; per-row text equals current JAR"
+    },
+    "caption-font": {
+      "path": "docs/narration-font-validation.json.gz",
+      "sha256": "8b905c829c565986ab9f0374c749c5d0aa3bcaeb1dd4b07e1d9dd289ca47ec40",
+      "scope": "All 113 caption keys in 22 locales, widths 320/480/960, native caption width 180px",
+      "currentInputBinding": "Only exact locale/key/unit/text/width matches are reused; affected caption keys are replaced by current runtime measurements; 37 rendering classes and all caption roles equal old 0.1.4"
+    },
+    "description-font": {
+      "path": "docs/item-coverage-report.json.gz",
+      "sha256": "88101b77529e14bd3b93d277b06968b562029915f4e004a66b2c9a570597b1f4",
+      "scope": "48 coverage description groups in 22 locales; tooltip width 240px",
+      "currentInputBinding": "Exact current text/unit/width match only; current runtime closes the other 12 legacy groups and replaces corrected 3 coverage groups"
+    },
+    "native-ui": {
+      "path": "docs/item-coverage-validation.json",
+      "sha256": "aecf7700ab509ec43fc36c1994d86052f024308d40d39b10f014b92ad4148557",
+      "scope": "0.1.5 native tags, W factory, course, chapter boundary, componentful ItemStacks and history guards; 381 registry items",
+      "currentInputBinding": "37 rendering classes identical; only GuideCommands calls the new pure Unicode matcher; chapter IDs, routes, items and geometry unchanged"
+    },
+    "native-ui-raw": {
+      "path": "docs/item-coverage-native-success.json.gz",
+      "sha256": "1aa9c48ab1ae1c730c13f0c3ac2c16db5193a9290483c57cdca9fd45fefbacbe",
+      "scope": "Raw 0.1.5 native UI and item checks",
+      "currentInputBinding": "Same class, route and data binding as native-ui"
+    },
+    "palette-fallback": {
+      "path": "docs/validation-0.1.4.json",
+      "sha256": "9e912208c1486452a39c70ce49c09ba9f706aac78bd62650e7e0d61f25bbeecb",
+      "scope": "Three native text palettes, tooltip palettes, English text and role fallback, representative UI and Arabic",
+      "currentInputBinding": "Palette, layout and fallback classes unchanged; current authored role arrays checked structurally and semantically; corrected tooltip roles measured in current run"
+    },
+    "palette-fallback-raw": {
+      "path": "docs/narration-validation-success.json",
+      "sha256": "c1f8738e632130ac7c27b51da3d92b3bbb63b1f478c3d142f6b496ebb5ba274c",
+      "scope": "Raw 0.1.4 palette/fallback/UI result",
+      "currentInputBinding": "Same code binding as palette-fallback; false unexecuted flags in the new scoped run are not promoted to true"
+    },
+    "geometry": {
+      "path": "docs/validation-0.1.2.json",
+      "sha256": "d2ebe9aa2835533dc3b6920891b750dda0f7aa6e136060cf181a1198e94172d6",
+      "scope": "Six rendered and replayed scenes: power, cables, chemical_transport, evaporation, ore_quintupling, nuclear_waste; 17 callouts",
+      "currentInputBinding": "All 28 lessons geometry/nodes/non-text steps equal Git 993ed06; only the six named scenes have complete rendered/replay evidence"
+    },
+    "coverage": {
+      "path": "docs/item-coverage-expectations.json",
+      "sha256": "2e532ccd99989f4fad9b0a253bb258b21e01096285e3e17b8120730eea494c38",
+      "scope": "Independent pinned registry, factories, recipes and classification",
+      "currentInputBinding": "Current static check and runtime compare real Mekanism registry; no route or item additions in 0.1.6"
+    },
+    "narration-review-asia.json": {
+      "path": "docs/narration-review-asia.json",
+      "sha256": "46be506c0cee89bedc0d1508a79add6d877ff3f2ae5557aae5de9683364924f1",
+      "scope": "Historical semantic review of 185 original or 48 added content keys, per locale",
+      "currentInputBinding": "Only unchanged text/roles are reused; current per-locale fresh review and changed-key hashes below supersede altered keys; navigation 14 keys unchanged"
+    },
+    "narration-review-west.json": {
+      "path": "docs/narration-review-west.json",
+      "sha256": "6b6084a61d15c0170b35f97a059758b4cc3dc316ed35c47d9bad1d94d4bd50be",
+      "scope": "Historical semantic review of 185 original or 48 added content keys, per locale",
+      "currentInputBinding": "Only unchanged text/roles are reused; current per-locale fresh review and changed-key hashes below supersede altered keys; navigation 14 keys unchanged"
+    },
+    "narration-review-other.json": {
+      "path": "docs/narration-review-other.json",
+      "sha256": "ef437410227cafb18c712d30e9e384e5a84d5d5c961916fedd698720e5e0828f",
+      "scope": "Historical semantic review of 185 original or 48 added content keys, per locale",
+      "currentInputBinding": "Only unchanged text/roles are reused; current per-locale fresh review and changed-key hashes below supersede altered keys; navigation 14 keys unchanged"
+    },
+    "item-coverage-review-asia.json": {
+      "path": "docs/item-coverage-review-asia.json",
+      "sha256": "3719d994fcb9399c86f5cf1f81063c01cd6421b340dd38e2f3302b853ddd75d1",
+      "scope": "Historical semantic review of 185 original or 48 added content keys, per locale",
+      "currentInputBinding": "Only unchanged text/roles are reused; current per-locale fresh review and changed-key hashes below supersede altered keys; navigation 14 keys unchanged"
+    },
+    "item-coverage-review-west.json": {
+      "path": "docs/item-coverage-review-west.json",
+      "sha256": "1d07fe3a310211e5010dfb6b0bd3ee0f9c8cfa6e1110a301b0c75b652e7f6019",
+      "scope": "Historical semantic review of 185 original or 48 added content keys, per locale",
+      "currentInputBinding": "Only unchanged text/roles are reused; current per-locale fresh review and changed-key hashes below supersede altered keys; navigation 14 keys unchanged"
+    },
+    "search-source": {
+      "path": "src/main/java/dev/mekanismponder/client/GuideSearchText.java",
+      "sha256": "24a55604e8faa0e651cccb6f13fe356ddb0a16fde81b22047fed4f88d40595d2",
+      "scope": "Pure production matcher, NFC and locale casing",
+      "currentInputBinding": "Current JAR class SHA is in artifactBinding.mainClasses"
+    },
+    "search-cases": {
+      "path": "tools/GuideSearchTest.java",
+      "sha256": "189741226d94596d522f36c7bd359f077925ee0bc51571235dcf252b88078347",
+      "scope": "16 regression cases including real Küp / decomposed Ku\\u0308p, Turkish I/İ, Arabic logical order and canonical composition",
+      "currentInputBinding": "Compiled with the actual production helper under Java 21, no Minecraft startup"
+    },
+    "search-runner": {
+      "path": "tools/test_search.py",
+      "sha256": "331f2b6a62e8e57a1df30c9687e688704895bf45b6c8003ed894377e45eb8e33",
+      "scope": "Headless Java regression runner",
+      "currentInputBinding": "PASS: one Python test executes all 16 Java cases; temporary class files stay under .work"
+    },
+    "diagnostics": {
+      "path": "docs/language-audit-diagnostics-20261030.json.gz",
+      "sha256": "507eebf22f8e2afc998a7ee8a0c9863612d8bda5908704fd3c9a289d801618ee",
+      "scope": "Failed attempt diagnoses, fixes, independent source review; not a success proof",
+      "currentInputBinding": "First report/log digests retained; final successful current font report separately records all changed text"
+    }
+  },
+  "policyInputs": {
+    "mekanism-ponder\\AGENTS.md": "9c955408cd7f207f2c105ff8cc78dca9fa7de5c532f1b1c1a553fadffe9c6ad0",
+    "AGENTS.md": "f0ce68c0beeb0ecc6eecdfab297b56475b56db25a949c1537d708db15bea38d2",
+    "docs\\mod-guide-authoring.md": "26df45c19af7cfdca9c4ab2283661017e3a464062f81032650f3b757757f1540",
+    "docs\\languages.json": "435567a129aa711fbb3a83cf9db5c7d368af4c5fb9a3ebe36f9447578140baf8",
+    "docs\\project-specific-requirements.md": "0b99d77a815ed32ac021f792231e172ce5d8042cbf83fe052745b131a075d132",
+    "work\\JAEN_COMPLIANCE_PLAN.md": "74d347a731fe01d0e6ca14bb7ce630dc031c22de4917eb84223f2593988cc899"
+  },
+  "requirements": [
+    {
+      "number": 1,
+      "status": "pass",
+      "judgment": "Existing independent Mekanism repository; MC 1.21.1 / NeoForge / Java 21 only; shared numbering retained",
+      "evidence": [
+        "policy",
+        "artifact",
+        "git"
+      ],
+      "requirementText": "この共通要件は `guideme-ponder`、`mekanism-ponder`、`enderio-ponder`、`if-ponder`、`ie-ponder`、`oritech-ponder`、`refined-storage-ponder`、`mtr-ponder` の全8プロジェクトに適用します。各プロジェクトは独立したフォルダーとGit履歴を保ち、親リポジトリの新設やリポジトリの統合を行いません。",
+      "reference": "../docs/mod-guide-authoring.md#r001"
+    },
+    {
+      "number": 2,
+      "status": "pass",
+      "judgment": "Existing independent Mekanism repository; MC 1.21.1 / NeoForge / Java 21 only; shared numbering retained",
+      "evidence": [
+        "policy",
+        "artifact",
+        "git"
+      ],
+      "requirementText": "各プロジェクトの `AGENTS.md` で対象MOD・版・ローダー・依存関係・データ保存先・ビルド方法を確認します。共通要件と矛盾する古い個別記述は更新し、AE2固有のレジストリID、visual NBT、GuideME連携、依存版や調整値を他MODの仕様へ一律に適用しません。",
+      "reference": "../docs/mod-guide-authoring.md#r002"
+    },
+    {
+      "number": 3,
+      "status": "pass",
+      "judgment": "Configured SSH signed local commit of task changes only; no push; pre-task index empty",
+      "evidence": [
+        "git"
+      ],
+      "requirementText": "AI駆動として、適切な検証後は自律的にローカルコミットを作成して構いません。設定済みのSSH署名を利用し、対象作業の変更だけを扱います。無関係な変更をステージせず、既にステージされた変更がある場合は利用者のステージ方針を尊重します。明示的にコミット禁止の指示がある場合は従い、リモートへpushしません。",
+      "reference": "../docs/mod-guide-authoring.md#r003"
+    },
+    {
+      "number": 4,
+      "status": "pass",
+      "judgment": "Existing independent Mekanism repository; MC 1.21.1 / NeoForge / Java 21 only; shared numbering retained",
+      "evidence": [
+        "policy",
+        "artifact",
+        "git"
+      ],
+      "requirementText": "今後「共通要件N」と指定された場合は、この文書の通し番号を指します。既存番号を保持し、新しい要件は原則として末尾へ追補します。各 `AGENTS.md` の番号は、そのファイル内の参照番号です。",
+      "reference": "../docs/mod-guide-authoring.md#r004"
+    },
+    {
+      "number": 5,
+      "status": "pass",
+      "judgment": "28 spatial lessons and 60 concise description groups; material-only explanations do not create empty scenes",
+      "evidence": [
+        "coverage",
+        "semantic-review"
+      ],
+      "requirementText": "短文で伝わる内容はアイテム説明で完結させ、配置・操作・状態の変化を見せる必要がある内容にPonderを使います。両方が必要なアイテムは併用します。",
+      "reference": "../docs/mod-guide-authoring.md#r005"
+    },
+    {
+      "number": 6,
+      "status": "pass",
+      "judgment": "28 spatial lessons and 60 concise description groups; material-only explanations do not create empty scenes",
+      "evidence": [
+        "coverage",
+        "semantic-review"
+      ],
+      "requirementText": "全アイテムへのPonder登録やレッスン数を目標にしません。説明文だけの空の場面や、短文専用アイテムの無関係な場面への登録を避けます。",
+      "reference": "../docs/mod-guide-authoring.md#r006"
+    },
+    {
+      "number": 7,
+      "status": "pass",
+      "judgment": "Pinned Mekanism implementation, recipes and merged native names used; fluorite/raw ore, laser names and radioactive-stage condition corrected; pack recipe/config caveat retained",
+      "evidence": [
+        "coverage",
+        "semantic-review"
+      ],
+      "requirementText": "仕様・レシピ・状態変化の判断では、対象版のMODの実際の実装を公式ガイドより優先します。ただし、ガイドのほうが明らかに正しい挙動で、実装に不具合があると考えられる場合は、相違点と根拠を整理して人間へ確認（ASK）してください。その判断を自動で確定したり、誤った挙動を正しい仕様として説明したりしません。",
+      "reference": "../docs/mod-guide-authoring.md#r007"
+    },
+    {
+      "number": 8,
+      "status": "pass",
+      "judgment": "Pinned Mekanism implementation, recipes and merged native names used; fluorite/raw ore, laser names and radioactive-stage condition corrected; pack recipe/config caveat retained",
+      "evidence": [
+        "coverage",
+        "semantic-review"
+      ],
+      "requirementText": "見た目だけで装飾品と分類しません。対象版の仕様・レジストリID・レシピ・実装を確認し、実際の機能を説明します。",
+      "reference": "../docs/mod-guide-authoring.md#r008"
+    },
+    {
+      "number": 9,
+      "status": "pass",
+      "judgment": "GuideBook plus generated guide sources own titles, summaries, captions, chapter order, item routes and search; client adapters separated",
+      "evidence": [
+        "source",
+        "data-check"
+      ],
+      "requirementText": "字幕、題名、要約、一覧、検索、アイテム登録、利用するガイドページは、同じ教材定義から生成・登録します。",
+      "reference": "../docs/mod-guide-authoring.md#r009"
+    },
+    {
+      "number": 10,
+      "status": "pass",
+      "judgment": "GuideBook plus generated guide sources own titles, summaries, captions, chapter order, item routes and search; client adapters separated",
+      "evidence": [
+        "source",
+        "data-check"
+      ],
+      "requirementText": "対象MOD固有の教材・模型と、共通の再生・検索・翻訳・ローダー接続を分離します。共通ライブラリ化は実際に必要な部分が明らかになってから判断します。",
+      "reference": "../docs/mod-guide-authoring.md#r010"
+    },
+    {
+      "number": 11,
+      "status": "pass",
+      "judgment": "Guide scenes operate on Ponder virtual worlds; no guide server networking or real-world mutation",
+      "evidence": [
+        "source",
+        "geometry"
+      ],
+      "requirementText": "Ponderの仮想ワールドで説明し、プレイヤーの実ワールドを変更しません。",
+      "reference": "../docs/mod-guide-authoring.md#r011"
+    },
+    {
+      "number": 12,
+      "status": "pass",
+      "judgment": "All JA/EN keys read; 20 locale fresh samples plus exact-text old reviews retain complete authored units, natural explanations, necessary safety requests, punctuation policy and timing",
+      "evidence": [
+        "semantic-review",
+        "presentation-check",
+        "caption-font",
+        "current-runtime"
+      ],
+      "requirementText": "Create/Ponderの自然な説明と操作感に合わせます。日本語の説明は「です・ます」を保ち、操作・仕組み・条件と結果を説明する口調を基本にします。視聴者への「〜してください」を説明の定型にせず、共通要件73に従って必要な操作指示と自然な解説を使い分けます。タイトル・短い操作ラベルは自然な名詞や短い動作名で構いません。",
+      "reference": "../docs/mod-guide-authoring.md#r012"
+    },
+    {
+      "number": 13,
+      "status": "pass",
+      "judgment": "All JA/EN keys read; 20 locale fresh samples plus exact-text old reviews retain complete authored units, natural explanations, necessary safety requests, punctuation policy and timing",
+      "evidence": [
+        "semantic-review",
+        "presentation-check",
+        "caption-font",
+        "current-runtime"
+      ],
+      "requirementText": "各言語の呼びかけ方を尊重します。チェコ語の丁寧な複数形、欧州ポルトガル語のtuなどを使い、日本語の丁寧さを全言語へ機械的に移しません。",
+      "reference": "../docs/mod-guide-authoring.md#r013"
+    },
+    {
+      "number": 14,
+      "status": "pass",
+      "judgment": "Pinned Mekanism implementation, recipes and merged native names used; fluorite/raw ore, laser names and radioactive-stage condition corrected; pack recipe/config caveat retained",
+      "evidence": [
+        "coverage",
+        "semantic-review"
+      ],
+      "requirementText": "対象MODのその言語での正式な用語を使い、初出の用語は役割・見た目と結び付けます。対象・数値・単位・制約・条件を省略しません。",
+      "reference": "../docs/mod-guide-authoring.md#r014"
+    },
+    {
+      "number": 15,
+      "status": "pass",
+      "judgment": "Pinned Mekanism implementation, recipes and merged native names used; fluorite/raw ore, laser names and radioactive-stage condition corrected; pack recipe/config caveat retained",
+      "evidence": [
+        "coverage",
+        "semantic-review"
+      ],
+      "requirementText": "アイテム名に対象言語の公式翻訳がない場合は、英語名と対象言語の翻訳案を併記し、翻訳案であることを明示します。アイテムの同一性を保ち、提案した訳を公式名称として扱いません。",
+      "reference": "../docs/mod-guide-authoring.md#r015"
+    },
+    {
+      "number": 16,
+      "status": "pass",
+      "judgment": "Pinned Mekanism implementation, recipes and merged native names used; fluorite/raw ore, laser names and radioactive-stage condition corrected; pack recipe/config caveat retained",
+      "evidence": [
+        "coverage",
+        "semantic-review"
+      ],
+      "requirementText": "対象版や設定で変わる仕様を断定せず、MODパックで変更されたレシピ・設定はその環境を優先します。",
+      "reference": "../docs/mod-guide-authoring.md#r016"
+    },
+    {
+      "number": 17,
+      "status": "pass",
+      "judgment": "28 ordered lessons in six native chapters; prerequisite/goal and normal operation, result, failure-condition sequence retained",
+      "evidence": [
+        "source",
+        "native-ui",
+        "semantic-review"
+      ],
+      "requirementText": "レッスンごとに到達点と前提知識を決め、正常な操作、結果、制約・失敗条件の順で組み立てます。章・一覧・コースの学習順を揃えます。",
+      "reference": "../docs/mod-guide-authoring.md#r017"
+    },
+    {
+      "number": 18,
+      "status": "conditional",
+      "judgment": "184 nodes and 102 callouts checked statically; timing/target/material icons have real rendering evidence for six scenes and 17 callouts, not full playback of all 28",
+      "evidence": [
+        "data-check",
+        "geometry"
+      ],
+      "requirementText": "一つのステップは「対象を示す → 操作や変化を見せる → 結果・条件を説明する」を基本にします。字幕、輪郭、吹き出し、模型の変化の対象とタイミングを合わせます。 これは伝える内容の順序であり、一つの吹き出しにすべてを詰め込む必要はありません。",
+      "reference": "../docs/mod-guide-authoring.md#r018"
+    },
+    {
+      "number": 19,
+      "status": "pass",
+      "judgment": "Every current authored caption and description unit has an exact-text real-font measurement at GUI widths 320/480/960; max three lines, caption180px/tooltip240px; six old overflowing units rewritten as complete sentences",
+      "evidence": [
+        "artifact-binding",
+        "current-runtime",
+        "caption-font",
+        "description-font"
+      ],
+      "requirementText": "字幕・テキスト吹き出しは、原則として短く簡潔な完結した1文で、一つの内容を分かりやすく伝えます。各表示は長くとも3行以内、できれば2行以内に収め、全対応言語と対象の画面幅・GUIスケールで、フォントによる折り返し後の行数を確認します。行数を満たすために文の途中を機械的に別の吹き出しへ送ってはいけません。長い文は原文と各言語の訳文を推敲し、必要ならそれぞれ意味・文法が完結した短文に書き直して順に表示します。どうしても長い文は、共通要件67の明示的な継続表示を使えます。条件・数値・対象・因果関係を省略して短くしません。同じ吹き出し内で文が自然に改行されることは問題ありません。",
+      "reference": "../docs/mod-guide-authoring.md#r019"
+    },
+    {
+      "number": 20,
+      "status": "pass",
+      "judgment": "All JA/EN keys read; 20 locale fresh samples plus exact-text old reviews retain complete authored units, natural explanations, necessary safety requests, punctuation policy and timing",
+      "evidence": [
+        "semantic-review",
+        "presentation-check",
+        "caption-font",
+        "current-runtime"
+      ],
+      "requirementText": "1行程度の短いコメントが連続するPonderは自然な表現です。原則1吹き出し1文とし、枠に入るからという理由だけで2文・3文をつなげません。複数文を同じ吹き出しに置くのは、操作と必須条件を同時に読む必要がある等、利用者の理解に役立つ正当な理由がある場合に限ります。説明の間隔を等しく揃える必要はなく、操作・模型の変化・各言語で完結した文を読む時間に合わせて表示のタイミングと間隔を調整します。",
+      "reference": "../docs/mod-guide-authoring.md#r020"
+    },
+    {
+      "number": 21,
+      "status": "conditional",
+      "judgment": "184 nodes and 102 callouts checked statically; timing/target/material icons have real rendering evidence for six scenes and 17 callouts, not full playback of all 28",
+      "evidence": [
+        "data-check",
+        "geometry"
+      ],
+      "requirementText": "材料・工具・部品はアイテム画像付きの吹き出しで対象装置と結び付け、複数個は順番に表示します。クリックやスニークの印は実際の操作指示に使います。",
+      "reference": "../docs/mod-guide-authoring.md#r021"
+    },
+    {
+      "number": 22,
+      "status": "pass",
+      "judgment": "All JA/EN keys read; 20 locale fresh samples plus exact-text old reviews retain complete authored units, natural explanations, necessary safety requests, punctuation policy and timing",
+      "evidence": [
+        "semantic-review",
+        "presentation-check",
+        "caption-font",
+        "current-runtime"
+      ],
+      "requirementText": "転送・動作の演出で実際の処理速度や転送量を保証しません。翻訳の長さも考慮して読む時間を確保し、標準の一時停止・キーフレームを利用できるようにします。",
+      "reference": "../docs/mod-guide-authoring.md#r022"
+    },
+    {
+      "number": 23,
+      "status": "pass",
+      "judgment": "22 locales ×247 keys generated from JA/EN plus 20 reviewed translations; hashes/placeholders/numbers/IDs validated, HK/TW and BR/PT separately reviewed; no untranslated explanation fallback",
+      "evidence": [
+        "artifact-binding",
+        "data-check",
+        "semantic-review"
+      ],
+      "requirementText": "第一・第二言語範囲の全22言語に対応します。日英のみの実装から始めたプロジェクトにも適用する要件です。共通のロケール一覧は [languages.json](languages.json)、言語コードとの対応はこの節の表を参照してください。",
+      "reference": "../docs/mod-guide-authoring.md#r023"
+    },
+    {
+      "number": 24,
+      "status": "pass",
+      "judgment": "22 locales ×247 keys generated from JA/EN plus 20 reviewed translations; hashes/placeholders/numbers/IDs validated, HK/TW and BR/PT separately reviewed; no untranslated explanation fallback",
+      "evidence": [
+        "artifact-binding",
+        "data-check",
+        "semantic-review"
+      ],
+      "requirementText": "字幕、タイトル・要約、短いアイテム説明と展開ヒント、一覧・検索・章、操作表示、任意アドオン、利用するガイドページを、同じ変更で全22言語更新します。",
+      "reference": "../docs/mod-guide-authoring.md#r024"
+    },
+    {
+      "number": 25,
+      "status": "pass",
+      "judgment": "English text and presentation fallback retained; supported locales contain their own complete translations",
+      "evidence": [
+        "palette-fallback",
+        "artifact-binding"
+      ],
+      "requirementText": "フォールバック言語は英語（Minecraftでは `en_us`）とします。対象外ロケール、翻訳欠落時の最終フォールバック、既定のガイドページにも適用します。対応する22言語の翻訳を省く理由にはしません。",
+      "reference": "../docs/mod-guide-authoring.md#r025"
+    },
+    {
+      "number": 26,
+      "status": "pass",
+      "judgment": "22 locales ×247 keys generated from JA/EN plus 20 reviewed translations; hashes/placeholders/numbers/IDs validated, HK/TW and BR/PT separately reviewed; no untranslated explanation fallback",
+      "evidence": [
+        "artifact-binding",
+        "data-check",
+        "semantic-review"
+      ],
+      "requirementText": "香港と台湾、ブラジルとポルトガルを分けて確認します。対応言語の翻訳を英語フォールバックで済ませません。対象外ロケールや欠落時の最終フォールバックは英語です。",
+      "reference": "../docs/mod-guide-authoring.md#r026"
+    },
+    {
+      "number": 27,
+      "status": "pass",
+      "judgment": "22 locales ×247 keys generated from JA/EN plus 20 reviewed translations; hashes/placeholders/numbers/IDs validated, HK/TW and BR/PT separately reviewed; no untranslated explanation fallback",
+      "evidence": [
+        "artifact-binding",
+        "data-check",
+        "semantic-review"
+      ],
+      "requirementText": "日英の原文と他言語の翻訳を分け、配布用の言語JSONやページを生成します。生成物の手修正や原本の重複管理を避けます。具体的な保存先は各プロジェクトで定義します。",
+      "reference": "../docs/mod-guide-authoring.md#r027"
+    },
+    {
+      "number": 28,
+      "status": "pass",
+      "judgment": "22 locales ×247 keys generated from JA/EN plus 20 reviewed translations; hashes/placeholders/numbers/IDs validated, HK/TW and BR/PT separately reviewed; no untranslated explanation fallback",
+      "evidence": [
+        "artifact-binding",
+        "data-check",
+        "semantic-review"
+      ],
+      "requirementText": "`%s`・`%d`等のプレースホルダ、数値、成立条件、レジストリID、コマンドID、アイテムの同一性を保持します。",
+      "reference": "../docs/mod-guide-authoring.md#r028"
+    },
+    {
+      "number": 29,
+      "status": "pass",
+      "judgment": "22 locales ×247 keys generated from JA/EN plus 20 reviewed translations; hashes/placeholders/numbers/IDs validated, HK/TW and BR/PT separately reviewed; no untranslated explanation fallback",
+      "evidence": [
+        "artifact-binding",
+        "data-check",
+        "semantic-review"
+      ],
+      "requirementText": "原文ハッシュやレビュー記録は、変更された原文をその言語で確認してから更新します。検査を通すためだけに更新しません。日英の片方を変えた場合も、もう片方を確認します。",
+      "reference": "../docs/mod-guide-authoring.md#r029"
+    },
+    {
+      "number": 30,
+      "status": "pass",
+      "judgment": "22 locales ×247 keys generated from JA/EN plus 20 reviewed translations; hashes/placeholders/numbers/IDs validated, HK/TW and BR/PT separately reviewed; no untranslated explanation fallback",
+      "evidence": [
+        "artifact-binding",
+        "data-check",
+        "semantic-review"
+      ],
+      "requirementText": "欠落キー、空欄、不正なプレースホルダ、原文変更後の未確認翻訳を検出します。翻訳ファイルの存在だけをもって完了としません。",
+      "reference": "../docs/mod-guide-authoring.md#r030"
+    },
+    {
+      "number": 31,
+      "status": "pass",
+      "judgment": "Selected-language title/summary/caption search uses logical authored strings; native translated search evidence reused and 16 pure cases verify NFC+locale casing, including Turkish I/İ and real decomposed Küp",
+      "evidence": [
+        "native-ui",
+        "search-source",
+        "search-cases",
+        "search-runner"
+      ],
+      "requirementText": "選択言語の題名・要約・字幕で検索を確認します。トルコ語のI/İなど、言語ごとの大小文字規則を扱います。",
+      "reference": "../docs/mod-guide-authoring.md#r031"
+    },
+    {
+      "number": 32,
+      "status": "pass",
+      "judgment": "Arabic logical search text remains unshaped; visual glyph width uses the unchanged layout adapter; canonical normalization does not reverse text",
+      "evidence": [
+        "current-runtime",
+        "caption-font",
+        "palette-fallback",
+        "search-cases"
+      ],
+      "requirementText": "アラビア語は検索用の論理順原文と描画用の整形結果を分け、実際に描くグリフの幅で折り返します。整形を二重適用せず、描画のために検索データ・コマンド・原文を改変しません。",
+      "reference": "../docs/mod-guide-authoring.md#r032"
+    },
+    {
+      "number": 33,
+      "status": "pass",
+      "judgment": "Default Minecraft resource stack glyphs and font widths checked in all22; long controls/native names retain prior exact input UI evidence; no custom resource-pack guarantee",
+      "evidence": [
+        "current-runtime",
+        "caption-font",
+        "native-ui"
+      ],
+      "requirementText": "非ラテン文字の欠落、字幕枠、長い操作ラベル、フォント幅・画面幅も確認します。依存MODの翻訳と比較する場合は、単体ファイルでなくMinecraftと同じリソーススタックの合成結果を使います。",
+      "reference": "../docs/mod-guide-authoring.md#r033"
+    },
+    {
+      "number": 34,
+      "status": "pass",
+      "judgment": "Stable IDs, recipes, block state/NBT and real pinned registry preserved; data coordinates/references checked; all geometry unchanged",
+      "evidence": [
+        "coverage",
+        "source",
+        "data-check",
+        "artifact-binding"
+      ],
+      "requirementText": "レッスンID、章、関連アイテム、ノード、ステップ、表示条件を安定したデータで管理します。ステップの挿入・並べ替えでは後続字幕を含む全言語の対応を確認します。ID変更はリンク・コマンド・進捗への影響を確認します。",
+      "reference": "../docs/mod-guide-authoring.md#r034"
+    },
+    {
+      "number": 35,
+      "status": "pass",
+      "judgment": "Stable IDs, recipes, block state/NBT and real pinned registry preserved; data coordinates/references checked; all geometry unchanged",
+      "evidence": [
+        "coverage",
+        "source",
+        "data-check",
+        "artifact-binding"
+      ],
+      "requirementText": "レジストリID、ブロックステート、部品ID、NBTの意味を対象版で確認します。公式の表示用APIがある場合は優先します。他MODにもAE2と同じvisual NBTがあるとは想定しません。",
+      "reference": "../docs/mod-guide-authoring.md#r035"
+    },
+    {
+      "number": 36,
+      "status": "conditional",
+      "judgment": "Rendered faces/model data/rewind verified for six representative scenes; all28 geometry unchanged and statically visible; no new full28 rendering claim",
+      "evidence": [
+        "geometry",
+        "artifact-binding"
+      ],
+      "requirementText": "ブロックエンティティの存在だけで描画成功と判断せず、モデルデータ、面、画像、巻き戻し後の復元も確認します。",
+      "reference": "../docs/mod-guide-authoring.md#r036"
+    },
+    {
+      "number": 37,
+      "status": "conditional",
+      "judgment": "Rendered faces/model data/rewind verified for six representative scenes; all28 geometry unchanged and statically visible; no new full28 rendering claim",
+      "evidence": [
+        "geometry",
+        "artifact-binding"
+      ],
+      "requirementText": "パネル状のブロックを他の不透過ブロックの底面へ取り付けると、Ponderで見えなくなるため、やむを得ない場合を除いて避けます。見える面・配置・カメラ角度を選び、隠れた面を説明の主対象にしません。",
+      "reference": "../docs/mod-guide-authoring.md#r037"
+    },
+    {
+      "number": 38,
+      "status": "pass",
+      "judgment": "Existing Mekanism tooltip text retained; expanded own descriptions short and localized with actual unit colors; complete ItemStack components copied",
+      "evidence": [
+        "native-ui",
+        "current-runtime",
+        "semantic-review"
+      ],
+      "requirementText": "アイテム説明は役割と条件を短く書き、既存のツールチップを保持します。Ponderがある場合は標準の導線と併用し、選択言語で展開・折り返しします。",
+      "reference": "../docs/mod-guide-authoring.md#r038"
+    },
+    {
+      "number": 39,
+      "status": "pass",
+      "judgment": "Native item W path, PonderTagIndexScreen/TagScreen, course/history and chapter/item commands retained; no ordinary-screen guide buttons; 320/480/960 layout/pagination evidence reused",
+      "evidence": [
+        "native-ui",
+        "palette-fallback",
+        "source",
+        "search-cases"
+      ],
+      "requirementText": "アイテム上での標準のWキー長押しでPonderを開ける状態を保ちます。共通要件68に従い、設定画面を含む通常画面への独自ボタンや、直接ガイドを呼び出す特殊なキーバインドを追加しません。再生・一時停止、タイムライン、キーフレーム、前後移動、戻るといったPonder標準操作と、共通要件71の標準カテゴリー導線を活用します。",
+      "reference": "../docs/mod-guide-authoring.md#r039"
+    },
+    {
+      "number": 40,
+      "status": "pass",
+      "judgment": "Native item W path, PonderTagIndexScreen/TagScreen, course/history and chapter/item commands retained; no ordinary-screen guide buttons; 320/480/960 layout/pagination evidence reused",
+      "evidence": [
+        "native-ui",
+        "palette-fallback",
+        "source",
+        "search-cases"
+      ],
+      "requirementText": "章の編成はPonderのデフォルト実装に則って行い、独自画面の追加を先に選びません。やむを得ず章の編成画面を作る場合は、理由を記録し、共通原則を先に作成するか既存の原則を参照し、その原則に従って実装します。",
+      "reference": "../docs/mod-guide-authoring.md#r040"
+    },
+    {
+      "number": 41,
+      "status": "pass",
+      "judgment": "Native item W path, PonderTagIndexScreen/TagScreen, course/history and chapter/item commands retained; no ordinary-screen guide buttons; 320/480/960 layout/pagination evidence reused",
+      "evidence": [
+        "native-ui",
+        "palette-fallback",
+        "source",
+        "search-cases"
+      ],
+      "requirementText": "一覧やコマンドから選んだ場面を、標準のコース内の開始位置として開きます。「次の章」など、Ponderに既にある章移動・前後移動・戻る操作は、やむを得ない場合を除いて独自実装しません。起点の一覧やガイドへ戻れる状態を保ちます。",
+      "reference": "../docs/mod-guide-authoring.md#r041"
+    },
+    {
+      "number": 42,
+      "status": "pass",
+      "judgment": "Native item W path, PonderTagIndexScreen/TagScreen, course/history and chapter/item commands retained; no ordinary-screen guide buttons; 320/480/960 layout/pagination evidence reused",
+      "evidence": [
+        "native-ui",
+        "palette-fallback",
+        "source",
+        "search-cases"
+      ],
+      "requirementText": "画面幅・高さに応じて関連アイテムを配置し、収まらない分はページ分割します。ワールドの情報が必要な処理は、タイトル画面の設定から実行させません。",
+      "reference": "../docs/mod-guide-authoring.md#r042"
+    },
+    {
+      "number": 43,
+      "status": "conditional",
+      "judgment": "Client-only entrypoints, client mixins and client command registration; no item/gameplay/network registration; actual join to a server without this guide remains not_verified",
+      "evidence": [
+        "source",
+        "artifact"
+      ],
+      "requirementText": "原則としてアイテムを追加しません。ガイドをクライアントMODとして完結させ、新しいゲームプレイ用レジストリ、独自通信、実ワールド操作やガイド独自のサーバー導入要件を増やしません。サーバーでクライアントクラスを読み込まない確認と、ガイド未導入サーバーへの実接続確認は別です。未実施の接続試験を検証済みとしません。",
+      "reference": "../docs/mod-guide-authoring.md#r043"
+    },
+    {
+      "number": 44,
+      "status": "pass",
+      "judgment": "Native item W path, PonderTagIndexScreen/TagScreen, course/history and chapter/item commands retained; no ordinary-screen guide buttons; 320/480/960 layout/pagination evidence reused",
+      "evidence": [
+        "native-ui",
+        "palette-fallback",
+        "source",
+        "search-cases"
+      ],
+      "requirementText": "各MODに `/ponder-xxx` 形式のクライアントコマンドを追加し、そのMODで実装したPonderを呼び出せるようにします。`xxx` は対象MODを識別する語とし、採用したコマンド名を各READMEに明記します。サーバー側へのコマンド登録・独自通信を必要としない構成にします。",
+      "reference": "../docs/mod-guide-authoring.md#r044"
+    },
+    {
+      "number": 45,
+      "status": "pass",
+      "judgment": "Native item W path, PonderTagIndexScreen/TagScreen, course/history and chapter/item commands retained; no ordinary-screen guide buttons; 320/480/960 layout/pagination evidence reused",
+      "evidence": [
+        "native-ui",
+        "palette-fallback",
+        "source",
+        "search-cases"
+      ],
+      "requirementText": "チャプター番号またはチャプター名を指定して、対応する章のPonderを開けるようにします。共通の呼び出し形式は `/ponder-xxx <チャプター番号|チャプター名>` とし、番号と名称の両方を受け付けます。",
+      "reference": "../docs/mod-guide-authoring.md#r045"
+    },
+    {
+      "number": 46,
+      "status": "pass",
+      "judgment": "Native item W path, PonderTagIndexScreen/TagScreen, course/history and chapter/item commands retained; no ordinary-screen guide buttons; 320/480/960 layout/pagination evidence reused",
+      "evidence": [
+        "native-ui",
+        "palette-fallback",
+        "source",
+        "search-cases"
+      ],
+      "requirementText": "アイテム名を指定して関連するPonderを開けるようにします。共通の呼び出し形式は `/ponder-xxx item <アイテム名>` です。例: `/ponder-mekanism item energy_cube`。対象MODのアイテム名と教材の対応を使い、無関係な場面へ登録しません。",
+      "reference": "../docs/mod-guide-authoring.md#r046"
+    },
+    {
+      "number": 47,
+      "status": "not_applicable",
+      "judgment": "Core Mekanism only; mention of Mekanism: Generators is not a Generators lesson; no addon scope requested, so no addon chapter or new dependency",
+      "evidence": [
+        "coverage",
+        "semantic-review",
+        "policy"
+      ],
+      "requirementText": "任意教材の条件を一覧、アイテム候補、タグ、コース、ガイド本文、検索のすべてに反映し、未導入の内容を除外します。",
+      "reference": "../docs/mod-guide-authoring.md#r047"
+    },
+    {
+      "number": 48,
+      "status": "not_applicable",
+      "judgment": "Core Mekanism only; mention of Mekanism: Generators is not a Generators lesson; no addon scope requested, so no addon chapter or new dependency",
+      "evidence": [
+        "coverage",
+        "semantic-review",
+        "policy"
+      ],
+      "requirementText": "任意アドオンのJavaクラスへ直接依存せず、MOD ID・レジストリIDと導入判定を使います。配布メタデータでも任意扱いにし、依存MOD本体を同梱しません。",
+      "reference": "../docs/mod-guide-authoring.md#r048"
+    },
+    {
+      "number": 49,
+      "status": "not_applicable",
+      "judgment": "Core Mekanism only; mention of Mekanism: Generators is not a Generators lesson; no addon scope requested, so no addon chapter or new dependency",
+      "evidence": [
+        "coverage",
+        "semantic-review",
+        "policy"
+      ],
+      "requirementText": "対応アドオンとその必要依存を開発・検証構成へ含め、アドオンなしの構成も確認します。版・ローダーごとに依存関係を調べます。組み合わせ判定は可能な限り純粋な検査で網羅します。",
+      "reference": "../docs/mod-guide-authoring.md#r049"
+    },
+    {
+      "number": 50,
+      "status": "pass",
+      "judgment": "Only target loader/version; Java21 main classes, metadata, resource paths and mixin namespace/refmap checked; validation classes excluded from deliverable",
+      "evidence": [
+        "artifact",
+        "source",
+        "release-check"
+      ],
+      "requirementText": "教材・翻訳・共通処理を共用し、ローダー登録、イベント、版別APIを小さなアダプターに分けます。別プロジェクトの対応版・ローダーを無断で追加しません。",
+      "reference": "../docs/mod-guide-authoring.md#r050"
+    },
+    {
+      "number": 51,
+      "status": "pass",
+      "judgment": "Only target loader/version; Java21 main classes, metadata, resource paths and mixin namespace/refmap checked; validation classes excluded from deliverable",
+      "evidence": [
+        "artifact",
+        "source",
+        "release-check"
+      ],
+      "requirementText": "対象Java、API、再難読化、refmap、リソース形式、配布メタデータを版ごとに確認し、ビルド出力と開発ワールドを分けます。",
+      "reference": "../docs/mod-guide-authoring.md#r051"
+    },
+    {
+      "number": 52,
+      "status": "pass",
+      "judgment": "Only target loader/version; Java21 main classes, metadata, resource paths and mixin namespace/refmap checked; validation classes excluded from deliverable",
+      "evidence": [
+        "artifact",
+        "source",
+        "release-check"
+      ],
+      "requirementText": "MOD ID、名前空間、Javaパッケージ、翻訳キー、コマンド、進捗保存先、Mixin設定・refmap名をプロジェクトごとに分離します。",
+      "reference": "../docs/mod-guide-authoring.md#r052"
+    },
+    {
+      "number": 53,
+      "status": "conditional",
+      "judgment": "No global @Redirect; own namespace/list/type guards and foreign-scene/history behavior retained; simultaneous startup of all eight guides remains not_verified",
+      "evidence": [
+        "source",
+        "native-ui",
+        "artifact-binding"
+      ],
+      "requirementText": "同じPonder/GuideMEの呼び出しへ適用するグローバルな`@Redirect`を複製しません。名前空間判定だけでは注入先の競合を防げません。共通補正を一度だけ適用するか、共存可能な方式を選び、同時導入で確認します。",
+      "reference": "../docs/mod-guide-authoring.md#r053"
+    },
+    {
+      "number": 54,
+      "status": "pass",
+      "judgment": "Cheap data/tests/compile before bounded hidden runtime; baseline process check/shared mutex; first overflows corrected, second Options reload crash diagnosed, scoped third run passed; no unrelated process stopped",
+      "evidence": [
+        "verification",
+        "current-runtime",
+        "artifact-binding"
+      ],
+      "requirementText": "原文、対象版の仕様、依存関係、変更範囲を確認し、教材生成、翻訳検査、コンパイル、対象テストなどの安い確認から始めます。通常の編集で全テストやMinecraft起動を繰り返しません。",
+      "reference": "../docs/mod-guide-authoring.md#r054"
+    },
+    {
+      "number": 55,
+      "status": "pass",
+      "judgment": "Cheap data/tests/compile before bounded hidden runtime; baseline process check/shared mutex; first overflows corrected, second Options reload crash diagnosed, scoped third run passed; no unrelated process stopped",
+      "evidence": [
+        "verification",
+        "current-runtime",
+        "artifact-binding"
+      ],
+      "requirementText": "データでは重複ID、座標・参照、表示順、隠れた対象への注目・吹き出し、翻訳の整合性を検出します。実際のレジストリや描画は、必要な対象構成で確認します。",
+      "reference": "../docs/mod-guide-authoring.md#r055"
+    },
+    {
+      "number": 56,
+      "status": "pass",
+      "judgment": "Cheap data/tests/compile before bounded hidden runtime; baseline process check/shared mutex; first overflows corrected, second Options reload crash diagnosed, scoped third run passed; no unrelated process stopped",
+      "evidence": [
+        "verification",
+        "current-runtime",
+        "artifact-binding"
+      ],
+      "requirementText": "描画・画面遷移・巻き戻し等が必要な場合は、既存の適切な実行環境を確認したうえで、対象を絞った非表示クライアントを優先します。変更と無関係な版・ローダーの起動を増やしません。",
+      "reference": "../docs/mod-guide-authoring.md#r056"
+    },
+    {
+      "number": 57,
+      "status": "pass",
+      "judgment": "Cheap data/tests/compile before bounded hidden runtime; baseline process check/shared mutex; first overflows corrected, second Options reload crash diagnosed, scoped third run passed; no unrelated process stopped",
+      "evidence": [
+        "verification",
+        "current-runtime",
+        "artifact-binding"
+      ],
+      "requirementText": "失敗時は関連例外と近傍ログを調べ、修正や新しい仮説を得てから再試行します。終了コードだけで判断せず、今回の実行で作成された結果JSONと成功フラグを確認します。",
+      "reference": "../docs/mod-guide-authoring.md#r057"
+    },
+    {
+      "number": 58,
+      "status": "pass",
+      "judgment": "Cheap data/tests/compile before bounded hidden runtime; baseline process check/shared mutex; first overflows corrected, second Options reload crash diagnosed, scoped third run passed; no unrelated process stopped",
+      "evidence": [
+        "verification",
+        "current-runtime",
+        "artifact-binding"
+      ],
+      "requirementText": "実際に確認した教材・言語・依存・同時導入構成を記録し、過去の検証結果は現在の変更へ有効な場合だけ再利用します。自分の作業で開始したクライアント・サーバー等を終了し、無関係なプロセスは停止しません。",
+      "reference": "../docs/mod-guide-authoring.md#r058"
+    },
+    {
+      "number": 59,
+      "status": "pass",
+      "judgment": "Required licenses/notices and NeoForge metadata preserved; validation classes and dependency JARs excluded; release checker passes",
+      "evidence": [
+        "release-check",
+        "source",
+        "artifact"
+      ],
+      "requirementText": "再利用コード・UI文言・翻訳の出典とライセンスを保持します。AI経由の生成・翻訳であっても元の権利表示を省きません。GuideME由来の文言やコードの条件を独自部分と混同しません。",
+      "reference": "../docs/mod-guide-authoring.md#r059"
+    },
+    {
+      "number": 60,
+      "status": "pass",
+      "judgment": "Required licenses/notices and NeoForge metadata preserved; validation classes and dependency JARs excluded; release checker passes",
+      "evidence": [
+        "release-check",
+        "source",
+        "artifact"
+      ],
+      "requirementText": "配布JARに必要なライセンス本文・出典・対象ローダーのメタデータ・refmap・対応言語を含め、検証用クラス、依存MODのJAR・画像・モデルを不用意に含めません。",
+      "reference": "../docs/mod-guide-authoring.md#r060"
+    },
+    {
+      "number": 61,
+      "status": "pass",
+      "judgment": "Successful compatible0.1.6 main JAR placed in specified Prism; installed hash matches, metadata-identified old own copies removed including renamed scan; unrelated mods/.index preserved, compatible pinned dependencies reused",
+      "evidence": [
+        "deployment",
+        "artifact"
+      ],
+      "requirementText": "完成した配布用JARは随時、指定インスタンス `~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test` へ配置します。実際の配置先は、このインスタンスで使用されている `~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test\\minecraft\\mods` です。",
+      "reference": "../docs/mod-guide-authoring.md#r061"
+    },
+    {
+      "number": 62,
+      "status": "pass",
+      "judgment": "Successful compatible0.1.6 main JAR placed in specified Prism; installed hash matches, metadata-identified old own copies removed including renamed scan; unrelated mods/.index preserved, compatible pinned dependencies reused",
+      "evidence": [
+        "deployment",
+        "artifact"
+      ],
+      "requirementText": "ビルド成功と完成ファイルの存在を確認し、そのテスト環境のMinecraft版・ローダーに適合する主配布JARだけを配置します。別バージョン・別ローダー用、sources・javadoc・開発用・検証用・テスト用JARは配置しません。",
+      "reference": "../docs/mod-guide-authoring.md#r062"
+    },
+    {
+      "number": 63,
+      "status": "pass",
+      "judgment": "Successful compatible0.1.6 main JAR placed in specified Prism; installed hash matches, metadata-identified old own copies removed including renamed scan; unrelated mods/.index preserved, compatible pinned dependencies reused",
+      "evidence": [
+        "deployment",
+        "artifact"
+      ],
+      "requirementText": "ビルド成功と完成JARの存在を先に確認し、同じPonder解説MODの古いJARを完成JARへ入れ替えます。テスト・開発環境内では、旧版を `.disabled`・`.bak`・`.old` 等へ改名したり、無効化・バックアップして残したりしません。MOD ID・JARメタデータ・ビルド記録から同じMODの不要な旧版と確認できた改名済み・無効化済みコピーも除去し、配置後に完成JARとのハッシュ一致と旧版の残存がないことを確認します。曖昧なファイル名だけで判定せず、別の解説MOD、依存MOD、他のMinecraft版・ローダー環境に必要な成果物を巻き込みません。この方針はクライアント・サーバー双方のテスト・開発環境に適用し、作業記録用の検証証拠をそれらの環境の外へ保存することは妨げません。",
+      "reference": "../docs/mod-guide-authoring.md#r063"
+    },
+    {
+      "number": 64,
+      "status": "pass",
+      "judgment": "Successful compatible0.1.6 main JAR placed in specified Prism; installed hash matches, metadata-identified old own copies removed including renamed scan; unrelated mods/.index preserved, compatible pinned dependencies reused",
+      "evidence": [
+        "deployment",
+        "artifact"
+      ],
+      "requirementText": "配置したJAR名と対象環境、除去した旧版、必要な再起動の有無を記録・報告します。実行中の無関係なMinecraftや利用者の作業を中断しません。",
+      "reference": "../docs/mod-guide-authoring.md#r064"
+    },
+    {
+      "number": 65,
+      "status": "pass",
+      "judgment": "Successful compatible0.1.6 main JAR placed in specified Prism; installed hash matches, metadata-identified old own copies removed including renamed scan; unrelated mods/.index preserved, compatible pinned dependencies reused",
+      "evidence": [
+        "deployment",
+        "artifact"
+      ],
+      "requirementText": "`ponder-series` 配下の各プロジェクトの主配布JARに加え、Mekanism等の解説対象MOD本体と、その動作に必要な前提MOD・ライブラリのJARも、共通要件61の指定インスタンスの `minecraft\\mods` に配置します。Ponder・Flywheel等を含め、各MODが必要とする依存関係を揃えます。対象インスタンスのMinecraft版・ローダーと、同時に導入するMOD全体の依存条件に適合する版を選び、既に条件を満たすJARがある場合は再利用します。前提MODは解説MODのJARへ埋め込まず、それぞれ独立したJARとして配置し、配置・再利用したMOD名と版を記録します。",
+      "reference": "../docs/mod-guide-authoring.md#r065"
+    },
+    {
+      "number": 66,
+      "status": "pass",
+      "judgment": "All JA/EN keys read; 20 locale fresh samples plus exact-text old reviews retain complete authored units, natural explanations, necessary safety requests, punctuation policy and timing",
+      "evidence": [
+        "semantic-review",
+        "presentation-check",
+        "caption-font",
+        "current-runtime"
+      ],
+      "requirementText": "吹き出しの切り替えは、各言語で完結した文、制作時に定義した完結した表示単位、または共通要件67の明示的な継続箇所の境界だけで行います。文字数・単語数・フォント幅・行数だけを基準に1文を複数の吹き出しへ機械的に切り分けず、`The xxx machine does` のような不自然な断片を表示しません。長い文をそのまま残して行数超過を放置するのでもなく、共通要件19に従って教材と訳文を直します。実行時の分割器が長文を受け取っても、作者が指定していない箇所で切断・省略せず、制作時の検査で修正対象を検出します。略語・小数・Minecraftの版・レジストリID等を文末と誤認せず、各言語の語順と文法を保ちます。検証では行数や全文連結の一致だけでなく、各吹き出しが完結しているか正しく継続していること、正当な理由のない複数文の結合がないこと、翻訳の意味と表示順が保たれることを確認します。",
+      "reference": "../docs/mod-guide-authoring.md#r066"
+    },
+    {
+      "number": 67,
+      "status": "not_applicable",
+      "judgment": "No authored continuation markers in current22 locale caption/description units; paired-marker parser and order checks remain available and tested",
+      "evidence": [
+        "artifact-binding",
+        "presentation-check"
+      ],
+      "requirementText": "短く推敲しても一つの文として長くなる説明は、CreateのPonderの例に倣い、条件と結果などの意味の区切りを制作時に選んで複数の吹き出しへ継続できます。前の吹き出しの末尾と直後の吹き出しの先頭へ「…」を付けます。例:「応力源が足りず、応力が超過してしまうと…」→「…それにつながった装置はすべて止まってしまいます」。3つ以上へ続く場合、中間の吹き出しには先頭と末尾の両方に付けます。各部分はそれ自体が読み取れる自然な節・意味のまとまりとし、主語や助動詞だけ等の不自然な断片にしません。原文と全22言語の翻訳で継続箇所を明示的に定義し、対象言語の語順・文法に合わせて推敲します。実行時に幅や行数で任意に切って「…」を付ける処理や、英語の切断位置を他言語へ機械的に流用する処理は禁止です。省略記号は内容の省略を意味せず、全文の意味・条件・数値を保持します。各吹き出しは省略記号を含めて最大3行・できれば2行とし、継続表示の順序、前後の記号の対応、孤立した「…」や続きの欠落がないことを検証します。通常の短文はこの例外を使わず、共通要件19・20の表示を基本にします。",
+      "reference": "../docs/mod-guide-authoring.md#r067"
+    },
+    {
+      "number": 68,
+      "status": "pass",
+      "judgment": "Native item W path, PonderTagIndexScreen/TagScreen, course/history and chapter/item commands retained; no ordinary-screen guide buttons; 320/480/960 layout/pagination evidence reused",
+      "evidence": [
+        "native-ui",
+        "palette-fallback",
+        "source",
+        "search-cases"
+      ],
+      "requirementText": "設定画面の左下を含め、通常のMinecraft画面・インベントリ・メニューへ、このシリーズ独自のガイドボタンを追加しません。複数の解説MODを同時導入しても重ならない入口として、標準のアイテムホバー＋W長押しとクライアントコマンドを使います。既存の追加ボタン、衝突回避用の配置処理、不要になった登録や参照も撤去します。ただし、Ponder内の標準再生操作や共通要件71の標準タグボタンは維持します。他MOD・ローダー・Minecraft自身の既存ボタンを削除せず、ボタン撤去と無関係な画面調整・標準タグ接続を担うイベント処理を巻き込みません。",
+      "reference": "../docs/mod-guide-authoring.md#r068"
+    },
+    {
+      "number": 69,
+      "status": "pass",
+      "judgment": "All JA/EN keys read; 20 locale fresh samples plus exact-text old reviews retain complete authored units, natural explanations, necessary safety requests, punctuation policy and timing",
+      "evidence": [
+        "semantic-review",
+        "presentation-check",
+        "caption-font",
+        "current-runtime"
+      ],
+      "requirementText": "自MODが提供するゲーム内の解説文・字幕・アイテム説明では、文末のピリオド・句点を原則として付けません。全22言語で、通常の文末の「.」「。」「．」や各言語の同等の終止符を対象とし、短く文法的に完結した表示単位は維持します。ここでのピリオドは文末の句点を指し、読点（「,」「、」等）を一律削除する意味ではありません。小数・版番号・略語・ファイル名・URL・レジストリID・コマンド・実際のUI名などの意味に必要な点、および共通要件67の「…」は保持します。原本と訳文を確認し、生成物だけの手修正や、文字列全体から点を消す処理を使いません。作者指定の文境界・継続対応・断片や不当な複数文結合の検査を保ち、文末句点の存在を完結文の必須条件にしません。例外は意味を保つ理由を記録します。",
+      "reference": "../docs/mod-guide-authoring.md#r069"
+    },
+    {
+      "number": 70,
+      "status": "pass",
+      "judgment": "Per-locale per-unit NORMAL/WARNING/HINT roles explicitly authored; native WHITE/RED/GREEN independently of outlines; changed roles actual append colors measured, palette implementation unchanged",
+      "evidence": [
+        "current-runtime",
+        "palette-fallback",
+        "semantic-review"
+      ],
+      "requirementText": "自MODの説明テキストは、通常を白、警告・失敗条件・動作しなくなる可能性を薄い赤、ヒント・任意の工夫や対処の助言を薄い緑で表示します。Ponder本文には標準のPonderPalette.WHITE・RED・GREENと、その標準描画による明るい色を利用します。通常本文を青にせず、単語の自動検索だけで分類しません。作者が各表示単位の意図を教材データ等に明示し、通常・警告・ヒントが混在するステップでは必要に応じて単位ごとに指定します。全22言語で意味に合う分類を維持し、英語の単位番号を、単位数が異なる訳文へ無条件に流用しません。字幕以外の独自説明にも同じ区別を適用し、他MODの文章やPonder標準UIの配色を一括変更しません。文字色の変更を模型の輪郭や選択表示の色へ無条件に流用しません。",
+      "reference": "../docs/mod-guide-authoring.md#r070"
+    },
+    {
+      "number": 71,
+      "status": "pass",
+      "judgment": "Native item W path, PonderTagIndexScreen/TagScreen, course/history and chapter/item commands retained; no ordinary-screen guide buttons; 320/480/960 layout/pagination evidence reused",
+      "evidence": [
+        "native-ui",
+        "palette-fallback",
+        "source",
+        "search-cases"
+      ],
+      "requirementText": "カテゴリーを編成したPonderでは、画像例のように左上の標準タグボタンから、表示中の教材・対象アイテムが所属するカテゴリーと、そのカテゴリーの他の説明へ進めるようにします。標準のタグ一覧・タグ画面と既存の戻る操作を使い、独自のメニューボタンや章一覧画面を新設しません。代表アイコンだけでなく、実際にW起動する関連アイテムにも正しいタグを登録します。コマンド・W・標準タグ画面のどこから開いても、開始位置と前後の教材移動に応じて、標準のアイテム表示とカテゴリー導線が正しく更新される状態を保ちます。先頭教材のタグを固定表示したり、無関係な全章タグを一括表示したりして代用しません。タグ内には同じカテゴリーの有効な教材だけを表示し、任意アドオンの未導入教材を除外します。検証では通常画面の追加ボタンがないこと、3種類の本文色、句点と保護対象の点、直接起動・カテゴリー遷移・前後移動・戻るを確認します。",
+      "reference": "../docs/mod-guide-authoring.md#r071"
+    },
+    {
+      "number": 72,
+      "status": "pass",
+      "judgment": "Own project files/artifacts only; parent owns common docs; existing reviewers used with bounded ownership and evaluated results; no new chat/repository/push",
+      "evidence": [
+        "git",
+        "semantic-review"
+      ],
+      "requirementText": "今後の個別プロジェクト作業は、原則として親チャットが直接修正せず、それぞれのプロジェクトの既存チャットへ指示を送り、進捗・検証結果・配置・完了を監視します。親は要件・受け入れ条件の整理、読み取り調査、結果の評価を担い、不備や回帰があれば担当チャットへ修正指示を返します。担当チャットは自プロジェクトのコード・教材・翻訳・テスト・個別文書・配布物を扱い、他担当の変更を巻き戻しません。このルートの共通ルールの追記・見直し・共通記録は、親が単独で作業して構いません。指示の送信を実装完了と混同せず、実際の完了結果を確認します。利用者が特定の作業について別の方法を明示した場合は、その指示を優先します。無関係なチャットやプロセスを中断せず、新しいチャットの作成や監視オートメーションの新設は利用者から明示された場合だけ行います。",
+      "reference": "../docs/mod-guide-authoring.md#r072"
+    },
+    {
+      "number": 73,
+      "status": "pass",
+      "judgment": "All JA/EN keys read; 20 locale fresh samples plus exact-text old reviews retain complete authored units, natural explanations, necessary safety requests, punctuation policy and timing",
+      "evidence": [
+        "semantic-review",
+        "presentation-check",
+        "caption-font",
+        "current-runtime"
+      ],
+      "requirementText": "Ponderは模型の動作を見ながら仕組みを理解する解説として書き、各操作を視聴者へ繰り返し要求する「〜してください」調にしません。「〜を接続すると」「〜へ送られます」「この操作で〜を切り替えられます」など、操作・状態・条件・結果を短く自然に説明します。「動かない場合は接続を確認してください」のように、実際の確認・注意・対処を促す必要のある表現は残せます。依頼表現を全面禁止したり、すべてを機械的に「〜できます」へ置換したりしません。条件や主語を失う単純な語尾置換を避け、教材の動作・意味・数値・正式名称を保って推敲します。長い説明では共通要件67に従い「〜すると…」→「…〜ができます」のような明示的な継続を使えますが、通常の短文へ継続を強制しません。字幕だけでなく要約・自作アイテム説明・使用するガイド本文も確認し、全22言語で各言語に自然な説明口調にします。日本語の語尾を他言語へ直訳せず、必要な命令形や呼びかけは共通要件13に従って使い分けます。作者指定の表示単位・継続・色の意図を見直し、最大3行・できれば2行、文末句点を付けない原則、意味と表示順を保ちます。依頼語の件数だけで合否を決めず、通常操作・条件と結果・警告・対処の代表箇所を内容としてレビューします。",
+      "reference": "../docs/mod-guide-authoring.md#r073"
+    },
+    {
+      "number": 74,
+      "status": "not_applicable",
+      "judgment": "Core Mekanism only; mention of Mekanism: Generators is not a Generators lesson; no addon scope requested, so no addon chapter or new dependency",
+      "evidence": [
+        "coverage",
+        "semantic-review",
+        "policy"
+      ],
+      "requirementText": "アドオンのPonder教材があるすべての対象MODでは、アドオンごとに独立した章を編成します。複数のアドオンを「アドオンの要素」等の一章だけへまとめず、アドオンの実名が分かる章名と標準Ponderタグで選べるようにします。章の所属は実際のアドオン・機能に基づけ、本体の教材や別アドオンの教材を混ぜて対応済みとしません。共通要件40・41・71の標準索引・タグ・前後移動・戻るを使い、独自の章画面を新設しません。教材・関連アイテム・コマンド・検索・ガイドページ・章順・全22言語の名称を整合させ、既存IDや別名への影響を確認します。未導入アドオンとその教材・空の章は表示せず、任意依存のまま本体だけでも起動できるようにします。短文説明だけで完結するアドオンは共通要件5・6を優先し、短文対応であることを記録して、無意味な場面や空章を作りません。対応アドオンの追加は利用者が指定したプロジェクトの範囲で行い、対象版・ローダーに実在する互換配布物とその実装を確認します。今回の追加対象とMTR固有の色指定は[プロジェクト個別要件](project-specific-requirements.md)を参照してください。",
+      "reference": "../docs/mod-guide-authoring.md#r074"
+    },
+    {
+      "number": 75,
+      "status": "pass",
+      "judgment": "Independent381 registry items,36 factories, tiers/creative component variants and routing-color placed state checked;175W/192 ownShift/22both/35native-only/1internal; concrete material/process descriptions cover guide omissions, native module/upgrade scope separately recorded",
+      "evidence": [
+        "coverage",
+        "native-ui",
+        "current-runtime",
+        "semantic-review"
+      ],
+      "requirementText": "色違い等で同じ機能を持つアイテムは、代表アイテムだけでなく実際の各アイテムから適切な共通Ponder・Shift説明へ到達できるようにします。標準タグ画面の代表カードを絞る処理で、W用登録や実アイテムのタグ・コマンド対応まで削りません。ItemStackのデータ成分等で機能が異なる対象は、その情報を保って正しい教材を選びます。対象版の実レジストリ・派生形・元ガイドの関連アイテム・機能分類と、提供するShift説明・Ponderの実登録を突き合わせ、登録済み定義だけから期待値を作る自己一致検査で済ませません。元ガイドで解説される機能があるのに両方の入口がない場合は漏れとして調べ、短文で足りるものはShift説明、操作や変化を示すものは適切なPonderへ補います。素材等でも、元ガイドの明示対象で具体的な用途・製法・条件の有用情報がある場合は、独自の能動操作がないという理由だけで除外しません。元ガイドやレシピビューアーがあること自体を入口漏れの除外理由にせず、実装・レシピを優先して必要な短文を補います。件数を満たすための無関係な場面への一括登録・空のPonderや、全アイテムへのPonder強制はしません。除外は対象・理由・根拠を記録し、未対応を装飾品等と呼んで隠しません。全22言語・任意アドオンの導入条件・標準カテゴリー導線を維持し、実アイテムのツールチップ・標準W・コマンド等で代表的な派生形と漏れ修正を検証します。",
+      "reference": "../docs/mod-guide-authoring.md#r075"
+    }
+  ],
+  "requirementStatusCounts": {
+    "pass": 64,
+    "conditional": 6,
+    "not_applicable": 5
+  },
+  "verification": [
+    {
+      "command": "python tools/guide_data.py check",
+      "result": "PASS; full22locale data/source review hashes/placeholders/authored units"
+    },
+    {
+      "command": "python tools/guide_data.py generate .work/jaen-compliance-20261030-generated",
+      "result": "PASS; generated bytes compared with final JAR"
+    },
+    {
+      "command": "python tools/check_item_coverage.py",
+      "result": "PASS381 registry items;175W192Shift22both35native-only1internal"
+    },
+    {
+      "command": "python -m unittest discover -s tools -p test_presentation.py -q",
+      "result": "PASS5 tests"
+    },
+    {
+      "command": "python -m unittest discover -s tools -p test_search.py -q",
+      "result": "PASS1 test /16 Java cases"
+    },
+    {
+      "command": "gradlew.bat compileJava compileValidationJava jar --offline --console=plain",
+      "result": "PASS; Java21, production0.1.6 built"
+    },
+    {
+      "command": "python tools/check_release.py build/libs/mekanism-ponder-guide-0.1.6-neoforge-1.21.1.jar",
+      "result": "PASS22×247 keys,39 Java21 classes, packaging"
+    },
+    {
+      "command": "gradlew.bat compileValidationJava --offline --console=plain",
+      "result": "PASS after scoped harness change; production artifact unchanged"
+    },
+    {
+      "command": "tools/validate-navigation.ps1 -ValidationCoverage -ValidationDescriptions coverage_ore_blocks,coverage_lasers,coverage_fissile_materials -ValidationCaptions power_2,diagnose_processing_3 -MutexTimeoutMinutes 30",
+      "result": "PASS final scoped hidden runtime; all22 locales; current success JSON and reports bound to JAR classes"
+    }
+  ],
+  "failedAttemptsAndResolution": [
+    {
+      "attempt": 1,
+      "result": "FAIL",
+      "diagnosis": "Six legacy description units exceeded3lines (HI atomic_alloy/sps, MS atomic_alloy/sps, AR atomic_alloy, CS atomic_alloy)",
+      "remedy": "Rewrote as complete authored factual/name introduction units and preserved HINT/WARNING roles; final run remeasured all15description groups22locales",
+      "diagnosticPath": ".work/jaen-font-first-20261030.json",
+      "diagnosticSha256": "35e1f81a50d7bca755f135a6faabeb17b8e1ae2d3a0038ebf7b8fc7cdfdd5b26"
+    },
+    {
+      "attempt": 2,
+      "result": "FAIL",
+      "diagnosis": "OptionsScreen.render NativeImage: Image is not allocated after language reload",
+      "remedy": "No product UI changes; scoped font mode uses blank reload screen and goes directly to font loop, reusing unchanged native UI evidence",
+      "diagnosticPath": ".work/jaen-validation-options-crash-20261030.log",
+      "diagnosticSha256": "11da06e1e660f77071fe1146d1bdb2e3fc67c50eb529eee5dc8feb8a7eca976a"
+    }
+  ],
+  "deployment": {
+    "passed": true,
+    "deployedAtJst": "2026-10-30T01:43:25.201149+09:00",
+    "instance": "~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test",
+    "modsDirectory": "~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test\\minecraft\\mods",
+    "components": {
+      "org.lwjgl3": "3.3.3",
+      "net.minecraft": "1.21.1",
+      "net.neoforged": "21.1.262"
+    },
+    "artifact": {
+      "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\build\\libs\\mekanism-ponder-guide-0.1.6-neoforge-1.21.1.jar",
+      "version": "0.1.6",
+      "sha256": "b5b28a13bbfcd492d98907aa21186d28edae480369e293e833efda0bd6e52208"
+    },
+    "installedPath": "~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test\\minecraft\\mods\\mekanism-ponder-guide-0.1.6-neoforge-1.21.1.jar",
+    "installedSha256": "b5b28a13bbfcd492d98907aa21186d28edae480369e293e833efda0bd6e52208",
+    "obsoleteOwnCopiesRemoved": [
+      {
+        "path": "~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test\\minecraft\\mods\\mekanism-ponder-guide-0.1.5-neoforge-1.21.1.jar",
+        "sha256": "9ad4dc371c66f44645aaf5d462e16a214b76643cd2f567c155481fb3867652a5",
+        "version": "0.1.5"
+      }
+    ],
+    "remainingOwnCopies": [
+      "~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test\\minecraft\\mods\\mekanism-ponder-guide-0.1.6-neoforge-1.21.1.jar"
+    ],
+    "scanScope": "All files recursively, regardless of suffix, identified by ZIP mod metadata; no renamed backups retained",
+    "otherRuntimeDirectories": {
+      "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\run\\mods": {
+        "exists": false,
+        "ownCopies": 0
+      },
+      "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\build\\validation-run\\mods": {
+        "exists": true,
+        "ownCopies": 0
+      }
+    },
+    "unrelatedFilesPreserved": 78,
+    "indexFilesPreserved": 32,
+    "dependenciesReused": [
+      {
+        "modId": "mekanism",
+        "version": "10.7.19",
+        "path": "~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test\\minecraft\\mods\\Mekanism-1.21.1-10.7.19.85.jar",
+        "sha256": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43"
+      },
+      {
+        "modId": "ponder",
+        "version": "1.0.87+mc1.21.1",
+        "path": "~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test\\minecraft\\mods\\ponder-neoforge-1.0.87+mc1.21.1.jar",
+        "sha256": "d6b7fdf94359f73dc1fee730eded898d51b3bf0d626710753253becd8e4e6bef"
+      },
+      {
+        "modId": "flywheel",
+        "version": "1.0.4",
+        "path": "~\\AppData\\Roaming\\PrismLauncher\\instances\\1.21.1 mod creation test\\minecraft\\mods\\flywheel-neoforge-1.21.1-1.0.4.jar",
+        "sha256": "1e715b19c4936b6766eb77762812e57135db1a542343d8afb9127cd7fe5a3e1e"
+      }
+    ],
+    "dependenciesAdded": [],
+    "sharedBaseline": {
+      "path": "~\\dev\\minecraft\\mods\\ponder-series\\work\\jaen-compliance-20261030\\before.json",
+      "sha256": "ca98c862885bd774fd4470ff65cc9d7b3dee38ff510d5d521b9a289745abc1ca",
+      "fileCount": 79,
+      "indexCount": 32,
+      "preDeploymentChangesByOtherTasks": [
+        "enderio-ponder-guide-0.1.5.jar",
+        "immersive-engineering-ponder-guide-0.1.6-neoforge-1.21.1.jar",
+        "industrial-foregoing-ponder-guide-0.1.6-neoforge-1.21.1.jar",
+        "odysseymap-development.jar",
+        "oritech-ponder-guide-0.3.2-neoforge-1.21.1.jar",
+        "refined-storage-ponder-0.1.6-neoforge-1.21.1.jar"
+      ],
+      "preDeploymentRemovedByOtherTasks": [
+        "enderio-ponder-guide-0.1.4.jar",
+        "immersive-engineering-ponder-guide-0.1.5-neoforge-1.21.1.jar",
+        "industrial-foregoing-ponder-guide-0.1.5-neoforge-1.21.1.jar",
+        "oritech-ponder-guide-0.3.1-neoforge-1.21.1.jar",
+        "refined-storage-ponder-0.1.5-neoforge-1.21.1.jar"
+      ]
+    },
+    "beforeFiles": {
+      "ae2-ponder-guide-0.1.0-beta2.jar": "c9a0f770cdb62264f27b379c21a22d05ebaa10c00784b89d766a8584dbf0bfa1",
+      "ae2-things-1.4.2-beta.jar": "9725dd363cc874601737b417ddfe675e4a5ae4a6428bdeb67ac408f775eb4241",
+      "AE2MEGAThings-1.21.1-2.0.4.jar": "97537207b4c68a417a15b5a029f82e55510e0fcaa22be3c97b199bf2c7c5f7b9",
+      "ae2omnicells-1.21.1-neoforge-1.1.6.jar": "9ced732d2140d103df8d675a1986940395c15c82dc1bfd14bf1f45e2c68a2fc1",
+      "appliedenergistics2-19.2.18.jar": "df15a07f86ca1ca93aa66373f9d5d84dd3d4586631fceb38f4fbc85dad591e39",
+      "applied_oritech-1.0.4+1.21.1.jar": "77b95af420e26becff181545a974e896dfbac9fb4a5e47cc2aa421600ca8d501",
+      "architectury-api-1IiqEQGl.jar": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+      "athena-ctm-dJgL278E.jar": "43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5",
+      "bigger_ae2-1.21.1-1.4.9.jar": "dc39eb8dba0dd4ab714c5b926f5acef548a2bcf41207c3eb026be7869e3b88d1",
+      "create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+      "EdivadLib-1.21-3.0.0.jar": "daf3201364c5e9dbc7c0d99a9617cd82c40f203e489a4701b228daa765038d92",
+      "Emojiful-Neoforge-1.21.1-5.2.8.jar": "1568cc9308bf744e0c3fe4e141304cf1f1626578db56b72c41503a79d471d5b0",
+      "enderio-8.2.12-beta.jar": "5fe098153dddc2e7ccd9d38b0341dbc61f3072150958c916e5ef63f395e4eab1",
+      "enderio-ponder-guide-0.1.5.jar": "40d63db49c84708dce12de265769334e28338ac4607ea6bab80a60989cf81593",
+      "enderio_conduit_opt-1.1.6-1.21.1.jar": "57ff2fb51e222b91465fa68ea5ea12c5438b615e6d08080e0023bb3caca4a454",
+      "enderio_endergy-8.0.1-alpha.jar": "c0ad36135677ed01390c218501300e56a8f05dc26c414fec53310472db603911",
+      "enderio_evolution-3.1.5-NeoForge-1.21.1.jar": "f1af482dc6928a9d4c128549508454d9797fa6033a36d51907811a69a1f84fed",
+      "ExtraStorage-1.21.1-5.1.0.jar": "b5ee569705af27c94b9ad195ae72028122924ed295d9e4053f8a6d4393b990a5",
+      "flywheel-neoforge-1.21.1-1.0.4.jar": "1e715b19c4936b6766eb77762812e57135db1a542343d8afb9127cd7fe5a3e1e",
+      "geckolib-Grwn5rUB.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+      "guideme-21.1.19.jar": "2ce254edb931c3c3cf81d69abaf8f4ce5b871bf85e64984f366bf044173bd66a",
+      "heracles-neoforge-1.21.1-2.0.3-login.1.jar": "65f0c47af88dee958cd9cf3fc2aabb664be1720bf2a181a3b6e225335487df8d",
+      "immersive-engineering-ponder-guide-0.1.6-neoforge-1.21.1.jar": "6110d88ccf942eef90f46fb1efa4fd529967d56639595f7995f3caf447a8af54",
+      "ImmersiveEngineering-1.21.1-12.4.2-194.jar": "45942985a4a4aebf265b8e22a0c54a96208637471f36f2532ff5d4911322debc",
+      "industrial-foregoing-ponder-guide-0.1.6-neoforge-1.21.1.jar": "b2288c5b7d0bab5180ef4c3194bd01ca27ac4be4405fefe8441dfe51cd36dfe6",
+      "industrial-foregoing-souls-1.21.1-1.10.4.jar": "57955ba464903be4c61de4b44018d6fd2f482ba0eadf9fed85383ae8e05d5ab0",
+      "industrialforegoing-1.21-3.6.38.jar": "e242dc05af2bc1e1316e1a8f7807ccc037b13e2594ce3967b77639a21deaf0a4",
+      "jei-1.21.1-neoforge-19.69.0.457.jar": "5f09d199dba1265e131ef1672597ea07857220e4cc2ff1dc754e8bd0e6378925",
+      "just-keep-my-defaults-0.9.0+mc1.21.1-neoforge.jar": "881939b5e587ee9daeb2f79f512b638feb8ad103cc4784a93aab9e7cc83c813d",
+      "kotlinforforge-5.12.0-all.jar": "2785a4dd6de5c6c56065fd8eb789c82771bd2ee773c30794c23160a3b2c39139",
+      "megacells-4.11.0.jar": "4a89663cc913f5bc8fd00f1a7146a2ad4b45bb4dd8bca245a445a636044d4762",
+      "Mekanism-1.21.1-10.7.19.85.jar": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43",
+      "mekanism-ponder-guide-0.1.5-neoforge-1.21.1.jar": "9ad4dc371c66f44645aaf5d462e16a214b76643cd2f567c155481fb3867652a5",
+      "mezz_config-1.21.1-neoforge-0.6.8-standalone.jar": "182ad8ad757175b49d573512c8fac624ee526e8138e24b36f677b0f6466e20cb",
+      "mifa-neoforge-1.21.x-2.1.0.jar": "dab09f72c4df39efc5d7f8949e4ab02b7d5f74242ee17b8c26fb172c2761d49f",
+      "MTR-neoforge-4.1.0-beta.2+1.21.1.jar": "ff2b753d03f2bcc000d053a9014e4250c8ba720daa9b69b6899fe7dc26be1efa",
+      "mtr-ponder-guide-0.1.5-neoforge-1.21.1.jar": "86ee05dc6a4c0bd4ee0ba452e217a553359c76046de82d421a618dd527d48d5d",
+      "odysseymap-development.jar": "0f65960010e2c508b2ba992790aabec14702f92423b46ccea66819aed2135043",
+      "oritech-BR0KKypH.jar": "32600bf5b08fcf6d4a49e557f90ee45b238098170777872c8919d9fdb0a1b828",
+      "oritech-ponder-guide-0.3.2-neoforge-1.21.1.jar": "af23b1a2adcc59a1e3422f083e93ac3cf3947197d6422060ca877d2e1501ce7f",
+      "oritechthings-0.0.48.jar": "c81c7fd7074da2a76aec21fbad3f36c1a6c94cb76c2e4c213a2bc7f8717c2aaf",
+      "ponder-neoforge-1.0.87+mc1.21.1.jar": "d6b7fdf94359f73dc1fee730eded898d51b3bf0d626710753253becd8e4e6bef",
+      "refined-storage-lHHiI26k.jar": "e9c758dddcdfa9c02a7370ca3f4f972a285a1e38ca434bd1fc15cb223ffa06ab",
+      "refined-storage-ponder-0.1.6-neoforge-1.21.1.jar": "f3548e722547aaa925f52ceab895ee8e46aa02734fc5e5180961abf5943d835c",
+      "refinedstorage-quartz-arsenal-neoforge-1.0.8.jar": "c6f00a8dc5707726a6252aa57690d2b8d90fb350dd7f92817276efc16e8af186",
+      "resourcefullib-neoforge-1.21-3.0.11.jar": "accb96a55f7ce147bf57c32a0743dfcd8e868033d07c9679beb1a10c3f58d11a",
+      "titanium-1.21-4.0.34.jar": "a3c2ab6d4cc304150dba7463722c7aab51e936c0b46081b1c78159ab4b56ae64",
+      ".index/ae2-mega-things.pw.toml": "fbdd7943c6296cdbd5747df6ea493d124ee88c3f99c41887fb2cf93d4b89622d",
+      ".index/ae2-omni-cells.pw.toml": "e2d0851792d452901b831dde4625b1af15631c040d5f0212a5d3fb1bf4f1b9c2",
+      ".index/ae2-things-forge.pw.toml": "00a56b9854c7ed33e29fed4cf8d8180669274e3dced2b03fdb32d166ba8b871b",
+      ".index/ae2.pw.toml": "faa5d04b847ef9d7bc0bd3bb39fc4ef4b381a1cf897f2301ff1c17b0d0fdd91a",
+      ".index/applied-oritech.pw.toml": "2c0865d6c84f451f6ee154127461185c36c69f385b3dda7ed34f43627d26e66c",
+      ".index/architectury-api.pw.toml": "9e020359ad5738d4622ee6759c054a09bd3f22487a2d3568a171dfe03e67cf25",
+      ".index/athena-ctm.pw.toml": "44782e0c2fa7e0eeefcdf75d2804a2adb205c6bb4b214f4dba451c8b3e1b9947",
+      ".index/bigger-ae2.pw.toml": "00e2e6cf56d1f64a34080c89fb61d9da16d0a1e288d03b6eaec75fdbdd6d4b38",
+      ".index/create.pw.toml": "d54c45b486976c4c6ffb74197f2f1f8d37130ab4208db229969b6397517e40e7",
+      ".index/edivadlib.pw.toml": "055f5052b324d22d4811f82507722a83963df396033023c9772810ef0d223250",
+      ".index/ender-io-conduit-optimizer.pw.toml": "a8698ff7315b546e73a6261d691123f32c61643cdc3e5754f2d2894254bb99a6",
+      ".index/enderio-endergy.pw.toml": "d42aef3810821321d28627b9998a8da93afe52ce678a094fd2755417206204bd",
+      ".index/enderio-evolution.pw.toml": "0f0b7c11b3dc38d73e85d7a0f06d6ecfed1a08aab8d466e308d5b91b024dc089",
+      ".index/enderio.pw.toml": "90ca5f8c31b78dca88dbbc5c56598b312cb4079c56b77a1b1f04122ae3499096",
+      ".index/extrastorage.pw.toml": "cd4fda7ef321ab48f8754911aebf0b6138e239f659aa2b7f3bddfa09a8de9a23",
+      ".index/geckolib.pw.toml": "12b42030f3e1c6a65aeca871f5e5cda61e02426f3e2031118f42555fef6f9107",
+      ".index/guideme.pw.toml": "49f1ec084a2cfc79dee4dcd7a7da4c3d86f3978223688913ab65453164d28ca5",
+      ".index/immersiveengineering.pw.toml": "7cfa7761c0d990e77ebc18f2bb43722169567ec579fb7c57ff50e29b25b54856",
+      ".index/industrial-foregoing-souls.pw.toml": "bfa82a8e21d77372eb00cad026ba883c3e5b64cd16c56378dfe1b2fad10dda0c",
+      ".index/industrial-foregoing.pw.toml": "78042fad9114726ac82ca598aef715d55f1aa7fe752ac780c981e6facd3d8bdf",
+      ".index/jei.pw.toml": "1fc46b4ca7d8f84008cc913912ef01f00ce4cdd6fcc41b20b1ee4788f72de960",
+      ".index/kotlin-for-forge.pw.toml": "4fedfd04a64cbed1f16fde7a400cbb8aee1f7a0725cc4d5aa7fe7202905f5617",
+      ".index/mega.pw.toml": "2aee3dc6c264f0cb4202f5fdc458b47c96367de6d6f524b7d847914634d83a05",
+      ".index/mekanism.pw.toml": "c4d950927577bdee9c3fcb2baca7b4e44e87bfa537877eb96da436962dff9f9a",
+      ".index/mezzconfig.pw.toml": "2a648ad6b17481e775faa9af1dc61f00c76688205c2c6ee645f852055cf9efc4",
+      ".index/mifa.pw.toml": "572d59e613beff5199851a2e9f94c108926888df2c37ff5f8f9cd7f6d3fa5a17",
+      ".index/minecraft-transit-railway.pw.toml": "49247cea0a3ace2279a5328223ccb9d4b3ec0ec5573b241d70910a93ab8dac70",
+      ".index/oritech-things.pw.toml": "1af39c6d986aee2a73dddb8d9a08b342939df109fcf7b906ce25896ed2101289",
+      ".index/oritech.pw.toml": "8e051f472875203e0813bedcb5fbf01f2a6da55d2ce53929551a190f2a3e0beb",
+      ".index/refined-storage-quartz-arsenal.pw.toml": "bfe6b25144e246b5ea09a4107f99a3d4bb85f6b670aea2f4d13c260d3aba4aef",
+      ".index/refined-storage.pw.toml": "f8aac1ded6c765fb70dfe3e16e1511fd5e6e97c3e724c148f353058064ae5ca8",
+      ".index/titanium.pw.toml": "94c94566a4c4d0cbeea268df0bfe33ad50d6f0d8782464cc89f6f35b3e20bc1b"
+    },
+    "afterFiles": {
+      "ae2-ponder-guide-0.1.0-beta2.jar": "c9a0f770cdb62264f27b379c21a22d05ebaa10c00784b89d766a8584dbf0bfa1",
+      "ae2-things-1.4.2-beta.jar": "9725dd363cc874601737b417ddfe675e4a5ae4a6428bdeb67ac408f775eb4241",
+      "AE2MEGAThings-1.21.1-2.0.4.jar": "97537207b4c68a417a15b5a029f82e55510e0fcaa22be3c97b199bf2c7c5f7b9",
+      "ae2omnicells-1.21.1-neoforge-1.1.6.jar": "9ced732d2140d103df8d675a1986940395c15c82dc1bfd14bf1f45e2c68a2fc1",
+      "appliedenergistics2-19.2.18.jar": "df15a07f86ca1ca93aa66373f9d5d84dd3d4586631fceb38f4fbc85dad591e39",
+      "applied_oritech-1.0.4+1.21.1.jar": "77b95af420e26becff181545a974e896dfbac9fb4a5e47cc2aa421600ca8d501",
+      "architectury-api-1IiqEQGl.jar": "9cc92f2c09533fc5482c60f993bd891c655a0e32b637037cdcb7c2b23adedeeb",
+      "athena-ctm-dJgL278E.jar": "43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5",
+      "bigger_ae2-1.21.1-1.4.9.jar": "dc39eb8dba0dd4ab714c5b926f5acef548a2bcf41207c3eb026be7869e3b88d1",
+      "create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+      "EdivadLib-1.21-3.0.0.jar": "daf3201364c5e9dbc7c0d99a9617cd82c40f203e489a4701b228daa765038d92",
+      "Emojiful-Neoforge-1.21.1-5.2.8.jar": "1568cc9308bf744e0c3fe4e141304cf1f1626578db56b72c41503a79d471d5b0",
+      "enderio-8.2.12-beta.jar": "5fe098153dddc2e7ccd9d38b0341dbc61f3072150958c916e5ef63f395e4eab1",
+      "enderio-ponder-guide-0.1.5.jar": "40d63db49c84708dce12de265769334e28338ac4607ea6bab80a60989cf81593",
+      "enderio_conduit_opt-1.1.6-1.21.1.jar": "57ff2fb51e222b91465fa68ea5ea12c5438b615e6d08080e0023bb3caca4a454",
+      "enderio_endergy-8.0.1-alpha.jar": "c0ad36135677ed01390c218501300e56a8f05dc26c414fec53310472db603911",
+      "enderio_evolution-3.1.5-NeoForge-1.21.1.jar": "f1af482dc6928a9d4c128549508454d9797fa6033a36d51907811a69a1f84fed",
+      "ExtraStorage-1.21.1-5.1.0.jar": "b5ee569705af27c94b9ad195ae72028122924ed295d9e4053f8a6d4393b990a5",
+      "flywheel-neoforge-1.21.1-1.0.4.jar": "1e715b19c4936b6766eb77762812e57135db1a542343d8afb9127cd7fe5a3e1e",
+      "geckolib-Grwn5rUB.jar": "20a1995e4074f387ff549e2c57ea79dd7d41ee83c6afb9dd6a6e840e592d1c47",
+      "guideme-21.1.19.jar": "2ce254edb931c3c3cf81d69abaf8f4ce5b871bf85e64984f366bf044173bd66a",
+      "heracles-neoforge-1.21.1-2.0.3-login.1.jar": "65f0c47af88dee958cd9cf3fc2aabb664be1720bf2a181a3b6e225335487df8d",
+      "immersive-engineering-ponder-guide-0.1.6-neoforge-1.21.1.jar": "6110d88ccf942eef90f46fb1efa4fd529967d56639595f7995f3caf447a8af54",
+      "ImmersiveEngineering-1.21.1-12.4.2-194.jar": "45942985a4a4aebf265b8e22a0c54a96208637471f36f2532ff5d4911322debc",
+      "industrial-foregoing-ponder-guide-0.1.6-neoforge-1.21.1.jar": "b2288c5b7d0bab5180ef4c3194bd01ca27ac4be4405fefe8441dfe51cd36dfe6",
+      "industrial-foregoing-souls-1.21.1-1.10.4.jar": "57955ba464903be4c61de4b44018d6fd2f482ba0eadf9fed85383ae8e05d5ab0",
+      "industrialforegoing-1.21-3.6.38.jar": "e242dc05af2bc1e1316e1a8f7807ccc037b13e2594ce3967b77639a21deaf0a4",
+      "jei-1.21.1-neoforge-19.69.0.457.jar": "5f09d199dba1265e131ef1672597ea07857220e4cc2ff1dc754e8bd0e6378925",
+      "just-keep-my-defaults-0.9.0+mc1.21.1-neoforge.jar": "881939b5e587ee9daeb2f79f512b638feb8ad103cc4784a93aab9e7cc83c813d",
+      "kotlinforforge-5.12.0-all.jar": "2785a4dd6de5c6c56065fd8eb789c82771bd2ee773c30794c23160a3b2c39139",
+      "megacells-4.11.0.jar": "4a89663cc913f5bc8fd00f1a7146a2ad4b45bb4dd8bca245a445a636044d4762",
+      "Mekanism-1.21.1-10.7.19.85.jar": "004dbc9f3106f4d192aeaa1ee1190dd16ec9ca8059ed3d093b80034f4c574f43",
+      "mekanism-ponder-guide-0.1.6-neoforge-1.21.1.jar": "b5b28a13bbfcd492d98907aa21186d28edae480369e293e833efda0bd6e52208",
+      "mezz_config-1.21.1-neoforge-0.6.8-standalone.jar": "182ad8ad757175b49d573512c8fac624ee526e8138e24b36f677b0f6466e20cb",
+      "mifa-neoforge-1.21.x-2.1.0.jar": "dab09f72c4df39efc5d7f8949e4ab02b7d5f74242ee17b8c26fb172c2761d49f",
+      "MTR-neoforge-4.1.0-beta.2+1.21.1.jar": "ff2b753d03f2bcc000d053a9014e4250c8ba720daa9b69b6899fe7dc26be1efa",
+      "mtr-ponder-guide-0.1.5-neoforge-1.21.1.jar": "86ee05dc6a4c0bd4ee0ba452e217a553359c76046de82d421a618dd527d48d5d",
+      "odysseymap-development.jar": "0f65960010e2c508b2ba992790aabec14702f92423b46ccea66819aed2135043",
+      "oritech-BR0KKypH.jar": "32600bf5b08fcf6d4a49e557f90ee45b238098170777872c8919d9fdb0a1b828",
+      "oritech-ponder-guide-0.3.2-neoforge-1.21.1.jar": "af23b1a2adcc59a1e3422f083e93ac3cf3947197d6422060ca877d2e1501ce7f",
+      "oritechthings-0.0.48.jar": "c81c7fd7074da2a76aec21fbad3f36c1a6c94cb76c2e4c213a2bc7f8717c2aaf",
+      "ponder-neoforge-1.0.87+mc1.21.1.jar": "d6b7fdf94359f73dc1fee730eded898d51b3bf0d626710753253becd8e4e6bef",
+      "refined-storage-lHHiI26k.jar": "e9c758dddcdfa9c02a7370ca3f4f972a285a1e38ca434bd1fc15cb223ffa06ab",
+      "refined-storage-ponder-0.1.6-neoforge-1.21.1.jar": "f3548e722547aaa925f52ceab895ee8e46aa02734fc5e5180961abf5943d835c",
+      "refinedstorage-quartz-arsenal-neoforge-1.0.8.jar": "c6f00a8dc5707726a6252aa57690d2b8d90fb350dd7f92817276efc16e8af186",
+      "resourcefullib-neoforge-1.21-3.0.11.jar": "accb96a55f7ce147bf57c32a0743dfcd8e868033d07c9679beb1a10c3f58d11a",
+      "titanium-1.21-4.0.34.jar": "a3c2ab6d4cc304150dba7463722c7aab51e936c0b46081b1c78159ab4b56ae64",
+      ".index/ae2-mega-things.pw.toml": "fbdd7943c6296cdbd5747df6ea493d124ee88c3f99c41887fb2cf93d4b89622d",
+      ".index/ae2-omni-cells.pw.toml": "e2d0851792d452901b831dde4625b1af15631c040d5f0212a5d3fb1bf4f1b9c2",
+      ".index/ae2-things-forge.pw.toml": "00a56b9854c7ed33e29fed4cf8d8180669274e3dced2b03fdb32d166ba8b871b",
+      ".index/ae2.pw.toml": "faa5d04b847ef9d7bc0bd3bb39fc4ef4b381a1cf897f2301ff1c17b0d0fdd91a",
+      ".index/applied-oritech.pw.toml": "2c0865d6c84f451f6ee154127461185c36c69f385b3dda7ed34f43627d26e66c",
+      ".index/architectury-api.pw.toml": "9e020359ad5738d4622ee6759c054a09bd3f22487a2d3568a171dfe03e67cf25",
+      ".index/athena-ctm.pw.toml": "44782e0c2fa7e0eeefcdf75d2804a2adb205c6bb4b214f4dba451c8b3e1b9947",
+      ".index/bigger-ae2.pw.toml": "00e2e6cf56d1f64a34080c89fb61d9da16d0a1e288d03b6eaec75fdbdd6d4b38",
+      ".index/create.pw.toml": "d54c45b486976c4c6ffb74197f2f1f8d37130ab4208db229969b6397517e40e7",
+      ".index/edivadlib.pw.toml": "055f5052b324d22d4811f82507722a83963df396033023c9772810ef0d223250",
+      ".index/ender-io-conduit-optimizer.pw.toml": "a8698ff7315b546e73a6261d691123f32c61643cdc3e5754f2d2894254bb99a6",
+      ".index/enderio-endergy.pw.toml": "d42aef3810821321d28627b9998a8da93afe52ce678a094fd2755417206204bd",
+      ".index/enderio-evolution.pw.toml": "0f0b7c11b3dc38d73e85d7a0f06d6ecfed1a08aab8d466e308d5b91b024dc089",
+      ".index/enderio.pw.toml": "90ca5f8c31b78dca88dbbc5c56598b312cb4079c56b77a1b1f04122ae3499096",
+      ".index/extrastorage.pw.toml": "cd4fda7ef321ab48f8754911aebf0b6138e239f659aa2b7f3bddfa09a8de9a23",
+      ".index/geckolib.pw.toml": "12b42030f3e1c6a65aeca871f5e5cda61e02426f3e2031118f42555fef6f9107",
+      ".index/guideme.pw.toml": "49f1ec084a2cfc79dee4dcd7a7da4c3d86f3978223688913ab65453164d28ca5",
+      ".index/immersiveengineering.pw.toml": "7cfa7761c0d990e77ebc18f2bb43722169567ec579fb7c57ff50e29b25b54856",
+      ".index/industrial-foregoing-souls.pw.toml": "bfa82a8e21d77372eb00cad026ba883c3e5b64cd16c56378dfe1b2fad10dda0c",
+      ".index/industrial-foregoing.pw.toml": "78042fad9114726ac82ca598aef715d55f1aa7fe752ac780c981e6facd3d8bdf",
+      ".index/jei.pw.toml": "1fc46b4ca7d8f84008cc913912ef01f00ce4cdd6fcc41b20b1ee4788f72de960",
+      ".index/kotlin-for-forge.pw.toml": "4fedfd04a64cbed1f16fde7a400cbb8aee1f7a0725cc4d5aa7fe7202905f5617",
+      ".index/mega.pw.toml": "2aee3dc6c264f0cb4202f5fdc458b47c96367de6d6f524b7d847914634d83a05",
+      ".index/mekanism.pw.toml": "c4d950927577bdee9c3fcb2baca7b4e44e87bfa537877eb96da436962dff9f9a",
+      ".index/mezzconfig.pw.toml": "2a648ad6b17481e775faa9af1dc61f00c76688205c2c6ee645f852055cf9efc4",
+      ".index/mifa.pw.toml": "572d59e613beff5199851a2e9f94c108926888df2c37ff5f8f9cd7f6d3fa5a17",
+      ".index/minecraft-transit-railway.pw.toml": "49247cea0a3ace2279a5328223ccb9d4b3ec0ec5573b241d70910a93ab8dac70",
+      ".index/oritech-things.pw.toml": "1af39c6d986aee2a73dddb8d9a08b342939df109fcf7b906ce25896ed2101289",
+      ".index/oritech.pw.toml": "8e051f472875203e0813bedcb5fbf01f2a6da55d2ce53929551a190f2a3e0beb",
+      ".index/refined-storage-quartz-arsenal.pw.toml": "bfe6b25144e246b5ea09a4107f99a3d4bb85f6b670aea2f4d13c260d3aba4aef",
+      ".index/refined-storage.pw.toml": "f8aac1ded6c765fb70dfe3e16e1511fd5e6e97c3e724c148f353058064ae5ca8",
+      ".index/titanium.pw.toml": "94c94566a4c4d0cbeea268df0bfe33ad50d6f0d8782464cc89f6f35b3e20bc1b"
+    },
+    "instanceWasRunning": false,
+    "restartRequired": false,
+    "coexistenceStartupTested": false
+  },
+  "limitations": [
+    "No actual shared Prism all-mod startup or simultaneous eight-guide test; deployment/dependency metadata verification only",
+    "No actual connection to a remote server lacking the guide; static client-only boundaries are a separate check",
+    "Six representative scenes have full playback/rewind/model evidence, not all28; all28 geometry is unchanged and statically checked",
+    "Native W factory and expanded tooltip append paths are programmatic; physical W/Shift keys were not synthesized",
+    "GUI initialized at320/480/960; no physical OS-window resizing or arbitrary resource-pack/font verification",
+    "20 second-scope locales: complete structural validation and exact unchanged prior semantic-review reuse; current fresh review is3 corrected description keys plus7 representative keys per locale (extra font revisions as recorded), not a fresh reading of every unchanged key",
+    "Native Mekanism module31(always) and upgrade4(Shift) explanations retained; their own translation coverage is not counted as this guide22-language support",
+    "The scoped final runtime skips native UI walkthrough after an OptionsScreen resource-reload disposed-image crash; unchanged UI proofs are explicitly reused and current false UI flags remain false"
+  ],
+  "taskClientsStopped": true,
+  "finalProcessCheck": {
+    "matchingClientCount": 0,
+    "checkedAtUtc": "2026-10-29T16:44:51.4658938Z",
+    "instanceRunning": false,
+    "project": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder"
+  },
+  "notVerifiedChecks": [
+    "remote_server_join_without_guide",
+    "shared_Prism_all_mod_startup",
+    "all_eight_guides_coexistence",
+    "full_playback_all_28_lessons",
+    "physical_keyboard_and_OS_window_resize"
+  ],
+  "git": {
+    "baselineCommit": "4a313f5",
+    "baselineIndexEmpty": true,
+    "commit": "This record is committed with the product; use git log for its signed commit identity",
+    "signing": "configured SSH",
+    "pushPerformed": false
+  },
+  "evidenceReferences": {
+    "policy": "#/policyInputs",
+    "artifact": "#/artifact",
+    "git": "#/git",
+    "semantic-review": "jaen-compliance-20261030.json#/semanticReview + second-scope-compliance-20261030.json#/localeResults",
+    "source": "#/artifactBinding/inputSha256",
+    "data-check": "#/verification/0",
+    "presentation-check": "#/verification/3",
+    "artifact-binding": "#/artifactBinding",
+    "release-check": "#/verification/6",
+    "deployment": "#/deployment",
+    "verification": "#/verification"
+  },
+  "checkedLanguages": [
+    "ja_jp",
+    "en_us"
+  ],
+  "localeResults": {
+    "ja_jp": {
+      "keys": 247,
+      "titles": 28,
+      "summaries": 28,
+      "captionKeys": 113,
+      "captionUnits": 227,
+      "descriptionKeys": 60,
+      "descriptionUnits": 119,
+      "chapterTitles": 6,
+      "chapterDescriptions": 6,
+      "expandedHint": 1,
+      "errors": 4,
+      "brandLabel": 1,
+      "searchCorpusKeys": 169,
+      "addonLessons": 0,
+      "guidePages": 0,
+      "changedKeys": [
+        "mekanismponder.description.coverage_lasers",
+        "mekanismponder.description.coverage_ore_blocks",
+        "mekanismponder.description.coverage_fissile_materials"
+      ],
+      "languageSha256": "d05322d5b3eb3610a3d6051dd12f9ae1f48c06fd8a9e617bec00bdb07c3b1d90",
+      "presentationTextHash": "50845635182455740f79489f4f89958aeeeb77f4fa2c10a7a69946bf22109175",
+      "intentUnits": {
+        "NORMAL": 255,
+        "HINT": 54,
+        "WARNING": 37
+      },
+      "continuationUnits": 0,
+      "fontChecks": 1038,
+      "captionMaximumLines": 3,
+      "tooltipMaximumLines": 2,
+      "exactEnglishMatches": [
+        "mekanismponder.title"
+      ],
+      "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+      "jarLanguageEntrySha256": "26e182f736ea590b71ffc087e88a2e7ac47b140510d7ae66398b170f4c40d78a"
+    },
+    "en_us": {
+      "keys": 247,
+      "titles": 28,
+      "summaries": 28,
+      "captionKeys": 113,
+      "captionUnits": 243,
+      "descriptionKeys": 60,
+      "descriptionUnits": 118,
+      "chapterTitles": 6,
+      "chapterDescriptions": 6,
+      "expandedHint": 1,
+      "errors": 4,
+      "brandLabel": 1,
+      "searchCorpusKeys": 169,
+      "addonLessons": 0,
+      "guidePages": 0,
+      "changedKeys": [
+        "mekanismponder.description.coverage_ore_blocks"
+      ],
+      "languageSha256": "8a0f7c62d6eb631bc9fa5d6c7b2efbcb88d9735cdca713d77e964fd460a1ca4a",
+      "presentationTextHash": "0e405abd2d62497a70e2a32785e5d3bbd362bea03b029c37e5e53540e8d88748",
+      "intentUnits": {
+        "NORMAL": 268,
+        "HINT": 55,
+        "WARNING": 38
+      },
+      "continuationUnits": 0,
+      "fontChecks": 1083,
+      "captionMaximumLines": 3,
+      "tooltipMaximumLines": 3,
+      "exactEnglishMatches": [],
+      "englishMatchJudgment": "Product brand, or Transport as a natural local cognate; no explanation copied as fallback",
+      "jarLanguageEntrySha256": "f05e9066692cce3aee39b3eda3c1a41d42a0dda5e892be5f35af436f2e3bb374"
+    }
+  },
+  "semanticReview": {
+    "date": "2026-10-30",
+    "reviewer": "mekanism_facts",
+    "mode": "read-only product review; only this report written",
+    "target": {
+      "minecraft": "1.21.1",
+      "loader": "NeoForge",
+      "mekanism": "10.7.19.85"
+    },
+    "instructions_read": [
+      "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\AGENTS.md",
+      "~\\dev\\minecraft\\mods\\ponder-series\\docs\\mod-guide-authoring.md",
+      "~\\dev\\minecraft\\mods\\ponder-series\\work\\JAEN_COMPLIANCE_PLAN.md"
+    ],
+    "scope": {
+      "lessons": 28,
+      "titles": 28,
+      "summaries": 28,
+      "captions": 113,
+      "description_groups": 60,
+      "ui_keys": 18,
+      "total_bilingual_keys": 247,
+      "all_keys_read_semantically": true,
+      "caption_authored_units": {
+        "ja": 227,
+        "en": 243
+      },
+      "description_authored_units": {
+        "ja": 119,
+        "en": 118
+      }
+    },
+    "input_sha256": {
+      "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\src\\main\\resources\\assets\\mekanismponder\\guide\\lessons.json": "edc4e52bc589eaaea83e05f808d43f060bd188b4fed02070ac6ae1b83f1c361a",
+      "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\src\\main\\resources\\assets\\mekanismponder\\guide\\item_descriptions.json": "8c47d3273455d8414b4fb5466cfeb0c4449575cebe10cf1f74eae92864fa94dd",
+      "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\src\\main\\templates\\ui.json": "d95b865ac1cf4f693dc241221b660e56be2b164b6aebe958a56afd4e549d8c4e",
+      "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\src\\main\\translations\\presentation\\ja_jp.json": "dba61d0d0b1108624ebe0aba7161512d268286043ccc779a1b5fe227387f1795",
+      "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\src\\main\\translations\\presentation\\en_us.json": "ea6bc9e604a57d8b5ff0dc58824b7db2b9feb2bc2861ea0534e9674cd3d72c2b"
+    },
+    "reviewed_lesson_ids": [
+      "power",
+      "infusion",
+      "steel",
+      "side_configuration",
+      "cables",
+      "fluid_transport",
+      "chemical_transport",
+      "item_transport",
+      "sorting",
+      "enrichment",
+      "factories",
+      "electrolysis",
+      "evaporation",
+      "hydrogen_chloride",
+      "sulfuric_acid",
+      "ethylene",
+      "hdpe",
+      "ore_tripling",
+      "ore_quadrupling",
+      "ore_quintupling",
+      "induction",
+      "digital_miner",
+      "qio",
+      "teleporters",
+      "crafting",
+      "nuclear_waste",
+      "diagnose_power",
+      "diagnose_processing"
+    ],
+    "reviewed_description_ids": [
+      "infused_alloy",
+      "reinforced_alloy",
+      "atomic_alloy",
+      "enriched_materials",
+      "control_circuits",
+      "structural_glass",
+      "hdpe_materials",
+      "fuelwood_heat",
+      "speed_upgrade",
+      "energy_upgrade",
+      "sps",
+      "radioactive_pellets",
+      "coverage_creative_storage",
+      "coverage_bins",
+      "coverage_quantum",
+      "coverage_dynamic_tank",
+      "coverage_boiler",
+      "coverage_lasers",
+      "coverage_pigments",
+      "coverage_nutrition",
+      "coverage_stabilizer",
+      "coverage_security",
+      "coverage_personal_storage",
+      "coverage_cardboard",
+      "coverage_chargepad",
+      "coverage_plenisher",
+      "coverage_oredictionificator",
+      "coverage_alarm",
+      "coverage_seismic",
+      "coverage_heat_conductors",
+      "coverage_configuration_card",
+      "coverage_dictionary",
+      "coverage_network_reader",
+      "coverage_geiger",
+      "coverage_dosimeter",
+      "coverage_robit",
+      "coverage_disassembler",
+      "coverage_bow",
+      "coverage_flamethrower",
+      "coverage_runners",
+      "coverage_jetpacks",
+      "coverage_scuba",
+      "coverage_hazmat",
+      "coverage_meka_tool",
+      "coverage_meka_suit",
+      "coverage_elytra",
+      "coverage_base_module",
+      "coverage_machine_parts",
+      "coverage_metals",
+      "coverage_raw_ores",
+      "coverage_ore_blocks",
+      "coverage_storage_blocks",
+      "coverage_dusts",
+      "coverage_other_materials",
+      "coverage_fissile_materials",
+      "coverage_compressor",
+      "coverage_combiner",
+      "coverage_sawmill",
+      "coverage_modification",
+      "coverage_fluid_buckets"
+    ],
+    "reviewed_keys": [
+      "mekanismponder.ponder.power.header",
+      "mekanismponder.lesson.power.summary",
+      "mekanismponder.ponder.shared.power_0",
+      "mekanismponder.ponder.shared.power_1",
+      "mekanismponder.ponder.shared.power_2",
+      "mekanismponder.ponder.shared.power_3",
+      "mekanismponder.ponder.infusion.header",
+      "mekanismponder.lesson.infusion.summary",
+      "mekanismponder.ponder.shared.infusion_0",
+      "mekanismponder.ponder.shared.infusion_1",
+      "mekanismponder.ponder.shared.infusion_2",
+      "mekanismponder.ponder.shared.infusion_3",
+      "mekanismponder.ponder.steel.header",
+      "mekanismponder.lesson.steel.summary",
+      "mekanismponder.ponder.shared.steel_0",
+      "mekanismponder.ponder.shared.steel_1",
+      "mekanismponder.ponder.shared.steel_2",
+      "mekanismponder.ponder.shared.steel_3",
+      "mekanismponder.ponder.side_configuration.header",
+      "mekanismponder.lesson.side_configuration.summary",
+      "mekanismponder.ponder.shared.side_configuration_0",
+      "mekanismponder.ponder.shared.side_configuration_1",
+      "mekanismponder.ponder.shared.side_configuration_2",
+      "mekanismponder.ponder.shared.side_configuration_3",
+      "mekanismponder.ponder.cables.header",
+      "mekanismponder.lesson.cables.summary",
+      "mekanismponder.ponder.shared.cables_0",
+      "mekanismponder.ponder.shared.cables_1",
+      "mekanismponder.ponder.shared.cables_2",
+      "mekanismponder.ponder.shared.cables_3",
+      "mekanismponder.ponder.fluid_transport.header",
+      "mekanismponder.lesson.fluid_transport.summary",
+      "mekanismponder.ponder.shared.fluid_transport_0",
+      "mekanismponder.ponder.shared.fluid_transport_1",
+      "mekanismponder.ponder.shared.fluid_transport_2",
+      "mekanismponder.ponder.shared.fluid_transport_3",
+      "mekanismponder.ponder.chemical_transport.header",
+      "mekanismponder.lesson.chemical_transport.summary",
+      "mekanismponder.ponder.shared.chemical_transport_0",
+      "mekanismponder.ponder.shared.chemical_transport_1",
+      "mekanismponder.ponder.shared.chemical_transport_2",
+      "mekanismponder.ponder.shared.chemical_transport_3",
+      "mekanismponder.ponder.item_transport.header",
+      "mekanismponder.lesson.item_transport.summary",
+      "mekanismponder.ponder.shared.item_transport_0",
+      "mekanismponder.ponder.shared.item_transport_1",
+      "mekanismponder.ponder.shared.item_transport_2",
+      "mekanismponder.ponder.shared.item_transport_3",
+      "mekanismponder.ponder.sorting.header",
+      "mekanismponder.lesson.sorting.summary",
+      "mekanismponder.ponder.shared.sorting_0",
+      "mekanismponder.ponder.shared.sorting_1",
+      "mekanismponder.ponder.shared.sorting_2",
+      "mekanismponder.ponder.shared.sorting_3",
+      "mekanismponder.ponder.enrichment.header",
+      "mekanismponder.lesson.enrichment.summary",
+      "mekanismponder.ponder.shared.enrichment_0",
+      "mekanismponder.ponder.shared.enrichment_1",
+      "mekanismponder.ponder.shared.enrichment_2",
+      "mekanismponder.ponder.shared.enrichment_3",
+      "mekanismponder.ponder.factories.header",
+      "mekanismponder.lesson.factories.summary",
+      "mekanismponder.ponder.shared.factories_0",
+      "mekanismponder.ponder.shared.factories_1",
+      "mekanismponder.ponder.shared.factories_2",
+      "mekanismponder.ponder.shared.factories_3",
+      "mekanismponder.ponder.electrolysis.header",
+      "mekanismponder.lesson.electrolysis.summary",
+      "mekanismponder.ponder.shared.electrolysis_0",
+      "mekanismponder.ponder.shared.electrolysis_1",
+      "mekanismponder.ponder.shared.electrolysis_2",
+      "mekanismponder.ponder.shared.electrolysis_3",
+      "mekanismponder.ponder.evaporation.header",
+      "mekanismponder.lesson.evaporation.summary",
+      "mekanismponder.ponder.shared.evaporation_0",
+      "mekanismponder.ponder.shared.evaporation_1",
+      "mekanismponder.ponder.shared.evaporation_2",
+      "mekanismponder.ponder.shared.evaporation_3",
+      "mekanismponder.ponder.hydrogen_chloride.header",
+      "mekanismponder.lesson.hydrogen_chloride.summary",
+      "mekanismponder.ponder.shared.hydrogen_chloride_0",
+      "mekanismponder.ponder.shared.hydrogen_chloride_1",
+      "mekanismponder.ponder.shared.hydrogen_chloride_2",
+      "mekanismponder.ponder.shared.hydrogen_chloride_3",
+      "mekanismponder.ponder.sulfuric_acid.header",
+      "mekanismponder.lesson.sulfuric_acid.summary",
+      "mekanismponder.ponder.shared.sulfuric_acid_0",
+      "mekanismponder.ponder.shared.sulfuric_acid_1",
+      "mekanismponder.ponder.shared.sulfuric_acid_2",
+      "mekanismponder.ponder.shared.sulfuric_acid_3",
+      "mekanismponder.ponder.ethylene.header",
+      "mekanismponder.lesson.ethylene.summary",
+      "mekanismponder.ponder.shared.ethylene_0",
+      "mekanismponder.ponder.shared.ethylene_1",
+      "mekanismponder.ponder.shared.ethylene_2",
+      "mekanismponder.ponder.shared.ethylene_3",
+      "mekanismponder.ponder.hdpe.header",
+      "mekanismponder.lesson.hdpe.summary",
+      "mekanismponder.ponder.shared.hdpe_0",
+      "mekanismponder.ponder.shared.hdpe_1",
+      "mekanismponder.ponder.shared.hdpe_2",
+      "mekanismponder.ponder.shared.hdpe_3",
+      "mekanismponder.ponder.ore_tripling.header",
+      "mekanismponder.lesson.ore_tripling.summary",
+      "mekanismponder.ponder.shared.ore_tripling_0",
+      "mekanismponder.ponder.shared.ore_tripling_1",
+      "mekanismponder.ponder.shared.ore_tripling_2",
+      "mekanismponder.ponder.shared.ore_tripling_3",
+      "mekanismponder.ponder.ore_quadrupling.header",
+      "mekanismponder.lesson.ore_quadrupling.summary",
+      "mekanismponder.ponder.shared.ore_quadrupling_0",
+      "mekanismponder.ponder.shared.ore_quadrupling_1",
+      "mekanismponder.ponder.shared.ore_quadrupling_2",
+      "mekanismponder.ponder.shared.ore_quadrupling_3",
+      "mekanismponder.ponder.ore_quintupling.header",
+      "mekanismponder.lesson.ore_quintupling.summary",
+      "mekanismponder.ponder.shared.ore_quintupling_0",
+      "mekanismponder.ponder.shared.ore_quintupling_1",
+      "mekanismponder.ponder.shared.ore_quintupling_2",
+      "mekanismponder.ponder.shared.ore_quintupling_3",
+      "mekanismponder.ponder.shared.ore_quintupling_4",
+      "mekanismponder.ponder.induction.header",
+      "mekanismponder.lesson.induction.summary",
+      "mekanismponder.ponder.shared.induction_0",
+      "mekanismponder.ponder.shared.induction_1",
+      "mekanismponder.ponder.shared.induction_2",
+      "mekanismponder.ponder.shared.induction_3",
+      "mekanismponder.ponder.digital_miner.header",
+      "mekanismponder.lesson.digital_miner.summary",
+      "mekanismponder.ponder.shared.digital_miner_0",
+      "mekanismponder.ponder.shared.digital_miner_1",
+      "mekanismponder.ponder.shared.digital_miner_2",
+      "mekanismponder.ponder.shared.digital_miner_3",
+      "mekanismponder.ponder.qio.header",
+      "mekanismponder.lesson.qio.summary",
+      "mekanismponder.ponder.shared.qio_0",
+      "mekanismponder.ponder.shared.qio_1",
+      "mekanismponder.ponder.shared.qio_2",
+      "mekanismponder.ponder.shared.qio_3",
+      "mekanismponder.ponder.teleporters.header",
+      "mekanismponder.lesson.teleporters.summary",
+      "mekanismponder.ponder.shared.teleporters_0",
+      "mekanismponder.ponder.shared.teleporters_1",
+      "mekanismponder.ponder.shared.teleporters_2",
+      "mekanismponder.ponder.shared.teleporters_3",
+      "mekanismponder.ponder.crafting.header",
+      "mekanismponder.lesson.crafting.summary",
+      "mekanismponder.ponder.shared.crafting_0",
+      "mekanismponder.ponder.shared.crafting_1",
+      "mekanismponder.ponder.shared.crafting_2",
+      "mekanismponder.ponder.shared.crafting_3",
+      "mekanismponder.ponder.nuclear_waste.header",
+      "mekanismponder.lesson.nuclear_waste.summary",
+      "mekanismponder.ponder.shared.nuclear_waste_0",
+      "mekanismponder.ponder.shared.nuclear_waste_1",
+      "mekanismponder.ponder.shared.nuclear_waste_2",
+      "mekanismponder.ponder.shared.nuclear_waste_3",
+      "mekanismponder.ponder.diagnose_power.header",
+      "mekanismponder.lesson.diagnose_power.summary",
+      "mekanismponder.ponder.shared.diagnose_power_0",
+      "mekanismponder.ponder.shared.diagnose_power_1",
+      "mekanismponder.ponder.shared.diagnose_power_2",
+      "mekanismponder.ponder.shared.diagnose_power_3",
+      "mekanismponder.ponder.diagnose_processing.header",
+      "mekanismponder.lesson.diagnose_processing.summary",
+      "mekanismponder.ponder.shared.diagnose_processing_0",
+      "mekanismponder.ponder.shared.diagnose_processing_1",
+      "mekanismponder.ponder.shared.diagnose_processing_2",
+      "mekanismponder.ponder.shared.diagnose_processing_3",
+      "mekanismponder.description.infused_alloy",
+      "mekanismponder.description.reinforced_alloy",
+      "mekanismponder.description.atomic_alloy",
+      "mekanismponder.description.enriched_materials",
+      "mekanismponder.description.control_circuits",
+      "mekanismponder.description.structural_glass",
+      "mekanismponder.description.hdpe_materials",
+      "mekanismponder.description.fuelwood_heat",
+      "mekanismponder.description.speed_upgrade",
+      "mekanismponder.description.energy_upgrade",
+      "mekanismponder.description.sps",
+      "mekanismponder.description.radioactive_pellets",
+      "mekanismponder.description.coverage_creative_storage",
+      "mekanismponder.description.coverage_bins",
+      "mekanismponder.description.coverage_quantum",
+      "mekanismponder.description.coverage_dynamic_tank",
+      "mekanismponder.description.coverage_boiler",
+      "mekanismponder.description.coverage_lasers",
+      "mekanismponder.description.coverage_pigments",
+      "mekanismponder.description.coverage_nutrition",
+      "mekanismponder.description.coverage_stabilizer",
+      "mekanismponder.description.coverage_security",
+      "mekanismponder.description.coverage_personal_storage",
+      "mekanismponder.description.coverage_cardboard",
+      "mekanismponder.description.coverage_chargepad",
+      "mekanismponder.description.coverage_plenisher",
+      "mekanismponder.description.coverage_oredictionificator",
+      "mekanismponder.description.coverage_alarm",
+      "mekanismponder.description.coverage_seismic",
+      "mekanismponder.description.coverage_heat_conductors",
+      "mekanismponder.description.coverage_configuration_card",
+      "mekanismponder.description.coverage_dictionary",
+      "mekanismponder.description.coverage_network_reader",
+      "mekanismponder.description.coverage_geiger",
+      "mekanismponder.description.coverage_dosimeter",
+      "mekanismponder.description.coverage_robit",
+      "mekanismponder.description.coverage_disassembler",
+      "mekanismponder.description.coverage_bow",
+      "mekanismponder.description.coverage_flamethrower",
+      "mekanismponder.description.coverage_runners",
+      "mekanismponder.description.coverage_jetpacks",
+      "mekanismponder.description.coverage_scuba",
+      "mekanismponder.description.coverage_hazmat",
+      "mekanismponder.description.coverage_meka_tool",
+      "mekanismponder.description.coverage_meka_suit",
+      "mekanismponder.description.coverage_elytra",
+      "mekanismponder.description.coverage_base_module",
+      "mekanismponder.description.coverage_machine_parts",
+      "mekanismponder.description.coverage_metals",
+      "mekanismponder.description.coverage_raw_ores",
+      "mekanismponder.description.coverage_ore_blocks",
+      "mekanismponder.description.coverage_storage_blocks",
+      "mekanismponder.description.coverage_dusts",
+      "mekanismponder.description.coverage_other_materials",
+      "mekanismponder.description.coverage_fissile_materials",
+      "mekanismponder.description.coverage_compressor",
+      "mekanismponder.description.coverage_combiner",
+      "mekanismponder.description.coverage_sawmill",
+      "mekanismponder.description.coverage_modification",
+      "mekanismponder.description.coverage_fluid_buckets",
+      "mekanismponder.title",
+      "mekanismponder.tooltip.hold_for_description",
+      "mekanismponder.command.unknown",
+      "mekanismponder.ponder.tag.start",
+      "mekanismponder.ponder.tag.start.description",
+      "mekanismponder.ponder.tag.transport",
+      "mekanismponder.ponder.tag.transport.description",
+      "mekanismponder.ponder.tag.processing",
+      "mekanismponder.ponder.tag.processing.description",
+      "mekanismponder.ponder.tag.chemistry",
+      "mekanismponder.ponder.tag.chemistry.description",
+      "mekanismponder.ponder.tag.advanced",
+      "mekanismponder.ponder.tag.advanced.description",
+      "mekanismponder.ponder.tag.troubleshooting",
+      "mekanismponder.ponder.tag.troubleshooting.description",
+      "mekanismponder.command.unknown_chapter",
+      "mekanismponder.command.unknown_item",
+      "mekanismponder.command.requires_world"
+    ],
+    "examples": [
+      {
+        "category": "ordinary_operation",
+        "key": "mekanismponder.ponder.shared.infusion_1",
+        "ja": "鉄インゴットを加工用スロットに入れると、赤石を消費して吹込合金になります",
+        "en": "Iron ingots go in the processing slot\nRedstone infusion turns them into Infused Alloys",
+        "judgment": "PASS: 鉄から吹込合金になる条件と結果を自然な解説として記載し、日英で素材・変化が一致します。操作催促ではありません。",
+        "intents": {
+          "ja_jp": [
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL"
+          ]
+        }
+      },
+      {
+        "category": "condition_and_result",
+        "key": "mekanismponder.ponder.shared.side_configuration_2",
+        "ja": "完成品の面を出力にし、アイテムの自動搬出を有効にすると、対応する隣の搬送先へ送り出せます",
+        "en": "Products leave through a face set to Output\nItem auto-eject sends them out automatically\nThey enter a compatible adjacent destination",
+        "judgment": "PASS: 出力面・自動搬出・対応する隣接先という条件が日英の全体に保持されています。日本語は一つの完結文、英語は三つの完結した作者指定単位です。",
+        "intents": {
+          "ja_jp": [
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL",
+            "NORMAL"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL",
+            "NORMAL"
+          ]
+        }
+      },
+      {
+        "category": "normal_configuration",
+        "key": "mekanismponder.ponder.shared.infusion_2",
+        "ja": "アイテムの側面設定では、赤石用は「追加」、鉄用は「入力」です\n自動化では二つの入力に別々の面を割り当てます",
+        "en": "In item side configuration, redstone uses Extra and iron uses Input\nFor automation, the two inputs use separate faces",
+        "judgment": "PASS: 赤石=Extra/追加、鉄=Input/入力の同一性が保持され、別入力の面を割り当てる理由が分かります。",
+        "intents": {
+          "ja_jp": [
+            "NORMAL",
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "NORMAL",
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL"
+          ]
+        }
+      },
+      {
+        "category": "warning_and_remedy",
+        "key": "mekanismponder.ponder.shared.nuclear_waste_3",
+        "ja": "放射性物質が入った機器や経路を壊すと放射線を放出する場合があります\n撤去前に内容物を安全な処理先へ移し、GUIで空を確認してください",
+        "en": "Breaking equipment or pipes containing radioactive chemicals can release radiation\nRoute the contents to safe processing\nVerify that the containers are empty before dismantling",
+        "judgment": "PASS: 放射線放出の失敗条件をWARNING、撤去前の移送と空確認をHINTに分けています。確認してくださいは安全上必要な指示です。",
+        "intents": {
+          "ja_jp": [
+            "WARNING",
+            "HINT"
+          ],
+          "en_us": [
+            "WARNING",
+            "HINT",
+            "HINT"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "WARNING",
+            "HINT"
+          ],
+          "en_us": [
+            "WARNING",
+            "HINT",
+            "HINT"
+          ]
+        }
+      },
+      {
+        "category": "hint",
+        "key": "mekanismponder.ponder.shared.infusion_3",
+        "ja": "濃縮室で作る濃縮レッドストーンは、赤石より多くの吹込量を補給できます\n対応レシピとタンクの残量を確認してください",
+        "en": "Enriched Redstone supplies more infusion than redstone dust\nCheck the recipe and the amount remaining in the infusion tank",
+        "judgment": "PASS: 濃縮素材の利点は通常解説、レシピと残量確認はHINTです。無条件の依頼表現に書き換えていません。",
+        "intents": {
+          "ja_jp": [
+            "NORMAL",
+            "HINT"
+          ],
+          "en_us": [
+            "NORMAL",
+            "HINT"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "NORMAL",
+            "HINT"
+          ],
+          "en_us": [
+            "NORMAL",
+            "HINT"
+          ]
+        }
+      },
+      {
+        "category": "diagnosis",
+        "key": "mekanismponder.ponder.shared.diagnose_power_1",
+        "ja": "電力があるのに動かない場合は、レッドストーン制御を確認してください\n要求する信号条件を満たさないと加工は止まります",
+        "en": "If power is available, check redstone control\nProcessing stops when its selected signal condition is not met",
+        "judgment": "PASS: 動かない場合の確認対象と、信号条件を満たさない場合の停止を日英で説明しています。確認を促す必要があります。",
+        "intents": {
+          "ja_jp": [
+            "HINT",
+            "WARNING"
+          ],
+          "en_us": [
+            "HINT",
+            "WARNING"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "HINT",
+            "WARNING"
+          ],
+          "en_us": [
+            "HINT",
+            "WARNING"
+          ]
+        }
+      },
+      {
+        "category": "numbers_and_identity",
+        "key": "mekanismponder.ponder.shared.ore_quintupling_0",
+        "ja": "化学溶解室は硫酸を使います\n標準レシピでは鉄鉱石一個から汚れたスラリー1000 mB、鉄の原石三個から2000 mBを作ります",
+        "en": "The Chemical Dissolution Chamber uses sulfuric acid\nOne iron ore block gives 1,000 mB of dirty slurry\nThree Raw Iron give 2,000 mB of dirty slurry",
+        "judgment": "PASS: 鉱石一個=1000 mB、Raw Iron三個=2000 mBが一致します。英語は数値ごとに自然に分けています。日本語の長い単位も一文として完結し、量の取り違えはありません。実フォントの行数は親の既存証拠照合範囲です。",
+        "intents": {
+          "ja_jp": [
+            "NORMAL",
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL",
+            "NORMAL"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "NORMAL",
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL",
+            "NORMAL"
+          ]
+        }
+      },
+      {
+        "category": "numbers_and_condition",
+        "key": "mekanismponder.ponder.shared.ore_quintupling_2",
+        "ja": "化学結晶化装置は、きれいなスラリー200 mBから結晶一個を作ります\n複数機へ分散するときは端数の滞留に注意してください",
+        "en": "The Chemical Crystallizer makes one crystal from 200 mB of clean slurry\nSplitting slurry among machines can strand partial batches",
+        "judgment": "PASS: clean slurry 200 mB=crystal一個、分散時の端数滞留という条件が一致します。",
+        "intents": {
+          "ja_jp": [
+            "NORMAL",
+            "WARNING"
+          ],
+          "en_us": [
+            "NORMAL",
+            "WARNING"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "NORMAL",
+            "WARNING"
+          ],
+          "en_us": [
+            "NORMAL",
+            "WARNING"
+          ]
+        }
+      },
+      {
+        "category": "recipe_byproduct",
+        "key": "mekanismponder.ponder.shared.hdpe_3",
+        "ja": "ペレットの搬出で出力スロットの空きを保てます\nこのレシピには化学物質の副産物はありません\n別の反応とは出力条件が異なります",
+        "en": "Extracting pellets keeps the output slot clear\nThis recipe has no chemical byproduct\nOther reactions have different output conditions",
+        "judgment": "PASS: このHDPEレシピにchemical byproductがない点を明記し、ethylene生成の二出力とは区別しています。",
+        "intents": {
+          "ja_jp": [
+            "HINT",
+            "NORMAL",
+            "HINT"
+          ],
+          "en_us": [
+            "HINT",
+            "NORMAL",
+            "HINT"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "HINT",
+            "NORMAL",
+            "HINT"
+          ],
+          "en_us": [
+            "HINT",
+            "NORMAL",
+            "HINT"
+          ]
+        }
+      },
+      {
+        "category": "proper_name",
+        "key": "mekanismponder.ponder.shared.sulfuric_acid_2",
+        "ja": "回転式流体凝縮器が液体を化学物質へ変換する向きで、水を水蒸気にします",
+        "en": "The Rotary Condensentrator converts fluids into chemicals in this mode\nHere, it turns water into water vapor",
+        "judgment": "PASS: 回転式流体凝縮器=Rotary Condensentratorという対象版の装置と、水を水蒸気へ変える向きを対応させています。",
+        "intents": {
+          "ja_jp": [
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL"
+          ]
+        }
+      },
+      {
+        "category": "long_complete_unit",
+        "key": "mekanismponder.ponder.shared.qio_2",
+        "ja": "QIOインポーターは隣の収納からQIOへ取り込み、エクスポーターはQIOから隣の収納へ送ります\n転送する対象は周波数とフィルターで決まります",
+        "en": "A QIO Importer moves items from an adjacent inventory into QIO\nA QIO Exporter moves them out\nFrequency and filters determine the transfers",
+        "judgment": "PASS: JAの長文はImporterとExporterの向きの違いを一つの自然な完結文で説明します。ENは二文へ分けても向きと順序が一致します。人工的な断片はありません。実フォントは本レビュー対象外です。",
+        "intents": {
+          "ja_jp": [
+            "NORMAL",
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL",
+            "NORMAL"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "NORMAL",
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL",
+            "NORMAL",
+            "NORMAL"
+          ]
+        }
+      },
+      {
+        "category": "short_description_conditions",
+        "key": "mekanismponder.description.coverage_scuba",
+        "ja": "酸素タンクの供給を有効にすると、マスクと併用して水中の呼吸を補助します",
+        "en": "With oxygen flow enabled, a tank and mask support underwater breathing",
+        "judgment": "PASS: 酸素供給の有効化、tankとmaskの併用が両言語にあります。無条件に呼吸できるとは説明していません。",
+        "intents": {
+          "ja_jp": [
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "NORMAL"
+          ],
+          "en_us": [
+            "NORMAL"
+          ]
+        }
+      },
+      {
+        "category": "short_description_warning",
+        "key": "mekanismponder.description.coverage_hazmat",
+        "ja": "放射線を完全に防ぐには、一式すべての着用が必要です\nすでに受けた被ばくを取り除く装備ではありません",
+        "en": "Full radiation protection requires wearing the complete set\nIt does not remove an existing radiation dose",
+        "judgment": "PASS: 完全防護には一式、既存被ばくは除去しないという条件が一致します。部分装備が全く無効だとは主張していません。",
+        "intents": {
+          "ja_jp": [
+            "WARNING",
+            "WARNING"
+          ],
+          "en_us": [
+            "WARNING",
+            "WARNING"
+          ]
+        },
+        "currentIntents": {
+          "ja_jp": [
+            "WARNING",
+            "WARNING"
+          ],
+          "en_us": [
+            "WARNING",
+            "WARNING"
+          ]
+        }
+      },
+      {
+        "category": "ui_error_instruction",
+        "key": "mekanismponder.command.requires_world",
+        "ja": "ワールドに入ってから教材を開いてください",
+        "en": "Enter a world to open the guide",
+        "judgment": "PASS: ワールド参加が必要なエラー対処を短く指示するため、命令・依頼形は適切です。",
+        "intents": {
+          "ja_jp": null,
+          "en_us": null
+        },
+        "currentIntents": {}
+      },
+      {
+        "category": "ui_placeholder",
+        "key": "mekanismponder.command.unknown_item",
+        "ja": "アイテム「%s」に関連する教材が見つかりません",
+        "en": "No lessons found for item: %s",
+        "judgment": "PASS: 不明な対象アイテムと教材の関係を保ち、両言語の%sは一致しています。",
+        "intents": {
+          "ja_jp": null,
+          "en_us": null
+        },
+        "currentIntents": {}
+      }
+    ],
+    "findings": [
+      {
+        "id": "JAEN-20261030-01",
+        "priority": "P2",
+        "status": "reported_to_parent",
+        "key": "mekanismponder.description.coverage_ore_blocks",
+        "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\src\\main\\resources\\assets\\mekanismponder\\guide\\item_descriptions.json",
+        "line": 584,
+        "ja": "ワールドで採掘する鉱石ブロックです\n採掘で得る原石と鉱石ブロックは、処理時に区別します",
+        "en": "Ore blocks mined in the world\nProcessing distinguishes ore blocks from the raw ores they drop",
+        "issue": "蛍石・深層蛍石を含む共通説明が、鉱石はraw oreを落とすものとして記載されています。EN raw ores they dropは特に直接的です。蛍石はfluorite_gemを落とします。",
+        "evidence": [
+          {
+            "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\.work\\research\\Mekanism-1.21.1-10.7.19.85\\src\\datagen\\main\\java\\mekanism\\common\\loot\\table\\MekanismBlockLootTables.java",
+            "lines": [
+              22,
+              26
+            ],
+            "fact": "FLUORITEはFLUORITE_GEM、他4金属はResourceType.RAWを落とす独立定義です。"
+          }
+        ],
+        "recommendation": "原石や宝石など採掘ドロップと鉱石ブロックを区別する表現に広げるか、蛍石を分けます。"
+      },
+      {
+        "id": "JAEN-20261030-02",
+        "priority": "P2",
+        "status": "reported_to_parent",
+        "key": "mekanismponder.description.coverage_fissile_materials",
+        "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\src\\main\\resources\\assets\\mekanismponder\\guide\\item_descriptions.json",
+        "line": 651,
+        "ja": "核燃料の加工工程で使う素材です\n化学物質に加工した後は、放射線への対策も必要です",
+        "en": "Materials used in nuclear fuel processing\nRadiation precautions are needed for radioactive processing stages",
+        "issue": "JAでは化学物質への加工後すべてに放射線対策が要るように読め、ENが限定するradioactive processing stagesという条件がありません。対象2素材の直接加工先はuranium_oxideとfissile_fuelで、固定版ではどちらも放射性属性を持ちません。",
+        "evidence": [
+          {
+            "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\.work\\research\\Mekanism-1.21.1-10.7.19.85\\src\\datagen\\main\\java\\mekanism\\common\\recipe\\impl\\OreProcessingRecipeProvider.java",
+            "lines": [
+              635,
+              661
+            ],
+            "fact": "yellow_cake_uraniumはuranium_oxide、reprocessed_fissile_fragmentはfissile_fuelへ酸化します。"
+          },
+          {
+            "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\.work\\research\\Mekanism-1.21.1-10.7.19.85\\src\\datagen\\main\\java\\mekanism\\common\\MekanismDataMapsProvider.java",
+            "lines": [
+              77,
+              82
+            ],
+            "fact": "radioactivityはnuclear_waste/spent_nuclear_waste/plutonium/poloniumにのみ付与しています。"
+          }
+        ],
+        "recommendation": "JAも「放射性化学物質を扱う工程では」など、必要な工程に条件を限定します。"
+      },
+      {
+        "id": "JAEN-20261030-03",
+        "priority": "P3",
+        "status": "reported_to_parent",
+        "key": "mekanismponder.description.coverage_lasers",
+        "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\src\\main\\resources\\assets\\mekanismponder\\guide\\item_descriptions.json",
+        "line": 203,
+        "ja": "レーザーは電力をビームとして送り、増幅器で蓄積します\n集光器はビームで壊れたブロックのアイテムを回収します",
+        "en": "Lasers send energy as beams; amplifiers store beam energy\nTractor beams collect items from laser-broken blocks",
+        "issue": "JAの集光器がどのアイテムか示されず、対象版名レーザートラクタービームともEN Tractor beamsとも結び付きにくい名称です。回収機能自体は正しい説明です。",
+        "evidence": [
+          {
+            "path": "~\\dev\\minecraft\\mods\\ponder-series\\mekanism-ponder\\.work\\research\\Mekanism-1.21.1-10.7.19.85\\src\\main\\resources\\assets\\mekanism\\lang\\ja_jp.json",
+            "lines": [
+              461,
+              2142
+            ],
+            "fact": "block.mekanism.laser_tractor_beam=レーザートラクタービームで、説明はブロック破壊時のドロップ回収です。"
+          }
+        ],
+        "recommendation": "JAもレーザートラクタービームを名称として使い、回収機能を続けて説明します。"
+      }
+    ],
+    "explicit_continuation": {
+      "status": "not_applicable_to_current_JA_EN",
+      "ellipsis_keys": [],
+      "judgment": "現在の日英原本に…はありません。通常の短い作者指定単位が完結しているため、継続を新設する必要はありません。明示継続の実例の成功とは主張しません。"
+    },
+    "overall": {
+      "meaning": "数字・材料・経路・通常操作は代表固定版根拠と整合し、上記3点を報告しました。",
+      "tone": "通常操作は解説調です。してください等はレシピ確認、失敗診断、危険回避、設定調整に用いられ、単純な語尾一括置換や操作催促の反復は見つかりません。",
+      "authored_units": "人工的な文の切断、主語や助動詞だけの不自然な字幕断片、孤立した…は見つかりません。短文説明の自然な名詞句・省略主語と章のラベルは完結した表示単位として扱いました。",
+      "title_summary": "全28場面の題名・要約は本文の機能・工程と対応します。固有名は上記レーザー部材の修正候補を除き意味上の誤同定を見つけていません。",
+      "ui": "全18キーを確認し、章6組、操作ヒント、エラー、名称の意味と%sを確認しました。"
+    },
+    "limits": [
+      "本レビューはJA/ENの原本の意味と作者指定表示単位が対象です。全20追加言語の再翻訳・意味レビューは実施していません。",
+      "3行以内の実フォント測定・生成物/JAR一致・Minecraft再生/UIは親が有効な既存証拠と入力SHAを照合する担当です。本レビューのPASSは描画のPASSを意味しません。",
+      "全75要件の総合適合判定、最終JAR、配置確認は親の担当です。",
+      "製品ファイルは変更せず、テスト・MC起動は行っていません。"
+    ],
+    "initialReviewSha256": "8471ed1f0f5dbe8072ca76198e212b97568b9a07f7323f4cf46f637a2e18dc2b",
+    "reviewStage": "All 247 JA/EN pairs read before corrections; all findings resolved and changed source pairs reviewed after corrections",
+    "resolvedFindings": [
+      {
+        "key": "mekanismponder.description.coverage_ore_blocks",
+        "reason": "Fluorite drops gems; raw ore is not the only mined product",
+        "after": {
+          "ja": "ワールドで採掘する鉱石ブロックです\n鉱石ブロックと、採掘で得る原石や宝石は処理時に区別します",
+          "en": "Ore blocks mined in the world\nProcessing distinguishes ore blocks from raw ores or gems obtained by mining"
+        }
+      },
+      {
+        "key": "mekanismponder.description.coverage_fissile_materials",
+        "reason": "Radiation precautions apply to radioactive processing stages; uranium oxide/fissile fuel are not themselves radioactive chemicals",
+        "after": {
+          "ja": "核燃料の加工工程で使う素材です\n放射性化学物質を扱う工程では、放射線への対策も必要です",
+          "en": "Materials used in nuclear fuel processing\nRadiation precautions are needed for radioactive processing stages"
+        }
+      },
+      {
+        "key": "mekanismponder.description.coverage_lasers",
+        "reason": "Use native Japanese レーザートラクタービーム, preserving beam-broken item collection",
+        "after": {
+          "ja": "レーザーは電力をビームとして送り、増幅器で蓄積します\nレーザートラクタービームは、ビームで壊れたブロックのアイテムを回収します",
+          "en": "Lasers send energy as beams; amplifiers store beam energy\nTractor beams collect items from laser-broken blocks"
+        }
+      }
+    ]
+  },
+  "reviewedScope": "All247 JA/EN source pairs, generated resources and JAR; whole semantic review plus corrected-pair review; 20 other locales maintained and separately recorded",
+  "secondScopeRecord": "docs/second-scope-compliance-20261030.json"
+}

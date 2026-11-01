@@ -1,0 +1,151 @@
+{
+  "version": "0.1.3",
+  "verified_on_jst": "2026-10-22T01:30:30.288419+09:00",
+  "configuration": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.256",
+    "java": 21,
+    "mekanism": "1.21.1-10.7.19.85",
+    "ponder": "1.0.87+mc1.21.1",
+    "flywheel": "1.0.4"
+  },
+  "unit_tests": {
+    "passed": 59,
+    "failed": 0
+  },
+  "teaching": {
+    "chapters": 6,
+    "lessons": 28,
+    "steps": 113,
+    "descriptions": 12,
+    "source_hash": "f4c7fb749f3eab1a632a6841f28e74d72c679136955180f378bf7edb6b9dbe60"
+  },
+  "translations": {
+    "locales": 22,
+    "navigation_keys": 14,
+    "content_keys": 185,
+    "total_keys": 199
+  },
+  "punctuation": {
+    "baseline": "993ed06",
+    "review": "punctuation-review.json",
+    "removed_full_stops": 7040,
+    "non_punctuation_prose_preserved": true,
+    "caption_boundaries_preserved": true
+  },
+  "presentation": {
+    "review": "presentation-review.json",
+    "keys_per_locale": 125,
+    "units": 6245,
+    "intents": {
+      "NORMAL": 4269,
+      "HINT": 1217,
+      "WARNING": 759
+    }
+  },
+  "runtime": {
+    "transmitterModelData": false,
+    "callouts": 0,
+    "captionGuiWidths": [
+      320,
+      480,
+      960
+    ],
+    "factoryBoundaries": true,
+    "nativeNavigation": true,
+    "tagPagination": true,
+    "historyLocaleGuard": true,
+    "playbackTag": true,
+    "screenshots": [
+      "options-no-guide-button.png",
+      "tag-index-ja.png",
+      "tag-start-ja.png",
+      "course-selected-lesson.png",
+      "tag-transport-ja.png",
+      "component-w-subject.png",
+      "component-native-category.png",
+      "component-category-other-lesson.png",
+      "course-next-chapter.png",
+      "course-next-chapter-category.png",
+      "caption-palette-normal.png",
+      "caption-palette-hint.png",
+      "caption-palette-warning.png",
+      "tag-index-en.png",
+      "caption-ar_sa-representative.png"
+    ],
+    "tooltipPalettes": true,
+    "navigationOnly": true,
+    "ordinaryGuideButtonsAbsent": true,
+    "passed": true,
+    "captionWindowWidthsVerified": true,
+    "arabicFontRechecked": true,
+    "maximumCaptionLines": 2,
+    "representativeGui": true,
+    "captionGuiWidthChecks": 855,
+    "captionPagesChecked": 285,
+    "replay": false,
+    "componentFactory": true,
+    "englishFallback": true,
+    "glyphsChecked": 188,
+    "locales": [
+      "ar_sa"
+    ],
+    "captionPalettes": true,
+    "rendered": 0,
+    "captionUnitsChecked": 285,
+    "chapterBoundary": true,
+    "historyTypeGuard": true,
+    "nativeTagIndex": true,
+    "englishPresentationFallback": true,
+    "lessons": 28
+  },
+  "font_layout": {
+    "current_locale": "ar_sa",
+    "units_checked": 285,
+    "maximum_lines": 2,
+    "gui_width_checks": 855,
+    "gui_widths": [
+      320,
+      480,
+      960
+    ],
+    "native_caption_width": 180,
+    "issues": [],
+    "measurements": "arabic-font-validation.json",
+    "sha256": "b5f2790ea4db85ae3017a4903ec848e20bc0390b375c3d5bcdcea7ab57913d84"
+  },
+  "reused_evidence": {
+    "record": "validation-0.1.2.json",
+    "details": "verification-0.1.2.md",
+    "font_locales": 22,
+    "caption_units": 5677,
+    "gui_width_checks": 17031,
+    "full_playback_lessons": [
+      "power",
+      "cables",
+      "chemical_transport",
+      "evaporation",
+      "ore_quintupling",
+      "nuclear_waste"
+    ],
+    "reason": "Only ordinary terminal stops removed; authored caption boundaries, layout algorithm, models, NBT and timing unchanged; Arabic shaping remeasured for all units"
+  },
+  "release": {
+    "jar": "mekanism-ponder-guide-0.1.3-neoforge-1.21.1.jar",
+    "sha256": "aec301ab93050042521f1b1037004f8efffccfbcf1b3ef15386dee5e39c0f8a0",
+    "java_21_classes": 38,
+    "packaging_check": true
+  },
+  "deployment_record": "deployment.json",
+  "limitations": [
+    "W entry exercised through its native single-argument factory, not synthetic physical key input",
+    "GUI bounds initialized at 320/480/960; no physical window resize",
+    "No full playback rerun in 0.1.3; reused unchanged 0.1.2 geometry/playback evidence",
+    "Prism JAR placement verified; no actual startup of the shared Prism mod set or remote-server join"
+  ],
+  "diagnosed_retries": [
+    "Tooltip RGB comparison initially included Catnip alpha; corrected to Minecraft 24-bit RGB",
+    "Harness rendered an old Ponder font behind reload overlay; blank validation screen now precedes resource reload"
+  ],
+  "validation_client_stopped": true
+}

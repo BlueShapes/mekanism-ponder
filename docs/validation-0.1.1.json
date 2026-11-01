@@ -1,0 +1,78 @@
+{
+  "verified_on_jst": "2026-10-20",
+  "configuration": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.256",
+    "java": 21,
+    "mekanism": "1.21.1-10.7.19.85",
+    "ponder": "1.0.87+mc1.21.1",
+    "flywheel": "1.0.4"
+  },
+  "unit_tests": {
+    "passed": 23,
+    "failed": 0
+  },
+  "release": {
+    "file": "mekanism-ponder-guide-0.1.1-neoforge-1.21.1.jar",
+    "sha256": "b36ce174798184ed6d071ff4c3d8abaf7d05f302ea7a842e1d7b399787826f0b",
+    "locale_keys": 200,
+    "locales": 22,
+    "java_21_classes": 33,
+    "content_check_passed": true
+  },
+  "runtime": {
+    "transmitterModelData": true,
+    "callouts": 102,
+    "factoryBoundaries": true,
+    "nativeNavigation": true,
+    "tagPagination": true,
+    "captionPagesChecked": 11396,
+    "replay": true,
+    "englishFallback": true,
+    "glyphsChecked": 4357,
+    "navigationOnly": false,
+    "locales": [
+      "ja_jp",
+      "en_us",
+      "hi_in",
+      "zh_hk",
+      "zh_tw",
+      "zh_cn",
+      "ru_ru",
+      "pt_br",
+      "pt_pt",
+      "es_es",
+      "fr_fr",
+      "de_de",
+      "cs_cz",
+      "pl_pl",
+      "ms_my",
+      "ro_ro",
+      "ar_sa",
+      "id_id",
+      "ko_kr",
+      "vi_vn",
+      "tr_tr",
+      "it_it"
+    ],
+    "rendered": 28,
+    "passed": true,
+    "nativeTagIndex": true,
+    "maximumCaptionLines": 3,
+    "lessons": 28
+  },
+  "virtual_block_entity_render_errors": 0,
+  "evidence_sha256": {
+    "build/validation-run/validation-result.json": "e0417ae76e3e697ece1c7f87c0cde85ca48b857b33661604c8bae1cfb92dc725",
+    ".work/accepted-validation.log": "157de453e171fc2bb42a5fc3fe42c61ffcfa2b6fc0c922d4c43fbec7dfdcb7f8",
+    ".work/final-data-tests.log": "c6f5a0782cd3a101b0425a1f8c0f9ed6d03589f189310f9e5c0f2e2649ee5534"
+  },
+  "screenshots_saved": 33,
+  "limits": [
+    "Physical W-key hold was not synthesized; its native Ponder factory path was tested.",
+    "No connection to a server without this guide was tested.",
+    "No runtime test co-installed all eight guide mods.",
+    "The destination Prism instance was not started."
+  ],
+  "status": "Historical 0.1.1 evidence. Caption acceptance is superseded by 0.1.2; model data is unchanged."
+}

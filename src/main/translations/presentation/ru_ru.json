@@ -1,0 +1,734 @@
+{
+  "text_hash": "393058c6ef758d08ec18a16047b0477ca7f400957fcbd7697c5169a333ea97e6",
+  "units": {
+    "mekanismponder.ponder.shared.power_0": [
+      "NORMAL",
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.power_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.power_2": [
+      "NORMAL",
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.power_3": [
+      "WARNING",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.infusion_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.infusion_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.infusion_2": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.infusion_3": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.steel_0": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.steel_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.steel_2": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.steel_3": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.side_configuration_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.side_configuration_1": [
+      "NORMAL",
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.side_configuration_2": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.side_configuration_3": [
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.cables_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.cables_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.cables_2": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.cables_3": [
+      "HINT",
+      "HINT",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.fluid_transport_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.fluid_transport_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.fluid_transport_2": [
+      "NORMAL",
+      "HINT",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.fluid_transport_3": [
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.chemical_transport_0": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.chemical_transport_1": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.chemical_transport_2": [
+      "WARNING",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.chemical_transport_3": [
+      "HINT",
+      "HINT",
+      "HINT",
+      "HINT",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.item_transport_0": [
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.item_transport_1": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.item_transport_2": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.item_transport_3": [
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.sorting_0": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.sorting_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.sorting_2": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.sorting_3": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.enrichment_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.enrichment_1": [
+      "NORMAL",
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.enrichment_2": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.enrichment_3": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.factories_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.factories_1": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.factories_2": [
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.factories_3": [
+      "NORMAL",
+      "HINT",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.electrolysis_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.electrolysis_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.electrolysis_2": [
+      "NORMAL",
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.electrolysis_3": [
+      "HINT",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.evaporation_0": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.evaporation_1": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.evaporation_2": [
+      "NORMAL",
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.evaporation_3": [
+      "NORMAL",
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.hydrogen_chloride_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.hydrogen_chloride_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.hydrogen_chloride_2": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.hydrogen_chloride_3": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.sulfuric_acid_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.sulfuric_acid_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.sulfuric_acid_2": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.sulfuric_acid_3": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ethylene_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ethylene_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ethylene_2": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ethylene_3": [
+      "WARNING",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.hdpe_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.hdpe_1": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.hdpe_2": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.hdpe_3": [
+      "HINT",
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.ore_tripling_0": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ore_tripling_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ore_tripling_2": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ore_tripling_3": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.ore_quadrupling_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ore_quadrupling_1": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.ore_quadrupling_2": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ore_quadrupling_3": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ore_quintupling_0": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ore_quintupling_1": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ore_quintupling_2": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.ore_quintupling_3": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.ore_quintupling_4": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.induction_0": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.induction_1": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.induction_2": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.induction_3": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.digital_miner_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.digital_miner_1": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.digital_miner_2": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.digital_miner_3": [
+      "HINT",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.qio_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.qio_1": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.qio_2": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.qio_3": [
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.teleporters_0": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.teleporters_1": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.teleporters_2": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.teleporters_3": [
+      "HINT",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.crafting_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.crafting_1": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.crafting_2": [
+      "HINT",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.crafting_3": [
+      "WARNING",
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.nuclear_waste_0": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.nuclear_waste_1": [
+      "NORMAL",
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.ponder.shared.nuclear_waste_2": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.nuclear_waste_3": [
+      "WARNING",
+      "HINT",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.diagnose_power_0": [
+      "HINT",
+      "HINT",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.diagnose_power_1": [
+      "HINT",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.diagnose_power_2": [
+      "HINT",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.diagnose_power_3": [
+      "WARNING",
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.diagnose_processing_0": [
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.diagnose_processing_1": [
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.ponder.shared.diagnose_processing_2": [
+      "NORMAL",
+      "WARNING",
+      "WARNING"
+    ],
+    "mekanismponder.ponder.shared.diagnose_processing_3": [
+      "HINT",
+      "HINT",
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.description.infused_alloy": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.reinforced_alloy": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.description.atomic_alloy": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.description.enriched_materials": [
+      "NORMAL",
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.description.control_circuits": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.description.structural_glass": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.description.hdpe_materials": [
+      "NORMAL"
+    ],
+    "mekanismponder.description.fuelwood_heat": [
+      "NORMAL",
+      "WARNING",
+      "NORMAL"
+    ],
+    "mekanismponder.description.speed_upgrade": [
+      "WARNING",
+      "HINT"
+    ],
+    "mekanismponder.description.energy_upgrade": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.description.sps": [
+      "NORMAL",
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.description.radioactive_pellets": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.description.coverage_creative_storage": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_bins": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_quantum": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_dynamic_tank": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_boiler": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_lasers": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_pigments": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_nutrition": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_stabilizer": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_security": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_personal_storage": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_cardboard": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.description.coverage_chargepad": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_plenisher": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_oredictionificator": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_alarm": [
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_seismic": [
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_heat_conductors": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_configuration_card": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_dictionary": [
+      "HINT",
+      "HINT"
+    ],
+    "mekanismponder.description.coverage_network_reader": [
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_geiger": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_dosimeter": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_robit": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_disassembler": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_bow": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_flamethrower": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_runners": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_jetpacks": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_scuba": [
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_hazmat": [
+      "WARNING",
+      "WARNING"
+    ],
+    "mekanismponder.description.coverage_meka_tool": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_meka_suit": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_elytra": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_base_module": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_machine_parts": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_metals": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_raw_ores": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_ore_blocks": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_storage_blocks": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_dusts": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_other_materials": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_fissile_materials": [
+      "NORMAL",
+      "WARNING"
+    ],
+    "mekanismponder.description.coverage_compressor": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_combiner": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_sawmill": [
+      "NORMAL",
+      "NORMAL"
+    ],
+    "mekanismponder.description.coverage_modification": [
+      "NORMAL",
+      "HINT"
+    ],
+    "mekanismponder.description.coverage_fluid_buckets": [
+      "NORMAL",
+      "NORMAL"
+    ]
+  }
+}

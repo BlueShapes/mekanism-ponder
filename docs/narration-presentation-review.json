@@ -1,0 +1,117 @@
+{
+  "version": "0.1.4",
+  "source_hash": "f2fd1f80f7dc66f9624c036808b8610ca55a15ec282ca6da6f25ff9c859022a5",
+  "keys_per_locale": 125,
+  "units": 6248,
+  "intents": {
+    "NORMAL": 4270,
+    "HINT": 1219,
+    "WARNING": 759
+  },
+  "locales": {
+    "ja_jp": {
+      "units": 254,
+      "text_hash": "9780b294ff36c5f32e40fae30dee90eae5cfcb135913c35f7ea3e6ac7054a06d"
+    },
+    "en_us": {
+      "units": 269,
+      "text_hash": "cf4c41259cbd084c96f67d54a50ea2a96c5044e3705e11eec6ee4d9a82ce4098"
+    },
+    "ar_sa": {
+      "units": 311,
+      "text_hash": "262fad949e51a37d13f6e30a9f7a8399381e5ca38af8cd1272c8efed6ca7a269"
+    },
+    "cs_cz": {
+      "units": 283,
+      "text_hash": "2606ed5cd607444f48c6ca55035685be94da4b9b0bc9b64e48e83af0bda147d8"
+    },
+    "de_de": {
+      "units": 295,
+      "text_hash": "5bbd1dfe63eae53bf587cb2bf092dd5a5e201ca92ea7e9de040b2261d34d8beb"
+    },
+    "es_es": {
+      "units": 291,
+      "text_hash": "790d4316635188977e553df09391a163481bdfc6b877c70b748038ffc122d03d"
+    },
+    "fr_fr": {
+      "units": 293,
+      "text_hash": "219c9e304c86c825472206d06df0b7adf279dccc87c9345b33b3cd8d705ddd4f"
+    },
+    "hi_in": {
+      "units": 298,
+      "text_hash": "f5ea7641fa16ba1f49047601e25b18a2b0be73dea00de393df394d5c046fdece"
+    },
+    "id_id": {
+      "units": 270,
+      "text_hash": "a814358de83c9c215aa1c2e69c4fa798f1f49a82fc8f0472bfd6d35fde146333"
+    },
+    "it_it": {
+      "units": 290,
+      "text_hash": "15f924611648592c344488bba8237583aae42d8b0674d1f94dcc5e5bee619c4c"
+    },
+    "ko_kr": {
+      "units": 272,
+      "text_hash": "b8619a81be0038b162c8a4bf8349d7aa34101ca364e691fc85c95ddaa9f2f75a"
+    },
+    "ms_my": {
+      "units": 330,
+      "text_hash": "9a14782f200fc4b7413a6ebf32689e6e0a269ec3384a2c6f95cadb63b601eced"
+    },
+    "pl_pl": {
+      "units": 281,
+      "text_hash": "7f6aaf43028469642bcfdeace4771417cbbff7feb78b8b16604cb4004cdb0198"
+    },
+    "pt_br": {
+      "units": 292,
+      "text_hash": "93c91e90926f3fa2d5f24a32d2fd5b802c05a663bbbe43ddf1fa6bd4153929f7"
+    },
+    "pt_pt": {
+      "units": 288,
+      "text_hash": "1a49246c7a8d06d189109e4549ae4c5ec01c55e4e785a85e87c4796b9cbce7c9"
+    },
+    "ro_ro": {
+      "units": 282,
+      "text_hash": "4537174f04ad2f291fdb61896dcbe4f689d1b27e821f0ac6cabe90214af2f8ad"
+    },
+    "ru_ru": {
+      "units": 291,
+      "text_hash": "80db4ec12a3c77a71e59d64c6d90e2c81565fd649a2639bcf6de1eea09f1a828"
+    },
+    "tr_tr": {
+      "units": 279,
+      "text_hash": "6709423db05d21a93fd54f32a1ef4d0998c6e51b62234c5c3faf44d1cefb479d"
+    },
+    "vi_vn": {
+      "units": 271,
+      "text_hash": "ef10f159bf95af274dfe156b207ea9688f4f282fa58b9554a5948a7c242aad3f"
+    },
+    "zh_cn": {
+      "units": 268,
+      "text_hash": "fd19d8bd7ba4e01896e6814a95020cd91d6c8fd018f359a6dc6ec571a5fdf549"
+    },
+    "zh_hk": {
+      "units": 272,
+      "text_hash": "9fb04765fc4b00cc151e95b5be575d3069122b16b1a5a5d7d116a919af7d511f"
+    },
+    "zh_tw": {
+      "units": 268,
+      "text_hash": "27b3c7d601720a2deff3b755a7c98eb8de36a98181fba83f0915a07cbed6b09a"
+    }
+  },
+  "boundary_changes": {
+    "ja_jp/crafting_2": [
+      "HINT",
+      "NORMAL"
+    ],
+    "pl_pl/nuclear_waste_2": [
+      "NORMAL",
+      "HINT",
+      "HINT"
+    ],
+    "ms_my/nuclear_waste_2": [
+      "NORMAL",
+      "HINT",
+      "HINT"
+    ]
+  }
+}

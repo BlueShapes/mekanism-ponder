@@ -1,0 +1,207 @@
+{
+  "date": "2026-10-23",
+  "newkeys": [
+    "mekanismponder.description.coverage_creative_storage",
+    "mekanismponder.description.coverage_bins",
+    "mekanismponder.description.coverage_quantum",
+    "mekanismponder.description.coverage_dynamic_tank",
+    "mekanismponder.description.coverage_boiler",
+    "mekanismponder.description.coverage_lasers",
+    "mekanismponder.description.coverage_pigments",
+    "mekanismponder.description.coverage_nutrition",
+    "mekanismponder.description.coverage_stabilizer",
+    "mekanismponder.description.coverage_security",
+    "mekanismponder.description.coverage_personal_storage",
+    "mekanismponder.description.coverage_cardboard",
+    "mekanismponder.description.coverage_chargepad",
+    "mekanismponder.description.coverage_plenisher",
+    "mekanismponder.description.coverage_oredictionificator",
+    "mekanismponder.description.coverage_alarm",
+    "mekanismponder.description.coverage_seismic",
+    "mekanismponder.description.coverage_heat_conductors",
+    "mekanismponder.description.coverage_configuration_card",
+    "mekanismponder.description.coverage_dictionary",
+    "mekanismponder.description.coverage_network_reader",
+    "mekanismponder.description.coverage_geiger",
+    "mekanismponder.description.coverage_dosimeter",
+    "mekanismponder.description.coverage_robit",
+    "mekanismponder.description.coverage_disassembler",
+    "mekanismponder.description.coverage_bow",
+    "mekanismponder.description.coverage_flamethrower",
+    "mekanismponder.description.coverage_runners",
+    "mekanismponder.description.coverage_jetpacks",
+    "mekanismponder.description.coverage_scuba",
+    "mekanismponder.description.coverage_hazmat",
+    "mekanismponder.description.coverage_meka_tool",
+    "mekanismponder.description.coverage_meka_suit",
+    "mekanismponder.description.coverage_elytra",
+    "mekanismponder.description.coverage_base_module",
+    "mekanismponder.description.coverage_machine_parts",
+    "mekanismponder.description.coverage_metals",
+    "mekanismponder.description.coverage_raw_ores",
+    "mekanismponder.description.coverage_ore_blocks",
+    "mekanismponder.description.coverage_storage_blocks",
+    "mekanismponder.description.coverage_dusts",
+    "mekanismponder.description.coverage_other_materials",
+    "mekanismponder.description.coverage_fissile_materials",
+    "mekanismponder.description.coverage_compressor",
+    "mekanismponder.description.coverage_combiner",
+    "mekanismponder.description.coverage_sawmill",
+    "mekanismponder.description.coverage_modification",
+    "mekanismponder.description.coverage_fluid_buckets"
+  ],
+  "reviewed_source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+  "reviewed_teaching_pairs_hash": "524e1c7280a3193772501c2d1144bb13d8e5165dd44499c9dde6c356885874a6",
+  "notes": [
+    "All 48 additions reviewed in 10 locales; no existing prose or intention modified",
+    "Explicit LF units are complete statements; ordinary sentence-ending stops omitted",
+    "Dynamic tank can store either fluid or chemicals; no mixed-content claim",
+    "Scuba requires enabled oxygen flow; full radiation protection requires the full set",
+    "Geiger ambient radiation and personal dosimeter dose remain distinct",
+    "Cardboard and fissile materials use NORMAL/WARNING; hazmat uses WARNING/WARNING",
+    "Modification advice uses NORMAL/HINT; dictionary units retain authored HINT",
+    "No Minecraft/font process started by this translation task; final font check belongs to root"
+  ],
+  "locales": {
+    "zh_cn": {
+      "new_keys": 48,
+      "new_units": 92,
+      "unchanged_old_keys": 185,
+      "unchanged_old_intent_keys": 125,
+      "text_hash": "6cb622aa4ff3884f5964c771fb5fc9e91a723401ca2f65e3b99d2af6ef3d6037",
+      "source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+      "new_intents": {
+        "NORMAL": 85,
+        "WARNING": 4,
+        "HINT": 3
+      },
+      "max_new_unit_codepoints": 23
+    },
+    "zh_tw": {
+      "new_keys": 48,
+      "new_units": 92,
+      "unchanged_old_keys": 185,
+      "unchanged_old_intent_keys": 125,
+      "text_hash": "d8746f49b47581f7b5d5bf72309285f398dd3a98412d1d1b05170deb6488a699",
+      "source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+      "new_intents": {
+        "NORMAL": 85,
+        "WARNING": 4,
+        "HINT": 3
+      },
+      "max_new_unit_codepoints": 23
+    },
+    "zh_hk": {
+      "new_keys": 48,
+      "new_units": 92,
+      "unchanged_old_keys": 185,
+      "unchanged_old_intent_keys": 125,
+      "text_hash": "8b8a041f0d1ae9970b046aabd3cf64c7d67f8111caf8ce099e9dbb769bf5cf2b",
+      "source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+      "new_intents": {
+        "NORMAL": 85,
+        "WARNING": 4,
+        "HINT": 3
+      },
+      "max_new_unit_codepoints": 23
+    },
+    "hi_in": {
+      "new_keys": 48,
+      "new_units": 92,
+      "unchanged_old_keys": 185,
+      "unchanged_old_intent_keys": 125,
+      "text_hash": "42d00b5c35dc77878bb1539f4936ea46092eb989f78c32fe1b2c921149409db1",
+      "source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+      "new_intents": {
+        "NORMAL": 85,
+        "WARNING": 4,
+        "HINT": 3
+      },
+      "max_new_unit_codepoints": 75
+    },
+    "ar_sa": {
+      "new_keys": 48,
+      "new_units": 92,
+      "unchanged_old_keys": 185,
+      "unchanged_old_intent_keys": 125,
+      "text_hash": "fd910a88599fbaad4b3ed969fd305205fa130b6350e4285a9e3eddd4ec7c8ea5",
+      "source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+      "new_intents": {
+        "NORMAL": 85,
+        "WARNING": 4,
+        "HINT": 3
+      },
+      "max_new_unit_codepoints": 65
+    },
+    "ko_kr": {
+      "new_keys": 48,
+      "new_units": 92,
+      "unchanged_old_keys": 185,
+      "unchanged_old_intent_keys": 125,
+      "text_hash": "c3706cdcfb6160af95cc23866984f2390230806f87de5d63a82e641f13ab3fe0",
+      "source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+      "new_intents": {
+        "NORMAL": 85,
+        "WARNING": 4,
+        "HINT": 3
+      },
+      "max_new_unit_codepoints": 35
+    },
+    "vi_vn": {
+      "new_keys": 48,
+      "new_units": 92,
+      "unchanged_old_keys": 185,
+      "unchanged_old_intent_keys": 125,
+      "text_hash": "b6ef6447584285817b9a7cadc94d3a97e8dffe4ff9108993aecb01b5fe981346",
+      "source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+      "new_intents": {
+        "NORMAL": 85,
+        "WARNING": 4,
+        "HINT": 3
+      },
+      "max_new_unit_codepoints": 65
+    },
+    "id_id": {
+      "new_keys": 48,
+      "new_units": 92,
+      "unchanged_old_keys": 185,
+      "unchanged_old_intent_keys": 125,
+      "text_hash": "18d083139b389a7bc86bae1fd8a382e251e8d47958e6bc85c51ec581b2fd7e55",
+      "source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+      "new_intents": {
+        "NORMAL": 85,
+        "WARNING": 4,
+        "HINT": 3
+      },
+      "max_new_unit_codepoints": 83
+    },
+    "ms_my": {
+      "new_keys": 48,
+      "new_units": 92,
+      "unchanged_old_keys": 185,
+      "unchanged_old_intent_keys": 125,
+      "text_hash": "f88f5bf42bc1aa2806ac3da8410e078785625766a5c0ce97ce5b21827da34d28",
+      "source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+      "new_intents": {
+        "NORMAL": 85,
+        "WARNING": 4,
+        "HINT": 3
+      },
+      "max_new_unit_codepoints": 79
+    },
+    "tr_tr": {
+      "new_keys": 48,
+      "new_units": 92,
+      "unchanged_old_keys": 185,
+      "unchanged_old_intent_keys": 125,
+      "text_hash": "9850ea755915250943dd17e394929f855dcbf2aa30d62fee8202edc94137b444",
+      "source_hash": "0c866df9af6b44ce7a839bf10e7cd389a3c3388d2d002bb089af8e6087509cbd",
+      "new_intents": {
+        "NORMAL": 85,
+        "WARNING": 4,
+        "HINT": 3
+      },
+      "max_new_unit_codepoints": 70
+    }
+  }
+}

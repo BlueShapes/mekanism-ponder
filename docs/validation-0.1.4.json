@@ -1,0 +1,371 @@
+{
+  "passed": true,
+  "version": "0.1.4",
+  "phase": "natural_narration_20261022",
+  "verified_on_jst": "2026-10-22T04:26:16.336653+09:00",
+  "configuration": {
+    "minecraft": "1.21.1",
+    "neoforge": "21.1.256",
+    "java": 21,
+    "mekanism": "1.21.1-10.7.19.85",
+    "ponder": "1.0.87+mc1.21.1",
+    "flywheel": "1.0.4"
+  },
+  "unit_tests": {
+    "passed": 65,
+    "failed": 0,
+    "authoring_layout_data": 59,
+    "font_evidence_merger": 6
+  },
+  "translations": {
+    "locales": 22,
+    "keys_per_locale": 199,
+    "content_keys": 185,
+    "navigation_keys": 14,
+    "changed_source_keys": 112,
+    "changed_translated_keys": 2215,
+    "source_hash": "f2fd1f80f7dc66f9624c036808b8610ca55a15ec282ca6da6f25ff9c859022a5"
+  },
+  "teaching": {
+    "chapters": 6,
+    "lessons": 28,
+    "steps": 113,
+    "descriptions": 12
+  },
+  "japanese_before_after": {
+    "mekanismponder.ponder.shared.steel_0": {
+      "before": "冶金吹込機へ石炭または木炭を補給し、炭素を用意してください\nすでに別種の吹込素材が残っていないかも確認します",
+      "after": "石炭や木炭を冶金吹込機へ入れると、炭素が補給されます\nすでに別種の吹込素材が残っていないかも確認します"
+    },
+    "mekanismponder.ponder.shared.side_configuration_1": {
+      "before": "材料を入れる面を入力に設定してください\n設定図の面は機械の正面を基準に読むため、機械の向きも確認します",
+      "after": "入力に設定した面から材料を受け入れます\n設定図の面は機械の正面を基準に読むため、機械の向きも確認します"
+    },
+    "mekanismponder.ponder.shared.cables_1": {
+      "before": "コンフィギュレーターを対応する設定モードにしてください\nスニークしながら接続部を右クリックすると、面のモードが切り替わります",
+      "after": "コンフィギュレーターは対象に対応する設定モードを使います\nスニークしながら接続部を右クリックすると、面のモードが切り替わります"
+    },
+    "mekanismponder.ponder.shared.crafting_2": {
+      "before": "在庫管理と自動クラフトの設定を確認し、完成品を出力面から取り出せるようにしてください",
+      "after": "在庫管理と自動クラフトの設定が、機械の動作を決めます\n完成品は出力に設定した面から取り出せます"
+    }
+  },
+  "retained_safety": "撤去前に内容物を安全な処理先へ移し、GUIで空を確認してください",
+  "addon_audit": {
+    "lessons": 28,
+    "optional_lessons": 0,
+    "chapters": 6,
+    "namespaces": [
+      "mekanism",
+      "minecraft"
+    ],
+    "new_third_party_mods": [],
+    "scope": "Core Mekanism only; Generators is mentioned as a separate mod, not taught"
+  },
+  "nomenclature_corrections": [
+    "Japanese Solar Neutron Activator name matched the target Mekanism JAR",
+    "Polish Solar Neutron Activator name matched the target Mekanism JAR"
+  ],
+  "font_layout": {
+    "passed": true,
+    "nativeCaptionWidth": 180,
+    "guiWidths": [
+      320,
+      480,
+      960
+    ],
+    "unitsChecked": 5680,
+    "guiWidthChecks": 17040,
+    "maximumLines": 3,
+    "issues": [],
+    "measuredLocales": [
+      "ja_jp",
+      "en_us",
+      "ar_sa",
+      "cs_cz",
+      "de_de",
+      "es_es",
+      "fr_fr",
+      "hi_in",
+      "id_id",
+      "it_it",
+      "ko_kr",
+      "ms_my",
+      "pl_pl",
+      "pt_br",
+      "pt_pt",
+      "ro_ro",
+      "ru_ru",
+      "tr_tr",
+      "vi_vn",
+      "zh_cn",
+      "zh_hk",
+      "zh_tw"
+    ],
+    "localeTextHashes": {
+      "ja_jp": "cf73b884e0f774578c915a2f24157e6cc8d3bf341ced88377be77ad5bd4e5feb",
+      "en_us": "520583f0dd82034936dbe197d01cf0837f44a9a6f6793bba7cfdbab1d7e86b55",
+      "ar_sa": "119c8c7f9714580d057f297b4e962c43a46f7325aacb7531b44a0ee26a03a47e",
+      "cs_cz": "16dbc0e88fa232c03ee368215a0fc3e40f3f88e548dd2a1532b24bb7b7698c4c",
+      "de_de": "da746b9d0971a95b993304ef785046d41557401a65ee3db641b056291d8a5b5a",
+      "es_es": "53b164f89bfb7c744bc8930dcfca4f909fe84bf3181f822c370daadffd7b246a",
+      "fr_fr": "7895318e806cb951fd46c43c7acb32ea112b1eba9c0994f40067048df85df6a7",
+      "hi_in": "275e71fafc157afa6442fec11b805638dd20885dfb605a84d6af47f1baae7f69",
+      "id_id": "d6c6f01e54fc75dffba53d74769a8700ed028a348e44fa3321f25812de3af4c5",
+      "it_it": "6b89bb9926bf76b369b708321e5ed60bdb0b8d69b7fb54fc0824a2c2a195f5f9",
+      "ko_kr": "ac0ac2b18e283fd765330c1c8e9f61c16de907559cdeac09764d749d0602300c",
+      "ms_my": "ff352ffaa39f15cdaf4d3ad3bd3bc960433b6eb33e409cf2f4d05af6555a72bb",
+      "pl_pl": "2ad049b1f973694813b83b1af1ace48a2f16efb0958a80f68ad835988a5c35ee",
+      "pt_br": "0ab1b8e3f227afc9a5d451306cae7e3aaaad852d4d2f580591905143e87d80e2",
+      "pt_pt": "f7ea4681673d9c8fb6795b5f56ea65af1084d1722575532642fb62a961f459b3",
+      "ro_ro": "4886d13cd68a0e07a3c34c42ec2ae498002d5be3e5a0287f36f1bf440aa4a92e",
+      "ru_ru": "b4c0b6e6d5d130e6e3b82aeb346613eb9ceb06342fb9163b733c60865dd99f02",
+      "tr_tr": "cabe544f91991d940533597717cd82d856013df066cc3089b6c7220f32c45ab7",
+      "vi_vn": "5f4d75124598906bae23c3d5b625f1b132244cf334fe1cd7fde1834c260b529d",
+      "zh_cn": "66599bccefe8e2bb082f93f82a73caaa8f923988551e76c74d77c1edcbcbb0a3",
+      "zh_hk": "56549c02b4676b9e16f2bff390b85cb976c602a89dc2f18375bb570b3542d49f",
+      "zh_tw": "85786acf7d6e8fdf1d3e4a0ebfb8e8bc0541da180cbd0458f70a6560a54d7737"
+    },
+    "sourceReports": [
+      {
+        "file": "narration-font-first.json",
+        "sha256": "2cc0c25c61f6d8cd45f22230768482ddaf0d671771624cfe6a1300032fc341df"
+      },
+      {
+        "file": "caption-overflow.json",
+        "sha256": "fb9d849fccaa408f38cd731a8c7566cef37c5a6d4d7132d2bdda910d52276789"
+      }
+    ],
+    "renderingBytecodeUnchanged": true,
+    "jarSha256": "cab82a9a7369f2e639491eb290ebf1c55200884b168fe926d6a49a85eb7f818e"
+  },
+  "font_evidence": "narration-font-validation.json.gz",
+  "font_evidence_sha256": "8b905c829c565986ab9f0374c749c5d0aa3bcaeb1dd4b07e1d9dd289ca47ec40",
+  "runtime_latest": {
+    "transmitterModelData": false,
+    "callouts": 0,
+    "captionGuiWidths": [
+      320,
+      480,
+      960
+    ],
+    "factoryBoundaries": true,
+    "nativeNavigation": true,
+    "tagPagination": true,
+    "historyLocaleGuard": true,
+    "playbackTag": true,
+    "screenshots": [
+      "options-no-guide-button.png",
+      "tag-index-ja.png",
+      "tag-start-ja.png",
+      "course-selected-lesson.png",
+      "tag-transport-ja.png",
+      "component-w-subject.png",
+      "component-native-category.png",
+      "component-category-other-lesson.png",
+      "course-next-chapter.png",
+      "course-next-chapter-category.png",
+      "caption-palette-normal.png",
+      "caption-palette-hint.png",
+      "caption-palette-warning.png",
+      "tag-index-en.png",
+      "scene-power.png",
+      "scene-side_configuration.png",
+      "scene-enrichment.png",
+      "caption-pl_pl.png",
+      "caption-pl_pl-320.png",
+      "caption-pl_pl-480.png",
+      "caption-ms_my.png",
+      "caption-ms_my-320.png",
+      "caption-ms_my-480.png"
+    ],
+    "tooltipPalettes": true,
+    "navigationOnly": true,
+    "ordinaryGuideButtonsAbsent": true,
+    "passed": true,
+    "captionWindowWidthsVerified": true,
+    "arabicFontRechecked": false,
+    "maximumCaptionLines": 3,
+    "representativeGui": false,
+    "captionGuiWidthChecks": 1677,
+    "captionPagesChecked": 559,
+    "replay": false,
+    "componentFactory": true,
+    "englishFallback": true,
+    "glyphsChecked": 140,
+    "locales": [
+      "pl_pl",
+      "ms_my"
+    ],
+    "captionPalettes": true,
+    "rendered": 3,
+    "captionUnitsChecked": 559,
+    "chapterBoundary": true,
+    "historyTypeGuard": true,
+    "nativeTagIndex": true,
+    "englishPresentationFallback": true,
+    "lessons": 28
+  },
+  "runtime_success_json": "narration-validation-success.json",
+  "runtime_success_sha256": "c1f8738e632130ac7c27b51da3d92b3bbb63b1f478c3d142f6b496ebb5ba274c",
+  "first_font_run": {
+    "locales": 22,
+    "units_checked": 5678,
+    "gui_width_checks": 17034,
+    "overflows": [
+      {
+        "locale": "pl_pl",
+        "lesson": "nuclear_waste",
+        "step": 2,
+        "unit": 1,
+        "lines": 4
+      },
+      {
+        "locale": "ms_my",
+        "lesson": "nuclear_waste",
+        "step": 2,
+        "unit": 1,
+        "lines": 4
+      }
+    ]
+  },
+  "final_font_scope": "20 unchanged locales from this task plus corrected PL/MS; exact current text and identical main bytecode required",
+  "presentation": {
+    "version": "0.1.4",
+    "source_hash": "f2fd1f80f7dc66f9624c036808b8610ca55a15ec282ca6da6f25ff9c859022a5",
+    "keys_per_locale": 125,
+    "units": 6248,
+    "intents": {
+      "NORMAL": 4270,
+      "HINT": 1219,
+      "WARNING": 759
+    },
+    "locales": {
+      "ja_jp": {
+        "units": 254,
+        "text_hash": "9780b294ff36c5f32e40fae30dee90eae5cfcb135913c35f7ea3e6ac7054a06d"
+      },
+      "en_us": {
+        "units": 269,
+        "text_hash": "cf4c41259cbd084c96f67d54a50ea2a96c5044e3705e11eec6ee4d9a82ce4098"
+      },
+      "ar_sa": {
+        "units": 311,
+        "text_hash": "262fad949e51a37d13f6e30a9f7a8399381e5ca38af8cd1272c8efed6ca7a269"
+      },
+      "cs_cz": {
+        "units": 283,
+        "text_hash": "2606ed5cd607444f48c6ca55035685be94da4b9b0bc9b64e48e83af0bda147d8"
+      },
+      "de_de": {
+        "units": 295,
+        "text_hash": "5bbd1dfe63eae53bf587cb2bf092dd5a5e201ca92ea7e9de040b2261d34d8beb"
+      },
+      "es_es": {
+        "units": 291,
+        "text_hash": "790d4316635188977e553df09391a163481bdfc6b877c70b748038ffc122d03d"
+      },
+      "fr_fr": {
+        "units": 293,
+        "text_hash": "219c9e304c86c825472206d06df0b7adf279dccc87c9345b33b3cd8d705ddd4f"
+      },
+      "hi_in": {
+        "units": 298,
+        "text_hash": "f5ea7641fa16ba1f49047601e25b18a2b0be73dea00de393df394d5c046fdece"
+      },
+      "id_id": {
+        "units": 270,
+        "text_hash": "a814358de83c9c215aa1c2e69c4fa798f1f49a82fc8f0472bfd6d35fde146333"
+      },
+      "it_it": {
+        "units": 290,
+        "text_hash": "15f924611648592c344488bba8237583aae42d8b0674d1f94dcc5e5bee619c4c"
+      },
+      "ko_kr": {
+        "units": 272,
+        "text_hash": "b8619a81be0038b162c8a4bf8349d7aa34101ca364e691fc85c95ddaa9f2f75a"
+      },
+      "ms_my": {
+        "units": 330,
+        "text_hash": "9a14782f200fc4b7413a6ebf32689e6e0a269ec3384a2c6f95cadb63b601eced"
+      },
+      "pl_pl": {
+        "units": 281,
+        "text_hash": "7f6aaf43028469642bcfdeace4771417cbbff7feb78b8b16604cb4004cdb0198"
+      },
+      "pt_br": {
+        "units": 292,
+        "text_hash": "93c91e90926f3fa2d5f24a32d2fd5b802c05a663bbbe43ddf1fa6bd4153929f7"
+      },
+      "pt_pt": {
+        "units": 288,
+        "text_hash": "1a49246c7a8d06d189109e4549ae4c5ec01c55e4e785a85e87c4796b9cbce7c9"
+      },
+      "ro_ro": {
+        "units": 282,
+        "text_hash": "4537174f04ad2f291fdb61896dcbe4f689d1b27e821f0ac6cabe90214af2f8ad"
+      },
+      "ru_ru": {
+        "units": 291,
+        "text_hash": "80db4ec12a3c77a71e59d64c6d90e2c81565fd649a2639bcf6de1eea09f1a828"
+      },
+      "tr_tr": {
+        "units": 279,
+        "text_hash": "6709423db05d21a93fd54f32a1ef4d0998c6e51b62234c5c3faf44d1cefb479d"
+      },
+      "vi_vn": {
+        "units": 271,
+        "text_hash": "ef10f159bf95af274dfe156b207ea9688f4f282fa58b9554a5948a7c242aad3f"
+      },
+      "zh_cn": {
+        "units": 268,
+        "text_hash": "fd19d8bd7ba4e01896e6814a95020cd91d6c8fd018f359a6dc6ec571a5fdf549"
+      },
+      "zh_hk": {
+        "units": 272,
+        "text_hash": "9fb04765fc4b00cc151e95b5be575d3069122b16b1a5a5d7d116a919af7d511f"
+      },
+      "zh_tw": {
+        "units": 268,
+        "text_hash": "27b3c7d601720a2deff3b755a7c98eb8de36a98181fba83f0915a07cbed6b09a"
+      }
+    },
+    "boundary_changes": {
+      "ja_jp/crafting_2": [
+        "HINT",
+        "NORMAL"
+      ],
+      "pl_pl/nuclear_waste_2": [
+        "NORMAL",
+        "HINT",
+        "HINT"
+      ],
+      "ms_my/nuclear_waste_2": [
+        "NORMAL",
+        "HINT",
+        "HINT"
+      ]
+    }
+  },
+  "geometry_and_identifiers_unchanged": true,
+  "reused_geometry_evidence": {
+    "record": "validation-0.1.2.json",
+    "full_playback_lessons": 6,
+    "reason": "Models, NBT, node visibility, flow and callouts are unchanged"
+  },
+  "release": {
+    "file": "mekanism-ponder-guide-0.1.4-neoforge-1.21.1.jar",
+    "sha256": "cab82a9a7369f2e639491eb290ebf1c55200884b168fe926d6a49a85eb7f818e",
+    "java_21_classes": 38,
+    "packaging_check": true
+  },
+  "deployment_record": "deployment.json",
+  "task_clients_stopped": true,
+  "limitations": [
+    "Physical W key input not synthesized; native item factory path exercised",
+    "GUI bounds initialized at 320/480/960; no physical OS-window resize test",
+    "Three sample scenes rendered; no full playback/rewind rerun of all 28 lessons",
+    "No actual startup of the shared Prism mod set or remote-server join",
+    "No Mekanism add-ons added; only existing core catalogue audited"
+  ]
+}

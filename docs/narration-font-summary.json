@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "nativeCaptionWidth": 180,
+  "guiWidths": [
+    320,
+    480,
+    960
+  ],
+  "unitsChecked": 5680,
+  "guiWidthChecks": 17040,
+  "maximumLines": 3,
+  "issues": [],
+  "measuredLocales": [
+    "ja_jp",
+    "en_us",
+    "ar_sa",
+    "cs_cz",
+    "de_de",
+    "es_es",
+    "fr_fr",
+    "hi_in",
+    "id_id",
+    "it_it",
+    "ko_kr",
+    "ms_my",
+    "pl_pl",
+    "pt_br",
+    "pt_pt",
+    "ro_ro",
+    "ru_ru",
+    "tr_tr",
+    "vi_vn",
+    "zh_cn",
+    "zh_hk",
+    "zh_tw"
+  ],
+  "localeTextHashes": {
+    "ja_jp": "cf73b884e0f774578c915a2f24157e6cc8d3bf341ced88377be77ad5bd4e5feb",
+    "en_us": "520583f0dd82034936dbe197d01cf0837f44a9a6f6793bba7cfdbab1d7e86b55",
+    "ar_sa": "119c8c7f9714580d057f297b4e962c43a46f7325aacb7531b44a0ee26a03a47e",
+    "cs_cz": "16dbc0e88fa232c03ee368215a0fc3e40f3f88e548dd2a1532b24bb7b7698c4c",
+    "de_de": "da746b9d0971a95b993304ef785046d41557401a65ee3db641b056291d8a5b5a",
+    "es_es": "53b164f89bfb7c744bc8930dcfca4f909fe84bf3181f822c370daadffd7b246a",
+    "fr_fr": "7895318e806cb951fd46c43c7acb32ea112b1eba9c0994f40067048df85df6a7",
+    "hi_in": "275e71fafc157afa6442fec11b805638dd20885dfb605a84d6af47f1baae7f69",
+    "id_id": "d6c6f01e54fc75dffba53d74769a8700ed028a348e44fa3321f25812de3af4c5",
+    "it_it": "6b89bb9926bf76b369b708321e5ed60bdb0b8d69b7fb54fc0824a2c2a195f5f9",
+    "ko_kr": "ac0ac2b18e283fd765330c1c8e9f61c16de907559cdeac09764d749d0602300c",
+    "ms_my": "ff352ffaa39f15cdaf4d3ad3bd3bc960433b6eb33e409cf2f4d05af6555a72bb",
+    "pl_pl": "2ad049b1f973694813b83b1af1ace48a2f16efb0958a80f68ad835988a5c35ee",
+    "pt_br": "0ab1b8e3f227afc9a5d451306cae7e3aaaad852d4d2f580591905143e87d80e2",
+    "pt_pt": "f7ea4681673d9c8fb6795b5f56ea65af1084d1722575532642fb62a961f459b3",
+    "ro_ro": "4886d13cd68a0e07a3c34c42ec2ae498002d5be3e5a0287f36f1bf440aa4a92e",
+    "ru_ru": "b4c0b6e6d5d130e6e3b82aeb346613eb9ceb06342fb9163b733c60865dd99f02",
+    "tr_tr": "cabe544f91991d940533597717cd82d856013df066cc3089b6c7220f32c45ab7",
+    "vi_vn": "5f4d75124598906bae23c3d5b625f1b132244cf334fe1cd7fde1834c260b529d",
+    "zh_cn": "66599bccefe8e2bb082f93f82a73caaa8f923988551e76c74d77c1edcbcbb0a3",
+    "zh_hk": "56549c02b4676b9e16f2bff390b85cb976c602a89dc2f18375bb570b3542d49f",
+    "zh_tw": "85786acf7d6e8fdf1d3e4a0ebfb8e8bc0541da180cbd0458f70a6560a54d7737"
+  },
+  "sourceReports": [
+    {
+      "file": "narration-font-first.json",
+      "sha256": "2cc0c25c61f6d8cd45f22230768482ddaf0d671771624cfe6a1300032fc341df"
+    },
+    {
+      "file": "caption-overflow.json",
+      "sha256": "fb9d849fccaa408f38cd731a8c7566cef37c5a6d4d7132d2bdda910d52276789"
+    }
+  ],
+  "renderingBytecodeUnchanged": true,
+  "jarSha256": "cab82a9a7369f2e639491eb290ebf1c55200884b168fe926d6a49a85eb7f818e"
+}

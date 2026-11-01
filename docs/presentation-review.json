@@ -1,0 +1,232 @@
+{
+  "version": "0.1.3",
+  "source_hash": "f4c7fb749f3eab1a632a6841f28e74d72c679136955180f378bf7edb6b9dbe60",
+  "keys_per_locale": 125,
+  "locales": {
+    "ja_jp": {
+      "units": 253,
+      "intents": {
+        "NORMAL": 169,
+        "HINT": 51,
+        "WARNING": 33
+      }
+    },
+    "en_us": {
+      "units": 269,
+      "intents": {
+        "NORMAL": 183,
+        "HINT": 52,
+        "WARNING": 34
+      }
+    },
+    "ar_sa": {
+      "units": 311,
+      "intents": {
+        "NORMAL": 221,
+        "HINT": 56,
+        "WARNING": 34
+      }
+    },
+    "cs_cz": {
+      "units": 283,
+      "intents": {
+        "NORMAL": 194,
+        "HINT": 55,
+        "WARNING": 34
+      }
+    },
+    "de_de": {
+      "units": 295,
+      "intents": {
+        "NORMAL": 199,
+        "HINT": 60,
+        "WARNING": 36
+      }
+    },
+    "es_es": {
+      "units": 291,
+      "intents": {
+        "NORMAL": 198,
+        "HINT": 57,
+        "WARNING": 36
+      }
+    },
+    "fr_fr": {
+      "units": 293,
+      "intents": {
+        "NORMAL": 200,
+        "HINT": 58,
+        "WARNING": 35
+      }
+    },
+    "hi_in": {
+      "units": 298,
+      "intents": {
+        "NORMAL": 208,
+        "HINT": 56,
+        "WARNING": 34
+      }
+    },
+    "id_id": {
+      "units": 270,
+      "intents": {
+        "NORMAL": 184,
+        "HINT": 52,
+        "WARNING": 34
+      }
+    },
+    "it_it": {
+      "units": 290,
+      "intents": {
+        "NORMAL": 197,
+        "HINT": 59,
+        "WARNING": 34
+      }
+    },
+    "ko_kr": {
+      "units": 272,
+      "intents": {
+        "NORMAL": 186,
+        "HINT": 52,
+        "WARNING": 34
+      }
+    },
+    "ms_my": {
+      "units": 329,
+      "intents": {
+        "NORMAL": 239,
+        "HINT": 56,
+        "WARNING": 34
+      }
+    },
+    "pl_pl": {
+      "units": 280,
+      "intents": {
+        "NORMAL": 191,
+        "HINT": 55,
+        "WARNING": 34
+      }
+    },
+    "pt_br": {
+      "units": 292,
+      "intents": {
+        "NORMAL": 196,
+        "HINT": 60,
+        "WARNING": 36
+      }
+    },
+    "pt_pt": {
+      "units": 288,
+      "intents": {
+        "NORMAL": 195,
+        "HINT": 58,
+        "WARNING": 35
+      }
+    },
+    "ro_ro": {
+      "units": 282,
+      "intents": {
+        "NORMAL": 194,
+        "HINT": 54,
+        "WARNING": 34
+      }
+    },
+    "ru_ru": {
+      "units": 291,
+      "intents": {
+        "NORMAL": 194,
+        "HINT": 61,
+        "WARNING": 36
+      }
+    },
+    "tr_tr": {
+      "units": 279,
+      "intents": {
+        "NORMAL": 187,
+        "HINT": 56,
+        "WARNING": 36
+      }
+    },
+    "vi_vn": {
+      "units": 271,
+      "intents": {
+        "NORMAL": 184,
+        "HINT": 53,
+        "WARNING": 34
+      }
+    },
+    "zh_cn": {
+      "units": 268,
+      "intents": {
+        "NORMAL": 182,
+        "HINT": 52,
+        "WARNING": 34
+      }
+    },
+    "zh_hk": {
+      "units": 272,
+      "intents": {
+        "NORMAL": 186,
+        "HINT": 52,
+        "WARNING": 34
+      }
+    },
+    "zh_tw": {
+      "units": 268,
+      "intents": {
+        "NORMAL": 182,
+        "HINT": 52,
+        "WARNING": 34
+      }
+    }
+  },
+  "review": "Each locale was read against Japanese/English concepts; counts, continuation clauses, proposed-name notes, combined warning/fact units and separate remedies were reviewed independently of English indices",
+  "representative_adjustments": {
+    "ja_jp": {
+      "power_2": [
+        "NORMAL",
+        "HINT"
+      ],
+      "nuclear_waste_3": [
+        "WARNING",
+        "HINT"
+      ]
+    },
+    "fr_fr": {
+      "nuclear_waste_3": [
+        "WARNING",
+        "WARNING",
+        "HINT",
+        "HINT"
+      ]
+    },
+    "hi_in": {
+      "factories_2": [
+        "NORMAL",
+        "NORMAL",
+        "WARNING",
+        "HINT"
+      ]
+    },
+    "pl_pl": {
+      "factories_2": [
+        "NORMAL",
+        "WARNING",
+        "HINT"
+      ]
+    },
+    "zh_cn": {
+      "description.fuelwood_heat": [
+        "WARNING",
+        "NORMAL"
+      ]
+    },
+    "ar_sa": {
+      "description.fuelwood_heat": [
+        "NORMAL",
+        "WARNING",
+        "NORMAL"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+package dev.mekanismponder.validation;
+
+import dev.mekanismponder.MekanismPonder;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
+import net.neoforged.neoforge.client.event.RenderFrameEvent;
+import net.neoforged.neoforge.common.NeoForge;
+
+/** Event bridge for the opt-in client validation source set. */
+@EventBusSubscriber(modid = MekanismPonder.MOD_ID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+public final class GuideValidationEvents {
+    private GuideValidationEvents() {}
+
+    @SubscribeEvent
+    public static void setup(FMLClientSetupEvent event) {
+        event.enqueueWork(() -> {
+            if (!GuideValidation.initialize()) return;
+            NeoForge.EVENT_BUS.addListener(GuideValidationEvents::onClientTick);
+            NeoForge.EVENT_BUS.addListener(GuideValidationEvents::onAfterFrame);
+        });
+    }
+
+    private static void onClientTick(ClientTickEvent.Post event) {
+        GuideValidation.tick();
+    }
+
+    private static void onAfterFrame(RenderFrameEvent.Post event) {
+        GuideValidation.rendered();
+    }
+}

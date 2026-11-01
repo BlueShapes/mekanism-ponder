@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT; see THIRD_PARTY_NOTICES.md"
+
+[[mods]]
+modId="mekanismponder"
+version="${version}"
+displayName="Mekanism Ponder Guide"
+authors="aosankaku and contributors"
+description='''A visual guide to Mekanism in 22 languages, using standalone Ponder.'''
+
+[[mixins]]
+config="mekanismponder.mixins.json"
+
+[[dependencies.mekanismponder]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+side="BOTH"
+
+[[dependencies.mekanismponder]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.256,)"
+side="BOTH"
+
+[[dependencies.mekanismponder]]
+modId="mekanism"
+type="required"
+versionRange="[10.7.19,10.8)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.mekanismponder]]
+modId="ponder"
+type="required"
+versionRange="[1.0.87,1.1)"
+ordering="AFTER"
+side="CLIENT"
